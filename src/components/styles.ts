@@ -234,7 +234,35 @@ export const LogoUl = styled.img`
 export const Seccion = styled.div`
   background: #C4C4C4;
   min-height:  400px;
-  h2 {}
+  h2 {
+    padding-top: 25px;
+  }
+
+  .evento{
+    display: flex;
+    margin: 10px 5px;
+    min-height: 100px;
+
+
+  }
+  
+  .fecha-evento {
+    background: #142C68;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+  }
+  .descripcion {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+    width: 70%;
+    justify-content: center;
+  }
+
   @media (max-width: 768px) {
     margin-top: 30px;
   }

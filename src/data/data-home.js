@@ -2,16 +2,11 @@ exports.carousel = [
   {
     "src": "./imagen.jpg",
     "alt": "Gana fermat",
-    "Description": "Matemático resuelve"
+    "Description": "matematico peruano que demostro la conjetura debil de goldbach"
   },
   {
     "src": "./admision.jpg",
     "alt": "Estudiantes admision",
-    "Description": "Examen de admisioooooooooooooooooooooooooooooooon"
+    "Description": "Examen de admision UNI"
   },
-  {
-    "src": "./estudiantes.jpeg",
-    "alt": "Estudiantes",
-    "Description": "Estudiantes estudioan"
-  }
-]
+  ]
