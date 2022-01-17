@@ -1,6 +1,6 @@
 const routes = {
-  page1: "/",
-  page2: "/page2",
+  page1: "/estudiantes",
+  page2: "/estudiantes/Perfil_de_egreso",
   page3: "/page3",
   page4: "/page4",
   page5: "/page5",
