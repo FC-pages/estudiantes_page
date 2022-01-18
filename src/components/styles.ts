@@ -38,6 +38,16 @@ export const Header = styled.header`
     background: white;
   }
   .main {
+    background-image:url('./imagenmate.png');
+    background-size:cover; /* auto, cover, contained, 200px 200px*/;
+    /* background-repeat: no-repeat; repeat-x, repeat-y */
+    /* background-position: center top ; */
+    /* background: #f00, url('imagenmate.png') repear-y center bottom / 100px 100px; */
+    /* margin:0pt; */
+    /* position: relative; */
+    vertical-align: middle;
+
+
     min-height: 210px;
     width: 100%;
     margin: 0px 0px;
@@ -236,23 +246,26 @@ export const Seccion = styled.div`
   min-height:  400px;
   h2 {
     padding-top: 25px;
+    margin-bottom: 30px;
+  }
+  .body-eventos {
+    padding: 0px 3px;
   }
 
   .evento{
     display: flex;
     margin: 10px 5px;
     min-height: 100px;
-
-
   }
   
   .fecha-evento {
     background: #142C68;
     color: white;
+    font-weight: bold;
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    width: 30%;
+    width: 34%;
   }
   .descripcion {
     font-size: 16px;
@@ -261,6 +274,13 @@ export const Seccion = styled.div`
     margin: 0px 5px;
     width: 70%;
     justify-content: center;
+    a {
+      text-decoration: none;
+      color: #142C68;
+      :hover {
+        color: #0DADEA;
+      }
+    }
   }
 
   @media (max-width: 768px) {
@@ -294,6 +314,33 @@ export const Icon = styled.div`
         transform: rotate(360deg);
       }
   }
+`
+
+export const ContainerVideos  = styled.div`
+  width: 100%;
+  .video {
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+    >div {
+      width: 45%;
+     margin: 50px 10px;
+    }
+  }
+
+  @media (max-width: 1031px) {
+    .video{
+      >div {
+        width: 100%;
+      }
+    }
+  }
+`
+
+export const Subtitle  = styled.h2`
+  margin-top: 20px;
+  text-align: left;
+
 `
 
 /*

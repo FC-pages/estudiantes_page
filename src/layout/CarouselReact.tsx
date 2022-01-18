@@ -18,14 +18,16 @@ function CarouselReact() {
     <Container>
       <Row>
         <Col xs = "12" lg = "8">
-          <Carousel fade>
+          <Carousel >
             {carousel.map((item: any) => (
               <Carousel.Item>
+                <a href = {item.href}>
                 <img
                   className="d-block w-100"
                   src= {item.src}
                   alt= {item.alt}
                 />
+                </a>
                 <Carousel.Caption className = "caption-background">
                   <p>{item.Description}</p>
                 </Carousel.Caption>
@@ -36,30 +38,31 @@ function CarouselReact() {
         <Col xs = "12" lg = "4">
           <S.Seccion>
             <h2>
-              Eventos
+              EVENTOS
             </h2>
-            <div className = "evento">
-              <div className = "fecha-evento">
-                18 DE ABRIL
+            <div className = "body-eventos">
+              <div className = "evento">
+                <div className = "fecha-evento">
+                  18 DE ABRIL
+                </div>
+                <div className = "descripcion">
+                  <a href="./congreso.pdf"> III Congreso
+                  Internacional
+                  Multidisciplinario
+                  de Matemática</a>
+                </div>
               </div>
-              <div className = "descripcion">
-                <a href="./congreso.pdf"> III Congreso
-                Internacional
-                Multidisciplinario
-                de Matemática</a>
+              <div className = "evento">
+                <div className = "fecha-evento">
+                  01 DE MARZO
+                </div>
+                <div className = "descripcion">
+                  <a href="http://www.admision.uni.edu.pe/"> 
+                    Examen de admisión UNI
+                  </a>
+                </div>
               </div>
             </div>
-            <div className = "evento">
-              <div className = "fecha-evento">
-                01 DE MARZO
-              </div>
-              <div className = "descripcion">
-                <a href="http://www.admision.uni.edu.pe/"> 
-                  Examen de admisión UNI
-                </a>
-              </div>
-            </div>
-
 
           </S.Seccion>
         </Col>

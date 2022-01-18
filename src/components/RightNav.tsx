@@ -4,6 +4,8 @@ import Home from "./Home";
 import Page1 from "./Page1";
 import Page2 from "./Page2";
 import App2 from "./Description_page";
+import FuturoEstudiante from './FuturoEstudiante';
+
 //import Servicios from '../ServicesComponent/Services';
 //import Contact from '../ContactComponent/Contact';
 
@@ -48,12 +50,13 @@ function RightNav(props: Props) {
       </S.Ul>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/estudiantes" element={<Page1 />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/estudiantes" element={<Page1 />} />
         <Route path="/estudiantes/Perfil_de_egreso" element={<Page2 />} />
-        <Route path="/descripcion" element={<App2 />} />
-        <Route path="/menu2">
-          <></>
+          <Route path="/descripcion" element={<App2 />} />
+          <Route path="/futuro" element={<FuturoEstudiante />} />
+        <Route path="/menu2" >
+         <></>
         </Route>
         <Route path="/menu3">
           <></>
