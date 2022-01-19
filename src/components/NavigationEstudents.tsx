@@ -14,7 +14,7 @@ export default function NavigationEstudents() {
             <Nav.Link as={NavLink} to={routes.page2}>
               Perfil de egreso
             </Nav.Link>
-            <Nav.Link as={NavLink} to={routes.page7}>
+            <Nav.Link as={NavLink} to={routes.page3}>
               Enlaces de interés
             </Nav.Link>
           </Nav>

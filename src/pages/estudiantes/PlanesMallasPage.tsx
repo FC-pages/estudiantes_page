@@ -1,13 +1,12 @@
-import React from "react";
 import { Container } from "react-bootstrap";
-import NavigationEstudents from "./NavigationEstudents";
+import NavigationEstudents from "../../components/NavigationEstudents";
 
-export default function Page1() {
+export default function PlanesMallasPage() {
   return (
     <>
       <NavigationEstudents />
-      <Container className="text-start mt-3 p-3 border border-warning rounded-3">
-        <p className="fw-bold fs-5 ">Mallas curriculares</p>
+      <Container className="text-start mt-3 p-3">
+        <p className="fw-bold fs-5">Mallas curriculares</p>
         <Container>
           <p>Malla General</p>
           <p>Malla Análisi Numérico y Ecuaciones Diferenciales</p>
