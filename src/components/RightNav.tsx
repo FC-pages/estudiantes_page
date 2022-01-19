@@ -1,10 +1,12 @@
 import * as S from "./styles";
 //import Home from '';
 import Home from "./Home";
-import Page1 from "./Page1";
-import Page2 from "./Page2";
+import PlanesMallasPage from "../pages/estudiantes/PlanesMallasPage";
+import PerfilEgresoPage from "../pages/estudiantes/PerfilEgresoPage";
+import EnlacesInteresPage from "../pages/estudiantes/EnlacesInteresPage";
 import App2 from "./Description_page";
-import FuturoEstudiante from './FuturoEstudiante';
+import FuturoEstudiante from "./FuturoEstudiante";
+import routes from "../helpers/routes";
 
 //import Servicios from '../ServicesComponent/Services';
 //import Contact from '../ContactComponent/Contact';
@@ -50,13 +52,14 @@ function RightNav(props: Props) {
       </S.Ul>
 
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/estudiantes" element={<Page1 />} />
-        <Route path="/estudiantes/Perfil_de_egreso" element={<Page2 />} />
-          <Route path="/descripcion" element={<App2 />} />
-          <Route path="/futuro" element={<FuturoEstudiante />} />
-        <Route path="/menu2" >
-         <></>
+        <Route path="/" element={<Home />} />
+        <Route path={routes.page1} element={<PlanesMallasPage />} />
+        <Route path={routes.page2} element={<PerfilEgresoPage />} />
+        <Route path={routes.page3} element={<EnlacesInteresPage />} />
+        <Route path="/descripcion" element={<App2 />} />
+        <Route path="/futuro" element={<FuturoEstudiante />} />
+        <Route path="/menu2">
+          <></>
         </Route>
         <Route path="/menu3">
           <></>

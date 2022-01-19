@@ -1,11 +1,11 @@
 import { Container } from "react-bootstrap";
-import NavigationEstudents from "./NavigationEstudents";
+import NavigationEstudents from "../../components/NavigationEstudents";
 
-export default function Page2() {
+export default function PerfilEgresoPage() {
   return (
     <>
       <NavigationEstudents />
-      <Container className="mt-3 p-3 border border-warning rounded-3">
+      <Container className="mt-3 p-3 text-start">
         <p>
           La carrera de Matemática en la Universidad Nacional de Ingeniería ,
           además de desarrollar en sus estudiantes capacidades de abstracción y
