@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
-import RightNav from '../components/RightNav';
+import RightNav from './RightNav';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 
 
-import * as S from '../components/styles';
+import * as S from '../styles/styles';
 
 import {
   NavLink
@@ -16,12 +16,14 @@ function Header() {
   return (
     <S.Header>
         <img src = "./logo-UNI-footer.png"></img>
-        <div className = "line" >
-        </div>
         <div className = "main">
-          <div>
+          <div className = "title">
+            <div>
             <h1>Escuela Profesional de Matemática</h1>
             <h4>FC-UNI</h4>
+            </div>
+        <div className = "line" >
+        </div>
           </div>
 
         

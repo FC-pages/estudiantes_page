@@ -1,5 +1,5 @@
-import '../App.css';
-import CarouselReact from '../layout/CarouselReact';
+import '../../App.css';
+import CarouselReact from '../../layout/CarouselReact';
 
 function Home() {
   return (

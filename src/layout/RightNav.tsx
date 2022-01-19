@@ -1,10 +1,10 @@
-import * as S from "./styles";
+import * as S from "../styles/styles";
 //import Home from '';
-import Home from "./Home";
-import Page1 from "./Page1";
-import Page2 from "./Page2";
-import App2 from "./Description_page";
-import FuturoEstudiante from './FuturoEstudiante';
+import Home from "../components/Home/Home";
+import Page1 from "../components/Estudiantes/Page1";
+import Page2 from "../components/Estudiantes/Page2";
+import App2 from "../components/Descripcion/Descripcion";
+import FuturoEstudiante from '../components/FuturoEstudiante/FuturoEstudiante';
 
 //import Servicios from '../ServicesComponent/Services';
 //import Contact from '../ContactComponent/Contact';
@@ -52,7 +52,7 @@ function RightNav(props: Props) {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/estudiantes" element={<Page1 />} />
-        <Route path="/estudiantes/Perfil_de_egreso" element={<Page2 />} />
+          <Route path="/estudiantes/Perfil_de_egreso" element={<Page2 />} />
           <Route path="/descripcion" element={<App2 />} />
           <Route path="/futuro" element={<FuturoEstudiante />} />
         <Route path="/menu2" >

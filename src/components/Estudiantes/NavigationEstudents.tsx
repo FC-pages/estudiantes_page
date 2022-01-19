@@ -1,6 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import routes from "../helpers/routes";
+import routes from "../../helpers/routes";
 
 export default function NavigationEstudents() {
   return (

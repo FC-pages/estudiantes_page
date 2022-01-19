@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from '../components/styles';
+import * as S from '../styles/styles';
 
 //import pdf from './congreso.pdf';
 //render () {

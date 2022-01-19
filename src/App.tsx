@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Ejemplo2 from './components/Ejemplo2';
 import Header from './layout/Header';
-import * as S from './components/styles';
-import RightNav from'./components/RightNav';
+import * as S from './styles/styles';
+import RightNav from'./layout/RightNav';
 import { Button } from 'react-bootstrap';
 
 import {
