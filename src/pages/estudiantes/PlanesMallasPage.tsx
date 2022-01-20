@@ -1,11 +1,9 @@
 import { Container } from "react-bootstrap";
-import NavigationEstudents from "../../components/NavigationEstudents";
 
 export default function PlanesMallasPage() {
   return (
     <>
-      <NavigationEstudents />
-      <Container className="text-start mt-3 p-3">
+      <Container className="text-start p-3">
         <p className="fw-bold fs-5">Mallas curriculares</p>
         <Container>
           <p>Malla General</p>

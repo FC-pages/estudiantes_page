@@ -1,9 +1,6 @@
 import * as S from "../styles/styles";
 
 import Home from "../pages/Home/Home";
-import PlanesMallasPage from "../pages/estudiantes/PlanesMallasPage";
-import PerfilEgresoPage from "../pages/estudiantes/PerfilEgresoPage";
-import EnlacesInteresPage from "../pages/estudiantes/EnlacesInteresPage";
 import Descripcion from "../pages/Descripcion/Descripcion";
 import FuturoEstudiante from "../pages/FuturoEstudiante/FuturoEstudiante";
 import routes from "../helpers/routes";
@@ -17,6 +14,7 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
+import EstudiantesPage from "../pages/estudiantes/EstudiantesPage";
 
 type Props = {
   open: boolean;
@@ -53,9 +51,7 @@ function RightNav(props: Props) {
 
       <Routes>
         <Route path={routes.home} element={<Home />} />
-        <Route path={routes.page1} element={<PlanesMallasPage />} />
-        <Route path={routes.page2} element={<PerfilEgresoPage />} />
-        <Route path={routes.page3} element={<EnlacesInteresPage />} />
+        <Route path={routes.estudiantes} element={<EstudiantesPage />} />
         <Route path={routes.descripcion} element={<Descripcion />} />
         <Route path={routes.futuroEstudiante} element={<FuturoEstudiante />} />
       </Routes>
