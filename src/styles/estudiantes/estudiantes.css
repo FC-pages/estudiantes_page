@@ -1,10 +1,17 @@
-.nav-link {
+.nav-item a {
   color: white;
 }
-.nav-link :active {
+
+.nav-item a :active {
   color: #1d3557;
 }
 
 .tab-pane :active {
   border-color: #1d3557;
+}
+
+.a-link {
+  color: black;
+  text-decoration-line: none;
+  font-size: medium;
 }
