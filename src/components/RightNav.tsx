@@ -6,6 +6,7 @@ import PerfilEgresoPage from "../pages/estudiantes/PerfilEgresoPage";
 import EnlacesInteresPage from "../pages/estudiantes/EnlacesInteresPage";
 import Descripcion from "../pages/Descripcion/Descripcion";
 import FuturoEstudiante from '../pages/FuturoEstudiante/FuturoEstudiante';
+import Egresados from '../pages/Egresados';
 import routes from "../helpers/routes";
 
 //import Servicios from '../ServicesComponent/Services';
@@ -58,6 +59,7 @@ function RightNav(props: Props) {
         <Route path={routes.page3} element={<EnlacesInteresPage />} />
         <Route path={routes.descripcion} element={<Descripcion />} />
         <Route path={routes.futuroEstudiante} element={<FuturoEstudiante />} />
+        <Route path={routes.egresados} element={<Egresados />} />
       </Routes>
     </Router>
   );
