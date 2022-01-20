@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle, css } from 'styled-components';
+import imagenmate from '../images/imagenmate.png';
 
 // theme is now fully typed
 export const MyComponent = styled.div`
@@ -24,22 +25,22 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
   min-height: 210px;   
   img {
     height: 160px;
     padding: 0px 15px;
-  
+    position: absolute; 
+    z-index: 2;
   }
 
   .line {
-    width: 3px;
-    min-height: 130px;
-    background: white;
+    background: black;
+    min-height: 10px;
+    opacity: 50%;
   }
   .main {
-    background-image:url('./imagenmate.png');
-    background-size:cover; /* auto, cover, contained, 200px 200px*/;
+
     /* background-repeat: no-repeat; repeat-x, repeat-y */
     /* background-position: center top ; */
     /* background: #f00, url('imagenmate.png') repear-y center bottom / 100px 100px; */
@@ -47,16 +48,20 @@ export const Header = styled.header`
     /* position: relative; */
     vertical-align: middle;
 
-
     min-height: 210px;
     width: 100%;
     margin: 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    >div{
+    .title{
       display: flex;
       flex-direction: column;
+      background-image: url('${imagenmate}');
+      background-size:cover; /* auto, cover, contained, 200px 200px*/;
+      min-height: 160px;
+      justify-content: space-between;
+
       h1 {
         margin: 30px 0px 5px 0px;
       }
@@ -173,7 +178,7 @@ export const Ul = styled.ul<INav>`
   flex-flow: row nowrap;
   position: absolute;
   width: 70%;
-  top: 110px;
+  top: 130px;
   justify-content: space-between;
   margin-top: 0px;
   align-items: center;

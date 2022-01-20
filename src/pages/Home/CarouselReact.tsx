@@ -1,14 +1,10 @@
 import React from 'react';
-import * as S from '../components/styles';
+import * as S from '../../styles/styles';
 
-//import pdf from './congreso.pdf';
-//render () {
-//}
 
 import { Carousel, Container, Row, Col } from 'react-bootstrap';
-//import 'bootstrap/dist/css/bootstrap.min.css';
 
-let { carousel } = require('../data/data-home.js'  );
+let { carousel } = require('../../data/data-home.js'  );
 
 
 function CarouselReact() {

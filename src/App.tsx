@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import Home from './components/Home';
-import Ejemplo2 from './components/Ejemplo2';
-import Header from './layout/Header';
-import * as S from './components/styles';
+import Home from './pages/Home/Home';
+import Header from './components/Header';
+import * as S from './styles/styles';
 import RightNav from'./components/RightNav';
 import { Button } from 'react-bootstrap';
 

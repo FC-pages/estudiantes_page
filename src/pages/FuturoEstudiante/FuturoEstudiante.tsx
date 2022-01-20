@@ -1,8 +1,8 @@
 import ReactPlayer from 'react-player'
 
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import * as S from './styles';
-let { videos } = require('../data/data-videos.js'  );
+import * as S from '../../styles/styles';
+let { videos } = require('../../data/data-videos.js'  );
 
 export default function FuturoEstudiante() {
   return (
