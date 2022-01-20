@@ -53,7 +53,7 @@ function RightNav(props: Props) {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path={routes.page1} element={<PlanesMallasPage />} />
+        <Route path="/estudiantes" element={<PlanesMallasPage />} />
         <Route path={routes.page2} element={<PerfilEgresoPage />} />
         <Route path={routes.page3} element={<EnlacesInteresPage />} />
         <Route path="/descripcion" element={<App2 />} />
