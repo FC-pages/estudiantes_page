@@ -4,7 +4,7 @@ import Home from "../pages/Home/Home";
 import PlanesMallasPage from "../pages/estudiantes/PlanesMallasPage";
 import PerfilEgresoPage from "../pages/estudiantes/PerfilEgresoPage";
 import EnlacesInteresPage from "../pages/estudiantes/EnlacesInteresPage";
-import Descripcion from "../pages/descripcion/Descripcion";
+import Descripcion from "../pages/Descripcion/Descripcion";
 import FuturoEstudiante from "../pages/FuturoEstudiante/FuturoEstudiante";
 import routes from "../helpers/routes";
 
