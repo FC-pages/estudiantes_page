@@ -2,7 +2,8 @@ import * as S from "../styles/styles";
 
 import Home from "../pages/Home/Home";
 import Descripcion from "../pages/Descripcion/Descripcion";
-import FuturoEstudiante from "../pages/FuturoEstudiante/FuturoEstudiante";
+import FuturoEstudiante from '../pages/FuturoEstudiante/FuturoEstudiante';
+import Egresados from '../pages/Egresados';
 import routes from "../helpers/routes";
 
 //import Servicios from '../ServicesComponent/Services';
@@ -54,6 +55,7 @@ function RightNav(props: Props) {
         <Route path={routes.estudiantes} element={<EstudiantesPage />} />
         <Route path={routes.descripcion} element={<Descripcion />} />
         <Route path={routes.futuroEstudiante} element={<FuturoEstudiante />} />
+        <Route path={routes.egresados} element={<Egresados />} />
       </Routes>
     </Router>
   );

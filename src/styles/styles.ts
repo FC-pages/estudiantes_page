@@ -2,11 +2,7 @@ import styled from 'styled-components';
 import imagenmate from '../images/imagenmate.png';
 
 // theme is now fully typed
-export const MyComponent = styled.div`
-  color: blue;
-  min-height: 300px;
-  width: 100px;
-`;
+
 export const ContainerCarousel = styled.div`
   margin: 30px 0px;
   .caption-background {

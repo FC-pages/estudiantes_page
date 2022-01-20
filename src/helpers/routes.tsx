@@ -5,6 +5,7 @@ const routes = {
   page3: "/estudiantes/Enlaces_de_interes",
   descripcion: "/descripcion",
   futuroEstudiante: "/futuro",
+  egresados: "/egresados",
   home: "/",
 };
 
