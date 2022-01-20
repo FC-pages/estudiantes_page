@@ -2,8 +2,16 @@ import ReactPlayer from "react-player";
 
 import { Container, Row, Card } from "react-bootstrap";
 import * as S from "../../styles/styles";
+import App from './App';
 let { videos } = require("../../data/data-videos.js");
 
+
+export default function FuturoEstudiante() {
+  return (
+    <App/>
+  );
+}
+{/*
 export default function FuturoEstudiante() {
   return (
     <Container>
@@ -28,3 +36,9 @@ export default function FuturoEstudiante() {
     </Container>
   );
 }
+*/}
+
+
+
+
+
