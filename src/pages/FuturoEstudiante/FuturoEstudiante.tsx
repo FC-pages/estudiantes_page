@@ -14,7 +14,7 @@ export default function FuturoEstudiante() {
             {videos.map((video: any) => {
               return (
                 <Card bg="dark" text="white">
-                  <ReactPlayer width="100%" url={video.href} />
+                  <ReactPlayer controls width="100%" url={video.href} />
                   <Card.Body>
                     <Card.Title>{video.name}</Card.Title>
                     <Card.Text>{video.Description}</Card.Text>

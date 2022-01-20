@@ -3,6 +3,7 @@ import PlanesMallasPage from "./PlanesMallasPage";
 import PerfilEgresoPage from "./PerfilEgresoPage";
 import EnlacesInteresPage from "./EnlacesInteresPage";
 import "../../styles/estudiantes/estudiantes.css";
+import TestimoniosPage from "./TestimoniosPage";
 
 export default function EstudiantesPage() {
   return (
@@ -25,6 +26,9 @@ export default function EstudiantesPage() {
               Enlaces de interes
             </Nav.Link>
           </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Testimonios">Testimonios</Nav.Link>
+          </Nav.Item>
         </Nav>
         <Tab.Content className="border-end border-bottom border-start border-2 rounded-bottom">
           <Tab.Pane eventKey="Planes y mallas">
@@ -35,6 +39,9 @@ export default function EstudiantesPage() {
           </Tab.Pane>
           <Tab.Pane eventKey="Enlaces de interes">
             <EnlacesInteresPage />
+          </Tab.Pane>
+          <Tab.Pane eventKey="Testimonios">
+            <TestimoniosPage />
           </Tab.Pane>
         </Tab.Content>
       </Tab.Container>
