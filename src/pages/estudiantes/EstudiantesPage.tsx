@@ -2,6 +2,7 @@ import { Tab, Container, Nav } from "react-bootstrap";
 import PlanesMallasPage from "./PlanesMallasPage";
 import PerfilEgresoPage from "./PerfilEgresoPage";
 import EnlacesInteresPage from "./EnlacesInteresPage";
+import "../../styles/estudiantes/estudiantes.css";
 
 export default function EstudiantesPage() {
   return (
@@ -10,7 +11,7 @@ export default function EstudiantesPage() {
         <Nav
           variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
-          className="justify-content-center pt-2"
+          className="justify-content-center pt-2 fw-bold fs-6"
           activeKey="Planes y mallas"
         >
           <Nav.Item>
@@ -25,10 +26,7 @@ export default function EstudiantesPage() {
             </Nav.Link>
           </Nav.Item>
         </Nav>
-        <Tab.Content
-          style={{ borderColor: "#1D3557" }}
-          className="border-end border-bottom border-start border-2 rounded-bottom"
-        >
+        <Tab.Content className="border-end border-bottom border-start border-2 rounded-bottom">
           <Tab.Pane eventKey="Planes y mallas">
             <PlanesMallasPage />
           </Tab.Pane>
