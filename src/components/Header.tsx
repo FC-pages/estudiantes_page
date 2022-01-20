@@ -1,33 +1,21 @@
-import React from 'react';
-import '../App.css';
-import RightNav from './RightNav';
-import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
+import "../App.css";
 
-
-import * as S from '../styles/styles';
-
-import {
-  NavLink
-} from "react-router-dom";  // React Router
-
+import * as S from "../styles/styles";
 
 function Header() {
-
   return (
     <S.Header>
-        <img src = "./logo-UNI-footer.png"></img>
-        <div className = "main">
-          <div className = "title">
-            <div>
+      <img alt="logo uni" src="./logo-UNI-footer.png"></img>
+      <div className="main">
+        <div className="title">
+          <div>
             <h1>Escuela Profesional de Matemática</h1>
             <h4>FC-UNI</h4>
-            </div>
-        <div className = "line" >
-        </div>
           </div>
+          <div className="line"></div>
+        </div>
 
-        
-          <nav>
+        <nav>
           {/*
             <ul>
                 <li>
@@ -50,12 +38,10 @@ function Header() {
                 </li>
               </ul>
             */}
-          </nav>
-        </div>
-
-      </S.Header>   
+        </nav>
+      </div>
+    </S.Header>
   );
 }
 
 export default Header;
-

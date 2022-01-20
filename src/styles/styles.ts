@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle, css } from 'styled-components';
+import styled from 'styled-components';
 import imagenmate from '../images/imagenmate.png';
 
 // theme is now fully typed
