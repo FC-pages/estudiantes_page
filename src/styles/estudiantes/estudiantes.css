@@ -2,6 +2,10 @@
   color: white;
 }
 
+.nav-item :hover {
+  color: white;
+}
+
 .nav-item a :active {
   color: #1d3557;
 }
