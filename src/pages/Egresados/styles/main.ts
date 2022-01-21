@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { colors } from '../../../styles/colors';
 
 export const EgresadosPage = styled.div`
   border:2px solid #1d3557;
@@ -13,6 +14,24 @@ export const EgresadosPage = styled.div`
 
 `
 
+export const TabContent = styled.div`
+  margin: 20px 0px;
+`
+
+export const TCard = styled.div`
+  .header {
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  p {
+    font-size: 16px;
+  }
+  a {
+    color: white !import;
+  }
+`
 
 export const BlockQuote = styled.div`
 
@@ -92,7 +111,7 @@ body {
 
 .comment {
     border: 1px solid rgba(16, 46, 46, 1);
-    background-color: rgba(16, 46, 46, 0.973);
+    background-color: ${colors.main};
     float: left;
     border-radius: 5px;
     padding-left: 40px;

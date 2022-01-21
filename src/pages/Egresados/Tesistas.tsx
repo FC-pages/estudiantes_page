@@ -3,7 +3,7 @@ import { Table } from 'react-bootstrap';
 function Tesistas() {
   return (
     <div>
-      <Table striped bordered hover variant="dark">
+      <Table striped bordered hover >
         <thead>
           <tr>
             <th>#</th>

@@ -1,9 +1,10 @@
 import { Table } from 'react-bootstrap';
+import * as S from './styles/main';
 
 function Titulados() {
   return (
-    <div>
-      <Table striped bordered hover variant="dark">
+    <S.TabContent>
+      <Table striped bordered hover >
         <thead>
           <tr>
             <th>#</th>
@@ -32,7 +33,7 @@ function Titulados() {
           </tr>
         </tbody>
       </Table>
-    </div>
+    </S.TabContent>
 
 
   );

@@ -52,6 +52,56 @@ class Tabs extends Component {
                   return child.props.children;
                 })}
               </div>
+
+<div class="tabs tabs-style-shape">
+					<nav>
+						<ul>
+							<li>
+								<a href="#section-shape-1">
+									<svg viewBox="0 0 80 60" preserveAspectRatio="none"><use xlinkHref="#tabshape"></use></svg>
+									<span>Home</span>
+								</a>
+							</li>
+							<li>
+								<a href="#section-shape-2">
+									<svg viewBox="0 0 80 60" preserveAspectRatio="none"><use xlinkHref="#tabshape"></use></svg>
+									<svg viewBox="0 0 80 60" preserveAspectRatio="none"><use xlinkHref="#tabshape"></use></svg>
+									<span>Design</span>
+								</a>
+							</li>
+							<li>
+								<a href="#section-shape-3">
+									<svg viewBox="0 0 80 60" preserveAspectRatio="none"><use xlinkHref="#tabshape"></use></svg>
+									<svg viewBox="0 0 80 60" preserveAspectRatio="none"><use xlinkHref="#tabshape"></use></svg>
+									<span>Work</span>
+								</a>
+							</li>
+							<li>
+								<a href="#section-shape-4">
+									<svg viewBox="0 0 80 60" preserveAspectRatio="none"><use xlinkHref="#tabshape"></use></svg>
+									<svg viewBox="0 0 80 60" preserveAspectRatio="none"><use xlinkHref="#tabshape"></use></svg>
+									<span>Portfolio</span>
+								</a>
+							</li>
+							<li>
+								<a href="#section-shape-5">
+									<svg viewBox="0 0 80 60" preserveAspectRatio="none"><use xlinkHref="#tabshape"></use></svg>
+									<span>Contact</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="content-wrap">
+						<section id="section-shape-1"><p>1</p></section>
+						<section id="section-shape-2"><p>2</p></section>
+						<section id="section-shape-3"><p>3</p></section>
+						<section id="section-shape-4"><p>4</p></section>
+						<section id="section-shape-5"><p>5</p></section>
+					</div>
+				</div>
+
+
+
           </S.Tabs>
         );
       }

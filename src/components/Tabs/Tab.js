@@ -23,16 +23,14 @@ class Tab extends Component {
         },
       } = this;
   
-      let className = 'tab-list-item';
-  
-      if (activeTab === label) {
-        className += ' tab-list-active';
-      }
-  
+        console.log("activeTab:", activeTab, "label:", label)
+ 
       return (
         <S.Tab
-          className = {className}  
           onClick = {onClick}
+          activeTab = {activeTab}
+          label = {label}
+          active = {activeTab === label}
         >
           {label}
         </S.Tab>

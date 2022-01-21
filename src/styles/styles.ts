@@ -1,8 +1,16 @@
 import styled from 'styled-components';
 import imagenmate from '../images/imagenmate.png';
+import { colors } from './colors';
 
 // theme is now fully typed
-
+/*
+const colors = {
+  main: "#1d3557",
+  red: "#e63946",
+  blue2: "#4a5d79",
+  blue3: "#457b9d",
+}
+*/
 export const ContainerCarousel = styled.div`
   margin: 30px 0px;
   .caption-background {
@@ -201,7 +209,7 @@ export const Ul = styled.ul<INav>`
   }
       .active{
             //background: white;
-            color: #0DADEA;
+            color: ${colors.red} //#0DADEA azul claro
             //font-weight: bold;
           }
 
