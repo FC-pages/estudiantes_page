@@ -15,10 +15,14 @@ export const EgresadosPage = styled.div`
 `
 
 export const TabContent = styled.div`
-  margin: 20px 0px;
+  margin: 50px 0px;
+`
+export const TestimoniosTab = styled.div`
+  display: flex;
 `
 
 export const TCard = styled.div`
+  margin: 0px 10px;
   .header {
     margin: 0px 0px 10px 0px;
     display: flex;
@@ -28,8 +32,8 @@ export const TCard = styled.div`
   p {
     font-size: 16px;
   }
-  a {
-    color: white !import;
+  .ver-mas{
+    color: black;
   }
 `
 
@@ -111,7 +115,7 @@ body {
 
 .comment {
     border: 1px solid rgba(16, 46, 46, 1);
-    background-color: ${colors.main};
+    background-color: white;
     float: left;
     border-radius: 5px;
     padding-left: 40px;

@@ -1,8 +1,9 @@
 import { Table } from 'react-bootstrap';
+import * as S from './styles/main';
 
 function Tesistas() {
   return (
-    <div>
+    <S.TabContent>
       <Table striped bordered hover >
         <thead>
           <tr>
@@ -32,8 +33,7 @@ function Tesistas() {
           </tr>
         </tbody>
       </Table>
-
-    </div>
+    </S.TabContent>
   );
 }
 
