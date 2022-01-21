@@ -13,7 +13,7 @@
 .tab-list-item {
   display: inline-block;
   list-style: none;
-  padding: 0.8rem 2.25rem;
+  padding: 0.4rem 2.25rem;
 }
 
 .tab-list-active {
@@ -39,6 +39,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.icons {
+  font-size: 1.2em;
+  color: rgb(7,19,50,0.3);
+}
+
+.icons2 {
+  font-size: 1.4em;
+  color: #1d3557;
+}
 
 .App-barra {
   border-top: 10px solid rgb(7,19,50,0.3);
@@ -52,8 +61,10 @@
   margin-bottom: 14px;;
   /* max-inline-size: 60em; */
   max-inline-size: 67em;
-  /* text-align: center; */
+  text-align: left;
   padding: 0px 15px;
+  font-family: 'Montserrat';
+  font-size: 12pt;
 }
 
 .App-cuerpo {
@@ -67,7 +78,6 @@
   /* width: 200px; */
   margin:0 auto;
   /* vertical-align: top; */
-  /* background-color: aqua; */
 }
 
 .App-ul {
@@ -144,10 +154,11 @@
 
 .App-resena {
     margin-inline: auto;
-    max-inline-size: 48em;
+    max-inline-size: 60em;
     /* padding: 10px 10px; */
     text-align: left;
     vertical-align: top;
+    font-size: 13px;
 }
 
 .App-resena tr td:first-child {
@@ -156,21 +167,31 @@
   text-align: right;
   /* padding-right: 10px; */
 }
+/* .App-resena p {
+  
+} */
 
-.App-resena tr td p {
-  /* background-size: 50px 50px; */
-  /* padding-right: 20px; */
+.App-resena-borde {
   margin:0px -10px;
-  margin-top: -20px;
+  margin-top: -28px;
+  border-top: 16px solid #071332;
+  padding: 0 15px;
+  padding-top: 10px;
+}
+/* .App-resena tr td p {
+    background-size: 50px 50px; 
+  padding-right: 20px; 
+  margin:0px -10px;
+  margin-top: -28px;
   border-top: 16px solid #071332;
   padding: 0 15px;
   padding-top: 10px;
   
-}
+}  */
 
 .anios {
   font-size: 50px;
-  /* border-bottom: 10px solid #071332; */
+  /* border-bottom: 10px solid #071332;
   border-width: 100%;
   background-size: 0px 50px;
   /* padding: 10px 0px; */
@@ -200,26 +221,60 @@
 .App-creditos td:last-child {
   text-align: left;
 }
+.App-creditos tr:nth-child(odd) {
+  background-color: rgba(204, 204, 204, 0.959);
+}
 
 .App-archivo {
-  list-style-type: circle ;
+  /* list-style-type: circle ; */
   /* list-style-image: url(vineta.png); */
   max-height: min-content;
   list-style-position: inside;
+}
+/* .App-archivo li:before {
+  font-family: 'FontAwesome';
+    content: '\f15c';
+} */
+
+.App-profes-td2 {
+  padding:7px;
+  /* padding-top: 5px; */
+  /* padding-right: 0; */
+  text-align: left;
+  /* position: static; */
+}
+
+.App-profes-td2 ul {
+  list-style:none;
+  margin: 0;
+  padding: 4px;
+  font-size: 10pt;
+  text-align: left;
+}
+
+.App-profes-td2 ul li{
+    content: "";
+    /* border-left: 4px solid #CCC; */
+    padding-left: 12px;
+    line-height: 180%;
+    border-bottom: 1.8px dashed #CCC;
+    margin-left: 2px;
+    text-indent: -10px;
+    /* border-right: 1.5px dashed #ccc; */
 }
 
 .App-rectangulo {
   background: rgb(7, 19, 50, 0.3);
   height: 10px;
   width: 100%;
-  margin-top: -10px;
+  margin-top: -8px;
 }
 
 .App-rectangulo2{
     background: #1D3557;
     height: 10px;
     width: 100%;
-    margin-bottom: -10px ;
+    /* margin-bottom: -5px ; */
     margin-top: 15px;
 }
 
@@ -231,12 +286,15 @@
     width: 455px;
     margin:0px auto;
     text-align: left;
+    vertical-align: middle;
     /* margin-inline: auto; */
 }
 .App-profes table {
     border: solid 1px #1D3557;
     border-collapse : collapse;
-    /* padding:5px; */
+    padding:5px;
+    /* paddi */
+    text-align: left;
 }
 
 .App-profes th {
@@ -270,15 +328,18 @@
 
 .App-profes-td {
   padding:7px;
-  padding-top: 5px;
+  /* padding-top: 5px; */
+  /* padding-right: 0; */
+  text-align: left;
+  /* position: static; */
 }
 
 .App-profes-td ul {
   list-style:none;
   margin: 0;
-  padding: 6px;
-  font-size: 11pt;
-  
+  padding: 4px;
+  font-size: 10pt;
+  text-align: left;
 }
 
 .App-profes-td ul li{
@@ -286,9 +347,10 @@
     border-left: 4px solid #CCC;
     padding-left: 12px;
     line-height: 180%;
-    border-bottom: 1px dashed #CCC;
+    border-bottom: 1.8px dashed #CCC;
     margin-left: 2px;
     text-indent: -4px;
+    /* border-right: 1.5px dashed #ccc; */
 }
 
 .App-profes-images2 {
