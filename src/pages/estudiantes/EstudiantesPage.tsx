@@ -29,6 +29,14 @@ export default function EstudiantesPage() {
           <Nav.Item>
             <Nav.Link eventKey="Testimonios">Testimonios</Nav.Link>
           </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Laboratorios">Laboratorios</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Grupos estudiantiles">
+              Grupos estudiantiles
+            </Nav.Link>
+          </Nav.Item>
         </Nav>
         <Tab.Content className="border-end border-bottom border-start border-2 rounded-bottom">
           <Tab.Pane eventKey="Planes y mallas">
@@ -41,6 +49,12 @@ export default function EstudiantesPage() {
             <EnlacesInteresPage />
           </Tab.Pane>
           <Tab.Pane eventKey="Testimonios">
+            <TestimoniosPage />
+          </Tab.Pane>
+          <Tab.Pane eventKey="Laboratorios">
+            <TestimoniosPage />
+          </Tab.Pane>
+          <Tab.Pane eventKey="Grupos estudiantiles">
             <TestimoniosPage />
           </Tab.Pane>
         </Tab.Content>
