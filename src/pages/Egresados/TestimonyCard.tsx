@@ -1,15 +1,16 @@
 import React, { useState } from "react";
-import { Modal, Button } from "react-bootstrap";
+import { Modal, Button, Card } from "react-bootstrap";
 import * as S from './styles/main';
 let { testimonios } = require("../../data/data-testimonios.js");
 
 type CardProps = {
   name: string,
   image: string,
-  testimony: string
+  testimony: string,
+  fotoCompleta: string
 }
 
-function TestimonyCard({ name, image, testimony } : CardProps) {
+function TestimonyCard({ name, image, testimony, fotoCompleta } : CardProps) {
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -26,34 +27,34 @@ function TestimonyCard({ name, image, testimony } : CardProps) {
     }
 
   return (
-      <S.TCard  className="col-sm-5 col-md-6 col-12 pb-4">
-          <div className="comment mt-4 text-justify float-left"> 
-            <blockquote className="blockquote mb-0">
-                  <div className = "header">
-                    <img src= {image} alt="" className="rounded-circle" width="80" height="80"/>
-                    <h4>{name}</h4>
-                  </div>
-                    <p>
-                        
-                      {displayedText}
-                    </p>
-            </blockquote>
-            <a onClick={handleShow}>
-              ver más
-            </a>
-          </div>
+      <S.TCard >
+            <Card style={{ width: '18rem' }}>
+              <Card.Body>
+                <img src= {image} alt="" className="rounded-circle" width="80" height="80"/>
+                <Card.Title>{name}</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                <Card.Text>
+                  {displayedText}
+                </Card.Text>
+                <Card.Link  onClick={handleShow} href="#">Ver más</Card.Link>
+              </Card.Body>
 
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>{name}</Modal.Title>
           </Modal.Header>
-          <Modal.Body>{testimony} <img src = "./foto.jpeg"></img></Modal.Body>
+          <Modal.Body>{testimony} <img src = {fotoCompleta}></img></Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
           </Modal.Footer>
         </Modal>
+
+
+
+            </Card>
+
 
     </S.TCard>
 

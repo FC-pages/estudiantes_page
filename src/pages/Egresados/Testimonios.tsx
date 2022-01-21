@@ -8,20 +8,17 @@ function Testimonios() {
     <div>
 
 
-<div className="container justify-content-center mt-5 border-left border-right">
+<S.TabContent>
  
-<S.BlockQuote>
-  <div className="row">
+  <S.TestimoniosTab>
               {
                 testimonios.map((t: any) => {
-                  return <TestimonyCard name = { t.name } image = { t.image } testimony = { t.testimony } />
+                  return <TestimonyCard name = { t.name } image = { t.image } testimony = { t.testimony } fotoCompleta = {t.fotoCompleta} />
                 })
               }
-  </div>
-</S.BlockQuote>
+  </S.TestimoniosTab>
 
-
-</div>
+</S.TabContent>
     </div>
   );
 }

@@ -209,7 +209,7 @@ export const Ul = styled.ul<INav>`
   }
       .active{
             //background: white;
-            color: ${colors.red} //#0DADEA azul claro
+            color: #0dadea //#0DADEA azul claro
             //font-weight: bold;
           }
 
