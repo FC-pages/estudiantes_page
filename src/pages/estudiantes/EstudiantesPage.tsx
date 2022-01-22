@@ -4,16 +4,26 @@ import PerfilEgresoPage from "./PerfilEgresoPage";
 import EnlacesInteresPage from "./EnlacesInteresPage";
 import "../../styles/estudiantes/estudiantes.css";
 import TestimoniosPage from "./TestimoniosPage";
+import LaboratoriosPage from "./LaboratoriosPage";
+import GruposEstPage from "./GruposEstPage";
 
 export default function EstudiantesPage() {
   return (
-    <Container className="mt-5">
+    <Container
+      style={{
+        borderStyle: "solid",
+        borderColor: "#1D3557",
+        paddingLeft: "0",
+        paddingRight: "0",
+        borderRadius: "10px",
+      }}
+      className="mt-5"
+    >
       <Tab.Container defaultActiveKey="Planes y mallas">
         <Nav
           variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
           className="justify-content-center pt-2 fw-bold fs-6"
-          activeKey="Planes y mallas"
         >
           <Nav.Item>
             <Nav.Link eventKey="Planes y mallas">Planes y mallas</Nav.Link>
@@ -38,26 +48,28 @@ export default function EstudiantesPage() {
             </Nav.Link>
           </Nav.Item>
         </Nav>
-        <Tab.Content className="border-end border-bottom border-start border-2 rounded-bottom">
-          <Tab.Pane eventKey="Planes y mallas">
-            <PlanesMallasPage />
-          </Tab.Pane>
-          <Tab.Pane eventKey="Perfil de egreso">
-            <PerfilEgresoPage />
-          </Tab.Pane>
-          <Tab.Pane eventKey="Enlaces de interes">
-            <EnlacesInteresPage />
-          </Tab.Pane>
-          <Tab.Pane eventKey="Testimonios">
-            <TestimoniosPage />
-          </Tab.Pane>
-          <Tab.Pane eventKey="Laboratorios">
-            <TestimoniosPage />
-          </Tab.Pane>
-          <Tab.Pane eventKey="Grupos estudiantiles">
-            <TestimoniosPage />
-          </Tab.Pane>
-        </Tab.Content>
+        <Container className="p-3">
+          <Tab.Content>
+            <Tab.Pane eventKey="Planes y mallas">
+              <PlanesMallasPage />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Perfil de egreso">
+              <PerfilEgresoPage />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Enlaces de interes">
+              <EnlacesInteresPage />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Testimonios">
+              <TestimoniosPage />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Laboratorios">
+              <LaboratoriosPage />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Grupos estudiantiles">
+              <GruposEstPage />
+            </Tab.Pane>
+          </Tab.Content>
+        </Container>
       </Tab.Container>
     </Container>
   );
