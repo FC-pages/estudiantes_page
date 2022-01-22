@@ -1,8 +1,6 @@
-
-
-.tab-list {  
+.tab-list {
   /* padding: 0px 10px; */
-  margin: -1px -16px 0px -16px;;
+  margin: -1px -16px 0px -16px;
   font-size: 18px;
   text-align: center;
   background-color: #1d3557;
@@ -18,7 +16,7 @@
 
 .tab-list-active {
   background-color: rgb(255, 255, 255);
-  border-top:3px solid #1d3557;
+  border-top: 3px solid #1d3557;
   border-width: 3px 1px 0 1px;
   border-radius: 10px 10px 0px 0px;
   color: #1d3557;
@@ -26,7 +24,7 @@
 }
 
 .App head text {
-  font-family: "Montserrat", sans-serif
+  font-family: "Montserrat", sans-serif;
 }
 
 .App-logo {
@@ -41,7 +39,7 @@
 }
 .icons {
   font-size: 1.2em;
-  color: rgb(7,19,50,0.3);
+  color: rgb(7, 19, 50, 0.3);
 }
 
 .icons2 {
@@ -50,45 +48,48 @@
 }
 
 .App-barra {
-  border-top: 10px solid rgb(7,19,50,0.3);
+  border-top: 10px solid rgb(7, 19, 50, 0.3);
 }
 
 .App-grid {
-  border:2px solid #1d3557;
+  border: 2px solid #1d3557;
   inline-size: 90%;
   margin-inline: auto;
-  margin-top:14px;
-  margin-bottom: 14px;;
+  margin-top: 14px;
+  margin-bottom: 14px;
   /* max-inline-size: 60em; */
   max-inline-size: 67em;
   text-align: left;
-  padding: 0px 15px;
-  font-family: 'Montserrat';
+  /*padding: 0px 15px;*/
+  font-family: "Montserrat";
   font-size: 12pt;
 }
 
 .App-cuerpo {
-  /* padding: 15px 15px; */
   text-align: left;
+}
+
+.tab-content {
+  padding: 0 15px;
 }
 
 .App-center {
   /* padding: 50px 0; */
-  text-align:center;
+  text-align: center;
   /* width: 200px; */
-  margin:0 auto;
+  margin: 0 auto;
   /* vertical-align: top; */
 }
 
 .App-ul {
-  list-style: none outside none; 
-  color:white;
+  list-style: none outside none;
+  color: white;
   /* list-style: none; */
   /* text-align: center; */
   background-color: #1d3557;
   background-position: center;
   justify-items: center;
-  padding: 12px 10px; 
+  padding: 12px 10px;
   text-align: center;
   justify-content: space-between;
   margin-top: -1px;
@@ -98,12 +99,12 @@
 }
 
 .App-ul li {
-  margin: 0px 30px ; 
+  margin: 0px 30px;
   /* flex-basis: 0;
   flex-grow: 1; */
   color: White;
   text-align: center;
-  display:inline-block
+  display: inline-block;
   /* float:center; */
 }
 
@@ -112,8 +113,6 @@
   text-align: center;
   /* display: inline-block; */
 }
-
-
 
 /* .App-container {
   text-align: center;
@@ -135,35 +134,33 @@
   text-align: justify;
 }
 .App-header2 {
-  background-image:url('../../images/imagenmate.png');
+  background-image: url("../../images/imagenmate.png");
   text-align: center;
-	width: 100%;
+  width: 100%;
   height: 200px;
-  background-size:cover; 
+  background-size: cover;
   vertical-align: middle;
 }
 .App-prueba5 {
   width: 95%;
   height: 75%;
-  position:sticky ;
+  position: sticky;
   top: 50%;
   left: 50%;
 }
 
-
-
 .App-resena {
-    margin-inline: auto;
-    max-inline-size: 60em;
-    /* padding: 10px 10px; */
-    text-align: left;
-    vertical-align: top;
-    font-size: 13px;
+  margin-inline: auto;
+  max-inline-size: 60em;
+  /* padding: 10px 10px; */
+  text-align: left;
+  vertical-align: top;
+  font-size: 13px;
 }
 
 .App-resena tr td:first-child {
   border-collapse: collapse;
-  border-right: 5px solid rgb(7,19,50,0.3) ;
+  border-right: 5px solid rgb(7, 19, 50, 0.3);
   text-align: right;
   /* padding-right: 10px; */
 }
@@ -172,7 +169,7 @@
 } */
 
 .App-resena-borde {
-  margin:0px -10px;
+  margin: 0px -10px;
   margin-top: -28px;
   border-top: 16px solid #071332;
   padding: 0 15px;
@@ -200,22 +197,22 @@
   color: rgb(255, 255, 255);
   /* letter-spacing:0.05em; */
   -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 1.5px ;
-  -webkit-text-stroke-color: #1D3557;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #1d3557;
 }
 
 .App-creditos {
-  margin:5px auto; 
+  margin: 5px auto;
   border-collapse: collapse;
-  text-align: center; 
+  text-align: center;
 }
 .App-creditos th {
-  border: solid 1px #1D3557;
-  background-color: #1D3557;
-  color: white
+  border: solid 1px #1d3557;
+  background-color: #1d3557;
+  color: white;
 }
 .App-creditos td {
-  border: solid 1px #1D3557;
+  border: solid 1px #1d3557;
 }
 
 .App-creditos td:last-child {
@@ -237,7 +234,7 @@
 } */
 
 .App-profes-td2 {
-  padding:7px;
+  padding: 7px;
   /* padding-top: 5px; */
   /* padding-right: 0; */
   text-align: left;
@@ -245,22 +242,22 @@
 }
 
 .App-profes-td2 ul {
-  list-style:none;
+  list-style: none;
   margin: 0;
   padding: 4px;
   font-size: 10pt;
   text-align: left;
 }
 
-.App-profes-td2 ul li{
-    content: "";
-    /* border-left: 4px solid #CCC; */
-    padding-left: 12px;
-    line-height: 180%;
-    border-bottom: 1.8px dashed #CCC;
-    margin-left: 2px;
-    text-indent: -10px;
-    /* border-right: 1.5px dashed #ccc; */
+.App-profes-td2 ul li {
+  content: "";
+  /* border-left: 4px solid #CCC; */
+  padding-left: 12px;
+  line-height: 180%;
+  border-bottom: 1.8px dashed #ccc;
+  margin-left: 2px;
+  text-indent: -10px;
+  /* border-right: 1.5px dashed #ccc; */
 }
 
 .App-rectangulo {
@@ -270,45 +267,45 @@
   margin-top: -8px;
 }
 
-.App-rectangulo2{
-    background: #1D3557;
-    height: 10px;
-    width: 100%;
-    /* margin-bottom: -5px ; */
-    margin-top: 15px;
+.App-rectangulo2 {
+  background: #1d3557;
+  height: 10px;
+  width: 100%;
+  /* margin-bottom: -5px ; */
+  margin-top: 15px;
 }
 
 .App-profes {
-    display: inline-block;
-    /* font-size: 11pt; */
-    height: max-content;
-    padding: 5px 5px;
-    width: 455px;
-    margin:0px auto;
-    text-align: left;
-    vertical-align: middle;
-    /* margin-inline: auto; */
+  display: inline-block;
+  /* font-size: 11pt; */
+  height: max-content;
+  padding: 5px 5px;
+  width: 455px;
+  margin: 0px auto;
+  text-align: left;
+  vertical-align: middle;
+  /* margin-inline: auto; */
 }
 .App-profes table {
-    border: solid 1px #1D3557;
-    border-collapse : collapse;
-    padding:5px;
-    /* paddi */
-    text-align: left;
+  border: solid 1px #1d3557;
+  border-collapse: collapse;
+  padding: 5px;
+  /* paddi */
+  text-align: left;
 }
 
 .App-profes th {
-    background-color: #1D3557;
-    color: white;
-    text-align: left;
-    padding:7px;
-    width:455px;
+  background-color: #1d3557;
+  color: white;
+  text-align: left;
+  padding: 7px;
+  width: 455px;
 }
 /* .App-profes tr td:first-child {
   border-right:2px solid #c4c4c4; 
 } */
 .App-profes-images {
-  background-image:url('../../images/fotoblanco.png');
+  background-image: url("../../images/fotoblanco.png");
   /* background-image:url('fotomunguia.jpeg'); */
   background-repeat: no-repeat;
   background-size: 100px 120px;
@@ -321,13 +318,13 @@
 }
 
 .App-profes-nom {
-  padding:7px;
+  padding: 7px;
   padding-bottom: 0;
   font-size: 13pt;
 }
 
 .App-profes-td {
-  padding:7px;
+  padding: 7px;
   /* padding-top: 5px; */
   /* padding-right: 0; */
   text-align: left;
@@ -335,26 +332,26 @@
 }
 
 .App-profes-td ul {
-  list-style:none;
+  list-style: none;
   margin: 0;
   padding: 4px;
   font-size: 10pt;
   text-align: left;
 }
 
-.App-profes-td ul li{
-    content: "";
-    border-left: 4px solid #CCC;
-    padding-left: 12px;
-    line-height: 180%;
-    border-bottom: 1.8px dashed #CCC;
-    margin-left: 2px;
-    text-indent: -4px;
-    /* border-right: 1.5px dashed #ccc; */
+.App-profes-td ul li {
+  content: "";
+  border-left: 4px solid #ccc;
+  padding-left: 12px;
+  line-height: 180%;
+  border-bottom: 1.8px dashed #ccc;
+  margin-left: 2px;
+  text-indent: -4px;
+  /* border-right: 1.5px dashed #ccc; */
 }
 
 .App-profes-images2 {
-  background-image:url('../../images/fotoblanco.png');
+  background-image: url("../../images/fotoblanco.png");
   background-repeat: no-repeat;
   background-size: 100px 125px;
   background-position: center;
@@ -362,7 +359,7 @@
   width: 110px;
 }
 .App-profes-imagesm {
-  background-image:url('../../images/fotomunguia.jpeg');
+  background-image: url("../../images/fotomunguia.jpeg");
   background-repeat: no-repeat;
   background-size: 100px 125px;
   background-position: center;
@@ -374,7 +371,7 @@
 
 /* FOOTER */
 .App-footer {
-  background-color:  #1d3557 ;
+  background-color: #1d3557;
   color: white;
   padding: 15pt;
 }
