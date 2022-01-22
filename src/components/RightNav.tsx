@@ -2,12 +2,11 @@ import * as S from "../styles/styles";
 
 import Home from "../pages/Home/Home";
 import Descripcion from "../pages/Descripcion/Descripcion";
-import FuturoEstudiante from '../pages/FuturoEstudiante/FuturoEstudiante';
-import Egresados from '../pages/Egresados';
+import FuturoEstudiante from "../pages/FuturoEstudiante/FuturoEstudiante";
+import EstudiantesEgresadosPage from "../pages/estudiantes/EstudiantesEgresadosPage";
+import EnlacesInteresPage from "../pages/EnlacesInteres/EnlacesInteresPage";
+import Egresados from "../pages/Egresados";
 import routes from "../helpers/routes";
-
-//import Servicios from '../ServicesComponent/Services';
-//import Contact from '../ContactComponent/Contact';
 
 import {
   BrowserRouter as Router,
@@ -15,7 +14,6 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
-import EstudiantesPage from "../pages/estudiantes/EstudiantesPage";
 
 type Props = {
   open: boolean;
@@ -30,29 +28,33 @@ function RightNav(props: Props) {
           src="./logo-UNI-footer.png"
           alt={"Universidad Nacional de Ingeniería"}
         />
-        <NavLink to="/">
+        <NavLink to={routes.home}>
           <li>Inicio</li>{" "}
         </NavLink>
-        <NavLink to="/descripcion">
+        <NavLink to={routes.descripcion}>
           <li>Descripción</li>{" "}
         </NavLink>
-        <NavLink to="/futuro">
+        <NavLink to={routes.futuroEstudiante}>
           <li>Futuro Estudiante</li>{" "}
         </NavLink>
-        <NavLink to="/estudiantes">
-          <li>Estudiantes</li>{" "}
+        <NavLink to={routes.estudiantes_egresados}>
+          <li>Estudiantes y egresados</li>{" "}
         </NavLink>
-        <NavLink to="/egresados">
-          <li>Egresados</li>{" "}
+        <NavLink to={routes.enlacesInteres}>
+          <li>Enlaces de interes</li>{" "}
         </NavLink>
-        <NavLink to="/contacto">
+        <NavLink to={routes.contacto}>
           <li>Contacto</li>{" "}
         </NavLink>
       </S.Ul>
 
       <Routes>
         <Route path={routes.home} element={<Home />} />
-        <Route path={routes.estudiantes} element={<EstudiantesPage />} />
+        <Route
+          path={routes.estudiantes_egresados}
+          element={<EstudiantesEgresadosPage />}
+        />
+        <Route path={routes.enlacesInteres} element={<EnlacesInteresPage />} />
         <Route path={routes.descripcion} element={<Descripcion />} />
         <Route path={routes.futuroEstudiante} element={<FuturoEstudiante />} />
         <Route path={routes.egresados} element={<Egresados />} />
