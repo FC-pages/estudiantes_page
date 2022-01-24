@@ -4,6 +4,9 @@ import "../../styles/estudiantes/estudiantes.css";
 import TestimoniosEstudiantesPage from "./TestimoniosEstudiantesPage";
 import LaboratoriosPage from "./LaboratoriosPage";
 import GruposEstPage from "./GruposEstPage";
+import Tesistas from "../Egresados/Tesistas";
+import Titulados from "../Egresados/Titulados";
+import Testimonios from "../Egresados/Testimonios";
 
 export default function EstudiantesEgresadosPage() {
   return (
@@ -64,6 +67,15 @@ export default function EstudiantesEgresadosPage() {
             </Tab.Pane>
             <Tab.Pane eventKey="Laboratorios">
               <LaboratoriosPage />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Tesistas">
+              <Tesistas />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Titulados">
+              <Titulados />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Testimonios egresados">
+              <Testimonios />
             </Tab.Pane>
           </Tab.Content>
         </Container>
