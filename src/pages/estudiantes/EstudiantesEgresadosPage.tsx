@@ -40,9 +40,6 @@ export default function EstudiantesEgresadosPage() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Laboratorios">Laboratorios</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
             <Nav.Link eventKey="Titulados">Titulados</Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -64,9 +61,6 @@ export default function EstudiantesEgresadosPage() {
             </Tab.Pane>
             <Tab.Pane eventKey="Grupos estudiantiles">
               <GruposEstPage />
-            </Tab.Pane>
-            <Tab.Pane eventKey="Laboratorios">
-              <LaboratoriosPage />
             </Tab.Pane>
             <Tab.Pane eventKey="Tesistas">
               <Tesistas />
