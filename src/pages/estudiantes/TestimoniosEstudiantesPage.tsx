@@ -1,7 +1,7 @@
 import { Container, Card, Row, Col } from "react-bootstrap";
 import ReactPlayer from "react-player";
 
-export default function TestimoniosEstuduantesPage() {
+export default function TestimoniosEstudiantesPage() {
   return (
     <Container className="text-start p-3">
       <Row>

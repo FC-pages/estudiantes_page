@@ -1,12 +1,13 @@
 import { Tab, Container, Nav } from "react-bootstrap";
 import PlanesMallasPage from "./PlanesMallasPage";
 import "../../styles/estudiantes/estudiantes.css";
-import TestimoniosEstudiantesPage from "./TestimoniosEstudiantesPage";
+
 import GruposEstPage from "./GruposEstPage";
 
-import Titulados from '../Egresados/Titulados';
-import Tesistas from '../Egresados/Tesistas';
-import Testimonios from '../Egresados/Testimonios';
+import Titulados from "../Egresados/Titulados";
+import Tesistas from "../Egresados/Tesistas";
+
+import TestimoniosPage from "./TestimoniosPage";
 
 export default function EstudiantesEgresadosPage() {
   return (
@@ -30,9 +31,7 @@ export default function EstudiantesEgresadosPage() {
             <Nav.Link eventKey="Planes y mallas">Planes y mallas</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Testimonios estudiantes">
-              Testimonios de estudiantes
-            </Nav.Link>
+            <Nav.Link eventKey="Testimonios">Testimonios</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="Grupos estudiantiles">
@@ -45,19 +44,14 @@ export default function EstudiantesEgresadosPage() {
           <Nav.Item>
             <Nav.Link eventKey="Tesistas">Tesistas</Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="Testimonios egresados">
-              Testimonios egresados
-            </Nav.Link>
-          </Nav.Item>
         </Nav>
         <Container className="p-3">
           <Tab.Content>
             <Tab.Pane eventKey="Planes y mallas">
               <PlanesMallasPage />
             </Tab.Pane>
-            <Tab.Pane eventKey="Testimonios estudiantes">
-              <TestimoniosEstudiantesPage />
+            <Tab.Pane eventKey="Testimonios">
+              <TestimoniosPage />
             </Tab.Pane>
             <Tab.Pane eventKey="Grupos estudiantiles">
               <GruposEstPage />
@@ -67,18 +61,6 @@ export default function EstudiantesEgresadosPage() {
             </Tab.Pane>
             <Tab.Pane eventKey="Titulados">
               <Titulados />
-            </Tab.Pane>
-            <Tab.Pane eventKey="Testimonios egresados">
-              <Testimonios />
-            </Tab.Pane>
-            <Tab.Pane eventKey="Titulados">
-              <Titulados />
-            </Tab.Pane>
-            <Tab.Pane eventKey="Tesistas">
-              <Tesistas />
-            </Tab.Pane>
-            <Tab.Pane eventKey="Testimonios egresados">
-              <Testimonios />
             </Tab.Pane>
           </Tab.Content>
         </Container>
