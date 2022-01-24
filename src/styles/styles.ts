@@ -253,6 +253,8 @@ export const LogoUl = styled.img`
 export const Seccion = styled.div`
   background: #C4C4C4;
   min-height:  400px;
+  max-height:  500px;
+  overflow: auto;
   h2 {
     padding-top: 25px;
     margin-bottom: 30px;
@@ -292,6 +294,9 @@ export const Seccion = styled.div`
     }
   }
 
+  .footer-eventos {
+    background: blue;
+  }
   @media (max-width: 768px) {
     margin-top: 30px;
   }
