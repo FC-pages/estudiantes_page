@@ -2,7 +2,6 @@ import { Tab, Container, Nav } from "react-bootstrap";
 import PlanesMallasPage from "./PlanesMallasPage";
 import "../../styles/estudiantes/estudiantes.css";
 import TestimoniosEstudiantesPage from "./TestimoniosEstudiantesPage";
-import LaboratoriosPage from "./LaboratoriosPage";
 import GruposEstPage from "./GruposEstPage";
 import Tesistas from "../Egresados/Tesistas";
 import Titulados from "../Egresados/Titulados";
