@@ -13,21 +13,37 @@ function Eventos(){
 
   let Evento = (props : any) => {
     
-    return (
-        <div className = "evento">
-          <div className = "fecha-evento">
-            { props.fechaEvento }
+    if (props.eventoFuturo) {
+      return (
+          <div className = "evento">
+            <div className = "fecha-evento">
+              { props.fechaEvento }
+            </div>
+            <div className = "descripcion">
+              <a href={ props.hrefLink }>
+                { props.descripcion }
+              </a>
+            </div>
           </div>
-          <div className = "descripcion">
-            <a href={ props.hrefLink }>
-              { props.descripcion }
-            </a>
+      )
+    } else {
+      return(
+          <div className = "evento">
+            <div className = "fecha-evento-pasado">
+              { props.fechaEvento }
+            </div>
+            <div className = "descripcion">
+              <a href={ props.hrefLink }>
+                { props.descripcion }
+              </a>
+            </div>
           </div>
-        </div>
-    )
+          )
+    }
   }
     return(
         <S.Seccion>
+          <div className = "eventos-seccion">
             <h3>
               EVENTOS FUTUROS
             </h3>
@@ -39,16 +55,18 @@ function Eventos(){
                     <Evento 
                       fechaEvento = {e.fechaEvento} 
                       descripcion = { e.descripcion } 
+                      eventoFuturo= { e.future } 
                       hrefLink = { e.hrefLink } />
                     )
                 })
                 
               }
             </div>
-            <div className = "footer-eventos">
-              <a onClick = { () =>  setShowAll(!showAll)}>{ showAll ? "Ocultar": "Eventos pasados" }</a>
-            </div>
 
+          </div>
+          <div className = "footer-eventos">
+            <a onClick = { () =>  setShowAll(!showAll)}>{ showAll ? "Ocultar": "Eventos pasados" }</a>
+          </div>
           </S.Seccion>
       )
 }

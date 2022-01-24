@@ -1,5 +1,6 @@
 import { Table } from 'react-bootstrap';
 import * as S from './styles/main';
+let { tesistas } = require('../../data/data-tesistas.js'  );
 
 function Tesistas() {
   return (
@@ -14,23 +15,18 @@ function Tesistas() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td colSpan={2}>Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
+          {
+           tesistas.map((t : any) => {
+            return(
+              <tr>
+                <td>{ t.number }</td>
+                <td>{ t.alumno }</td>
+                <td>{ t.tituloTesis }</td>
+                <td>{ t.fechaDefensa }</td>
+              </tr>
+              )
+           }) 
+          }
         </tbody>
       </Table>
     </S.TabContent>

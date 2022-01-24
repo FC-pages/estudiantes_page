@@ -31,14 +31,9 @@ const TabTwo: FC<{}> = () => {
         además en el área de finanzas, estimando los costos de los seguros o
         valorizando inversiones de riesgo.
       </p>
-      <br />
       <p>
-        La mitad de los egresados realiza un doctorado y trabaja en la
-        universidad enseñando y realizando investigación científica. Un cuarto
-        de los egresados se dedica a la docencia universitaria y otro cuarto
-        trabaja en distintas empresas nacionales, en finanzas y servicios: ACHS,
-        Masvida, Deloitte; en tecnología: Cisco, IBM, Entel; en transporte: Lan
-        Chile; e industrias: Petrox, Huachipato.
+       Muchos de nuestros egresados realizan maestrías y doctorados en universidades peruanas
+       y del mundo. Desempeñandose en la docencia y realizando investigación científica.
       </p>
       <p>
         A continuación se detallan los divesos campos que puede seguir un
@@ -63,7 +58,7 @@ const TabTwo: FC<{}> = () => {
       <div className="container">
         <div className="itemLeft">Docencia Universitaria</div>
         <div className="itemRight">
-          Si quieres hacer una carrera de docencia universitaria, la
+          Si quieres iniciar una carrera de docencia universitaria, la
           licenciatura te permite iniciar estudios de magíster y doctorado.
         </div>
       </div>
@@ -79,6 +74,16 @@ const TabTwo: FC<{}> = () => {
       </div>
       <div className="container">
         <div className="itemLeft">Banca</div>
+        <div className="itemRight">
+          Si deseas relacionarte con las finanzas y economia, puedes trabajar en
+          las industrias financieras o aseguradoras, ya que contaras con los
+          skills necesarios como de modelamiento y analisis en aspectos
+          cuantitativos, y asi realizar diversos diagnosticos de los riesgos, y
+          enfrentarte a diversos problemas de esa índole.
+        </div>
+      </div>
+<div className="container">
+        <div className="itemLeft">Informática</div>
         <div className="itemRight">
           Si deseas relacionarte con las finanzas y economia, puedes trabajar en
           las industrias financieras o aseguradoras, ya que contaras con los

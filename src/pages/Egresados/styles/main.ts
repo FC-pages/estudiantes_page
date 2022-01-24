@@ -29,6 +29,23 @@ export const TCard = styled.div`
     justify-content: space-around;
     align-items: center;
   }
+  .card-header {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 30px;
+    }
+  }
+  .card-testimony {
+    background: #102e2e;
+    border-radius: 5px;
+  }
+  .card-title {
+    color: white;
+  }
+  .card-text {
+    color: white;
+  }
   p {
     font-size: 16px;
   }

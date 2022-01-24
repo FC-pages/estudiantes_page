@@ -13,7 +13,11 @@ function Testimonios() {
   <S.TestimoniosTab>
               {
                 testimonios.map((t: any) => {
-                  return <TestimonyCard name = { t.name } image = { t.image } testimony = { t.testimony } fotoCompleta = {t.fotoCompleta} />
+                  return <TestimonyCard 
+                            name = { t.name } 
+                            image = { t.image } 
+                            testimony = { t.testimony } 
+                            fotoCompleta = {t.fotoCompleta} />
                 })
               }
   </S.TestimoniosTab>

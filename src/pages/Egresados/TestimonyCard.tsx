@@ -28,12 +28,13 @@ function TestimonyCard({ name, image, testimony, fotoCompleta } : CardProps) {
 
   return (
       <S.TCard >
-            <Card style={{ width: '18rem' }}>
-              <Card.Body>
-                <img src= {image} alt="" className="rounded-circle" width="80" height="80"/>
-                <Card.Title>{name}</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                <Card.Text>
+            <Card style={{ width: '30rem' }} >
+              <Card.Body className = "card-testimony">
+                <div className = "card-header">
+                  <img src= {image} alt="" className="rounded-circle" width="80" height="80"/>
+                  <Card.Title className = "card-title">{name}</Card.Title>
+                </div>
+                <Card.Text className = "card-text">
                   {displayedText}
                 </Card.Text>
                 <Card.Link  onClick={handleShow} href="#">Ver más</Card.Link>
