@@ -1,26 +1,11 @@
 import React, { FC, Fragment } from "react";
 import Accordion from "../../components/Accordion";
-import "../../styles/festudiantes.css";
 
 import ReactPlayer from "react-player";
 
 import { Container, Row, Card } from "react-bootstrap";
 import * as S from "../../styles/styles";
 
-let videos = [
-  {
-    name: "Presentación de nuestra plana docente",
-    href: "https://www.youtube.com/watch?v=yDyMSliKsxI",
-    Description:
-      "Docentes de la la carrera de matemática de la facultad de Ciencias",
-  },
-  {
-    name: "Presentación de nuestra plana docente",
-    href: "https://www.youtube.com/watch?v=yDyMSliKsxI",
-    Description:
-      "Docentes de la la carrera de matemática de la facultad de Ciencias",
-  },
-];
 
 const accordionItems = [
   {
@@ -72,7 +57,7 @@ const accordionItems = [
     ),
   },
   {
-    title: "Redes de regulación génica",
+    title: "3. ",
     content: (
       <div>
         El crecimiento de los seres vivos está regulado por la interacción entre
@@ -85,75 +70,37 @@ const accordionItems = [
     ),
   },
   {
-    title: "Cultivo de Salmón",
+    title: "4. ",
     content: (
       <div>
-        Mediante ecuaciones se estudia cómo fluye el oxígeno en las jaulas de
-        salmones, según las corrientes marinas, la densidad de las jaulas y su
-        posición. Este estudio permite determinar la mejor disposición y la
-        cantidad de peces máxima que pueden tener las jaulas de manera que su
-        crecimiento sea sano. La colaboración con la industria del Salmón, a
-        cargo del profesor Riquelme ha permitido este y otros avances.
+      </div>
+    ),
+  },
+  {
+    title: "5. ",
+    content: (
+      <div>
+      </div>
+    ),
+  },
+  {
+    title: "6. ",
+    content: (
+      <div>
       </div>
     ),
   },
 ];
 
-const TabThree: FC<{}> = () => {
+
+function GruposInvestigacion() {
   return (
-    <Fragment>
-      <p>
-        La matemática está en constante crecimiento, cada vez nuevas
-        herramientas son creadas y estas permiten apoyar el desarrollo de otras
-        ciencias y la industria. <br /> <br />
-        La Escuela de Matemática de la facultad de Ciencias esta activa en investigación
-        tanto teórica como aplicada. Gran parte de la investigación se lleva a cabo en el instituto de Matemáticas y ciencias
-        afines (IMCA) el cual reúne a investigadores de las siguientes lineas de investigación:
-      </p>
-      <p>
-      </p>
-      <ol>
-        <li>
-          
-        </li>
-        <li>
-
-        </li>
-        <li>
-Línea de Álgebra, Geometría y Topología
-        </li>
-        <li>
-Línea de Probabilidad y Procesos Estocásticos
-        </li>
-        <li>
-Línea de Ecuaciones Diferenciales y Sistemas Dinámicos
-        </li>
-        <li>
-Línea de Análisis Numérico
-        </li>
-      </ol>
-
+  <div>
       <div className="container">
         <Accordion items={accordionItems} />
       </div>
-      <Row xs={1} md={1} className="g-4">
-        <S.ContainerVideos>
-          <div className="video">
-            {videos.map((video: any) => {
-              return (
-                <Card bg="dark" text="white">
-                  <ReactPlayer controls width="100%" url={video.href} />
-                  <Card.Body>
-                    <Card.Title>{video.name}</Card.Title>
-                    <Card.Text>{video.Description}</Card.Text>
-                  </Card.Body>
-                </Card>
-              );
-            })}
-          </div>
-        </S.ContainerVideos>
-      </Row>
-    </Fragment>
+      </div>
   );
-};
-export default TabThree;
+}
+
+export default GruposInvestigacion;

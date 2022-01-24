@@ -206,6 +206,7 @@ export const Ul = styled.ul<INav>`
 
   li {
     padding: 18px 10px;
+    font-size: 0.8em;
   }
       .active{
             //background: white;
@@ -251,50 +252,67 @@ export const LogoUl = styled.img`
   }
 `
 export const Seccion = styled.div`
-  background: #C4C4C4;
-  min-height:  400px;
-  h2 {
-    padding-top: 25px;
-    margin-bottom: 30px;
-  }
-  .body-eventos {
-    padding: 0px 3px;
-  }
-
-  .evento{
-    display: flex;
-    margin: 10px 5px;
-    min-height: 100px;
-  }
-  
-  .fecha-evento {
-    background: #142C68;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    width: 34%;
-  }
-  .descripcion {
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    margin: 0px 5px;
-    width: 70%;
-    justify-content: center;
-    a {
-      text-decoration: none;
-      color: #142C68;
-      :hover {
-        color: #0DADEA;
+  .eventos-seccion {
+      background: #C4C4C4;
+      min-height:  400px;
+      max-height:  400px;
+      overflow: auto;
+      h3 {
+        padding-top: 25px;
+        margin-bottom: 30px;
       }
-    }
-  }
+      .body-eventos {
+        padding: 0px 3px;
+      }
 
-  @media (max-width: 768px) {
-    margin-top: 30px;
+      .evento{
+        display: flex;
+        margin: 10px 5px;
+        min-height: 100px;
+      }
+      
+      .fecha-evento {
+        background: #1d3557;
+        color: white;
+        font-weight: bold;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        width: 34%;
+      }
+      .fecha-evento-pasado {
+        background: #ba373c;
+        color: white;
+        font-weight: bold;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        width: 34%;
+      }
+      .descripcion {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        margin: 0px 5px;
+        width: 70%;
+        justify-content: center;
+        a {
+          text-decoration: none;
+          color: #142C68;
+          :hover {
+            color: #0DADEA;
+          }
+        }
+      }
+
+      @media (max-width: 768px) {
+        margin-top: 30px;
+      }
   }
+      .footer-eventos {
+        background: #1d3557;
+        color: white;
+      }
 
 `
 export const Icon = styled.div`
