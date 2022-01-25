@@ -1,4 +1,4 @@
-import { FC, Fragment } from "react";
+import React, { FC, Fragment } from "react";
 import ReactPlayer from "react-player";
 
 import { Row, Card } from "react-bootstrap";

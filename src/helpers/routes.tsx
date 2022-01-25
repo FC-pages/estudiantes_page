@@ -6,6 +6,8 @@ const routes = {
   home: "/",
   contacto: "/Contacto",
   enlacesInteres: "/Enlaces_de_interes",
+  gruposInvestigacion: "/Grupos_investigacion",
+  docentes: "/Docentes",
 };
 
 export default routes;

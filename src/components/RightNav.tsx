@@ -38,15 +38,15 @@ function RightNav(props: Props) {
         <NavLink to={routes.futuroEstudiante}>
           <li>Futuro Estudiante</li>{" "}
         </NavLink>
-        <NavLink to={routes.futuroEstudiante}>
+        <NavLink to={routes.docentes}>
           <li>Docentes</li>{" "}
         </NavLink>
         <NavLink to={routes.estudiantes_egresados}>
           <li>Estudiantes y egresados</li>{" "}
-        </NavLink> 
-        <NavLink to="/grupos_investigacion">
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion}>
           <li>Grupos de investigación</li>{" "}
-        </NavLink> 
+        </NavLink>
         <NavLink to={routes.enlacesInteres}>
           <li>Enlaces de interes</li>{" "}
         </NavLink>
@@ -65,7 +65,10 @@ function RightNav(props: Props) {
         <Route path={routes.descripcion} element={<Descripcion />} />
         <Route path={routes.futuroEstudiante} element={<FuturoEstudiante />} />
         <Route path={routes.egresados} element={<Egresados />} />
-        <Route path="grupos_investigacion" element={<GruposInvestigacion />} />
+        <Route
+          path={routes.gruposInvestigacion}
+          element={<GruposInvestigacion />}
+        />
       </Routes>
     </Router>
   );

@@ -2,6 +2,7 @@ import { Container, Tab, Nav } from "react-bootstrap";
 import { FaYoutube } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import "../../styles/estudiantes/grupestud.css";
+import React from "react";
 
 export default function GruposEstPage() {
   return (

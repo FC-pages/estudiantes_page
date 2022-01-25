@@ -1,4 +1,4 @@
-import { FC, Fragment } from "react";
+import React, { FC, Fragment } from "react";
 import Accordion from "../../components/Accordion";
 import "../../styles/festudiantes.css";
 

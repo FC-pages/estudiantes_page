@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Card, Row, Col } from "react-bootstrap";
 import ReactPlayer from "react-player";
 

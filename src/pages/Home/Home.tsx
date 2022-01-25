@@ -1,10 +1,9 @@
-import '../../App.css';
-import CarouselReact from './CarouselReact';
+import React from "react";
+import "../../App.css";
+import CarouselReact from "./CarouselReact";
 
 function Home() {
-  return (
-    <CarouselReact/>
-  );
+  return <CarouselReact />;
 }
 
 export default Home;

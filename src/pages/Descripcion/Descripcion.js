@@ -1,4 +1,5 @@
 import Tabs from "./Tabs";
+import React from "react";
 import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

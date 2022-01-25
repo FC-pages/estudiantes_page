@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Tab, Nav } from "react-bootstrap";
 import Testimonios from "../Egresados/Testimonios";
 import TestimoniosEstudiantesPage from "./TestimoniosEstudiantesPage";
