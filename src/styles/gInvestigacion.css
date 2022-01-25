@@ -1,0 +1,86 @@
+ /*foto-grupo*/
+ .foto-grupo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.foto-profesor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    /*padding-left: 35px;*/
+}
+.foto-profesorX {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    width: 50%;
+    /*padding-left: 35px;*/
+}
+  .itemLeft {
+    width: 12vw;
+    padding: 10px;
+    padding-left: 5px;
+    /*background-color: #00427A;*/
+    /*background-color: rgba(111,41,97,.3);*/
+    /*border: 2px solid rgba(111,41,97,.5);*/
+    display: inline-block;
+    vertical-align: top;
+    color: #00427A;
+    font-style: italic;
+    font-weight: bold;
+    
+  
+  }
+  .itemRight {
+    width: 30vw;
+    padding: 10px;
+    /*background-color: green;*/
+    /*background-color: rgba(111,41,97,.3);*/
+    /*border: 2px solid rgba(111,41,97,.5);*/
+    display: inline-block;
+    vertical-align: middle
+  }
+  
+  .tit {
+    color: #007a91;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .tit2 {
+    color: #007a91;
+    font-size: 16px;
+  }
+
+  /*line- dotted*/
+  .dotted {
+    border-top: 1px dotted gray;
+  }
+
+  /*publicaciones*/
+  .itemRight2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 7vw;
+    width: 10vw;
+    /*background-color: purple;*/
+    /*background-color: rgba(111,41,97,.3);*/
+    /*border: 2px solid rgba(111,41,97,.5);*/
+    display: inline-block;
+    vertical-align: top;
+    color: #00427A;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .itemLeft2 {
+    width: 38vw;
+    padding: 3px;
+    /*background-color: green;*/
+    /*background-color: rgba(111,41,97,.3);*/
+    /*border: 2px solid rgba(111,41,97,.5);*/
+    display: inline-block;
+    vertical-align: middle
+  }
+  

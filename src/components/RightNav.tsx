@@ -7,8 +7,10 @@ import EstudiantesEgresadosPage from "../pages/estudiantes/EstudiantesEgresadosP
 import EnlacesInteresPage from "../pages/EnlacesInteres/EnlacesInteresPage";
 import Egresados from "../pages/Egresados";
 import Docentes from "../pages/Docentes/Docentes";
-import GruposInvestigacion from "../pages/GruposInvestigacion/GruposInvestigacion";
+import GruposInvestigacion from "../pages/GruposInvestigacion/GrupoOptimizacion";
 import routes from "../helpers/routes";
+import App from "../pages/GruposInvestigacion/App";
+
 
 import { Dropdown } from "react-bootstrap";
 import {
@@ -26,7 +28,7 @@ function LineaInv1() {
 }
 function LineaInv2() {
   return(
-    <div>Linea de investigación 2</div>
+    <App></App>
   )
 }
 function LineaInv3() {
@@ -125,7 +127,7 @@ function RightNav(props: Props) {
         <Route path= {routes.grupos_investigacion} element={<GruposInvestigacion />} />
         <Route path= {routes.docentes} element={<Docentes />} />
         <Route path= "/linea_inv1" element={<LineaInv1 />} />
-        <Route path= "/linea_inv2" element={<LineaInv2 />} />
+        <Route path= "/linea_inv2" element={<LineaInv2/>} />
         <Route path= "/linea_inv3" element={<LineaInv3 />} />
         <Route path= "/linea_inv4" element={<LineaInv4 />} />
         <Route path= "/linea_inv5" element={<LineaInv5 />} />
