@@ -6,7 +6,7 @@ export default function PlanesMallasPage() {
     <Container className="text-start p-3">
       <p className="fw-bold fs-5">Mallas curriculares</p>
       <Container>
-        <a className="a-link" href="./PLAN-MATEMATICA-2018.pdf">
+        <a className="a-link" href="./PLANMATEMATICA2018.pdf">
           Malla General
         </a>
         <p>Malla Análisi Numérico y Ecuaciones Diferenciales</p>
