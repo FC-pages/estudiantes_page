@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import imagenmate from '../images/imagenmate.png';
+import { colors } from './colors';
 
 // theme is now fully typed
 /*
@@ -213,6 +214,15 @@ export const Ul = styled.ul<INav>`
             //font-weight: bold;
           }
 
+  .menu-desp{
+    button {
+      background: ${colors.main};
+      border: 1px solid ${colors.main};
+    }
+    a {
+      color: blue;
+    }
+  }
 
   @media (max-width: 768px) {
     flex-flow: column nowrap;
