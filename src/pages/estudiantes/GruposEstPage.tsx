@@ -33,13 +33,18 @@ export default function GruposEstPage() {
               </p>
               <p>
                 <FaYoutube size={25} title="youtube" />{" "}
-                <a href="https://www.youtube.com/channel/UCyALMJPXSZBnJ7DlF5yEOvw">
+                <a
+                  className="a-link"
+                  href="https://www.youtube.com/channel/UCyALMJPXSZBnJ7DlF5yEOvw"
+                >
                   Grupo Estudiantil de Matemática - FC
                 </a>
               </p>
               <p>
                 <MdEmail size={25} title="email" />{" "}
-                <a href="mailto:gem@uni.edu.pe">gem@uni.edu.pe</a>
+                <a className="a-link" href="mailto:gem@uni.edu.pe">
+                  gem@uni.edu.pe
+                </a>
               </p>
             </Tab.Pane>
             <Tab.Pane eventKey="Grupo 2"></Tab.Pane>
