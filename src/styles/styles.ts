@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import imagenmate from '../images/imagenmate.png';
-import { colors } from './colors';
 
 // theme is now fully typed
 /*
