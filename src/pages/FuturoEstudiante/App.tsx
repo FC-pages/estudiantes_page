@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-import ReactPlayer from "react-player";
-
-import { Container, Row, Card } from "react-bootstrap";
-import * as S from "../../styles/styles";
 
 import "../../styles/festudiantes.css";
 import Tabs from "./Tabs";
@@ -10,7 +6,6 @@ import Tabs from "./Tabs";
 import TabOne from "./TabOne";
 import TabTwo from "./TabTwo";
 import TabThree from "./TabThree";
-let { videos } = require("../../data/data-videos.js");
 
 type TabsType = {
   label: string;
@@ -23,18 +18,18 @@ const tabs: TabsType = [
   {
     label: "Perfil de Ingreso",
     index: 1,
-    Component: TabOne
+    Component: TabOne,
   },
   {
     label: "Campo Laboral",
     index: 2,
-    Component: TabTwo
+    Component: TabTwo,
   },
   {
     label: "Investigación",
     index: 3,
-    Component: TabThree
-  }
+    Component: TabThree,
+  },
 ];
 
 export default function App() {
@@ -46,7 +41,6 @@ export default function App() {
       <div className="superDiv">
         <div className="titleBar">Futuro Estudiante</div>
         <Tabs selectedTab={selectedTab} onClick={setSelectedTab} tabs={tabs} />
-        
       </div>
       <br />
     </div>

@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import "../../styles/festudiantes.css";
 
 type TabsProps = {
@@ -26,7 +26,7 @@ const Tabs: FC<TabsProps> = ({
   tabs = [],
   selectedTab = 0,
   onClick,
-  orientation = "horizontal"
+  orientation = "horizontal",
 }) => {
   const Panel = tabs && tabs.find((tab) => tab.index === selectedTab);
 

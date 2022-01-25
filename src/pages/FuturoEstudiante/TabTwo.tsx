@@ -2,7 +2,7 @@ import React, { FC, Fragment } from "react";
 import "../../styles/festudiantes.css";
 import ReactPlayer from "react-player";
 
-import { Container, Row, Card } from "react-bootstrap";
+import { Row, Card } from "react-bootstrap";
 import * as S from "../../styles/styles";
 
 let videos = [
@@ -32,8 +32,9 @@ const TabTwo: FC<{}> = () => {
         valorizando inversiones de riesgo.
       </p>
       <p>
-       Muchos de nuestros egresados realizan maestrías y doctorados en universidades peruanas
-       y del mundo. Desempeñandose en la docencia y realizando investigación científica.
+        Muchos de nuestros egresados realizan maestrías y doctorados en
+        universidades peruanas y del mundo. Desempeñandose en la docencia y
+        realizando investigación científica.
       </p>
       <p>
         A continuación se detallan los divesos campos que puede seguir un
@@ -82,7 +83,7 @@ const TabTwo: FC<{}> = () => {
           enfrentarte a diversos problemas de esa índole.
         </div>
       </div>
-<div className="container">
+      <div className="container">
         <div className="itemLeft">Informática</div>
         <div className="itemRight">
           Si deseas relacionarte con las finanzas y economia, puedes trabajar en

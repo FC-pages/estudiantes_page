@@ -1,11 +1,9 @@
-import React, { FC, Fragment } from "react";
+import { FC, Fragment } from "react";
 import ReactPlayer from "react-player";
 
-import { Container, Row, Card } from "react-bootstrap";
+import { Row, Card } from "react-bootstrap";
 import * as S from "../../styles/styles";
 import "../../styles/festudiantes.css";
-
-/*let { videos } = require("../../data/data-videos.js");*/
 
 let videos = [
   {

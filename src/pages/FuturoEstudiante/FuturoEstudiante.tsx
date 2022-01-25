@@ -1,44 +1,5 @@
-import ReactPlayer from "react-player";
-
-import { Container, Row, Card } from "react-bootstrap";
-import * as S from "../../styles/styles";
-import App from './App';
-let { videos } = require("../../data/data-videos.js");
-
+import App from "./App";
 
 export default function FuturoEstudiante() {
-  return (
-    <App/>
-  );
+  return <App />;
 }
-{/*
-export default function FuturoEstudiante() {
-  return (
-    <Container>
-      <S.Subtitle> Futuro Estudiante </S.Subtitle>
-      <Row xs={1} md={2} className="g-4">
-        <S.ContainerVideos>
-          <div className="video">
-            {videos.map((video: any) => {
-              return (
-                <Card bg="dark" text="white">
-                  <ReactPlayer controls width="100%" url={video.href} />
-                  <Card.Body>
-                    <Card.Title>{video.name}</Card.Title>
-                    <Card.Text>{video.Description}</Card.Text>
-                  </Card.Body>
-                </Card>
-              );
-            })}
-          </div>
-        </S.ContainerVideos>
-      </Row>
-    </Container>
-  );
-}
-*/}
-
-
-
-
-

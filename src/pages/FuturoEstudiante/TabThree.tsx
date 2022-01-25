@@ -1,10 +1,10 @@
-import React, { FC, Fragment } from "react";
+import { FC, Fragment } from "react";
 import Accordion from "../../components/Accordion";
 import "../../styles/festudiantes.css";
 
 import ReactPlayer from "react-player";
 
-import { Container, Row, Card } from "react-bootstrap";
+import { Row, Card } from "react-bootstrap";
 import * as S from "../../styles/styles";
 
 let videos = [
@@ -33,29 +33,39 @@ const accordionItems = [
         dirigido por el profesor Sepúlveda, consistió en determinar un método
         para extraer los parámetros que rigen el proceso, comparando las
         ecuaciones con observaciones reales.
-
-      <Row xs={1} md={1} className="g-4">
-        <S.ContainerVideos>
-          <div className="video">
-            <Card bg="dark" text="white">
-                  <ReactPlayer controls width="100%" url="https://youtu.be/cZJv2FKutPU" />
-                  <Card.Body>
-                    <Card.Title>El Patrón de los Números Primos y la Hipótesis de Riemann</Card.Title>
-                    <Card.Text></Card.Text>
-                  </Card.Body>
-                </Card>
+        <Row xs={1} md={1} className="g-4">
+          <S.ContainerVideos>
+            <div className="video">
+              <Card bg="dark" text="white">
+                <ReactPlayer
+                  controls
+                  width="100%"
+                  url="https://youtu.be/cZJv2FKutPU"
+                />
+                <Card.Body>
+                  <Card.Title>
+                    El Patrón de los Números Primos y la Hipótesis de Riemann
+                  </Card.Title>
+                  <Card.Text></Card.Text>
+                </Card.Body>
+              </Card>
 
               <Card bg="dark" text="white">
-                  <ReactPlayer controls width="100%" url="https://youtu.be/m_4X6Hl7QJU" />
-                  <Card.Body>
-                    <Card.Title>¿Puedes Calcular el Factorial de Un Medio?</Card.Title>
-                    <Card.Text></Card.Text>
-                  </Card.Body>
-                </Card>
-          </div>
-        </S.ContainerVideos>
-      </Row>
-
+                <ReactPlayer
+                  controls
+                  width="100%"
+                  url="https://youtu.be/m_4X6Hl7QJU"
+                />
+                <Card.Body>
+                  <Card.Title>
+                    ¿Puedes Calcular el Factorial de Un Medio?
+                  </Card.Title>
+                  <Card.Text></Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+          </S.ContainerVideos>
+        </Row>
       </div>
     ),
   },
@@ -106,31 +116,20 @@ const TabThree: FC<{}> = () => {
         La matemática está en constante crecimiento, cada vez nuevas
         herramientas son creadas y estas permiten apoyar el desarrollo de otras
         ciencias y la industria. <br /> <br />
-        La Escuela de Matemática de la facultad de Ciencias esta activa en investigación
-        tanto teórica como aplicada. Gran parte de la investigación se lleva a cabo en el instituto de Matemáticas y ciencias
-        afines (IMCA) el cual reúne a investigadores de las siguientes lineas de investigación:
+        La Escuela de Matemática de la facultad de Ciencias esta activa en
+        investigación tanto teórica como aplicada. Gran parte de la
+        investigación se lleva a cabo en el instituto de Matemáticas y ciencias
+        afines (IMCA) el cual reúne a investigadores de las siguientes lineas de
+        investigación:
       </p>
-      <p>
-      </p>
+      <p></p>
       <ol>
-        <li>
-          
-        </li>
-        <li>
-
-        </li>
-        <li>
-Línea de Álgebra, Geometría y Topología
-        </li>
-        <li>
-Línea de Probabilidad y Procesos Estocásticos
-        </li>
-        <li>
-Línea de Ecuaciones Diferenciales y Sistemas Dinámicos
-        </li>
-        <li>
-Línea de Análisis Numérico
-        </li>
+        <li></li>
+        <li></li>
+        <li>Línea de Álgebra, Geometría y Topología</li>
+        <li>Línea de Probabilidad y Procesos Estocásticos</li>
+        <li>Línea de Ecuaciones Diferenciales y Sistemas Dinámicos</li>
+        <li>Línea de Análisis Numérico</li>
       </ol>
 
       <div className="container">

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { colors } from '../../../styles/colors';
 
 export const EgresadosPage = styled.div`
   border:2px solid #1d3557;

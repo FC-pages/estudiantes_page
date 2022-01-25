@@ -1,11 +1,9 @@
-import React, { FC, Fragment } from "react";
 import Accordion from "../../components/Accordion";
 
 import ReactPlayer from "react-player";
 
-import { Container, Row, Card } from "react-bootstrap";
+import { Row, Card } from "react-bootstrap";
 import * as S from "../../styles/styles";
-
 
 const accordionItems = [
   {
@@ -18,29 +16,39 @@ const accordionItems = [
         dirigido por el profesor Sepúlveda, consistió en determinar un método
         para extraer los parámetros que rigen el proceso, comparando las
         ecuaciones con observaciones reales.
-
-      <Row xs={1} md={1} className="g-4">
-        <S.ContainerVideos>
-          <div className="video">
-            <Card bg="dark" text="white">
-                  <ReactPlayer controls width="100%" url="https://youtu.be/cZJv2FKutPU" />
-                  <Card.Body>
-                    <Card.Title>El Patrón de los Números Primos y la Hipótesis de Riemann</Card.Title>
-                    <Card.Text></Card.Text>
-                  </Card.Body>
-                </Card>
+        <Row xs={1} md={1} className="g-4">
+          <S.ContainerVideos>
+            <div className="video">
+              <Card bg="dark" text="white">
+                <ReactPlayer
+                  controls
+                  width="100%"
+                  url="https://youtu.be/cZJv2FKutPU"
+                />
+                <Card.Body>
+                  <Card.Title>
+                    El Patrón de los Números Primos y la Hipótesis de Riemann
+                  </Card.Title>
+                  <Card.Text></Card.Text>
+                </Card.Body>
+              </Card>
 
               <Card bg="dark" text="white">
-                  <ReactPlayer controls width="100%" url="https://youtu.be/m_4X6Hl7QJU" />
-                  <Card.Body>
-                    <Card.Title>¿Puedes Calcular el Factorial de Un Medio?</Card.Title>
-                    <Card.Text></Card.Text>
-                  </Card.Body>
-                </Card>
-          </div>
-        </S.ContainerVideos>
-      </Row>
-
+                <ReactPlayer
+                  controls
+                  width="100%"
+                  url="https://youtu.be/m_4X6Hl7QJU"
+                />
+                <Card.Body>
+                  <Card.Title>
+                    ¿Puedes Calcular el Factorial de Un Medio?
+                  </Card.Title>
+                  <Card.Text></Card.Text>
+                </Card.Body>
+              </Card>
+            </div>
+          </S.ContainerVideos>
+        </Row>
       </div>
     ),
   },
@@ -71,35 +79,25 @@ const accordionItems = [
   },
   {
     title: "4. ",
-    content: (
-      <div>
-      </div>
-    ),
+    content: <div></div>,
   },
   {
     title: "5. ",
-    content: (
-      <div>
-      </div>
-    ),
+    content: <div></div>,
   },
   {
     title: "6. ",
-    content: (
-      <div>
-      </div>
-    ),
+    content: <div></div>,
   },
 ];
 
-
 function GruposInvestigacion() {
   return (
-  <div>
+    <div>
       <div className="container">
         <Accordion items={accordionItems} />
       </div>
-      </div>
+    </div>
   );
 }
 
