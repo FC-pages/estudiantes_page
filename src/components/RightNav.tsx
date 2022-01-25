@@ -6,6 +6,7 @@ import FuturoEstudiante from "../pages/FuturoEstudiante/FuturoEstudiante";
 import EstudiantesEgresadosPage from "../pages/estudiantes/EstudiantesEgresadosPage";
 import EnlacesInteresPage from "../pages/EnlacesInteres/EnlacesInteresPage";
 import Egresados from "../pages/Egresados";
+import Docentes from "../pages/Docentes/Docentes";
 import GruposInvestigacion from "../pages/GruposInvestigacion/GruposInvestigacion";
 import routes from "../helpers/routes";
 
@@ -43,8 +44,8 @@ function RightNav(props: Props) {
         </NavLink>
         <NavLink to={routes.estudiantes_egresados}>
           <li>Estudiantes y egresados</li>{" "}
-        </NavLink>
-        <NavLink to={routes.gruposInvestigacion}>
+        </NavLink> 
+        <NavLink to={ routes.grupos_investigacion }>
           <li>Grupos de investigación</li>{" "}
         </NavLink>
         <NavLink to={routes.enlacesInteres}>
@@ -65,10 +66,8 @@ function RightNav(props: Props) {
         <Route path={routes.descripcion} element={<Descripcion />} />
         <Route path={routes.futuroEstudiante} element={<FuturoEstudiante />} />
         <Route path={routes.egresados} element={<Egresados />} />
-        <Route
-          path={routes.gruposInvestigacion}
-          element={<GruposInvestigacion />}
-        />
+        <Route path= {routes.grupos_investigacion} element={<GruposInvestigacion />} />
+        <Route path= {routes.docentes} element={<Docentes />} />
       </Routes>
     </Router>
   );
