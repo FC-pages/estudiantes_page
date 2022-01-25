@@ -1,4 +1,7 @@
 import { Container, Tab, Nav } from "react-bootstrap";
+import { FaYoutube } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import "../../styles/estudiantes/grupestud.css";
 
 export default function GruposEstPage() {
   return (
@@ -7,7 +10,7 @@ export default function GruposEstPage() {
         <Nav
           variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
-          className="fw-bold fs-6"
+          className="fs-6"
         >
           <Nav.Item>
             <Nav.Link eventKey="GEM">GEM</Nav.Link>
@@ -20,7 +23,24 @@ export default function GruposEstPage() {
           <Tab.Content>
             <Tab.Pane eventKey="GEM">
               <p className="fs-4 fw-bold">Grupo de estudiantes de matemática</p>
-              <p>Descripción del grupo estudiantil</p>
+              <p>
+                Descripción del grupo estudiantil: Grupo de estudiantes de
+                matematica de la facultad de ciencias, escuela profecional de
+                matematica.
+              </p>
+              <p className="fs-4 fw-bold">
+                Información de contacto y redes sociales
+              </p>
+              <p>
+                <FaYoutube size={25} title="youtube" />{" "}
+                <a href="https://www.youtube.com/channel/UCyALMJPXSZBnJ7DlF5yEOvw">
+                  Grupo Estudiantil de Matemática - FC
+                </a>
+              </p>
+              <p>
+                <MdEmail size={25} title="email" />{" "}
+                <a href="mailto:gem@uni.edu.pe">gem@uni.edu.pe</a>
+              </p>
             </Tab.Pane>
             <Tab.Pane eventKey="Grupo 2"></Tab.Pane>
           </Tab.Content>
