@@ -180,14 +180,14 @@ export const Ul = styled.ul<INav>`
   display: flex;
   flex-flow: row nowrap;
   position: absolute;
-  width: 70%;
+  width: 80%;
   top: 130px;
   justify-content: space-between;
   margin-top: 0px;
   align-items: center;
   font-size: 18px;
   height: 110px;
-  margin-left: 200px;
+  margin-left: 150px;
   margin-right: 0px;
   z-index: 4;
 
