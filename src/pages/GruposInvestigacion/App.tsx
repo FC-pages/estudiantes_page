@@ -47,7 +47,7 @@ export default function App() {
   const [selectedTab, setSelectedTab] = useState<number>(tabs[0].index);
 
   return (
-    <div className="App">
+    <div className="App-investigacion">
       <h2>Grupo de Optimización</h2>
       <br />
       <Tabs selectedTab={selectedTab} onClick={setSelectedTab} tabs={tabs} />
