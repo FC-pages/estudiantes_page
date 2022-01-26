@@ -15,19 +15,15 @@ export default function EstudiantesEgresadosPage() {
         borderColor: "#1D3557",
         paddingLeft: "0",
         paddingRight: "0",
-        borderRadius: "10px",
       }}
       className="mt-5"
     >
-      <Tab.Container defaultActiveKey="Planes y mallas">
+      <Tab.Container defaultActiveKey="Testimonios">
         <Nav
           variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
-          className="justify-content-center pt-2 fw-bold fs-6"
+          className="justify-content-center pt-1 fw-bold fs-6"
         >
-          <Nav.Item>
-            <Nav.Link eventKey="Planes y mallas">Planes y mallas</Nav.Link>
-          </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="Testimonios">Testimonios</Nav.Link>
           </Nav.Item>
@@ -45,9 +41,6 @@ export default function EstudiantesEgresadosPage() {
         </Nav>
         <Container className="p-3">
           <Tab.Content>
-            <Tab.Pane eventKey="Planes y mallas">
-              <PlanesMallasPage />
-            </Tab.Pane>
             <Tab.Pane eventKey="Testimonios">
               <TestimoniosPage />
             </Tab.Pane>

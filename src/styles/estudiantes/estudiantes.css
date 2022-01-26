@@ -1,6 +1,9 @@
 .nav-item a {
   color: white;
 }
+.nav-item :hover {
+  pointer-events: stroke;
+}
 
 .nav-item a :active {
   color: #1d3557;
