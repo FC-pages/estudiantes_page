@@ -1,6 +1,5 @@
 import React from "react";
 import { Tab, Container, Nav } from "react-bootstrap";
-import PlanesMallasPage from "./PlanesMallasPage";
 import "../../styles/estudiantes/estudiantes.css";
 import GruposEstPage from "./GruposEstPage";
 import Titulados from "../Egresados/Titulados";
