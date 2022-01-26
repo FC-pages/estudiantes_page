@@ -2,15 +2,50 @@ import styled from 'styled-components';
 import imagenmate from '../images/imagenmate.png';
 import { colors } from './colors';
 
-// theme is now fully typed
-/*
-const colors = {
-  main: "#1d3557",
-  red: "#e63946",
-  blue2: "#4a5d79",
-  blue3: "#457b9d",
+
+interface INav {
+  open: boolean;
+  home: boolean;
+  href?: string;
 }
-*/
+
+
+export const StyledBurger = styled.div<INav>`
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  top: 45px;
+  right: 20px;
+  z-index: 20;
+  display: none;
+
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+  }
+  div {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: ${(props) => props.open || !props.home ? 'black' : 'white'};
+    border-radius: 10px;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    &:nth-child(1) {
+      transform: ${(props) => props.open ? 'rotate(45deg)' : 'rotate(0)'};
+    }
+    &:nth-child(2) {
+      transform: ${(props) => props.open ? 'translateX(100%)' : 'translateX(0)'};
+      opacity: ${(props) => props.open ? 0 : 1};
+    }
+    &:nth-child(3) {
+      transform: ${(props) => props.open ? 'rotate(-45deg)' : 'rotate(0)'};
+    }
+  }
+`
+
+
 export const ContainerCarousel = styled.div`
   margin: 30px 0px;
   .caption-background {
@@ -126,140 +161,6 @@ export const Header = styled.header`
 `
 
 
-
-
-
-
-
-interface INav {
-  open: boolean;
-  home: boolean;
-  href?: string;
-}
-export const StyledBurger = styled.div<INav>`
-  width: 2rem;
-  height: 2rem;
-  position: fixed;
-  top: 45px;
-  right: 20px;
-  z-index: 20;
-  display: none;
-
-  @media (max-width: 768px) {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-  }
-  div {
-    width: 2rem;
-    height: 0.25rem;
-    background-color: ${(props) => props.open || !props.home ? 'black' : 'white'};
-    border-radius: 10px;
-    transform-origin: 1px;
-    transition: all 0.3s linear;
-    cursor: pointer;
-    &:nth-child(1) {
-      transform: ${(props) => props.open ? 'rotate(45deg)' : 'rotate(0)'};
-    }
-    &:nth-child(2) {
-      transform: ${(props) => props.open ? 'translateX(100%)' : 'translateX(0)'};
-      opacity: ${(props) => props.open ? 0 : 1};
-    }
-    &:nth-child(3) {
-      transform: ${(props) => props.open ? 'rotate(-45deg)' : 'rotate(0)'};
-    }
-  }
-`
-
-
-
-
-
-
-export const Ul = styled.ul<INav>`
-  list-style: none;
-  display: flex;
-  flex-flow: row nowrap;
-  position: absolute;
-  width: 80%;
-  top: 130px;
-  justify-content: space-between;
-  margin-top: 0px;
-  align-items: center;
-  font-size: 18px;
-  height: 110px;
-  margin-left: 150px;
-  margin-right: 0px;
-  z-index: 4;
-
-  a {
-    text-decoration: none;
-    text-transform: none;
-    color: #000;
-    color: ${(props) => props.home ? 'white' : 'black'};
-    cursor: pointer;
-
-    &:hover {
-      color: #0DADEA;
-    }
-  }
-
-  li {
-    padding: 18px 10px;
-    font-size: 0.8em;
-  }
-      .active{
-            //background: white;
-            color: #0dadea //#0DADEA azul claro
-            //font-weight: bold;
-          }
-
-  .menu-desp{
-    button {
-      background: ${colors.main};
-      border: 1px solid ${colors.main};
-    }
-    a {
-      color: blue;
-    }
-  }
-
-  @media (max-width: 768px) {
-    flex-flow: column nowrap;
-    background-color: #fdfdfdfa;
-    position: fixed;
-    transform: ${(props) => props.open ? 'translateX(0)' : 'translateX(100%)'};
-    top: -16px;
-    right: 0;
-    height: 100%;
-    width: 180px;
-    padding-top: 3.5rem;
-    transition: transform 0.3s ease-in-out;
-    z-index: 9;
-    justify-content: normal;
-
-    li {
-      color: #000;
-      margin-right: 34px;
-
-      &:hover {
-        color: #0DADEA;
-      }
-    }
-  }
-`
-
-export const LogoUl = styled.img`
-  margin: 20px 50px 20px 5%;
-  display: none;
-
-  @media (max-width: 768px) {
-    display: flex;
-    width: 160px;
-    height: 70px;
-    object-fit: contain;
-  }
-`
 export const Seccion = styled.div`
   .eventos-seccion {
       background: #C4C4C4;

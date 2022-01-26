@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import * as S from "./styles/styles";
-import RightNav from "./components/RightNav";
+import RightNav from "./components/RightNav/RightNav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 
