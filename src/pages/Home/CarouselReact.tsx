@@ -9,11 +9,13 @@ let { eventos } = require('../../data/data-eventos.js'  );
 
 function Eventos(){
 
-  const [showAll, setShowAll] = useState(false);
+  const [toggleEvents, setTogleEvents] = useState(false);
+  
+  console.log("Eventos", eventos);
+  console.log("Eventos reverse", eventos.reverse());
 
   let Evento = (props : any) => {
     
-    if (props.eventoFuturo) {
       return (
           <div className = "evento">
             <div className = "fecha-evento">
@@ -26,31 +28,18 @@ function Eventos(){
             </div>
           </div>
       )
-    } else {
-      return(
-          <div className = "evento">
-            <div className = "fecha-evento-pasado">
-              { props.fechaEvento }
-            </div>
-            <div className = "descripcion">
-              <a href={ props.hrefLink }>
-                { props.descripcion }
-              </a>
-            </div>
-          </div>
-          )
     }
-  }
     return(
         <S.Seccion>
           <div className = "eventos-seccion">
             <h3>
-              EVENTOS FUTUROS
+              { toggleEvents ? "EVENTOS FUTUROS": "EVENTOS PASADOS" }
             </h3>
             <div className = "body-eventos">
               {
+                toggleEvents?
                 eventos.map((e : any) => {
-                  if (e.future || showAll)
+                  if (e.future === toggleEvents)
                   return(
                     <Evento 
                       fechaEvento = {e.fechaEvento} 
@@ -58,14 +47,24 @@ function Eventos(){
                       eventoFuturo= { e.future } 
                       hrefLink = { e.hrefLink } />
                     )
-                })
+                }):
+                eventos.map((e : any) => {
+                  if (e.future === toggleEvents)
+                  return(
+                    <Evento 
+                      fechaEvento = {e.fechaEvento} 
+                      descripcion = { e.descripcion } 
+                      eventoFuturo= { e.future } 
+                      hrefLink = { e.hrefLink } />
+                    )
+                }).reverse()
                 
               }
             </div>
 
           </div>
           <div className = "footer-eventos">
-            <a onClick = { () =>  setShowAll(!showAll)}>{ showAll ? "Ocultar": "Eventos pasados" }</a>
+            <a onClick = { () =>  setTogleEvents(!toggleEvents)}>{ toggleEvents ? "Eventos pasados": "Eventos futuros" }</a>
           </div>
           </S.Seccion>
       )

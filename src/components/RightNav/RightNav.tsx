@@ -1,15 +1,16 @@
-import * as S from "../styles/styles";
+import * as S from "./styles";
 
-import Home from "../pages/Home/Home";
-import Descripcion from "../pages/Descripcion/Descripcion";
-import FuturoEstudiante from "../pages/FuturoEstudiante/FuturoEstudiante";
-import AlumnosEgresadosPage from "../pages/estudiantes/AlumnosEgresadosPage";
-import EnlacesInteresPage from "../pages/EnlacesInteres/EnlacesInteresPage";
-import Egresados from "../pages/Egresados";
-import Docentes from "../pages/Docentes/Docentes";
-import GruposInvestigacion from "../pages/GruposInvestigacion/GrupoOptimizacion";
-import routes from "../helpers/routes";
-import App from "../pages/GruposInvestigacion/App";
+
+import Home from "../../pages/Home/Home";
+import Descripcion from "../../pages/Descripcion/Descripcion";
+import FuturoEstudiante from "../../pages/FuturoEstudiante/FuturoEstudiante";
+import AlumnosEgresadosPage from "../../pages/estudiantes/AlumnosEgresadosPage";
+import EnlacesInteresPage from "../../pages/EnlacesInteres/EnlacesInteresPage";
+import Egresados from "../../pages/Egresados";
+import Docentes from "../../pages/Docentes/Docentes";
+import GruposInvestigacion from "../../pages/GruposInvestigacion/GrupoOptimizacion";
+import routes from "../../helpers/routes";
+import App from "../../pages/GruposInvestigacion/App";
 
 import { Dropdown } from "react-bootstrap";
 import {
@@ -65,6 +66,30 @@ function RightNav(props: Props) {
         <NavLink to={routes.estudiantes_egresados}>
           <li>Alumnos y egresados</li>{" "}
         </NavLink>
+        <S.DropdownMenu>
+            <li>Grupos de Investigación</li>
+            <div id = "dropdown-menu">
+                <NavLink to="/linea_inv1">
+                  <li>Análisis y Teoría de Números</li>{" "}
+                </NavLink>
+                <NavLink to="/linea_inv2">
+                  <li>Optimización</li>{" "}
+                </NavLink>
+                <NavLink to="/linea_inv3">
+                  <li>Álgebra, Geometría y Topología</li>{" "}
+                </NavLink>
+                <NavLink to="/linea_inv4">
+                  <li>Probabilidad y Procesos Estocásticos</li>{" "}
+                </NavLink>
+                <NavLink to="/linea_inv5">
+                  <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>{" "}
+                </NavLink>
+                <NavLink to="/linea_inv6">
+                  <li>Análisis Numérico</li>{" "}
+                </NavLink>
+            </div>
+        </S.DropdownMenu>
+        {/*
         <Dropdown className="menu-desp">
           <Dropdown.Toggle variant="danger" id="dropdown-basic">
             Grupos de investigación
@@ -91,6 +116,7 @@ function RightNav(props: Props) {
             </NavLink>
           </Dropdown.Menu>
         </Dropdown>
+        */}
 
         <NavLink to={routes.enlacesInteres}>
           <li>Enlaces de interes</li>{" "}
