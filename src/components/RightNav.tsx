@@ -3,7 +3,7 @@ import * as S from "../styles/styles";
 import Home from "../pages/Home/Home";
 import Descripcion from "../pages/Descripcion/Descripcion";
 import FuturoEstudiante from "../pages/FuturoEstudiante/FuturoEstudiante";
-import EstudiantesEgresadosPage from "../pages/estudiantes/EstudiantesEgresadosPage";
+import AlumnosEgresadosPage from "../pages/estudiantes/AlumnosEgresadosPage";
 import EnlacesInteresPage from "../pages/EnlacesInteres/EnlacesInteresPage";
 import Egresados from "../pages/Egresados";
 import Docentes from "../pages/Docentes/Docentes";
@@ -104,7 +104,7 @@ function RightNav(props: Props) {
         <Route path={routes.home} element={<Home />} />
         <Route
           path={routes.estudiantes_egresados}
-          element={<EstudiantesEgresadosPage />}
+          element={<AlumnosEgresadosPage />}
         />
         <Route path={routes.enlacesInteres} element={<EnlacesInteresPage />} />
         <Route path={routes.descripcion} element={<Descripcion />} />
