@@ -10,3 +10,12 @@
 .nav-item .nav-link :hover {
   border-inline-color: none;
 }
+
+.a-link-title {
+  text-decoration: none;
+  color: black;
+}
+
+.a-link-title:hover {
+  color: #0dadea;
+}
