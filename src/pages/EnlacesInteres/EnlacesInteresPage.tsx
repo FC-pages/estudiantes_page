@@ -34,15 +34,17 @@ export default function EnlacesInteresPage() {
               inversión de François-Henri Pinault. La sede se encuentra en
               París.
             </p>
-            <img
-              style={{
-                backgroundColor: "#126f91",
-                height: "70px",
-                padding: "0 10px",
-              }}
-              alt="La Recherche"
-              src="./logo_lr.png"
-            />
+            <a href="https://www.larecherche.fr/">
+              <img
+                style={{
+                  backgroundColor: "#126f91",
+                  height: "70px",
+                  padding: "0 10px",
+                }}
+                alt="La Recherche"
+                src="./logo_lr.png"
+              />
+            </a>
 
             <br />
 
@@ -61,11 +63,13 @@ export default function EnlacesInteresPage() {
               fue de 231.000 ejemplares. El equipo editorial también publica
               alrededor de 15 artículos por día en su sitio web.
             </p>
-            <img
-              style={{ height: "70px" }}
-              alt="Sciences et avenir"
-              src="./logo_sa.svg"
-            />
+            <a href="https://www.sciencesetavenir.fr/">
+              <img
+                style={{ height: "70px" }}
+                alt="Sciences et avenir"
+                src="./logo_sa.svg"
+              />
+            </a>
 
             <br />
 
@@ -80,11 +84,13 @@ export default function EnlacesInteresPage() {
               científicas, con artículos en profundidad de los mejores
               investigadores en todos los campos.
             </p>
-            <img
-              style={{ height: "70px" }}
-              alt="Pour la science"
-              src="./logo_pls.png"
-            />
+            <a href="https://www.pourlascience.fr/">
+              <img
+                style={{ height: "70px" }}
+                alt="Pour la science"
+                src="./logo_pls.png"
+              />
+            </a>
 
             <br />
 
@@ -101,11 +107,13 @@ export default function EnlacesInteresPage() {
               atractiva. Está subtitulada la búsqueda matemática en palabras e
               imágenes.
             </p>
-            <img
-              style={{ height: "80px" }}
-              alt="Images des Mathématiques"
-              src="./logo-idm-fr.png"
-            />
+            <a href="https://images.math.cnrs.fr/">
+              <img
+                style={{ height: "80px" }}
+                alt="Images des Mathématiques"
+                src="./logo-idm-fr.png"
+              />
+            </a>
 
             <br />
 
@@ -119,14 +127,16 @@ export default function EnlacesInteresPage() {
               zbMATH, anteriormente Zentralblatt MATH, es un importante servicio
               de revisión que proporciona revisiones y resúmenes de artículos en
               matemáticas puras y aplicadas, producido por la oficina de Berlín
-              de FIZ Karlsruhe – Leibniz Institute for Information
+              de FIZ Karlsruhe {"-"} Leibniz Institute for Information
               Infrastructure GmbH.
             </p>
-            <img
-              style={{ height: "65px" }}
-              alt="Pour la science"
-              src="./zbMATH.gif"
-            />
+            <a href="https://zbmath.org/">
+              <img
+                style={{ height: "65px" }}
+                alt="Pour la science"
+                src="./zbMATH.gif"
+              />
+            </a>
           </Container>
         </Tab>
         <Tab
