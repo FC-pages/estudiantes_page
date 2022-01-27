@@ -21,8 +21,8 @@ export default function ContactoPage() {
         <Col>
           <p className="text-center fw-bold fs-5">Información</p>
           <p>
-            <FaMapMarkerAlt size={25} title="ubicación" /> Puerta #5 – Av. Tupac
-            Amaru N° 210 Rimac (Lima – Perú)
+            <FaMapMarkerAlt size={25} title="ubicación" /> Puerta #5 {"-"} Av.
+            Tupac Amaru N° 210 Rimac (Lima {"-"} Perú)
           </p>
           <p>
             <BsTelephoneFill size={25} title="telefono" /> (51-1) 381-3868
