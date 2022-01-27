@@ -6,7 +6,7 @@ import React from "react";
 
 export default function GruposEstPage() {
   return (
-    <Container className="text-start p-3">
+    <Container>
       <Tab.Container defaultActiveKey="GEM">
         <Nav
           variant="tabs"
@@ -20,7 +20,7 @@ export default function GruposEstPage() {
             <Nav.Link eventKey="Grupo 2">Grupo 2</Nav.Link>
           </Nav.Item>
         </Nav>
-        <Container className="p-3">
+        <Container className="text-start p-3">
           <Tab.Content>
             <Tab.Pane eventKey="GEM">
               <Row>
