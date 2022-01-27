@@ -1,7 +1,7 @@
 import React from "react";
 import { Tab, Container, Nav } from "react-bootstrap";
 import "../../styles/estudiantes/estudiantes.css";
-import GruposEstPage from "./GruposEstPage";
+import GruposEstPage from "./TabsContent/GruposEstPage";
 import TestimoniosPage from "./TestimoniosPage";
 import EgresadosTitulados from "./TabsContent/EgresadosTitulados";
 import AlumnosYTesistas from "./TabsContent/AlumnosYTesistas";
