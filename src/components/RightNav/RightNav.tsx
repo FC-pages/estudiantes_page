@@ -1,6 +1,5 @@
 import * as S from "./styles";
 
-
 import Home from "../../pages/Home/Home";
 import Descripcion from "../../pages/Descripcion/Descripcion";
 import FuturoEstudiante from "../../pages/FuturoEstudiante/FuturoEstudiante";
@@ -12,13 +11,13 @@ import GruposInvestigacion from "../../pages/GruposInvestigacion/GrupoOptimizaci
 import routes from "../../helpers/routes";
 import App from "../../pages/GruposInvestigacion/App";
 
-import { Dropdown } from "react-bootstrap";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   NavLink,
 } from "react-router-dom";
+import ContactoPage from "../../pages/Contacto/ContactoPage";
 
 function LineaInv1() {
   return <div>Linea de investigación 1</div>;
@@ -67,27 +66,27 @@ function RightNav(props: Props) {
           <li>Alumnos y egresados</li>{" "}
         </NavLink>
         <S.DropdownMenu>
-            <li>Grupos de Investigación</li>
-            <div id = "dropdown-menu">
-                <NavLink to="/linea_inv1">
-                  <li>Análisis y Teoría de Números</li>{" "}
-                </NavLink>
-                <NavLink to="/linea_inv2">
-                  <li>Optimización</li>{" "}
-                </NavLink>
-                <NavLink to="/linea_inv3">
-                  <li>Álgebra, Geometría y Topología</li>{" "}
-                </NavLink>
-                <NavLink to="/linea_inv4">
-                  <li>Probabilidad y Procesos Estocásticos</li>{" "}
-                </NavLink>
-                <NavLink to="/linea_inv5">
-                  <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>{" "}
-                </NavLink>
-                <NavLink to="/linea_inv6">
-                  <li>Análisis Numérico</li>{" "}
-                </NavLink>
-            </div>
+          <li>Grupos de Investigación</li>
+          <div id="dropdown-menu">
+            <NavLink to="/linea_inv1">
+              <li>Análisis y Teoría de Números</li>{" "}
+            </NavLink>
+            <NavLink to="/linea_inv2">
+              <li>Optimización</li>{" "}
+            </NavLink>
+            <NavLink to="/linea_inv3">
+              <li>Álgebra, Geometría y Topología</li>{" "}
+            </NavLink>
+            <NavLink to="/linea_inv4">
+              <li>Probabilidad y Procesos Estocásticos</li>{" "}
+            </NavLink>
+            <NavLink to="/linea_inv5">
+              <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>{" "}
+            </NavLink>
+            <NavLink to="/linea_inv6">
+              <li>Análisis Numérico</li>{" "}
+            </NavLink>
+          </div>
         </S.DropdownMenu>
         {/*
         <Dropdown className="menu-desp">
@@ -147,6 +146,7 @@ function RightNav(props: Props) {
         <Route path="/linea_inv4" element={<LineaInv4 />} />
         <Route path="/linea_inv5" element={<LineaInv5 />} />
         <Route path="/linea_inv6" element={<LineaInv6 />} />
+        <Route path={routes.contacto} element={<ContactoPage />} />
       </Routes>
     </Router>
   );
