@@ -2,8 +2,6 @@ import React from "react";
 import { Tab, Container, Nav } from "react-bootstrap";
 import "../../styles/estudiantes/estudiantes.css";
 import GruposEstPage from "./GruposEstPage";
-import Titulados from "../Egresados/Titulados";
-import Tesistas from "../Egresados/Tesistas";
 import TestimoniosPage from "./TestimoniosPage";
 import EgresadosTitulados from "./TabsContent/EgresadosTitulados";
 import AlumnosYTesistas from "./TabsContent/AlumnosYTesistas";
@@ -46,8 +44,12 @@ export default function AlumnosEgresadosPage() {
         </Nav>
         <Container className="p-3">
           <Tab.Content>
-            <Tab.Pane eventKey="Alumnos y Tesistas"><AlumnosYTesistas/></Tab.Pane>
-            <Tab.Pane eventKey="Egresados y Titulados"><EgresadosTitulados/></Tab.Pane>
+            <Tab.Pane eventKey="Alumnos y Tesistas">
+              <AlumnosYTesistas />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Egresados y Titulados">
+              <EgresadosTitulados />
+            </Tab.Pane>
             <Tab.Pane eventKey="Testimonios">
               <TestimoniosPage />
             </Tab.Pane>
