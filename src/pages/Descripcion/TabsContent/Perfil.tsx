@@ -1,10 +1,15 @@
-
 import React from "react";
+import matematicoVidrio from "../../../images/matematico_vidrio.jpg";
+import optimizacion from "../../../images/optimizacion.jpg";
+import salud from "../../../images/matematica_salud.jpeg";
+import trabajando from "../../../images/matematico_trabajando.jpg";
+import profesores from "../../../images/profesores.jpeg";
+import * as S from '../styles/styles';
 
 function Perfil() {
   return (
     
-          <div className="App-cuerpo">
+          <S.ContainerPerfil>
             <article id="tab1">
               {/* <img src={fotomunguia} />
                         <img src="./fotomunguia.jpeg" /> */}
@@ -18,6 +23,7 @@ function Perfil() {
                 Matemática o de sus múltiples campos de aplicación, siempre
                 ligada a la frontera del conocimiento.{" "}
               </p>
+              <img id = "img-vidrio" src = { matematicoVidrio }></img>
               <p>
                 {" "}
                 Es ampliamente conocido que la Matemática cumple un rol
@@ -29,6 +35,7 @@ function Perfil() {
                 actividades, por lo que sus oportunidades de crecimiento y
                 desarrollo profesional suelen ser bastante amplias.{" "}
               </p>
+              <img id = "img-optimizacion" src = { optimizacion }></img>
               <p>
                 {" "}
                 Es cada vez mayor el número de egresados de la especialidad de
@@ -41,6 +48,7 @@ function Perfil() {
                 automático y en modelamiento de procesos, especialmente en lo
                 que concierne a incertidumbre.{" "}
               </p>
+              <img id = "img-salud" src = { salud }></img>
               <p>
                 {" "}
                 En el ámbito de las ciencias, la matemática cumple un papel muy
@@ -61,10 +69,10 @@ function Perfil() {
                 preguntas de la ciencia y la técnica, y es, en muchos casos, la
                 herramienta básica en la búsqueda de su solución{" "}
               </p>
-
+              <img id = "img-profesores" src = { profesores }></img>
               {/* <b className="anios">1960</b> */}
             </article>
-          </div>
+          </S.ContainerPerfil>
 
 
 

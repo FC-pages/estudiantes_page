@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import React from "react";
 
-export default function PlanesMallasPage() {
+export default function MallasPage() {
   return (
     <Container className="text-start p-3">
       <p className="fw-bold fs-5">Mallas curriculares</p>

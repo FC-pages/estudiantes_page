@@ -45,6 +45,21 @@ exports.titulados = [
     "contacto": "aramirezg@uni.edu.pe",
   },
   {
+    "nombre": "Abraham Zamudio",
+    "tituloDeTesis": "",
+    "asesor": {
+      "nombre:": "",
+      "email:": ""
+    },
+    "coAsesor": {
+      "nombre:": "",
+      "email:": ""
+    },
+    "fechaSustentacionTesis": "",
+    "actividadActual": "Desarrollo de Software",
+    "contacto": "abraham.zamudio@gmail.com",
+  },
+  {
     "nombre": "",
     "tituloDeTesis": "",
     "asesor": {
@@ -65,13 +80,24 @@ exports.tesistas = [
     "number": 1,
     "alumno": "Katherinne Alejandra Tabilo Navarro",
     "tituloTesis": "Algoritmos de Recomendación aplicados en redes sociales",
+    "asesor": "asesor 1",
     "fechaDefensa": "14-09-2021",
   },
   {
     "number": 2,
     "alumno": "Soledad Belen Fuentes Burgos",
     "tituloTesis": "Modelo para detección de rutas académicas críticas para la titulación en carreras universitarias a nivel de análisis de asignaturas",
+    "asesor": "asesor 2",
     "fechaDefensa": "10-09-2021",
   },
 
+]
+
+exports.alumnos = [
+  {
+    "nombre": "Janice Katherine Escobedo Vásquez",
+    "ciclo": "6",
+    "contacto": "janice.escobedo.v@uni.pe"
+
+  }
 ]

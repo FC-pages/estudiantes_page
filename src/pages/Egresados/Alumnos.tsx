@@ -1,8 +1,8 @@
 import { Table } from 'react-bootstrap';
 import * as S from './styles/main';
-let { tesistas } = require('../../data/data-alumnos.js'  );
+let { alumnos } = require('../../data/data-alumnos.js'  );
 
-function Tesistas() {
+function Alumnos() {
   return (
     <S.TabContent>
       <Table striped bordered hover >
@@ -10,21 +10,19 @@ function Tesistas() {
           <tr>
             <th>#</th>
             <th>Nombre</th>
-            <th>Título de tesis</th>
-            <th>Asesor</th>
-            <th>Fecha de inicio</th>
+            <th>Ciclo relativo</th>
+            <th>Contacto</th>
           </tr>
         </thead>
         <tbody>
           {
-           tesistas.map((t : any) => {
+           alumnos.map((a : any, index: any) => {
             return(
               <tr>
-                <td>{ t.number }</td>
-                <td>{ t.alumno }</td>
-                <td>{ t.tituloTesis }</td>
-                <td>{ t.asesor }</td>
-                <td>{ t.fechaDefensa }</td>
+                <td>{ index + 1  }</td>
+                <td>{ a.nombre }</td>
+                <td>{ a.ciclo }</td>
+                <td>{ a.contacto }</td>
               </tr>
               )
            }) 
@@ -35,4 +33,4 @@ function Tesistas() {
   );
 }
 
-export default Tesistas;
+export default Alumnos;

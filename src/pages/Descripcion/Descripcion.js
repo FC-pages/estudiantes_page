@@ -3,7 +3,7 @@ import React from "react";
 import "./styles.css";
 import Perfil from './TabsContent/Perfil';
 import ResenaHistorica from './TabsContent/ResenaHistorica';
-import PlanEstudios from './TabsContent/PlanEstudios';
+import PlanesYMallas from './TabsContent/PanesYMallas';
 import Autoridades from './TabsContent/Autoridades';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,7 +27,7 @@ function Descripcion() {
             <ResenaHistorica/>
           </div>
           <div label="Plan y Malla de estudios">
-            <PlanEstudios/>
+            <PlanesYMallas/>
           </div>
           <div label="Autoridades" >
             <Autoridades/>
