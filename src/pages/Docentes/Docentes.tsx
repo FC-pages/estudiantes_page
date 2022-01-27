@@ -1,25 +1,19 @@
-import React from 'react';
+import React from "react";
 import "./styles.css";
 
-import fotomunguia from "../../images/fotomunguia.jpeg"
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faEnvelope, faHandPointRight, faPaperclip, faPhoneAlt} from '@fortawesome/free-solid-svg-icons';
-import {faFileAlt} from '@fortawesome/free-solid-svg-icons';
-
-import Docente from './Docente';
-let { docentes } = require('../../data/data-docentes.js'  );
-
+import Docente from "./Docente";
+import { Container } from "react-bootstrap";
+let { docentes } = require("../../data/data-docentes.js");
 
 function Docentes() {
   return (
-    <>
-      <div className='App-cuerpo'>
-                    <div className="App-rectangulo2"></div>
-                    <h3>Docentes</h3>
-                    <div className="App-rectangulo"></div>
-                    <section className="App-center">
-                        
-                        {/*
+    <Container className="mt-5 px-3" fluid>
+      <div className="App-cuerpo">
+        {/* <div className="App-rectangulo2"></div>
+        <h3>Docentes</h3>
+        <div className="App-rectangulo"></div> */}
+        <section className="App-center">
+          {/*
                         <div className="App-profes">
                             <table cellPadding={8}> 
                                 <tr>
@@ -40,27 +34,26 @@ function Docentes() {
                             </table> 
                         </div>
                         */}
-                    {/* </section> */}
-                    {/* <p>*  Los cursos asignados son con respecto al periodo 2021-2</p> */}
-                    {/* <div className="App-rectangulo2"></div> */}
-                    {/* <h3> Docentes de postgrado</h3> */}
-                    {/* <div className="App-rectangulo"></div> */}
-                    {/* <section className="App-center"> */}
-                        
-                        { docentes.map((d: any) => {
-                            return(
-                              <Docente 
-                                nombre = {d.nombre}
-                                foto = { d.foto }
-                                email = { d.email }
-                                gradoAc = { d.gradoAc }
-                                dina = { d.dina }
-                                areasDeInteres = { d.areasDeInteres }
+          {/* </section> */}
+          {/* <p>*  Los cursos asignados son con respecto al periodo 2021-2</p> */}
+          {/* <div className="App-rectangulo2"></div> */}
+          {/* <h3> Docentes de postgrado</h3> */}
+          {/* <div className="App-rectangulo"></div> */}
+          {/* <section className="App-center"> */}
 
-                              />
-                            )
-                        })  }
-                        {/*
+          {docentes.map((d: any) => {
+            return (
+              <Docente
+                nombre={d.nombre}
+                foto={d.foto}
+                email={d.email}
+                gradoAc={d.gradoAc}
+                dina={d.dina}
+                areasDeInteres={d.areasDeInteres}
+              />
+            );
+          })}
+          {/*
                         <div className="App-profes">
                             <table cellPadding={8}> 
                                 <tr>
@@ -153,10 +146,12 @@ function Docentes() {
                             </table> 
                         </div>
                 */}
-                    </section>
-                    <p>*  Los cursos asignados son con respecto al periodo 2021-2</p>
-                </div>     
-    </>
+        </section>
+        <p className="p-3">
+          * Los cursos asignados son con respecto al periodo 2021-2
+        </p>
+      </div>
+    </Container>
   );
 }
 
