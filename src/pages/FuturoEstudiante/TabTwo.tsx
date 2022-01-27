@@ -13,7 +13,7 @@ let videos = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sint illum iusto nostrum ",
   },
   {
-    name: "Industria",
+    name: "Industria - Testimonio",
     href: "https://www.youtube.com/watch?v=yDyMSliKsxI",
     Description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sint illum iusto nostrum ",
@@ -40,6 +40,7 @@ const TabTwo: FC<{}> = () => {
         A continuación se detallan los divesos campos que puede seguir un
         egresado
       </p>
+      {/* 
       <div className="container">
         <div className="itemLeft">Investigación</div>
         <div className="itemRight">
@@ -56,13 +57,8 @@ const TabTwo: FC<{}> = () => {
           Funciones, entre otras.
         </div>
       </div>
-      <div className="container">
-        <div className="itemLeft">Docencia Universitaria</div>
-        <div className="itemRight">
-          Si quieres iniciar una carrera de docencia universitaria, la
-          licenciatura te permite iniciar estudios de magíster y doctorado.
-        </div>
-      </div>
+        */}
+      
       <div className="container">
         <div className="itemLeft">Industria</div>
         <div className="itemRight">
@@ -91,6 +87,13 @@ const TabTwo: FC<{}> = () => {
           skills necesarios como de modelamiento y analisis en aspectos
           cuantitativos, y asi realizar diversos diagnosticos de los riesgos, y
           enfrentarte a diversos problemas de esa índole.
+        </div>
+      </div>
+      <div className="container">
+        <div className="itemLeft">Docencia Universitaria</div>
+        <div className="itemRight">
+          Si quieres iniciar una carrera de docencia universitaria, la
+          licenciatura te permite iniciar estudios de magíster y doctorado.
         </div>
       </div>
       <Row xs={1} md={1} className="g-4">

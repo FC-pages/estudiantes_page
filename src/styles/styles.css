@@ -42,7 +42,7 @@
   .App-investigacion .tabs-component [role="tablist"] button.active {
     /*text-align: left;*/
     color: #f8f8f8; /*#495057*/
-    background-color: #BD1E2C;
+    background-color: #1D3557;
   }
   
   .App-investigacion .tabs-component [role="tabpanel"] {
