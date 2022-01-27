@@ -15,7 +15,7 @@ function Docentes() {
     <>
       <div className='App-cuerpo'>
                     <div className="App-rectangulo2"></div>
-                    <h3> Docentes de pregrado</h3>
+                    <h3>Docentes</h3>
                     <div className="App-rectangulo"></div>
                     <section className="App-center">
                         

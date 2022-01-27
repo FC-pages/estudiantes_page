@@ -18,6 +18,7 @@ export const TabContent = styled.div`
 `
 export const TestimoniosTab = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `
 
 export const TCard = styled.div`
@@ -28,7 +29,7 @@ export const TCard = styled.div`
     justify-content: space-around;
     align-items: center;
   }
-  .card-header {
+  .card-testimony-header {
     display: flex;
     align-items: center;
     img {
@@ -44,6 +45,37 @@ export const TCard = styled.div`
   }
   .card-text {
     color: white;
+  }
+  p {
+    font-size: 16px;
+  }
+  .ver-mas{
+    color: black;
+  }
+`
+
+export const TCard2 = styled.div`
+  margin: 0px 10px;
+  .header {
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card-testimony-header {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 30px;
+    }
+  }
+  .card-testimony {
+  }
+  .card-title {
+    color: black;
+  }
+  .card-text {
+    color: black;
   }
   p {
     font-size: 16px;
