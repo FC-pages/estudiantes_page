@@ -22,8 +22,8 @@ const TabOne: FC<{}> = () => {
       <ul>
         <li>Tienes habilidades y disfrutas con la matemática</li>
         <li>Eres aficionado a los desafíos</li>
-        <li>Te gusta trabajar en equipo</li>
-        <li>Eres curioso y te gusta entender el por qué de las cosas</li>
+        <li>Tienes curiosidad por la abstracción de relaciones lógicas existentes en los fenómenos de la realidad</li>
+        <li>Eres curioso y buscas siempre explicaciones a los fenómenos</li>
         <li>Eres esforzado y perseverante</li>
       </ul>
       <Row xs={1} md={1} className="g-4">
