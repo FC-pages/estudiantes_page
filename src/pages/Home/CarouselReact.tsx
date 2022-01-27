@@ -9,7 +9,7 @@ let { eventos } = require('../../data/data-eventos.js'  );
 
 function Eventos(){
 
-  const [toggleEvents, setTogleEvents] = useState(false);
+  const [toggleEvents, setTogleEvents] = useState(true);
   
   console.log("Eventos", eventos);
   console.log("Eventos reverse", eventos.reverse());
