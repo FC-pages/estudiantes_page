@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 /*import "./styles.css";*/
-import Tabs from "../../components/gInvOptimizacion/Tabs";
+import Tabs from "./Tabs";
 // Tabs Components
-import TabOne from "../../components/gInvOptimizacion/Acerca";
-import TabTwo from "../../components/gInvOptimizacion/Miembros";
-import TabThree from "../../components/gInvOptimizacion/Proyectos";
-import TabFour from "../../components/gInvOptimizacion/Publicaciones";
-import TabFive from "../../components/gInvOptimizacion/EventosAcademicos";
+import TabOne from "./Acerca";
+import TabTwo from "./Miembros";
+import TabThree from "./Proyectos";
+import TabFour from "./Publicaciones";
+import TabFive from "./EventosAcademicos";
 
 type TabsType = {
   label: string;
@@ -43,12 +43,12 @@ const tabs: TabsType = [
   }
 ];
 
-export default function App() {
+export default function AnalisisNumerico() {
   const [selectedTab, setSelectedTab] = useState<number>(tabs[0].index);
 
   return (
     <div className="App-investigacion">
-      <h2>Grupo de Optimización</h2>
+      <h2>Grupo de Análisis Numérico</h2>
       <br />
       <Tabs selectedTab={selectedTab} onClick={setSelectedTab} tabs={tabs} />
       <br />

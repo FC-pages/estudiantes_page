@@ -9,7 +9,8 @@ import Egresados from "../../pages/Egresados";
 import Docentes from "../../pages/Docentes/Docentes";
 import GruposInvestigacion from "../../pages/GruposInvestigacion/GrupoOptimizacion";
 import routes from "../../helpers/routes";
-import App from "../../pages/GruposInvestigacion/App";
+import Optimizacion from "../../pages/GruposInvestigacion/Optimizacion/Optimizacion";
+import ANumerico from "../../pages/GruposInvestigacion/AnalisisNumerico/AnalisisNumerico";
 
 import {
   BrowserRouter as Router,
@@ -23,7 +24,7 @@ function LineaInv1() {
   return <div>Linea de investigación 1</div>;
 }
 function LineaInv2() {
-  return <App></App>;
+  return <Optimizacion></Optimizacion>;
 }
 function LineaInv3() {
   return <div>Linea de investigación 3</div>;
@@ -35,7 +36,7 @@ function LineaInv5() {
   return <div>Linea de investigación 5</div>;
 }
 function LineaInv6() {
-  return <div>Linea de investigación 6</div>;
+  return <ANumerico></ANumerico>;
 }
 type Props = {
   open: boolean;

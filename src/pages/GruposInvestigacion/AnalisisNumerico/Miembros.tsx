@@ -1,10 +1,10 @@
 import React, { FC, Fragment } from "react";
-import "../../styles/gInvestigacion.css";
-import profesor1 from "../../images/profesor1.jpg";
-import profesor2 from "../../images/profesor2.jpg";
-import profesor3 from "../../images/profesor3.jpg";
-import profesor4 from "../../images/profesor4.jpg";
-import profesorX from "../../images/profesorX.png";
+import "../../../styles/gInvestigacion.css";
+import profesor1 from "../../../images/IrlaMantilla3.jpg";
+import profesor2 from "../../../images/AngelRamirez2.jpg";
+import profesor3 from "../../../images/Mungia2.jpg";
+import profesor4 from "../../../images/profesor4.jpg";
+import profesorX from "../../../images/profesorX.png";
 
 /*import CardMore from "../Components/CardMore";*/
 
@@ -18,7 +18,7 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesor1} className="foto-profesor"></img></div>
         <div className="itemRight">
-          <span className="tit">Eladio Ocaña </span>  <br/>
+          <span className="tit">Irla Mantilla </span>  <br/>
           <b>Tipo de miembro: </b> Profesor(a)<br/>
           <b>Función: </b> Coordinador(a)<br/>
           <b>Grado académico: </b> Doctor<br/>
@@ -28,7 +28,7 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesor2} className="foto-profesor"></img></div>
         <div className="itemRight">
-          <span className="tit">Ernesto Oré</span>  <br/>
+          <span className="tit">Angel Ramirez</span>  <br/>
           <b>Tipo de miembro: </b> Profesor(a)<br/>
           <b>Función: </b> Investigador(a)<br/>
           <b>Grado académico: </b> Doctor<br/>
@@ -38,7 +38,7 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesor3} className="foto-profesor"></img></div>
         <div className="itemRight">
-          <span className="tit">Luis Flores </span>  <br/>
+          <span className="tit">Jhonatan Munguia </span>  <br/>
           <b>Tipo de miembro: </b> Profesor(a)<br/>
           <b>Función: </b> Investigador(a)<br/>
           <b>Grado académico: </b> Doctor<br/>
@@ -46,9 +46,9 @@ const TabTwo: FC<{}> = () => {
           <a href="#" className="tit">Revisar CV </a>
         </div>
         <div className="itemLeft">
-          <img src={profesor4} className="foto-profesor"></img></div>
+          <img src={profesorX} className="foto-profesorX"></img></div>
         <div className="itemRight">
-          <span className="tit">Pedro Canales </span>  <br/>
+          <span className="tit">Luis Roca Galindo </span>  <br/>
           <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
           <b>Tipo de miembro: </b> Profesor(a)<br/>
           <b>Función: </b> Investigador(a)<br/>
@@ -59,58 +59,38 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesorX} className="foto-profesorX"></img></div>
         <div className="itemRight">
-          <span className="tit">Frank Navarro </span>  <br/>
+          <span className="tit">Josué Zacarías Olivet Rojas </span>  <br/>
           <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Tipo de miembro: </b> Profesor(a)<br/>
+          <b>Tipo de miembro: </b> Tesista<br/>
           <b>Función: </b> Investigador(a)<br/>
-          <b>Grado académico: </b> Doctor<br/>
+          <b>Grado académico: </b> Bachiller<br/>
           <b>Departamento: </b> Departamento Académico de Ciencias<br/>
           <a href="#" className="tit">Revisar CV </a>
         </div>
         <div className="itemLeft">
           <img src={profesorX} className="foto-profesorX"></img></div>
         <div className="itemRight">
-          <span className="tit">Rosulo Navarro </span>  <br/>
+          <span className="tit">Kriss Lady Gutierrez Anco </span>  <br/>
           <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Tipo de miembro: </b> Profesor(a)<br/>
+          <b>Tipo de miembro: </b> Tesista<br/>
           <b>Función: </b> Investigador(a)<br/>
-          <b>Grado académico: </b> Doctor<br/>
+          <b>Grado académico: </b> Bachiller<br/>
           <b>Departamento: </b> Departamento Académico de Ciencias<br/>
           <a href="#" className="tit">Revisar CV </a>
         </div>
         <div className="itemLeft">
           <img src={profesorX} className="foto-profesorX"></img></div>
         <div className="itemRight">
-          <span className="tit">Héctor Guimaray </span>  <br/>
+          <span className="tit">Marcia Paulina Nesiosup Vilca </span>  <br/>
           <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Tipo de miembro: </b> Profesor(a)<br/>
+          <b>Tipo de miembro: </b> Tesista<br/>
           <b>Función: </b> Investigador(a)<br/>
-          <b>Grado académico: </b> Doctor<br/>
+          <b>Grado académico: </b> Bachiller<br/>
           <b>Departamento: </b> Departamento Académico de Ciencias<br/>
           <a href="#" className="tit">Revisar CV </a>
         </div>
-        <div className="itemLeft">
-          <img src={profesorX} className="foto-profesorX"></img></div>
-        <div className="itemRight">
-          <span className="tit">William Echegaray </span>  <br/>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Tipo de miembro: </b> Profesor(a)<br/>
-          <b>Función: </b> Investigador(a)<br/>
-          <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento: </b> Departamento Académico de Ciencias<br/>
-          <a href="#" className="tit">Revisar CV </a>
-        </div>
-        <div className="itemLeft">
-          <img src={profesorX} className="foto-profesorX"></img></div>
-        <div className="itemRight">
-          <span className="tit">Jesús Cernades </span>  <br/>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Tipo de miembro: </b> Profesor(a)<br/>
-          <b>Función: </b> Investigador(a)<br/>
-          <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento: </b> Departamento Académico de Ciencias<br/>
-          <a href="#" className="tit">Revisar CV </a>
-        </div>
+  
+        
       </div>
       
     </Fragment>
