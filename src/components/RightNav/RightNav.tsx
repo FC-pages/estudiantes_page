@@ -1,6 +1,5 @@
 import * as S from "./styles";
 
-
 import Home from "../../pages/Home/Home";
 import Descripcion from "../../pages/Descripcion/Descripcion";
 import FuturoEstudiante from "../../pages/FuturoEstudiante/FuturoEstudiante";

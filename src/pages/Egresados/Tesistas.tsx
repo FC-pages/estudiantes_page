@@ -9,9 +9,9 @@ function Tesistas() {
         <thead>
           <tr>
             <th>#</th>
-            <th>Alumno</th>
-            <th>Título de Tesis</th>
-            <th>Fecha Defensa Tesis</th>
+            <th>Nombre</th>
+            <th>Título de tesis</th>
+            <th>Fecha de inicio</th>
           </tr>
         </thead>
         <tbody>

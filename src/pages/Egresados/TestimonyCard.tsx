@@ -24,10 +24,10 @@ function TestimonyCard({ name, image, testimony, fotoCompleta }: CardProps) {
   }
 
   return (
-    <S.TCard>
+    <S.TCard2>
       <Card style={{ width: "30rem" }}>
         <Card.Body className="card-testimony">
-          <div className="card-header">
+          <div className="card-testimony-header">
             <img
               src={image}
               alt=""
@@ -48,7 +48,7 @@ function TestimonyCard({ name, image, testimony, fotoCompleta }: CardProps) {
             <Modal.Title>{name}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            {testimony} <img alt="" src={fotoCompleta}></img>
+            {testimony} <img width="100%" alt="" src={fotoCompleta}></img>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
@@ -57,7 +57,7 @@ function TestimonyCard({ name, image, testimony, fotoCompleta }: CardProps) {
           </Modal.Footer>
         </Modal>
       </Card>
-    </S.TCard>
+    </S.TCard2>
   );
 }
 

@@ -61,8 +61,6 @@
   max-inline-size: 67em;
   text-align: left;
   /*padding: 0px 15px;*/
-  font-family: "Montserrat";
-  font-size: 12pt;
 }
 
 .App-cuerpo {
@@ -287,8 +285,6 @@
   /* margin-inline: auto; */
 }
 .App-profes table {
-  border: solid 1px #1d3557;
-  border-collapse: collapse;
   padding: 5px;
   min-width: 445px;
   /* paddi */
