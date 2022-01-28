@@ -96,6 +96,16 @@
   /* display: flex; */
   /* align-items: center; */
 }
+.App-ul li:hover {
+  /* pointer-events: stroke; */
+  transition: all .5s ease 0s;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  /* color: #3ccf37; */
+}
 
 .App-ul li {
   margin: 0px 30px;
