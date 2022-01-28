@@ -226,3 +226,20 @@ form {
     padding: 20px
 }
 `
+
+
+export const ModalContainer = styled.div`
+  .modal-tag-titulo {
+    font-weight: bold;
+    display: block;
+  }
+  .modal-subtitle {
+    display: block;
+  }
+  .modal-titulo {
+    
+  }
+  .img-right {
+    display: flex;
+  }
+`

@@ -22,11 +22,13 @@ function Docente(props: any) {
               {/* <li>Cursos asignados*: - </li> */}
               <li>
                 {props.gradoAc}{" "}
+              </li>
+              <li>Áreas de interés: {props.areasDeInteres}</li>
+              <li>C.V:&nbsp;&nbsp;&nbsp;   
                 <a href={props.dina}>
                   <FontAwesomeIcon className="icons2" icon={faFileAlt} />
                 </a>{" "}
               </li>
-              <li>Áreas de interés: {props.areasDeInteres}</li>
             </ul>
           </td>
         </tr>

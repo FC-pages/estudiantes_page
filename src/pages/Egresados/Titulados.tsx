@@ -3,6 +3,8 @@ import { Table } from 'react-bootstrap';
 import * as S from './styles/main';
 import { titulados } from '../../data/data-alumnos.js';
 import { Modal, Button, Card } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 function Titulado(props:any) {
   const [show, setShow] = useState(false);
@@ -20,17 +22,44 @@ function Titulado(props:any) {
         <td>{ props.titulado.contacto }</td>
       </tr>
         <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>{props.titulado.nombre}</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <span style = {{"fontWeight": "bold"}}>Título de tesis: </span> {props.titulado.tituloDeTesis} <a href = "./congreso.pdf">co</a>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
-          </Modal.Footer>
+          <S.ModalContainer>          
+            <Modal.Header closeButton>
+              <div>
+                { props.titulado.nombre?
+                  <Modal.Title>{props.titulado.nombre}</Modal.Title>:
+                  <div/>
+                  }
+                { props.titulado.gradoAc?
+                  <Card.Subtitle className="mb-2 text-muted modal-subtitle">{ props.titulado.gradoAc }</Card.Subtitle>:
+                  <div/>
+                }
+              </div>
+            </Modal.Header>
+            <Modal.Body>
+              <div className = "img-right">
+                  <div>
+                    {props.titulado.tituloDeTesis?
+                      <>
+                        <span className = "modal-tag-titulo">Título de tésis <a href = { props.titulado.tesisLink }><FontAwesomeIcon className="icons2" icon={faFilePdf} /></a></span> 
+                        <span className = "modal-titulo">{props.titulado.tituloDeTesis}</span></>:
+                      <div/>
+                    }
+                    <br/><br/>
+                    {props.titulado.asesor.nombre?
+                      <>
+                        <span className = "modal-tag-titulo">Asesor</span> 
+                        <span className = "modal-titulo">{ props.titulado.asesor.nombre } - { props.titulado.asesor.email } </span>
+                      </>:
+                      <div/>
+                      }
+                  </div>
+                  <img width= "110px" height = "140px" src = { props.titulado.imgPerfil } ></img>
+              </div>
+            </Modal.Body>
+            <Modal.Footer>
+                © Escuela Profesional de Matemática
+            </Modal.Footer>
+          </S.ModalContainer>          
         </Modal>
       </>
 
