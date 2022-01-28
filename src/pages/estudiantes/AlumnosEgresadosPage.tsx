@@ -19,11 +19,11 @@ export default function AlumnosEgresadosPage() {
     >
       <Tab.Container defaultActiveKey="Alumnos y Tesistas">
         <Nav
-          variant="tabs"
+          // variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
           className="justify-content-center pt-1 fs-6"
         >
-          <Nav.Item>
+          <Nav.Item >
             <Nav.Link eventKey="Alumnos y Tesistas">
               Alumnos y Tesistas
             </Nav.Link>
@@ -43,7 +43,7 @@ export default function AlumnosEgresadosPage() {
           </Nav.Item>
         </Nav>
         <Container className="p-3">
-          <Tab.Content>
+          <Tab.Content >
             <Tab.Pane eventKey="Alumnos y Tesistas">
               <AlumnosYTesistas />
             </Tab.Pane>

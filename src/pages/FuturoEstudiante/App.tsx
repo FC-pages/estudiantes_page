@@ -20,9 +20,9 @@ export default function Descripcion() {
     >
       <Tab.Container defaultActiveKey="Perfil ingreso">
         <Nav
-          variant="tabs"
+          // variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
-          className="justify-content-center pt-1 fw-bold fs-6"
+          className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>
             <Nav.Link eventKey="Perfil ingreso">

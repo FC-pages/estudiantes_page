@@ -8,9 +8,8 @@ export default function AlumnosYTesistas() {
     <Container>
       <Tab.Container defaultActiveKey="Alumnos">
         <Nav
-          variant="tabs"
-          style={{ backgroundColor: "#1D3557" }}
-          className="fs-6"
+          style={{ textAlign:"left" }}
+          className="nav2" 
         >
           <Nav.Item>
             <Nav.Link eventKey="Alumnos">Alumnos</Nav.Link>
