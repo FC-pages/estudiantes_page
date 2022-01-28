@@ -71,6 +71,29 @@ function RightNav(props: Props) {
               <li>Grupos de investigación</li>{" "}
             </NavLink>
 
+        <S.DropdownMenu>
+          <li>Grupos de Investigación</li>
+          <div id="dropdown-menu">
+            <NavLink to="/linea_inv1">
+              <li>Análisis y Teoría de Números</li>{" "}
+            </NavLink>
+            <NavLink to="/linea_inv2">
+              <li>Optimización</li>{" "}
+            </NavLink>
+            <NavLink to="/linea_inv3">
+              <li>Álgebra, Geometría y Topología</li>{" "}
+            </NavLink>
+            <NavLink to="/linea_inv4">
+              <li>Probabilidad y Procesos Estocásticos</li>{" "}
+            </NavLink>
+            <NavLink to="/linea_inv5">
+              <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>{" "}
+            </NavLink>
+            <NavLink to="/linea_inv6">
+              <li>Análisis Numérico</li>{" "}
+            </NavLink>
+                      </div>
+        </S.DropdownMenu>
         {/*
         <Dropdown className="menu-desp">
           <Dropdown.Toggle variant="danger" id="dropdown-basic">
