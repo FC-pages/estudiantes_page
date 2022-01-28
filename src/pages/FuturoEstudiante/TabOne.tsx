@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 import { Row, Card } from "react-bootstrap";
 import * as S from "../../styles/styles";
-import "../../styles/festudiantes.css";
+import "./styles/festudiantes.css";
 
 let videos = [
   {
@@ -16,7 +16,7 @@ let videos = [
 
 const TabOne: FC<{}> = () => {
   return (
-    <Fragment>
+    <div className = "cont-tab">
       <h3>Características del Postulante</h3>
       <p>Esta puede ser tu carrera si:</p>
       <ul>
@@ -43,7 +43,7 @@ const TabOne: FC<{}> = () => {
           </div>
         </S.ContainerVideos>
       </Row>
-    </Fragment>
+    </div>
   );
 };
 export default TabOne;

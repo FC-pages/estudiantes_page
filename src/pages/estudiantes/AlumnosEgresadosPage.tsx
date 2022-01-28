@@ -1,6 +1,6 @@
 import React from "react";
 import { Tab, Container, Nav } from "react-bootstrap";
-import "../../styles/estudiantes/estudiantes.css";
+import "../../components/estilosTab.css";
 import GruposEstPage from "./GruposEstPage";
 import TestimoniosPage from "./TestimoniosPage";
 import EgresadosTitulados from "./TabsContent/EgresadosTitulados";
@@ -21,7 +21,7 @@ export default function AlumnosEgresadosPage() {
         <Nav
           variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
-          className="justify-content-center pt-1 fw-bold fs-6"
+          className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>
             <Nav.Link eventKey="Alumnos y Tesistas">

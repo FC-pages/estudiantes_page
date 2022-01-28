@@ -1,7 +1,7 @@
 import { Container, Tab, Nav, Row, Col, Figure } from "react-bootstrap";
 import { FaYoutube, FaFacebookSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import "../../styles/estudiantes/grupestud.css";
+import "../FuturoEstudiante/styles/grupestud.css";
 import React from "react";
 
 export default function GruposEstPage() {
