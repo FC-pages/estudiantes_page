@@ -1,7 +1,7 @@
 import React from "react";
 import { Tab, Container, Nav } from "react-bootstrap";
 import "../../components/estilosTab.css";
-import Optimizacion from './Optimizacion/Optimizacion';
+import OptimizacionMain from './Optimizacion/OptimizacionMain';
 
 export default function AlumnosEgresadosPage() {
   return (
@@ -55,7 +55,7 @@ export default function AlumnosEgresadosPage() {
               <div />
             </Tab.Pane>
             <Tab.Pane eventKey="Optimizacion">
-              <Optimizacion />
+              <OptimizacionMain />
             </Tab.Pane>
             <Tab.Pane eventKey="Algebra">
               <div />
