@@ -8,28 +8,30 @@ export default function TestimoniosPage() {
     <Container>
       <Tab.Container defaultActiveKey="Estudiantes">
         <Nav
-          variant="tabs"
-          style={{ backgroundColor: "#1D3557" }}
-          className="fs-6"
-        >
+          // variant="tabs"
+          style={{ textAlign:"left" }}
+          className="nav2" >
           <Nav.Item>
             <Nav.Link eventKey="Estudiantes">Estudiantes</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Egresados">Egresados</Nav.Link>
+            <Nav.Link eventKey="Egresados" >Egresados</Nav.Link>
           </Nav.Item>
         </Nav>
-        <Container className="p-3">
-          <Tab.Content>
-            <Tab.Pane eventKey="Estudiantes">
+        <Container
+          className="fs-6">
+        
+          <Tab.Content className="p-4  fs-8">
+             <Tab.Pane eventKey="Estudiantes">{/*className="tab-pane fade in active" */}
               <TestimoniosEstudiantesPage />
             </Tab.Pane>
             <Tab.Pane eventKey="Egresados">
               <Testimonios />
             </Tab.Pane>
           </Tab.Content>
-        </Container>
+         </Container>
       </Tab.Container>
     </Container>
+    
   );
 }

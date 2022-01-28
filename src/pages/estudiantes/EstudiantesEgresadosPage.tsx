@@ -22,7 +22,7 @@ export default function EstudiantesEgresadosPage() {
         <Nav
           variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
-          className="justify-content-center pt-1 fw-bold fs-6"
+          className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>
             <Nav.Link eventKey="Testimonios">Testimonios</Nav.Link>
