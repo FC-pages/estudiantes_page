@@ -1,6 +1,6 @@
 import { Container, Tab, Tabs } from "react-bootstrap";
 import React from "react";
-import "../../styles/estudiantes/tabs.css";
+import "../../pages/FuturoEstudiante/styles/tabs.css";
 
 export default function EnlacesInteresPage() {
   return (

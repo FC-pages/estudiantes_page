@@ -1,11 +1,67 @@
+import React from "react";
+import { Tab, Container, Nav } from "react-bootstrap";
+import "./styles/estudiantes.css";
+
+import TabOne from "./TabOne";
+import TabTwo from "./TabTwo";
+import TabThree from "./TabThree";
+
+
+export default function Descripcion() {
+  return (
+    <Container
+      style={{
+        borderStyle: "solid",
+        borderColor: "#1D3557",
+        paddingLeft: "0",
+        paddingRight: "0",
+      }}
+      className="mt-5"
+    >
+      <Tab.Container defaultActiveKey="Perfil ingreso">
+        <Nav
+          variant="tabs"
+          style={{ backgroundColor: "#1D3557" }}
+          className="justify-content-center pt-1 fw-bold fs-6"
+        >
+          <Nav.Item>
+            <Nav.Link eventKey="Perfil ingreso">
+              Perfil de ingreso
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Campo laboral">
+              Campo laboral
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Investigacion">Investigación</Nav.Link>
+          </Nav.Item>
+        </Nav>
+        <Container className="p-3">
+          <Tab.Content>
+            <Tab.Pane eventKey="Perfil ingreso">
+              <TabOne />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Campo laboral">
+              <TabTwo />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Investigacion">
+              <TabThree />
+            </Tab.Pane>
+          </Tab.Content>
+        </Container>
+      </Tab.Container>
+    </Container>
+  );
+}
+
+{/*
 import React, { useState } from "react";
 
 import "../../styles/festudiantes.css";
 import Tabs from "./Tabs";
 // Tabs Components
-import TabOne from "./TabOne";
-import TabTwo from "./TabTwo";
-import TabThree from "./TabThree";
 
 type TabsType = {
   label: string;
@@ -46,3 +102,4 @@ export default function App() {
     </div>
   );
 }
+*/}

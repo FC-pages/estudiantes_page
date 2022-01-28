@@ -1,5 +1,5 @@
 import React, { FC, Fragment } from "react";
-import "../../styles/festudiantes.css";
+import "./styles/festudiantes.css";
 import ReactPlayer from "react-player";
 
 import { Row, Card } from "react-bootstrap";
@@ -22,7 +22,7 @@ let videos = [
 
 const TabTwo: FC<{}> = () => {
   return (
-    <Fragment>
+    <div className = "cont-tab">
       <p>
         El egresado de Matemática puede trabajar en industrias mineras,
         metalúrgicas, pesqueras, entre otras, diseñando nuevos procesos o
@@ -113,7 +113,7 @@ const TabTwo: FC<{}> = () => {
           </div>
         </S.ContainerVideos>
       </Row>
-    </Fragment>
+    </div>
   );
 };
 export default TabTwo;
