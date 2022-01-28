@@ -5,6 +5,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Doctor en Ciencias de Ingeniería (Universidade Estadual do Norte Fluminense Darcy Ribeiro)",
     "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=28421",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -13,6 +14,7 @@ exports.docentes = [
     "email": "jmunguia@uni.edu.pe",
     "gradoAc": "Magister en Matemática (UFJF)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=36929",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -21,7 +23,8 @@ exports.docentes = [
     "email": "jmunguia@uni.edu.pe",
     "gradoAc": "Doctorado en Ciencias con mencion en Matemática (UNI)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=82909",
-    "areasDeInteres": "Análisis Numérico",
+    "cv": "",
+    "areasDeInteres": "Análisis Numérico, Optimización y Procesos estocásticos",
   },
   {
     "nombre": "Dr. Ángel Ramirez",
@@ -29,6 +32,7 @@ exports.docentes = [
     "email": "aramirezg@uni.edu.pe",
     "gradoAc": "Doctorado en Ciencias con mencion en Matemática (UNI)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=27285",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -37,6 +41,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Maestro en Ciencias con mención en Matemática Aplicada",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=10646",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -45,6 +50,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Grado de Máster (École polytechnique)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=28502",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -53,6 +59,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Doctorat Informátique (UNI)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=39687",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -61,6 +68,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Doctorado en Ciencias con mencion en Matematica (UNI)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=94384",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -69,6 +77,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Maestro en Matemática Aplicada (UNI)",
     "dina": "",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -77,6 +86,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Doctorado en Ciencias con mencion en Matematica (UNI)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=94556",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -85,6 +95,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Magister en Matemáticas (PUCP)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=72845",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -93,6 +104,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Magister en Matemáticas (PUCP)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=130787",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -101,14 +113,16 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Doctor en Ciencias en el programa de Matemática Aplicada (UNIVERSIDAD DE SÃO PAULO)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=16961",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
-    "nombre": "Mg. Gonzalo Panizo",
+    "nombre": "Dr. Gonzalo Panizo",
     "foto": "gonzalo_panizo_carnet.png",
     "email": "*@uni.edu.pe",
     "gradoAc": "Master (UNIVERSITEIT UTRECHT)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=14546",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -117,30 +131,34 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Doctor en Filosofía (UNIVERSITY OF LIVERPOOL)",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=45263",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
-    "nombre": "Mg. Rosulo Perez",
+    "nombre": "Dr. Rosulo Perez",
     "foto": "./rosulo_perez_carnet.png",
     "email": "*@uni.edu.pe",
     "gradoAc": "Maestro en Ciencias, Especialidad Matemática Aplicada (UNI)",
     "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=47587",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
-    "nombre": "Lcdo. Luis Roca",
+    "nombre": "Lic. Luis Roca",
     "foto": "luis_roca_carnet.png",
     "email": "*@uni.edu.pe",
     "gradoAc": "Licenciado en Matemática (UNI)",
     "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=401",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
-    "nombre": "Lcdo.Jośe Zamudio",
+    "nombre": "Lic. Jośe Zamudio",
     "foto": "./fotoblanco.jpg",
     "email": "*@uni.edu.pe",
     "gradoAc": "Lic. en Matemática",
     "dina": "",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -149,14 +167,16 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Doctor en Ciencias con mención en Matemática (UNIVERSITE BLAISE PASCAL)",
     "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=213",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
-    "nombre": "Lcdo. Juan Cribillero",
+    "nombre": "Lic. Juan Cribillero",
     "foto": "./juan_cribillero_carnet.png",
     "email": "*@uni.edu.pe",
     "gradoAc": "Licenciado en Matemática (UNI)",
     "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=113860",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -165,6 +185,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Doctor en Ciencias especialidad Matemática (UNI)",
     "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=15560",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -173,6 +194,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Doctor en Ciencias con mención en Matemática (UNI)",
     "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=90685",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -181,6 +203,7 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "PH.D. En Matemáticas (INSTITUTO DE MATEMÁTICA PURA E APLICADA)",
     "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=2056",
+    "cv": "",
     "areasDeInteres": "",
   },
   {
@@ -189,6 +212,16 @@ exports.docentes = [
     "email": "*@uni.edu.pe",
     "gradoAc": "Grado de Doctor en Matemáticas Puras (UNIVERSITE BORDEAUX 1)",
     "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=16951",
+    "cv": "",
+    "areasDeInteres": "",
+  },
+  {
+    "nombre": "Lic. Leopoldo Paredes",
+    "foto": "./docentes/leopoldo_paredes_carnet.png",
+    "email": "*@uni.edu.pe",
+    "gradoAc": "Título profesional de Licenciado en Matemáticas",
+    "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=95237",
+    "cv": "",
     "areasDeInteres": "",
   },
 ]
