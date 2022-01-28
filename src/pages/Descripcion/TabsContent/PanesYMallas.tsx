@@ -8,9 +8,8 @@ export default function PlanesYMallas() {
     <Container>
       <Tab.Container defaultActiveKey="Planes">
         <Nav
-          variant="tabs"
-          style={{ backgroundColor: "#1D3557" }}
-          className="fs-6"
+          style={{ textAlign:"left" }}
+          className="nav2"
         >
           <Nav.Item>
             <Nav.Link eventKey="Planes">Planes</Nav.Link>

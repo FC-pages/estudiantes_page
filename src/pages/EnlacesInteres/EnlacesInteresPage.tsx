@@ -1,6 +1,13 @@
-import { Container, Tab, Tabs } from "react-bootstrap";
+// import { Container, Tab, Tabs } from "react-bootstrap";
+import { Tab, Container, Nav } from "react-bootstrap";
 import React from "react";
 import "../../pages/FuturoEstudiante/styles/tabs.css";
+// import "../../components/estilosTab.css";
+import Competiciones from "./CompeticionesEI";
+import Revista_ciencias from "./RevistacienciasEI";
+import Otros from "./OtrosEI";
+import InstAcademicas from "./InstitucionesAcademicasEI";
+import Cursosonline from "./CursosOnlineEI";
 
 export default function EnlacesInteresPage() {
   return (
@@ -13,12 +20,59 @@ export default function EnlacesInteresPage() {
       }}
       className="text-start mt-5"
     >
-      <Tabs
+      <Tab.Container defaultActiveKey="Revista_ciencias">
+        <Nav
+          // variant="tabs"
+          style={{ backgroundColor: "#1D3557" }}
+          className="justify-content-center pt-1 fs-6"
+        >
+          <Nav.Item >
+            <Nav.Link eventKey="Revista_ciencias">
+              Revista sobre ciencias
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="InstAcademicas">
+              Instituciones académicas
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="CursosOnline">Cursos Online</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Competicionesestudiantiles"> Competiciones Estudiantiles</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Otros"> Otros</Nav.Link>
+          </Nav.Item>
+        </Nav>
+        <Container className="p-3">
+          <Tab.Content >
+            <Tab.Pane eventKey="Revista_ciencias">
+              <Revista_ciencias />
+            </Tab.Pane>
+            <Tab.Pane eventKey="InstAcademicas">
+              <InstAcademicas />
+            </Tab.Pane>
+            <Tab.Pane eventKey="CursosOnline">
+              <Cursosonline />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Competicionesestudiantiles">
+              <Competiciones />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Otros">
+              <Otros />
+            </Tab.Pane>
+          </Tab.Content>
+        </Container>
+      </Tab.Container>
+    </Container>
+      /*<Tabs
         className="justify-content-center pt-1"
         defaultActiveKey="Revistas sobre ciencias"
         style={{ backgroundColor: "#1D3557" }}
       >
-        <Tab eventKey="Revistas sobre ciencias" title="Revistas sobre ciencias">
+         <Tab eventKey="Revistas sobre ciencias" title="Revistas sobre ciencias">
           <Container className="p-3">
             <p className="fs-4 fw-bold">
               1.{" "}
@@ -230,8 +284,8 @@ export default function EnlacesInteresPage() {
               https://www.rsme.es/2022/01/ultimo-boletin-2/
             </a>
           </Container>
-        </Tab>
+        </Tab> 
       </Tabs>
-    </Container>
+    </Container>*/
   );
 }
