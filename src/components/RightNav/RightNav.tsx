@@ -7,10 +7,11 @@ import AlumnosEgresadosPage from "../../pages/estudiantes/AlumnosEgresadosPage";
 import EnlacesInteresPage from "../../pages/EnlacesInteres/EnlacesInteresPage";
 import Egresados from "../../pages/Egresados";
 import Docentes from "../../pages/Docentes/Docentes";
-import GruposInvestigacion from "../../pages/GruposInvestigacion/GrupoOptimizacion";
+//import GruposInvestigacion from "../../pages/GruposInvestigacion/GrupoOptimizacion";
 import routes from "../../helpers/routes";
 import Optimizacion from "../../pages/GruposInvestigacion/Optimizacion/Optimizacion";
 import ANumerico from "../../pages/GruposInvestigacion/AnalisisNumerico/AnalisisNumerico";
+import GruposInvestigacion from '../../pages/GruposInvestigacion/GruposInvestigacion';
 
 import {
   BrowserRouter as Router,
@@ -66,29 +67,10 @@ function RightNav(props: Props) {
         <NavLink to={routes.estudiantes_egresados}>
           <li>Alumnos y egresados</li>{" "}
         </NavLink>
-        <S.DropdownMenu>
-          <li>Grupos de Investigación</li>
-          <div id="dropdown-menu">
-            <NavLink to="/linea_inv1">
-              <li>Análisis y Teoría de Números</li>{" "}
+        <NavLink to="/GruposInvestigacion">
+              <li>Grupos de investigación</li>{" "}
             </NavLink>
-            <NavLink to="/linea_inv2">
-              <li>Optimización</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv3">
-              <li>Álgebra, Geometría y Topología</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv4">
-              <li>Probabilidad y Procesos Estocásticos</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv5">
-              <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv6">
-              <li>Análisis Numérico</li>{" "}
-            </NavLink>
-          </div>
-        </S.DropdownMenu>
+
         {/*
         <Dropdown className="menu-desp">
           <Dropdown.Toggle variant="danger" id="dropdown-basic">
@@ -147,6 +129,7 @@ function RightNav(props: Props) {
         <Route path="/linea_inv4" element={<LineaInv4 />} />
         <Route path="/linea_inv5" element={<LineaInv5 />} />
         <Route path="/linea_inv6" element={<LineaInv6 />} />
+        <Route path="/GruposInvestigacion" element={< GruposInvestigacion/>} />
         <Route path={routes.contacto} element={<ContactoPage />} />
       </Routes>
     </Router>
