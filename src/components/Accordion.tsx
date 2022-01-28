@@ -1,7 +1,9 @@
 import { useState, ReactNode} from 'react';
 /*import { AccordionData } from '../types';*/
 import AccordionItem from './AccordionItem';
-import '../styles/festudiantes.css';
+import '../pages/FuturoEstudiante/styles/festudiantes.css';
+
+
 
 type AccordionData = {
     title: string;

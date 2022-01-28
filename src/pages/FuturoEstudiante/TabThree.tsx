@@ -1,6 +1,6 @@
 import React, { FC, Fragment } from "react";
 import Accordion from "../../components/Accordion";
-import "../../styles/festudiantes.css";
+import "./styles/festudiantes.css";
 
 import ReactPlayer from "react-player";
 
@@ -280,7 +280,7 @@ const accordionItems = [
 
 const TabThree: FC<{}> = () => {
   return (
-    <Fragment>
+    <div className = "cont-tab">
       <p>En todos los campos laborales en los que se desempeña un matemático es de suma importancia la investigación a todo nivel por que es la base para el desarrollo de nuestro país.</p>
       <p>La matemática está en constante desarrollo, cada vez nuevas herramientas son creadas y éstas permiten ayudar apoyar el desarrollo de otras ciencias y la industria.
        <br /> <br />
@@ -324,7 +324,7 @@ const TabThree: FC<{}> = () => {
           </div>
         </S.ContainerVideos>
       </Row>
-    </Fragment>
+    </div>
   );
 };
 export default TabThree;

@@ -1,6 +1,6 @@
-import Tabs from "./Tabs";
 import React from "react";
-import "./styles.css";
+import { Tab, Container, Nav } from "react-bootstrap";
+import "../../pages/FuturoEstudiante/styles/estudiantes.css";
 import Perfil from './TabsContent/Perfil';
 import ResenaHistorica from './TabsContent/ResenaHistorica';
 import PlanesYMallas from './TabsContent/PanesYMallas';
@@ -15,28 +15,62 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 
-function Descripcion() {
+
+
+export default function Descripcion() {
   return (
-    <div>
-      <div className="App-grid">
-        <Tabs>
-          <div label = "Perfil">
-            <Perfil/>
-          </div>
-          <div label="Reseña historica" >
-            <ResenaHistorica/>
-          </div>
-          <div label="Plan y Malla de estudios">
-            <PlanesYMallas/>
-          </div>
-          <div label="Autoridades" >
-            <Autoridades/>
-          </div>
-        </Tabs>
-      </div>
-      <footer className="App-footer">FINAL DE LA PAGINA</footer>
-    </div>
+    <Container
+      style={{
+        borderStyle: "solid",
+        borderColor: "#1D3557",
+        paddingLeft: "0",
+        paddingRight: "0",
+      }}
+      className="mt-5"
+    >
+      <Tab.Container defaultActiveKey="Perfil">
+        <Nav
+          variant="tabs"
+          style={{ backgroundColor: "#1D3557" }}
+          className="justify-content-center pt-1 fw-bold fs-6"
+        >
+          <Nav.Item>
+            <Nav.Link eventKey="Perfil">
+              Perfil
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Resenia">
+              Reseña histórica
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Planes y Mallas de estudio">Planes y Mallas de estudio</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Autoridades">
+              Autoridades
+            </Nav.Link>
+          </Nav.Item>
+        </Nav>
+        <Container className="p-3">
+          <Tab.Content>
+            <Tab.Pane eventKey="Perfil">
+              <Perfil />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Resenia">
+              <ResenaHistorica />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Planes y Mallas de estudio">
+              <PlanesYMallas />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Autoridades">
+              <Autoridades />
+            </Tab.Pane>
+          </Tab.Content>
+        </Container>
+      </Tab.Container>
+    </Container>
   );
 }
 
-export default Descripcion;
