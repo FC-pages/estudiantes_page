@@ -48,8 +48,8 @@ export default function Optimizacion() {
 
   return (
     <div className="App-investigacion">
+      <br/>
       <h2>Grupo de Optimización</h2>
-      <br />
       <Tabs selectedTab={selectedTab} onClick={setSelectedTab} tabs={tabs} />
       <br />
     </div>

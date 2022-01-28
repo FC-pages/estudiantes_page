@@ -75,7 +75,7 @@
  .App-investigacion  .tabs-component.vertical [role="tablist"] button.active,
   .tabs-component.vertical [role="tablist"] button:focus,
   .tabs-component.vertical [role="tablist"] button:hover {
-    border-color: #e9ecef transparent #e9ecef #b41c1c;
+    border-color: #e9ecef transparent #e9ecef ;
   }
   
 

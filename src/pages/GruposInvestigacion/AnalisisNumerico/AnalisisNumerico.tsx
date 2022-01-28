@@ -48,8 +48,8 @@ export default function AnalisisNumerico() {
 
   return (
     <div className="App-investigacion">
+      <br/>
       <h2>Grupo de Análisis Numérico</h2>
-      <br />
       <Tabs selectedTab={selectedTab} onClick={setSelectedTab} tabs={tabs} />
       <br />
     </div>

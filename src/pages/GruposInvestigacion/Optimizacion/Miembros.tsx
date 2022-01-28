@@ -1,9 +1,12 @@
 import React, { FC, Fragment } from "react";
 import "../../../styles/gInvestigacion.css";
-import profesor1 from "../../../images/profesor1.jpg";
-import profesor2 from "../../../images/profesor2.jpg";
-import profesor3 from "../../../images/profesor3.jpg";
-import profesor4 from "../../../images/profesor4.jpg";
+import profesor1 from "../../../images/eladio.jpg";
+import profesor2 from "../../../images/ernesto.png";
+import profesor3 from "../../../images/flores.png";
+import profesor4 from "../../../images/pedroCanales.png";
+import profesor5 from "../../../images/navarro.png";
+import profesor6 from "../../../images/rosuloPerez.png";
+import profesor7 from "../../../images/cernades.png";
 import profesorX from "../../../images/profesorX.png";
 
 /*import CardMore from "../Components/CardMore";*/
@@ -57,7 +60,7 @@ const TabTwo: FC<{}> = () => {
           <a href="#" className="tit">Revisar CV </a>
         </div>
         <div className="itemLeft">
-          <img src={profesorX} className="foto-profesorX"></img></div>
+          <img src={profesor5} className="foto-profesorX"></img></div>
         <div className="itemRight">
           <span className="tit">Frank Navarro </span>  <br/>
           <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
@@ -68,9 +71,9 @@ const TabTwo: FC<{}> = () => {
           <a href="#" className="tit">Revisar CV </a>
         </div>
         <div className="itemLeft">
-          <img src={profesorX} className="foto-profesorX"></img></div>
+          <img src={profesor6} className="foto-profesorX"></img></div>
         <div className="itemRight">
-          <span className="tit">Rosulo Navarro </span>  <br/>
+          <span className="tit">Rosulo Perez </span>  <br/>
           <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
           <b>Tipo de miembro: </b> Profesor(a)<br/>
           <b>Función: </b> Investigador(a)<br/>
@@ -101,7 +104,7 @@ const TabTwo: FC<{}> = () => {
           <a href="#" className="tit">Revisar CV </a>
         </div>
         <div className="itemLeft">
-          <img src={profesorX} className="foto-profesorX"></img></div>
+          <img src={profesor7} className="foto-profesorX"></img></div>
         <div className="itemRight">
           <span className="tit">Jesús Cernades </span>  <br/>
           <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>

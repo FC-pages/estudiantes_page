@@ -4,6 +4,8 @@ import profesor1 from "../../../images/IrlaMantilla3.jpg";
 import profesor2 from "../../../images/AngelRamirez2.jpg";
 import profesor3 from "../../../images/Mungia2.jpg";
 import profesor4 from "../../../images/profesor4.jpg";
+import profesor5 from "../../../images/roca.png";
+
 import profesorX from "../../../images/profesorX.png";
 
 /*import CardMore from "../Components/CardMore";*/
@@ -46,7 +48,7 @@ const TabTwo: FC<{}> = () => {
           <a href="#" className="tit">Revisar CV </a>
         </div>
         <div className="itemLeft">
-          <img src={profesorX} className="foto-profesorX"></img></div>
+          <img src={profesor5} className="foto-profesorX"></img></div>
         <div className="itemRight">
           <span className="tit">Luis Roca Galindo </span>  <br/>
           <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>

@@ -1,5 +1,5 @@
 import React, { FC, Fragment } from "react";
-import fotoGrupo from "../../../images/grupoInvestigacion2.jpg";
+import fotoGrupo from "../../../images/grupoInvestigacion22.jpg";
 import "../../../styles/gInvestigacion.css";
 
 import profesor1 from "../../images/profesor1.jpg";
