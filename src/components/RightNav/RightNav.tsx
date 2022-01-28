@@ -71,6 +71,7 @@ function RightNav(props: Props) {
               <li>Grupos de investigación</li>{" "}
             </NavLink>
 
+  {/*
         <S.DropdownMenu>
           <li>Grupos de Investigación</li>
           <div id="dropdown-menu">
@@ -94,6 +95,7 @@ function RightNav(props: Props) {
             </NavLink>
                       </div>
         </S.DropdownMenu>
+        */}
         {/*
         <Dropdown className="menu-desp">
           <Dropdown.Toggle variant="danger" id="dropdown-basic">
