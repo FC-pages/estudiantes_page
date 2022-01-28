@@ -56,7 +56,7 @@ exports.titulados = [
   },
   {
     "nombre": "Abraham Zamudio",
-    "imgPerfil": "",
+    "imgPerfil": "zamudio_perfil.jpg",
     "tituloDeTesis": "",
     "tesisLink": "",
     "gradoAc": "",
