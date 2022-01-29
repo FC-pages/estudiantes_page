@@ -6,7 +6,7 @@
   width: 14em;
 }
 
-.nav-item > a {
+.nav-item a {
   color: rgb(255, 255, 255);
   -webkit-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
@@ -55,9 +55,7 @@
   width: 12em;
 }
 
-.nav2 .nav-item {
-  width: auto;
-}
+
 
 .nav2 a.active {
   color: white;
@@ -71,4 +69,9 @@
 
 .style-gr-i > .nav-item{
   width: 33%;
+  }
+
+.style-gr-i .nav2 .nav-item {
+  width: 13em;
 }
+

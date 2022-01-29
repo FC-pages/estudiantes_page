@@ -8,7 +8,7 @@ import EventosAcademicos from "./EventosAcademicos";
 
 export default function OptimizacionMain() {
   return (
-    <Container>
+    <Container  className = "style-gr-i">
       <Tab.Container defaultActiveKey="Acerca">
         <Nav
           style={{ textAlign:"left" }}
