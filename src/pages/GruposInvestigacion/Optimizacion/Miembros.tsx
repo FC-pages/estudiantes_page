@@ -16,7 +16,7 @@ import profesorX from "../../../images/profesorX.png";
 const TabTwo: FC<{}> = () => {
   return (
     <Fragment>
-    <h3>Miembros del grupo:</h3>
+    <h3>Miembros del grupo</h3>
       <div className="container">
         <div className="itemLeft">
           <img src={profesor1} className="foto-profesor"></img></div>

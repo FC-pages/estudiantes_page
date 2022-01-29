@@ -19,7 +19,7 @@ export default function AlumnosEgresadosPage() {
         <Nav
           // variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
-          className="justify-content-center pt-1 fs-6"
+          className="justify-content-center pt-1 fs-6 style-gr-i"
         >
           <Nav.Item >
             <Nav.Link eventKey="Analisis">

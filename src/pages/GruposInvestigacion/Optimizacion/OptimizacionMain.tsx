@@ -27,7 +27,7 @@ export default function OptimizacionMain() {
             <Nav.Link eventKey="Publicaciones">Publicaciones</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Eventos">EventosAcademicos</Nav.Link>
+            <Nav.Link eventKey="Eventos">Eventos Académicos</Nav.Link>
           </Nav.Item>
         </Nav>
         <Container className="p-3">
