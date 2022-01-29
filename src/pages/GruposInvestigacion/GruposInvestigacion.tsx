@@ -2,6 +2,7 @@ import React from "react";
 import { Tab, Container, Nav } from "react-bootstrap";
 import "../../components/estilosTab.css";
 import OptimizacionMain from './Optimizacion/OptimizacionMain';
+import AnalisisNumericoMain from './AnalisisNumerico/AnalisisNumericoMain';
 
 export default function AlumnosEgresadosPage() {
   return (
@@ -67,7 +68,7 @@ export default function AlumnosEgresadosPage() {
               <div />
             </Tab.Pane>
             <Tab.Pane eventKey="Numerico">
-              <div />
+              <AnalisisNumericoMain/>
             </Tab.Pane>
           </Tab.Content>
         </Container>
