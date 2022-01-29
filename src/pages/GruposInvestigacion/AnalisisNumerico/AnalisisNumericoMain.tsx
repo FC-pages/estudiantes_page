@@ -9,8 +9,8 @@ import EventosAcademicos from "./EventosAcademicos";
 
 export default function AnalisisNumericoMain() {
   return (
-    <Container>
-      <Tab.Container defaultActiveKey="Acerca">
+    <Container className = "style-gr-i">
+      <Tab.Container defaultActiveKey="Acerca" >
         <Nav
           style={{ textAlign:"left" }}
           className="nav2" 
