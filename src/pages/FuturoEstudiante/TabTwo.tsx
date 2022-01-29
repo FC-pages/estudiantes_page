@@ -58,20 +58,20 @@ const TabTwo: FC<{}> = () => {
         </div>
       </div>
         */}
-      
       <div className="container">
-        <div className="itemLeft">Industria</div>
-        <div className="itemRight">
+        <div className="leftItem">Industria</div>
+        <div className="rightItem">
           Podrás desempeñarte como asesor en la formulación de estrategias para
           el estudio y la solución de los problemas de la industria moderna. Así
           puede dedicarse a la consultoría en laboratorios industriales, en
           empresas financieras y de seguros, en la industria electrónica y en la
           industria petrolera y química.
         </div>
-      </div>
+        </div>
+      
       <div className="container">
-        <div className="itemLeft">Banca</div>
-        <div className="itemRight">
+        <div className="leftItem">Banca</div>
+        <div className="rightItem">
           Si deseas relacionarte con las finanzas y economia, puedes trabajar en
           las industrias financieras o aseguradoras, ya que contaras con los
           skills necesarios como de modelamiento y analisis en aspectos
@@ -80,8 +80,8 @@ const TabTwo: FC<{}> = () => {
         </div>
       </div>
       <div className="container">
-        <div className="itemLeft">Informática</div>
-        <div className="itemRight">
+        <div className="leftItem">Informática</div>
+        <div className="rightItem">
           Si deseas relacionarte con las finanzas y economia, puedes trabajar en
           las industrias financieras o aseguradoras, ya que contaras con los
           skills necesarios como de modelamiento y analisis en aspectos
@@ -90,8 +90,8 @@ const TabTwo: FC<{}> = () => {
         </div>
       </div>
       <div className="container">
-        <div className="itemLeft">Docencia Universitaria</div>
-        <div className="itemRight">
+        <div className="leftItem">Docencia Universitaria</div>
+        <div className="rightItem">
           Si quieres iniciar una carrera de docencia universitaria, la
           licenciatura te permite iniciar estudios de magíster y doctorado.
         </div>

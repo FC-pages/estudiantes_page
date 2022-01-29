@@ -16,14 +16,17 @@
     margin-left: auto;
     margin-right: auto;
     float: right;
-    width: 50%;
+    width: 58%;
     /*padding-left: 35px;*/
 }
   .itemLeft {
-    width: 12vw;
+    /*width: 12vw;*/
+    width: 20%;
     padding: 10px;
     padding-left: 5px;
-    /*background-color: #00427A;*/
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /*background-color: green;*/
     /*background-color: rgba(111,41,97,.3);*/
     /*border: 2px solid rgba(111,41,97,.5);*/
     display: inline-block;
@@ -35,9 +38,14 @@
   
   }
   .itemRight {
-    width: 30vw;
+    /*width: 30vw;*/
+    width: 25%;
     padding: 10px;
-    /*background-color: green;*/
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    /*background-color: pink;*/
     /*background-color: rgba(111,41,97,.3);*/
     /*border: 2px solid rgba(111,41,97,.5);*/
     display: inline-block;
@@ -48,6 +56,10 @@
     color: #007a91;
     font-weight: bold;
     font-size: 16px;
+  }
+  .justify {
+    text-align: justify;
+    text-justify: inter-word;
   }
   .tit2 {
     color: #007a91;
@@ -81,6 +93,40 @@
     /*background-color: rgba(111,41,97,.3);*/
     /*border: 2px solid rgba(111,41,97,.5);*/
     display: inline-block;
-    vertical-align: middle
+    vertical-align: middle;
+    text-align: justify;
+    text-justify: inter-word;
   }
   
+  /*-----------*/
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color:#aaa;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .icons2 {
+    font-size: 1.4em;
+    color: #1d3557;
+  }

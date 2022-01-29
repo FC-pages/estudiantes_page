@@ -113,10 +113,10 @@
   background-color: rgba(111,41,97,.3);
   border: 2px solid rgba(111,41,97,.5);
   display: inline-block;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
-.itemLeft {
+.leftItem {
   width: 12vw;
   padding: 10px;
   padding-left: 30px;
@@ -130,13 +130,14 @@
   
 
 }
-.itemRight {
-  width: 40vw;
+.rightItem {
+  /*width: 50vw;*/
+  width: 30vw;
   padding: 10px;
   /*background-color: rgba(111,41,97,.3);*/
   /*border: 2px solid rgba(111,41,97,.5);*/
   display: inline-block;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 /*Accordion*/
