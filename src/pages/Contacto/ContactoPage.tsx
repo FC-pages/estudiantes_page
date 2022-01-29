@@ -8,7 +8,51 @@ import { BsTelephoneFill } from "react-icons/bs";
 export default function ContactoPage() {
   return (
     <Container className="text-start pt-5">
-      <Row>
+      <Row className="mt-5">
+        <Col>
+          <p className=" text-center fw-bold fs-5">Área de Estadística y Registros Académicos</p>
+          <p>
+            <span className = "fw-bold">Jefe: </span> Dr. Helmuth Villavicencio Fernández            
+          </p>
+          <p className = "fw-bold">
+            Secretarias:
+          </p>
+          <p>
+            <ul>
+              <li> Mabel Carmen Rosales Ramirez</li>
+              <li> Elizabeth Roxana Almonacid García</li>
+            </ul>
+          </p>
+          <p>
+            <span className = "fw-bold">E-mail: </span> estadistica_fc@uni.edu.pe
+          </p>
+          <p>
+            <span className = "fw-bold">Teléfono: </span> 481-1070 anexos 5011 / 5023
+          </p>
+        </Col>
+
+        <Col>
+          <p className=" text-center fw-bold fs-5">Escuela Profesional de Matemática</p>
+          <p>
+            <span className = "fw-bold">Director: </span>Dr. Eladio Teofilo Ocaña Anaya
+          </p>
+          <p className = "fw-bold">
+            Secretarias:
+          </p>
+          <p>
+            <ul>
+              <li>Andrea Milagros Hidalgo Salomé</li>
+            </ul>
+          </p>
+          <p>
+            <span className = "fw-bold">E-mail: </span>  escuelas_fc@uni.edu.pe
+          </p>
+          <p>
+            <span className = "fw-bold">Teléfono: </span> 481-1070 anexo 5033
+          </p>
+        </Col>
+      </Row>
+      <Row className="mt-5">
         <GoogleMaps
           apiKey="AIzaSyAl604-0W-alm6jtAPd9Bh0LR1PPZKhmDg"
           style={{ height: "500px", width: "100%" }}
@@ -55,6 +99,9 @@ export default function ContactoPage() {
             </a>
           </p>
         </Col>
+
+        
+ 
       </Row>
     </Container>
   );

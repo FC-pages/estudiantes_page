@@ -8,7 +8,7 @@ import EventosAcademicos from "./EventosAcademicos";
 
 export default function OptimizacionMain() {
   return (
-    <Container>
+    <Container  className = "style-gr-i">
       <Tab.Container defaultActiveKey="Acerca">
         <Nav
           style={{ textAlign:"left" }}
@@ -27,7 +27,7 @@ export default function OptimizacionMain() {
             <Nav.Link eventKey="Publicaciones">Publicaciones</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Eventos">EventosAcademicos</Nav.Link>
+            <Nav.Link eventKey="Eventos">Eventos Académicos</Nav.Link>
           </Nav.Item>
         </Nav>
         <Container className="p-3">

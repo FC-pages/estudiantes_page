@@ -6,7 +6,7 @@ import FuturoEstudiante from "../../pages/FuturoEstudiante/FuturoEstudiante";
 import AlumnosEgresadosPage from "../../pages/estudiantes/AlumnosEgresadosPage";
 import EnlacesInteresPage from "../../pages/EnlacesInteres/EnlacesInteresPage";
 import Egresados from "../../pages/Egresados";
-import Docentes from "../../pages/Docentes/Docentes";
+import DocentesTabs from "../../pages/Docentes/DocentesTabs";
 //import GruposInvestigacion from "../../pages/GruposInvestigacion/GrupoOptimizacion";
 import routes from "../../helpers/routes";
 import Optimizacion from "../../pages/GruposInvestigacion/Optimizacion/Optimizacion";
@@ -147,7 +147,7 @@ function RightNav(props: Props) {
           path={routes.grupos_investigacion}
           element={<GruposInvestigacion />}
         />
-        <Route path={routes.docentes} element={<Docentes />} />
+        <Route path={routes.docentes} element={<DocentesTabs />} />
         <Route path="/linea_inv1" element={<LineaInv1 />} />
         <Route path="/linea_inv2" element={<LineaInv2 />} />
         <Route path="/linea_inv3" element={<LineaInv3 />} />
