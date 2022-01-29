@@ -224,4 +224,13 @@ exports.docentes = [
     "cv": "",
     "areasDeInteres": "",
   },
+  {
+    "nombre": "Dr. Andrés Chulluncuy",
+    "foto": "./fotoblanco.png",
+    "email": "*@uni.edu.pe",
+    "gradoAc": "Doctor en Ciencias con mención en Matemática",
+    "dina": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=20538",
+    "cv": "",
+    "areasDeInteres": "",
+  },
 ]
