@@ -25,6 +25,8 @@ const TabTwo: FC<{}> = () => {
         <div className="itemRight">
           <b>Profesor(a):</b> 
           <span className="tit">Irla Mantilla </span>  <br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
           <b>Función: </b> Coordinador(a)<br/>
           <b>Grado académico: </b> Doctor<br/>
           <b>Departamento:</b>Departamento Académico de Ciencias<br/>
@@ -39,6 +41,8 @@ const TabTwo: FC<{}> = () => {
         <div className="itemRight">
         <b>Profesor(a): </b>
           <span className="tit">Angel Ramirez</span>  <br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
           <b>Función: </b> Investigador(a)<br/>
           <b>Grado académico: </b> Doctor<br/>
           <b>Departamento:</b>Departamento Académico de Ciencias<br/>
@@ -54,6 +58,8 @@ const TabTwo: FC<{}> = () => {
           <b>Profesor(a): </b> 
           <span className="tit">Jhonatan Munguia </span>  <br/>
           <b>Función: </b> Investigador(a)<br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
           <b>Grado académico: </b> Doctor<br/>
           <b>Departamento:</b>Departamento Académico de Ciencias<br/>
           <b>CV: </b>
