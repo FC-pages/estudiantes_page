@@ -48,11 +48,12 @@
 .nav2 {
   font-weight: 500;
   /* max-inline-size: 15em; */
-  margin: 4px;
+  /* margin: 4px; */
 }
 .nav2 a {
   color: #1d3557;
   width: 12em;
+  margin: 6px;
 }
 
 .nav2 .nav-item {
