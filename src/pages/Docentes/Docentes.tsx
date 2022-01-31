@@ -41,7 +41,10 @@ function Docentes() {
           {/* <div className="App-rectangulo"></div> */}
           {/* <section className="App-center"> */}
 
-          {docentes.map((d: any) => {
+          {docentes.sort(function(a :any, b:any) {
+            if (a.nombre > b.nombre) return 1
+            else return 0
+          }).map((d: any) => {
             return (
               <Docente
                 nombre={d.nombre}

@@ -30,11 +30,6 @@ export default function DocentesTabs() {
               Publicaciones
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="PrePublicaciones">
-              Pre-publicaciones
-            </Nav.Link>
-          </Nav.Item>
         </Nav>
         <Container className="p-3">
           <Tab.Content >
@@ -42,9 +37,6 @@ export default function DocentesTabs() {
               <Docentes />
             </Tab.Pane>
             <Tab.Pane eventKey="Publicaciones">
-              <div/>
-            </Tab.Pane>
-            <Tab.Pane eventKey="PrePublicaciones">
               <div/>
             </Tab.Pane>
           </Tab.Content>

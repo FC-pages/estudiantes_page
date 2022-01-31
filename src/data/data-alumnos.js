@@ -69,7 +69,7 @@ exports.titulados = [
       "email": ""
     },
     "fechaSustentacionTesis": "",
-    "actividadActual": "Desarrollo de Software",
+    "actividadActual": "Desarrollador de Software",
     "contacto": "abraham.zamudio@gmail.com",
   },
   {

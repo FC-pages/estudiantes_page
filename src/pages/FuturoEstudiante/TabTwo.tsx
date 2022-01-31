@@ -72,9 +72,9 @@ const TabTwo: FC<{}> = () => {
       <div className="container">
         <div className="leftItem">Banca</div>
         <div className="rightItem">
-          Si deseas relacionarte con las finanzas y economia, puedes trabajar en
-          las industrias financieras o aseguradoras, ya que contaras con los
-          skills necesarios como de modelamiento y analisis en aspectos
+          Si deseas relacionarte con las finanzas y economía, puedes trabajar en
+          las industrias financieras o aseguradoras, ya que contarás con los
+          skills necesarios como de modelamiento y análisis en aspectos
           cuantitativos, y asi realizar diversos diagnosticos de los riesgos, y
           enfrentarte a diversos problemas de esa índole.
         </div>
@@ -82,18 +82,25 @@ const TabTwo: FC<{}> = () => {
       <div className="container">
         <div className="leftItem">Informática</div>
         <div className="rightItem">
-          Si deseas relacionarte con las finanzas y economia, puedes trabajar en
+          {/* Si deseas relacionarte con las finanzas y economia, puedes trabajar en
           las industrias financieras o aseguradoras, ya que contaras con los
           skills necesarios como de modelamiento y analisis en aspectos
           cuantitativos, y asi realizar diversos diagnosticos de los riesgos, y
-          enfrentarte a diversos problemas de esa índole.
+          enfrentarte a diversos problemas de esa índole. */}
+          Un matemático tiene habilidades de programación y de abstracción que le permite 
+          sin dificultad aprender diferentes softwares. Puede trabajar en análisis de datos 
+          de empresas de investigación e industriales, trabajar en equipo con personas 
+          especialistas en Informática. También puede continuar estudios en Ciencia de la 
+          Computación y volverse un desarrollador de Software.
         </div>
       </div>
       <div className="container">
         <div className="leftItem">Docencia Universitaria</div>
         <div className="rightItem">
-          Si quieres iniciar una carrera de docencia universitaria, la
-          licenciatura te permite iniciar estudios de magíster y doctorado.
+          {/* Si quieres iniciar una carrera de docencia universitaria, la
+          licenciatura te permite iniciar estudios de magíster y doctorado. */}
+          Si deseas ejercer la docencia universitaria, la licenciatura te permite continuar 
+          con una formación de maestría y doctorado en matemática o áreas afines.
         </div>
       </div>
       <Row xs={1} md={1} className="g-4">

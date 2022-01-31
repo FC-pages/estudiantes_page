@@ -34,7 +34,7 @@ function Autoridades() {
                               className="icons2"
                               icon={faEnvelope}
                             />{" "}
-                            E-mail: dabanto@uni.edu.pe
+                            E-mail: pcanales@uni.edu.pe
                           </li>
                           <li>
                             {" "}
@@ -50,7 +50,7 @@ function Autoridades() {
                               className="icons2"
                               icon={faHandPointRight}
                             />{" "}
-                            Central UNI: Anexos 5000, 5002,5003
+                            Central UNI: Anexos 5000, 5002, 5003
                           </li>
                         </ul>
                       </td>
@@ -80,7 +80,7 @@ function Autoridades() {
                               className="icons2"
                               icon={faEnvelope}
                             />{" "}
-                            E-mail: dabanto@uni.edu.pe
+                            E-mail: eocana@uni.edu.pe
                           </li>
                           <li>
                             {" "}
@@ -125,7 +125,7 @@ function Autoridades() {
                               className="icons2"
                               icon={faEnvelope}
                             />{" "}
-                            E-mail: dabanto@uni.edu.pe{" "}
+                            E-mail: rperezc@uni.edu.pe{" "}
                           </li>
                           <li>
                             {" "}

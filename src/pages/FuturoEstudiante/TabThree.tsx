@@ -24,7 +24,7 @@ let videos = [
 
 const accordionItems = [
   {
-    title: "1. Análisis y Teoría de Números",
+    title: "1. Análisis Y Teoría de Números",
     content: (
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis leo varius, egestas metus iaculis, euismod purus. Proin convallis ultrices fermentum. Fusce non felis in eros blandit tempus. Donec placerat volutpat justo nec interdum. Sed vel imperdiet est. Donec vel arcu sollicitudin, blandit justo vitae, sollicitudin orci. Quisque quis convallis mauris, vitae aliquam nibh. Pellentesque fringilla aliquam mi, et laoreet ligula aliquet non. Pellentesque posuere massa vitae lorem lacinia lacinia. Sed eleifend pharetra augue, id convallis diam congue eu. Vestibulum et pretium augue, quis hendrerit lorem. Pellentesque in bibendum libero, non euismod est. Duis commodo fringilla dictum. Nam consequat enim in nisl porta, et faucibus enim sagittis.

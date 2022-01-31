@@ -1,16 +1,15 @@
-
 import React from "react";
 import { Container, Tab, Nav } from "react-bootstrap";
-import Acerca from "./Acerca";
+// import Acerca from "./Acerca";
 import Miembros from "./Miembros";
-import Proyectos from "./Proyectos";
-import Publicaciones from "./Publicaciones";
-import EventosAcademicos from "./EventosAcademicos";
+// import Proyectos from "./Proyectos";
+// import Publicaciones from "./Publicaciones";
+// import EventosAcademicos from "./EventosAcademicos";
 
-export default function AnalisisNumericoMain() {
+export default function AlgebraGyTopoMain() {
   return (
-    <Container className = "style-gr-i">
-      <Tab.Container defaultActiveKey="Acerca" >
+    <Container  className = "style-gr-i">
+      <Tab.Container defaultActiveKey="Acerca">
         <Nav
           style={{ textAlign:"left" }}
           className="nav2" 
@@ -34,19 +33,23 @@ export default function AnalisisNumericoMain() {
         <Container className="p-3">
           <Tab.Content>
             <Tab.Pane eventKey="Acerca">
-              <Acerca/>
+              <div/>
+              {/* <Acerca/> */}
             </Tab.Pane>
             <Tab.Pane eventKey="Miembros">
               <Miembros/> 
             </Tab.Pane>
             <Tab.Pane eventKey="Proyectos">
-              <Proyectos/> 
+              <div/>
+              {/* <Proyectos/>  */}
             </Tab.Pane>
             <Tab.Pane eventKey="Publicaciones">
-              <Publicaciones/> 
+              <div/>
+              {/* <Publicaciones/>  */}
             </Tab.Pane>
             <Tab.Pane eventKey="Eventos">
-              <EventosAcademicos/> 
+              <div/>
+              {/* <EventosAcademicos/>  */}
             </Tab.Pane>
           </Tab.Content>
         </Container>

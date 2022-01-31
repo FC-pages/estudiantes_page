@@ -3,6 +3,10 @@ import { Tab, Container, Nav } from "react-bootstrap";
 import "../../components/estilosTab.css";
 import OptimizacionMain from './Optimizacion/OptimizacionMain';
 import AnalisisNumericoMain from './AnalisisNumerico/AnalisisNumericoMain';
+import AnalisisyTeoNumerosMain from './AnalisisyTeoriadeNumeros/AnalisisyTeoNumerosMain';
+import ProbabilidadMain from './ProbabilidadyPE/ProbayPEMain';
+import AlgebraGyTopoMain from './AlgebraGyTopo/AlgebraGyTopoMain';
+import EDySDMain from './EDySD/EDySDmain'
 
 export default function AlumnosEgresadosPage() {
   return (
@@ -23,7 +27,7 @@ export default function AlumnosEgresadosPage() {
         >
           <Nav.Item >
             <Nav.Link eventKey="Analisis">
-              Análisis Y Teoría de Números
+              Análisis y Teoría de Números
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -53,19 +57,19 @@ export default function AlumnosEgresadosPage() {
         <Container className="p-3">
           <Tab.Content >
             <Tab.Pane eventKey="Analisis">
-              <div />
+              <AnalisisyTeoNumerosMain />
             </Tab.Pane>
             <Tab.Pane eventKey="Optimizacion">
               <OptimizacionMain />
             </Tab.Pane>
             <Tab.Pane eventKey="Algebra">
-              <div />
+              <AlgebraGyTopoMain />
             </Tab.Pane>
             <Tab.Pane eventKey="Probabilidad">
-              <div />
+              <ProbabilidadMain />
             </Tab.Pane>
             <Tab.Pane eventKey="Diferenciales">
-              <div />
+              <EDySDMain />
             </Tab.Pane>
             <Tab.Pane eventKey="Numerico">
               <AnalisisNumericoMain/>

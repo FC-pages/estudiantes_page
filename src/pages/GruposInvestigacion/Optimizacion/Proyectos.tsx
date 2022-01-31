@@ -4,7 +4,7 @@ import "../../../styles/gInvestigacion.css";
 const TabThree: FC<{}> = () => {
   return (
     <Fragment>
-      <h3>Proyectos</h3>
+      {/* <h3>Proyectos</h3> */}
       <hr></hr>
       <h4 className="tit">Statistical Methods for Cluster Randomized Trials</h4>
       <p>The increasing popularity of cluster-randomized trials has created many opportunities and challenges for statisticians. In recent years a variation of the traditional cluster randomized trial has been proposed called stepped...</p>

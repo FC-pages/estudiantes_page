@@ -18,18 +18,17 @@ import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 const TabTwo: FC<{}> = () => {
   return (
     <Fragment>
-    <h3>Miembros del grupo</h3>
+    {/* <h3>Miembros del grupo</h3> */}
       <div className="container">
         <div className="itemLeft">
           <img src={profesor1} className="foto-profesor"></img></div>
         <div className="itemRight">
-          <b>Profesor(a):</b>
+          <b>Profesor: </b>
           <span className="tit">Eladio Ocaña </span>  <br/>
-          <b>E-mail:</b>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Función: </b> Coordinador(a)<br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">eocana@uni.edu.pe</a> <br/>
+          <b>Función: </b> Coordinador<br/>
           <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento:</b>Departamento Académico de Ciencias<br/>
           <b>CV: </b>
           {/* <a href="#" className="tit">CV:</a>*/}
           <a href="#">
@@ -39,13 +38,12 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesor2} className="foto-profesor"></img></div>
         <div className="itemRight">
-          <b>Profesor(a):</b>
+          <b>Profesor: </b>
           <span className="tit">Ernesto Oré</span>  <br/>
-          <b>E-mail:</b>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Función: </b> Investigador(a)<br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">eore@uni.edu.pe</a> <br/>
+          <b>Función: </b> Investigador<br/>
           <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento:</b>Departamento Académico de Ciencias<br/>
           <b>CV: </b>
           {/* <a href="#" className="tit">CV:</a>*/}
           <a href="#">
@@ -55,13 +53,12 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesor3} className="foto-profesor"></img></div>
         <div className="itemRight">
-          <b>Profesor(a):</b>
+          <b>Profesor: </b>
           <span className="tit">Luis Flores </span>  <br/>
-          <b>E-mail:</b>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Función: </b> Investigador(a)<br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">lfloresl@uni.edu.pe</a> <br/>
+          <b>Función: </b> Investigador<br/>
           <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento:</b>Departamento Académico de Ciencias<br/>
           <b>CV: </b>
           {/* <a href="#" className="tit">CV:</a>*/}
           <a href="#">
@@ -71,13 +68,12 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesor4} className="foto-profesor"></img></div>
         <div className="itemRight">
-          <b>Profesor(a):</b>
+          <b>Profesor:</b>
           <span className="tit">Pedro Canales </span>  <br/>
-          <b>E-mail:</b>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Función: </b> Investigador(a)<br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">pcanales@uni.edu.pe</a> <br/>
+          <b>Función: </b> Investigador<br/>
           <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento:</b>Departamento Académico de Ciencias<br/>
           <b>CV: </b>
           {/* <a href="#" className="tit">CV:</a>*/}
           <a href="#">
@@ -87,13 +83,12 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesor5} className="foto-profesorX"></img></div>
         <div className="itemRight">
-          <b>Profesor(a):</b>
+          <b>Profesor: </b>
           <span className="tit">Frank Navarro </span>  <br/>
-          <b>E-mail:</b>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Función: </b> Investigador(a)<br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">fnavarro@uni.edu.pe</a> <br/>
+          <b>Función: </b> Investigador<br/>
           <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento:</b>Departamento Académico de Ciencias<br/>
           <b>CV: </b>
           {/* <a href="#" className="tit">CV:</a>*/}
           <a href="#">
@@ -103,13 +98,12 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesor6} className="foto-profesorX"></img></div>
         <div className="itemRight">
-          <b>Profesor(a):</b>
+          <b>Profesor: </b>
           <span className="tit">Rosulo Perez </span>  <br/>
-          <b>E-mail:</b>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Función: </b> Investigador(a)<br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">rperezc@uni.edu.pe</a> <br/>
+          <b>Función: </b> Investigador<br/>
           <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento:</b>Departamento Académico de Ciencias<br/>
           <b>CV: </b>
           {/* <a href="#" className="tit">CV:</a>*/}
           <a href="#">
@@ -119,13 +113,12 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesorX} className="foto-profesorX"></img></div>
         <div className="itemRight">
-          <b>Profesor(a):</b>
+          <b>Profesor: </b>
           <span className="tit">Héctor Guimaray </span>  <br/>
-          <b>E-mail:</b>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Función: </b> Investigador(a)<br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">hguimaray@uni.edu.pe</a> <br/>
+          <b>Función: </b> Investigador<br/>
           <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento:</b>Departamento Académico de Ciencias<br/>
           <b>CV: </b>
           {/* <a href="#" className="tit">CV:</a>*/}
           <a href="#">
@@ -135,14 +128,12 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesorX} className="foto-profesorX"></img></div>
         <div className="itemRight">
-          <b>Profesor(a):</b>
+          <b>Profesor: </b>
           <span className="tit">William Echegaray </span>  <br/>
-          <b>E-mail:</b>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Tipo de miembro: </b> Profesor(a)<br/>
-          <b>Función: </b> Investigador(a)<br/>
-          <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento:</b>Departamento Académico de Ciencias<br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">wechegaray@uni.edu.pe</a> <br/>
+          <b>Función: </b> Investigador<br/>
+          <b>Grado académico: </b> Magister<br/>
           <b>CV: </b>
           {/* <a href="#" className="tit">CV:</a>*/}
           <a href="#">
@@ -152,14 +143,12 @@ const TabTwo: FC<{}> = () => {
         <div className="itemLeft">
           <img src={profesor7} className="foto-profesorX"></img></div>
         <div className="itemRight">
-          <b>Profesor(a):</b>
+          <b>Profesor: </b>
           <span className="tit">Jesús Cernades </span>  <br/>
-          <b>E-mail:</b>
-          <a href="#" className="tit2">correo@uni.edu.pe</a> <br/>
-          <b>Tipo de miembro: </b> Profesor(a)<br/>
-          <b>Función: </b> Investigador(a)<br/>
-          <b>Grado académico: </b> Doctor<br/>
-          <b>Departamento:</b>Departamento Académico de Ciencias<br/>
+          <b>E-mail: </b>
+          <a href="#" className="tit2">jesus.cernades.g@uni.edu.pe</a> <br/>
+          <b>Función: </b> Investigador<br/>
+          <b>Grado académico: </b> Magister<br/>
           <b>CV: </b>
           {/* <a href="#" className="tit">CV:</a>*/}
           <a href="#">
