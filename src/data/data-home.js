@@ -10,8 +10,8 @@ exports.carousel = [
   {
     "src": "./congreso.png",
     "href": "./congreso.pdf",
-    "alt": "Sede del congreso internacional multidisciplinario de matemática",
-    "Description": "III Congreso Internacional Multidisciplinario de Matemática"
+    "alt": "Centro de Investigación de la Facultad de Ciencias",
+    "Description": "La construcción del desarrollo inicia por la Ciencia"
   },
   {
     "src": "./admision.jpg",

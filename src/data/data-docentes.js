@@ -344,7 +344,7 @@ exports.docentes = [
   {
     "nombre": "Felix Villanueva",
     "foto": "felix_villanueva_carnet.PNG",
-    "email": " ",
+    "email": "fvillanueva@uni.edu.pe",
     "gradoAc": "Magister ",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=c9ae124850e412c99cf0df8193e5?id_investigador=107540",
     "cv": "",

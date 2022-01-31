@@ -6,7 +6,9 @@ import { Container } from "react-bootstrap";
 let { docentes } = require("../../data/data-docentes.js");
 
 function Docentes() {
-  docentes.sort()
+  let eliminarDiacriticos = (texto:any) => {
+      return texto.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
+  }
   return (
     <Container className="mt-5 px-3" fluid>
       <div className="App-cuerpo">
@@ -47,6 +49,8 @@ function Docentes() {
 
                 let valueA = a.nombre;
                 let valueB = b.nombre;
+                valueA = eliminarDiacriticos( valueA )
+                valueB = eliminarDiacriticos( valueB )
 
                 let av = valueA.trim().toLowerCase();
                 let bv = valueB.trim().toLowerCase();
