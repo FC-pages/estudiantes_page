@@ -20,7 +20,7 @@ function Competiciones_estudiantiles() {
           /*padding: "0 10px",*/
         }}
         alt="La Recherche"
-        src="./imaginecup-logo.png"
+        src="./imaginecupv2.jpg"
       />
     </a>
 
