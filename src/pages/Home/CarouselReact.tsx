@@ -63,8 +63,8 @@ function Eventos(){
             </div>
 
           </div>
-          <div className = "footer-eventos">
-            <a onClick = { () =>  setTogleEvents(!toggleEvents)}>{ toggleEvents ? "Eventos pasados": "Eventos futuros" }</a>
+          <div onClick = { () =>  setTogleEvents(!toggleEvents)} className = "footer-eventos">
+            <a >{ toggleEvents ? "Eventos pasados": "Eventos futuros" }</a>
           </div>
           </S.Seccion>
       )

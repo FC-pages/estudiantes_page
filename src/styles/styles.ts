@@ -165,11 +165,12 @@ export const Header = styled.header`
 `
 
 
-export const Seccion = styled.div`
+export const Seccion = styled.section`
+  height 390px;
   .eventos-seccion {
       background: #C4C4C4;
-      min-height:  400px;
-      max-height:  400px;
+      min-height:  360px;
+      max-height:  360px;
       overflow: auto;
       h3 {
         padding-top: 25px;
@@ -226,6 +227,10 @@ export const Seccion = styled.div`
       .footer-eventos {
         background: #1d3557;
         color: white;
+        height: 30px;
+        :hover {
+          cursor: pointer;
+        }
       }
 
 `
