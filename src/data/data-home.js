@@ -10,13 +10,13 @@ exports.carousel = [
   {
     "src": "./congreso.png",
     "href": "./congreso.pdf",
-    "alt": "congreso intenacional",
+    "alt": "Sede del congreso internacional multidisciplinario de matemática",
     "Description": "III Congreso Internacional Multidisciplinario de Matemática"
   },
   {
     "src": "./admision.jpg",
     "href": "http://www.admision.uni.edu.pe/",
-    "alt": "Estudiantes admision",
-    "Description": "Examen de admision UNI"
+    "alt": "Estudiantes llendo al exámen de admision",
+    "Description": "Exámen de admision UNI"
   },
   ]
