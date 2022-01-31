@@ -6,10 +6,7 @@ import { Container } from "react-bootstrap";
 let { docentes } = require("../../data/data-docentes.js");
 
 function Docentes() {
-  docentes.sort(function(a :any, b:any) {
-            if (a.nombre > b.nombre) return 1
-            else return 0
-          })
+  docentes.sort()
   return (
     <Container className="mt-5 px-3" fluid>
       <div className="App-cuerpo">
@@ -45,7 +42,25 @@ function Docentes() {
           {/* <div className="App-rectangulo"></div> */}
           {/* <section className="App-center"> */}
 
-          {docentes.map((d: any) => {
+          {docentes.sort(
+                function(a :any, b:any) {
+
+                let valueA = a.nombre;
+                let valueB = b.nombre;
+
+                let av = valueA.trim().toLowerCase();
+                let bv = valueB.trim().toLowerCase();
+                let r = ((av > bv) ? 1 : ((av < bv) ? -1 : 0));
+                if(r === 0){
+                  r = (typeof a.key !== 'undefined' && typeof b.key !== 'undefined')?
+                    a.key - b.key : 0;
+                }
+                  return r;
+
+
+              }
+
+          ).map((d: any) => {
             return (
               <Docente
                 nombre={d.nombre}
