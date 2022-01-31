@@ -21,7 +21,7 @@ function Docente(props: any) {
               <li>E-mail: {props.email}</li>
               {/* <li>Cursos asignados*: - </li> */}
               <li>
-                {props.gradoAc}{" "}
+                Grado académico: {props.gradoAc}{" "}
               </li>
               <li>Áreas de interés: {props.areasDeInteres}</li>
               <li>C.V:&nbsp;&nbsp;&nbsp;   

@@ -6,6 +6,11 @@ import { Container } from "react-bootstrap";
 let { docentes } = require("../../data/data-docentes.js");
 
 function Docentes() {
+  console.log(docentes)
+  console.log(docentes.sort(function(a :any, b:any) {
+            if (a.nombre > b.nombre) return 1
+            else return 0
+          }))
   return (
     <Container className="mt-5 px-3" fluid>
       <div className="App-cuerpo">

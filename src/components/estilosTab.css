@@ -54,18 +54,19 @@
   color: #1d3557;
   width: 12em;
   margin: 6px;
+  /* -webkit-transition:all 500ms ease;
+	  -o-transition:all 500ms ease;
+	transition:all 500ms ease; */
 }
-
-
 
 .nav2 a.active {
   color: white;
   border-radius: 8px;
   background-color: #1d3557;
   /* border-bottom: solid #1d3557 5px; */
-    -webkit-transition:all 500ms ease;
+  /*   -webkit-transition:all 500ms ease;
 	  -o-transition:all 500ms ease;
-	transition:all 500ms ease;
+	transition:all 500ms ease; */
 }
 
 .style-gr-i > .nav-item{

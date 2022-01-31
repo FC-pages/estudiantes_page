@@ -56,6 +56,9 @@ export const ContainerCarousel = styled.div`
     padding-top: 0px;
     padding-bottom: 0px;
   }
+  img {
+    height: 390px;
+  }
 `;
 export const Header = styled.header`
   background-color: #1D3557; /* #282c34 */
@@ -78,6 +81,7 @@ export const Header = styled.header`
     min-height: 10px;
     opacity: 50%;
   }
+  
   .main {
 
     /* background-repeat: no-repeat; repeat-x, repeat-y */

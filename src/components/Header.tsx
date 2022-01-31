@@ -5,7 +5,7 @@ import * as S from "../styles/styles";
 function Header() {
   return (
     <S.Header>
-      <img alt="logo uni" src="./logo-UNI-footer.png"></img>
+      <img alt="logo uni" src="logo-UNI-footer.png"></img>
       <div className="main">
         <div className="title">
           <div>

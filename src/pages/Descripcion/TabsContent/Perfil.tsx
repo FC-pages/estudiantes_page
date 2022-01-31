@@ -23,7 +23,7 @@ function Perfil() {
                 Matemática o de sus múltiples campos de aplicación, siempre
                 ligada a la frontera del conocimiento.{" "}
               </p>
-              <img id = "img-vidrio" src = { matematicoVidrio }></img>
+              <img id = "img-vidrio" src = { matematicoVidrio } width={600}></img>
               <p>
                 {" "}
                 Es ampliamente conocido que la Matemática cumple un rol
@@ -35,7 +35,7 @@ function Perfil() {
                 actividades, por lo que sus oportunidades de crecimiento y
                 desarrollo profesional suelen ser bastante amplias.{" "}
               </p>
-              <img id = "img-optimizacion" src = { optimizacion }></img>
+              <img id = "img-optimizacion" src = { optimizacion } width={300}></img>
               <p>
                 {" "}
                 Es cada vez mayor el número de egresados de la especialidad de
@@ -48,7 +48,7 @@ function Perfil() {
                 automático y en modelamiento de procesos, especialmente en lo
                 que concierne a incertidumbre.{" "}
               </p>
-              <img id = "img-salud" src = { salud }></img>
+              <img id = "img-salud" src = { salud } width={400}></img>
               <p>
                 {" "}
                 En el ámbito de las ciencias, la matemática cumple un papel muy
@@ -69,7 +69,7 @@ function Perfil() {
                 preguntas de la ciencia y la técnica, y es, en muchos casos, la
                 herramienta básica en la búsqueda de su solución{" "}
               </p>
-              <img id = "img-profesores" src = { profesores }></img>
+              <img id = "img-profesores" src = { profesores } width={600}></img>
               {/* <b className="anios">1960</b> */}
             </article>
           </S.ContainerPerfil>
