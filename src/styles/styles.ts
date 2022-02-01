@@ -27,7 +27,7 @@ export const StyledBurger = styled.div<INav>`
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${(props) => props.open || !props.home ? 'black' : 'white'};
+    background-color: ${(props) => props.open || !props.home ? 'black' : 'black'};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;

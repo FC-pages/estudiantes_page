@@ -7,11 +7,12 @@ export const ContainerPerfil = styled.div`
   img {
     display: block;
     margin: 15px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
   #img-optimizacion {
-    width: 45%;
+    max-width: 45%;
   }
 `
 
