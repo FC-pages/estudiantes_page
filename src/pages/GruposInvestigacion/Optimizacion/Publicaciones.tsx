@@ -11,6 +11,7 @@ import pubb from "../../../images/pubb.gif";
 const TabFour: FC<{}> = () => {
   return (
     <Fragment>
+      <h2 className = "titulo-grupo-investigacion">Línea de Optimización</h2>
       {/* <h3>Publicaciones</h3>2 */}
       <hr></hr>
       <h4 className="tit">Extensions of the ogive skew normal item response model</h4>

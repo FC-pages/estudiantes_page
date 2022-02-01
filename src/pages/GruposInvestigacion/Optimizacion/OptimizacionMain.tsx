@@ -31,7 +31,7 @@ export default function OptimizacionMain() {
           </Nav.Item>
         </Nav>
         <Container className="p-3">
-          <Tab.Content>
+          <Tab.Content >
             <Tab.Pane eventKey="Acerca">
               <Acerca/>
             </Tab.Pane>

@@ -4,6 +4,7 @@ import "../../../styles/gInvestigacion.css";
 const TabThree: FC<{}> = () => {
   return (
     <Fragment>
+      <h2 className = "titulo-grupo-investigacion">Línea de Optimización</h2>
       {/* <h3>Proyectos</h3> */}
       <hr></hr>
       <h4 className="tit">Statistical Methods for Cluster Randomized Trials</h4>
