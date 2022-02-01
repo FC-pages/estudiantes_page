@@ -11,7 +11,9 @@ import conf2 from "../../../images/conf2.jpeg";
 const TabFour: FC<{}> = () => {
   return (
     <Fragment>
-      {/* <h3>Eventos Académicos</h3> */}
+      <div>
+        <h3 className="t-stroke-shadow">Linea de Análisis Numérico</h3>
+      </div>
       <hr></hr>
       <h4 className="tit">LABOSIN</h4>
       <div className="container">

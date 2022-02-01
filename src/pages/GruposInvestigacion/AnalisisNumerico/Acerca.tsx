@@ -7,7 +7,10 @@ import profesor1 from "../../images/profesor1.jpg";
 const Acerca: FC<{}> = () => {
   return (
     <Fragment>
-      {/* <h3>Acerca del grupo</h3> */}
+      <div>
+        <h3 className="t-stroke-shadow">Linea de Análisis Numérico</h3>
+      </div>
+      <hr></hr>
       <div className="quote">
       <cite>
       “All science as it grows toward perfection becomes mathematical in its ideas ». 

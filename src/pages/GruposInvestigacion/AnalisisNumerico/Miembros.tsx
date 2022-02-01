@@ -19,7 +19,10 @@ import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 const TabTwo: FC<{}> = () => {
   return (
     <Fragment>
-    {/* <h3>Miembros del grupo:</h3> */}
+      <div>
+        <h3 className="t-stroke-shadow">Linea de Análisis Numérico</h3>
+      </div>
+      <hr></hr>
       <div className="container">
         <div className="itemLeft">
           <img src={profesor2} className="foto-profesor"></img></div>

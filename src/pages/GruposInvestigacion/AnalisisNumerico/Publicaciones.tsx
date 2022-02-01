@@ -11,7 +11,9 @@ import pubb from "../../../images/pubb.gif";
 const TabFour: FC<{}> = () => {
   return (
     <Fragment>
-      {/* <h3>Publicaciones</h3> */}
+      <div>
+        <h3 className="t-stroke-shadow">Linea de Análisis Numérico</h3>
+      </div>
       <hr></hr>
       <h4 className="tit">Simulación numérica de flujos multifase</h4>
       <div className="container">

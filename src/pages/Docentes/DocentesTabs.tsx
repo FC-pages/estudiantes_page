@@ -2,6 +2,7 @@ import React from "react";
 import { Tab, Container, Nav } from "react-bootstrap";
 import "../../components/estilosTab.css";
 import Docentes from './Docentes';
+import Publicaciones from './Publicaciones/Publicacionesmain';
 
 export default function DocentesTabs() {
   return (
@@ -37,7 +38,7 @@ export default function DocentesTabs() {
               <Docentes />
             </Tab.Pane>
             <Tab.Pane eventKey="Publicaciones">
-              <div/>
+              <Publicaciones/>
             </Tab.Pane>
           </Tab.Content>
         </div>
