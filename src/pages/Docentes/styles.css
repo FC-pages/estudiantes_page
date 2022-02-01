@@ -69,6 +69,7 @@
 
 .tab-content {
   padding: 0 15px;
+  overflow: auto;
 }
 
 .App-center {
@@ -284,12 +285,14 @@
   vertical-align: middle;
   /* margin-inline: auto; */
 }
+
 .App-profes table {
   padding: 5px;
   min-width: 445px;
   /* paddi */
   text-align: left;
 }
+
 
 .App-profes th {
   background-color: #1d3557;
@@ -377,4 +380,17 @@
   background-color: #1d3557;
   color: white;
   padding: 15pt;
+}
+
+@media (max-width: 768px) {
+  .App-profes {
+    width: 100%;
+  }
+  .App-profes table {
+    width: 100%;
+    min-width: 50px;
+  }
+  .App-profes-td ul {
+    width: auto;
+  }
 }

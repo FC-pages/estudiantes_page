@@ -10,7 +10,7 @@ function Docentes() {
       return texto.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
   }
   return (
-    <Container className="mt-5 px-3" fluid>
+    <Container  fluid>
       <div className="App-cuerpo">
         {/* <div className="App-rectangulo2"></div>
         <h3>Docentes</h3>

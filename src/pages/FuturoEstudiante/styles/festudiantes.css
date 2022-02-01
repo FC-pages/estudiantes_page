@@ -130,6 +130,7 @@
   
 
 }
+
 .rightItem {
   /*width: 50vw;*/
   width: 30vw;
@@ -139,6 +140,17 @@
   display: inline-block;
   vertical-align: middle;
 }
+
+@media (max-width: 768px) {
+  .leftItem {
+    width: 100%;
+  }
+
+  .rightItem {
+    width: 100%;
+  }
+}
+
 
 /*Accordion*/
 .accordion {

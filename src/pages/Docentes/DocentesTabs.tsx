@@ -31,7 +31,7 @@ export default function DocentesTabs() {
             </Nav.Link>
           </Nav.Item>
         </Nav>
-        <Container className="p-3">
+        <div className="pt-3">
           <Tab.Content >
             <Tab.Pane eventKey="Docentes">
               <Docentes />
@@ -40,7 +40,7 @@ export default function DocentesTabs() {
               <div/>
             </Tab.Pane>
           </Tab.Content>
-        </Container>
+        </div>
       </Tab.Container>
     </Container>
   );
