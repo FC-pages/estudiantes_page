@@ -15,10 +15,11 @@ export const EgresadosPage = styled.div`
 
 export const TabContent = styled.div`
   margin: 50px 0px;
-`
+  `
 export const TestimoniosTab = styled.div`
   display: flex;
   flex-wrap: wrap;
+  gap: 15px;
 `
 
 export const TCard = styled.div`

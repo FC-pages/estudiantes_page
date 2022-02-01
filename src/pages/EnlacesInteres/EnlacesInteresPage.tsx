@@ -4,7 +4,7 @@ import React from "react";
 import "../../pages/FuturoEstudiante/styles/tabs.css";
 // import "../../components/estilosTab.css";
 import Competiciones from "./CompeticionesEI";
-import Revista_ciencias from "./RevistacienciasEI";
+import RevistaCiencias from "./RevistacienciasEI";
 import Otros from "./OtrosEI";
 import InstAcademicas from "./InstitucionesAcademicasEI";
 import Cursosonline from "./CursosOnlineEI";
@@ -21,14 +21,14 @@ export default function EnlacesInteresPage() {
       }}
       className="text-start mt-5"
     >
-      <Tab.Container defaultActiveKey="Revista_ciencias">
+      <Tab.Container defaultActiveKey="RevistaCiencias">
         <Nav
           // variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
           className="justify-content-center pt-1 fs-6 style-with"
         >
-          <Nav.Item >
-            <Nav.Link eventKey="Revista_ciencias">
+          <Nav.Item>
+            <Nav.Link eventKey="RevistaCiencias">
               Revista sobre ciencias
             </Nav.Link>
           </Nav.Item>
@@ -41,7 +41,10 @@ export default function EnlacesInteresPage() {
             <Nav.Link eventKey="CursosOnline">Cursos Online</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Competicionesestudiantiles"> Competiciones Estudiantiles</Nav.Link>
+            <Nav.Link eventKey="Competicionesestudiantiles">
+              {" "}
+              Competiciones Estudiantiles
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="SeminariosOnline"> Seminarios Online</Nav.Link>
@@ -51,9 +54,9 @@ export default function EnlacesInteresPage() {
           </Nav.Item>
         </Nav>
         <Container className="p-3">
-          <Tab.Content >
-            <Tab.Pane eventKey="Revista_ciencias">
-              <Revista_ciencias />
+          <Tab.Content>
+            <Tab.Pane eventKey="RevistaCiencias">
+              <RevistaCiencias />
             </Tab.Pane>
             <Tab.Pane eventKey="InstAcademicas">
               <InstAcademicas />
@@ -68,13 +71,13 @@ export default function EnlacesInteresPage() {
               <Otros />
             </Tab.Pane>
             <Tab.Pane eventKey="SeminariosOnline">
-              <SeminariosOnline/>
+              <SeminariosOnline />
             </Tab.Pane>
           </Tab.Content>
         </Container>
       </Tab.Container>
     </Container>
-      /*<Tabs
+    /*<Tabs
         className="justify-content-center pt-1"
         defaultActiveKey="Revistas sobre ciencias"
         style={{ backgroundColor: "#1D3557" }}
