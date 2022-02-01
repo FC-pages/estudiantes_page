@@ -10,7 +10,7 @@ let videos = [
     name: "Importancia de estudiar Matemática",
     href: "https://www.youtube.com/watch?v=Cwq4dRBWcr8&t=185s",
     Description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sint illum iusto nostrum cumque qui voluptas",
+      "Las matemáticas tienen un triple propósito. Debe proporcionar un instrumento para el estudio de la naturaleza. Pero esto no es todo: tiene un propósito filosófico y, me atrevo a decir, estético.",
   },
 ];
 
@@ -35,7 +35,21 @@ const TabOne: FC<{}> = () => {
                   <ReactPlayer controls width="100%" url={video.href} />
                   <Card.Body>
                     <Card.Title>{video.name}</Card.Title>
-                    <Card.Text>{video.Description}</Card.Text>
+                    <Card.Text>
+                      <div className="quote">
+                        <cite>
+                          “{video.Description}». 
+                        </cite>
+                        </div>
+                        <div>
+                        <figcaption className="quote">
+                          &mdash;<cite>Henri Poincaré</cite>  
+                        </figcaption>
+                        </div>
+                    </Card.Text>
+
+
+
                   </Card.Body>
                 </Card>
               );

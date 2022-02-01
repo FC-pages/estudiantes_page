@@ -68,7 +68,7 @@ function RightNav(props: Props) {
           <li>Alumnos y egresados</li>{" "}
         </NavLink>
         <NavLink to="/GruposInvestigacion">
-              <li>Grupos de investigación</li>{" "}
+              <li>Líneas de investigación</li>{" "}
             </NavLink>
 
   {/*

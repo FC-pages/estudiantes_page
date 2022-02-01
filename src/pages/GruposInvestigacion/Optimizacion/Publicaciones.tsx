@@ -11,6 +11,9 @@ import pubb from "../../../images/pubb.gif";
 const TabFour: FC<{}> = () => {
   return (
     <Fragment>
+      <div>
+        <h3 className="t-stroke-shadow">Linea de Optimización</h3>
+      </div>
       {/* <h3>Publicaciones</h3>2 */}
       <hr></hr>
       <h4 className="tit">Extensions of the ogive skew normal item response model</h4>

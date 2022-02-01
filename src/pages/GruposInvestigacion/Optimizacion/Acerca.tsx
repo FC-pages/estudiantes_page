@@ -7,6 +7,10 @@ import profesor1 from "../../images/profesor1.jpg";
 const Acerca: FC<{}> = () => {
   return (
     <Fragment>
+      <div>
+        <h3 className="t-stroke-shadow">Linea de Optimización</h3>
+      </div>
+      <hr></hr>
       <div className="quote">
       <cite>
       “Nada en el mundo ocurre sin optimización, y no hay duda de que todos los aspectos del mundo que tienen una base racional pueden explicarse mediante métodos de optimización ». 
