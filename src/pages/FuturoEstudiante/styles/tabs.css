@@ -106,3 +106,13 @@
     cursor: pointer;
     color: #1d3557
   }
+
+  .style-with > .nav-item{
+    width: 15%;
+    }
+  
+  .style-with .nav2 .nav-item {
+    width: 10em;
+  }
+  
+  

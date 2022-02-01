@@ -8,6 +8,7 @@ import Revista_ciencias from "./RevistacienciasEI";
 import Otros from "./OtrosEI";
 import InstAcademicas from "./InstitucionesAcademicasEI";
 import Cursosonline from "./CursosOnlineEI";
+import SeminariosOnline from "./SeminariosOnlineEI";
 
 export default function EnlacesInteresPage() {
   return (
@@ -24,7 +25,7 @@ export default function EnlacesInteresPage() {
         <Nav
           // variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
-          className="justify-content-center pt-1 fs-6"
+          className="justify-content-center pt-1 fs-6 style-with"
         >
           <Nav.Item >
             <Nav.Link eventKey="Revista_ciencias">
@@ -43,7 +44,10 @@ export default function EnlacesInteresPage() {
             <Nav.Link eventKey="Competicionesestudiantiles"> Competiciones Estudiantiles</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Otros"> Otros</Nav.Link>
+            <Nav.Link eventKey="SeminariosOnline"> Seminarios Online</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Otros"> Otros </Nav.Link>
           </Nav.Item>
         </Nav>
         <Container className="p-3">
@@ -62,6 +66,9 @@ export default function EnlacesInteresPage() {
             </Tab.Pane>
             <Tab.Pane eventKey="Otros">
               <Otros />
+            </Tab.Pane>
+            <Tab.Pane eventKey="SeminariosOnline">
+              <SeminariosOnline/>
             </Tab.Pane>
           </Tab.Content>
         </Container>
