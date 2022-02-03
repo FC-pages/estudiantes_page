@@ -25,7 +25,7 @@ function App() {
           style={{
             backgroundColor: "#1D3557",
             position: "absolute",
-            height: 110,
+            minHeight: 110,
             bottom: 0,
             width: "100%",
             color: "white",

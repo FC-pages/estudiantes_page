@@ -6,7 +6,7 @@ export default function TestimoniosEstudiantesPage() {
   return (
     <Container className="text-start p-3">
       <Row>
-        <Col>
+        <Col md={12} lg={6}>
           <Card style={{ width: "100%" }}>
             <ReactPlayer
               controls
@@ -26,7 +26,7 @@ export default function TestimoniosEstudiantesPage() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col md={12} lg={6}>
           <Card style={{ width: "100%" }}>
             <ReactPlayer
               controls

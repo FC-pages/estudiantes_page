@@ -8,7 +8,7 @@ import Otros from "./Otros";
 export default function PublicacionesMain() {
   return (
     <Container className = "style-gr-i">
-      <Tab.Container defaultActiveKey="Acerca" >
+      <Tab.Container defaultActiveKey="Articulos" >
         <Nav
           style={{ textAlign:"left" }}
           className="nav2" 
