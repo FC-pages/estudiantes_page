@@ -276,7 +276,7 @@ exports.docentes = [
     "gradoAc": "Licenciada",
     "dina": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=c7b85356e7ed81d5cb588475a41e?id_investigador=101484",
     "cv": " ",
-    "areasDeInteres": " ",
+    "areasDeInteres": "Idioma extranjero",
   },
   {
     "nombre": "Segundo Escalante ",
