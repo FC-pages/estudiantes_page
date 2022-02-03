@@ -25,7 +25,7 @@ export default function EnlacesInteresPage() {
         <Nav
           // variant="tabs"
           style={{ backgroundColor: "#1D3557" }}
-          className="justify-content-center pt-1 fs-6 style-with"
+          className="justify-content-center pt-1 fs-6 style-with-otros"
         >
           <Nav.Item >
             <Nav.Link eventKey="Revista_ciencias">

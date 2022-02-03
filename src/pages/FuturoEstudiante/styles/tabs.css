@@ -115,4 +115,6 @@
     width: 10em;
   }
   
-  
+  .style-with-otros > .nav-item{
+    width: 10%;
+    }
