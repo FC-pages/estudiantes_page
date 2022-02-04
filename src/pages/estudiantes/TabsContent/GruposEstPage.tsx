@@ -1,17 +1,14 @@
-import { Container, Tab, Nav, Row, Col, Figure } from "react-bootstrap";
-import { FaYoutube, FaFacebookSquare } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import "../../FuturoEstudiante/styles/grupestud.css";
-import React from "react";
+import { Container, Tab, Nav, Row, Col, Figure } from 'react-bootstrap';
+import { FaYoutube, FaFacebookSquare } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import '../../FuturoEstudiante/styles/grupestud.css';
+import React from 'react';
 
 export default function GruposEstPage() {
   return (
     <Container>
       <Tab.Container defaultActiveKey="GEM">
-        <Nav
-          style={{ textAlign:"left" }}
-          className="nav2"
-        >
+        <Nav style={{ textAlign: 'left' }} className="nav2">
           <Nav.Item>
             <Nav.Link eventKey="GEM">GEM</Nav.Link>
           </Nav.Item>
@@ -32,7 +29,7 @@ export default function GruposEstPage() {
                   </p>
                   <p>
                     Descripción del grupo estudiantil: Grupo de estudiantes de
-                    matematica, dibulgacion matematica.
+                    matemática, divulgación matemática.
                   </p>
                 </Col>
               </Row>
@@ -41,7 +38,7 @@ export default function GruposEstPage() {
                   Información de contacto y redes sociales
                 </p>
                 <p>
-                  <FaYoutube size={25} title="youtube" />{" "}
+                  <FaYoutube size={25} title="youtube" />{' '}
                   <a
                     className="a-link"
                     href="https://www.youtube.com/channel/UCyALMJPXSZBnJ7DlF5yEOvw"
@@ -50,13 +47,13 @@ export default function GruposEstPage() {
                   </a>
                 </p>
                 <p>
-                  <MdEmail size={25} title="email" />{" "}
+                  <MdEmail size={25} title="email" />{' '}
                   <a className="a-link" href="mailto:gem@uni.edu.pe">
                     gem@uni.edu.pe
                   </a>
                 </p>
                 <p>
-                  <FaFacebookSquare size={25} title="facebook" />{" "}
+                  <FaFacebookSquare size={25} title="facebook" />{' '}
                   <a
                     className="a-link"
                     href="https://www.facebook.com/GEMFCUNI/"
