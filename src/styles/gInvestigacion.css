@@ -1,148 +1,147 @@
- /*foto-grupo*/
- .foto-grupo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+/*foto-grupo*/
+.foto-grupo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
 .foto-profesor {
-    display: block;
-    margin-right: auto;
-    float: right;
-    /*padding-left: 35px;*/
+  display: block;
+  margin-right: auto;
+  float: right;
+  max-width: 95%;
+  min-width: 150px;
+  /*padding-left: 35px;*/
 }
 .foto-profesorX {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: right;
-    width: 58%;
-    /*padding-left: 35px;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  width: 58%;
+  /*padding-left: 35px;*/
 }
 .foto-publicaciones {
-    display: block;
-    margin-left: 10px;
-    margin-right: auto;
-    /* float: right; */
+  display: block;
+  margin-left: 10px;
+  margin-right: auto;
+  /* float: right; */
 }
-  .itemLeft {
-    /*width: 12vw;*/
-    width: 20%;
-    padding: 10px;
-    padding-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    /*background-color: green;*/
-    /*background-color: rgba(111,41,97,.3);*/
-    /*border: 2px solid rgba(111,41,97,.5);*/
-    display: inline-block;
-    vertical-align: top;
-    color: #00427A;
-    font-style: italic;
-    font-weight: bold;
-    
-  
-  }
-  .itemRight {
-    /*width: 30vw;*/
-    width: 30%;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    text-align: justify;
-    text-justify: inter-word;
-    /*background-color: pink;*/
-    /*background-color: rgba(111,41,97,.3);*/
-    /*border: 2px solid rgba(111,41,97,.5);*/
-    display: inline-block;
-    vertical-align: middle
-  }
-  
-  .tit {
-    color: #007a91;
-    font-weight: bold;
-    font-size: 16px;
-  }
-  .justify {
-    text-align: justify;
-    text-justify: inter-word;
-  }
-  .tit2 {
-    color: #007a91;
-    font-size: 16px;
-  }
+.itemLeft {
+  /*width: 12vw;*/
+  width: 20%;
+  padding: 10px;
+  padding-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /*background-color: green;*/
+  /*background-color: rgba(111,41,97,.3);*/
+  /*border: 2px solid rgba(111,41,97,.5);*/
+  display: inline-block;
+  vertical-align: top;
+  color: #00427a;
+  font-style: italic;
+  font-weight: bold;
+}
+.itemRight {
+  /*width: 30vw;*/
+  width: 30%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  /*background-color: pink;*/
+  /*background-color: rgba(111,41,97,.3);*/
+  /*border: 2px solid rgba(111,41,97,.5);*/
+  display: inline-block;
+  vertical-align: middle;
+}
 
-  /*line- dotted*/
-  .dotted {
-    border-top: 1px dotted gray;
-  }
+.tit {
+  color: #007a91;
+  font-weight: bold;
+  font-size: 16px;
+}
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.tit2 {
+  color: #007a91;
+  font-size: 16px;
+}
 
-  /*publicaciones*/
-  .itemRight2 {
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 3vw;
-    width: 10vw;
-    /*background-color: purple;*/
-    /*background-color: rgba(111,41,97,.3);*/
-    /*border: 2px solid rgba(111,41,97,.5);*/
-    display: inline-block;
-    vertical-align: top;
-    color: #00427A;
-    font-style: italic;
-    font-weight: bold;
-  }
-  .itemLeft2 {
-    width: 38vw;
-    padding: 3px;
-    /*background-color: green;*/
-    /*background-color: rgba(111,41,97,.3);*/
-    /*border: 2px solid rgba(111,41,97,.5);*/
-    display: inline-block;
-    vertical-align: middle;
-    text-align: justify;
-    text-justify: inter-word;
-  }
-  
-  /*-----------*/
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* Create two equal columns that floats next to each other */
+/*line- dotted*/
+.dotted {
+  border-top: 1px dotted gray;
+}
+
+/*publicaciones*/
+.itemRight2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 3vw;
+  width: 10vw;
+  /*background-color: purple;*/
+  /*background-color: rgba(111,41,97,.3);*/
+  /*border: 2px solid rgba(111,41,97,.5);*/
+  display: inline-block;
+  vertical-align: top;
+  color: #00427a;
+  font-style: italic;
+  font-weight: bold;
+}
+.itemLeft2 {
+  width: 38vw;
+  padding: 3px;
+  /*background-color: green;*/
+  /*background-color: rgba(111,41,97,.3);*/
+  /*border: 2px solid rgba(111,41,97,.5);*/
+  display: inline-block;
+  vertical-align: middle;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/*-----------*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: #aaa;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
   .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-    background-color:#aaa;
+    width: 100%;
   }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
+}
 
-  .icons2 {
-    font-size: 1.4em;
-    color: #1d3557;
-  }
-
+.icons2 {
+  font-size: 1.4em;
+  color: #1d3557;
+}
 
 .t-stroke-shadow {
   /* text-align: left; */
       color: #1d3557;
       /* text-shadow: -0.7px 0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 1.75px 1.75px #f3f3f2, 3.5px 3.5px #bbbbbb;
        */
-      text-shadow: -0.7px 0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 2.5px 2.5px #bbbbbb;
+      text-shadow: -0.7px 0.7px #ffffff,-0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 2.5px 2.5px #bbbbbb;
   }
   
-    

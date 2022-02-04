@@ -23,7 +23,7 @@ function Docente(props: any) {
               <li>
                 Grado académico: {props.gradoAc}{" "}
               </li>
-              <li>Áreas de interés: {props.areasDeInteres}</li>
+              <li>Línea de interés: {props.areasDeInteres}</li>
               <li>C.V:&nbsp;&nbsp;&nbsp;   
                 <a href={props.dina}>
                   <FontAwesomeIcon className="icons2" icon={faFileAlt} />
