@@ -12,7 +12,7 @@ const TabFour: FC<{}> = () => {
   return (
     <Fragment>
       <div>
-        <h3 className="t-stroke-shadow">Linea de Optimización</h3>
+        <h3 className="t-stroke-shadow">Línea de Optimización</h3>
       </div>
       <hr></hr>
       <h4 className="tit">Workshop en Geometría y Dinámica</h4>

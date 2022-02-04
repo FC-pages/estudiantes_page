@@ -19,7 +19,7 @@ const TabTwo: FC<{}> = () => {
   return (
     <Fragment>
       <div>
-        <h3 className="t-stroke-shadow">Linea de Optimización</h3>
+        <h3 className="t-stroke-shadow">Línea de Optimización</h3>
       </div>
       <hr></hr>
       <div className="container">

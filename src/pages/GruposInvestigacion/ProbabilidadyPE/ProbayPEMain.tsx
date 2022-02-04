@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Tab, Nav } from "react-bootstrap";
-// import Acerca from "./Acerca";
+import Acerca from "./Acerca";
 import Miembros from "./Miembros";
-// import Proyectos from "./Proyectos";
-// import Publicaciones from "./Publicaciones";
-// import EventosAcademicos from "./EventosAcademicos";
+import Proyectos from "./Proyectos";
+import Publicaciones from "./Publicaciones";
+import EventosAcademicos from "./EventosAcademicos";
 
 export default function ProbayPEMainMain() {
   return (
@@ -33,24 +33,19 @@ export default function ProbayPEMainMain() {
         <Container className="p-3">
           <Tab.Content>
             <Tab.Pane eventKey="Acerca">
-              <div/>
-              {/* <Acerca/> */}
+              <Acerca/>
             </Tab.Pane>
             <Tab.Pane eventKey="Miembros">
-              {/* <div/> */}
               <Miembros/> 
             </Tab.Pane>
             <Tab.Pane eventKey="Proyectos">
-              <div/>
-              {/* <Proyectos/>  */}
+              <Proyectos/> 
             </Tab.Pane>
             <Tab.Pane eventKey="Publicaciones">
-              <div/>
-              {/* <Publicaciones/>  */}
+              <Publicaciones/> 
             </Tab.Pane>
             <Tab.Pane eventKey="Eventos">
-              <div/>
-              {/* <EventosAcademicos/>  */}
+              <EventosAcademicos/> 
             </Tab.Pane>
           </Tab.Content>
         </Container>

@@ -20,6 +20,10 @@ const TabTwo: FC<{}> = () => {
   return (
     <Fragment>
     {/* <h3>Miembros del grupo:</h3> */}
+      <div>
+        <h3 className="t-stroke-shadow">Línea de Probabilidad y Procesos Estocásticos</h3>
+      </div>
+      <hr></hr>
       <div className="container">
         <div className="itemLeft">
           <img src="gonzalo-panizo.JPG" className="foto-profesor" width={110}></img></div>

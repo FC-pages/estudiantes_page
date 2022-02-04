@@ -5,7 +5,7 @@ const TabThree: FC<{}> = () => {
   return (
     <Fragment>
       <div>
-        <h3 className="t-stroke-shadow">Linea de Análisis Numérico</h3>
+        <h3 className="t-stroke-shadow">Línea de Análisis Numérico</h3>
       </div>
       <hr></hr>
       <h4 className="tit">Propuesta de un modelo matemático para el proceso de combustión in situ y su análisis de solución por ondas viajeras.</h4>

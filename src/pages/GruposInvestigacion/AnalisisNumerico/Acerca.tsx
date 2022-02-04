@@ -8,7 +8,7 @@ const Acerca: FC<{}> = () => {
   return (
     <Fragment>
       <div>
-        <h3 className="t-stroke-shadow">Linea de Análisis Numérico</h3>
+        <h3 className="t-stroke-shadow">Línea de Análisis Numérico</h3>
       </div>
       <hr></hr>
       <div className="quote">
