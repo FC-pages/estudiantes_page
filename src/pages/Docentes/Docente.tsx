@@ -2,6 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 
 function Docente(props: any) {
+  const reverse = (s:any) =>{
+      return s.split("").reverse().join("");
+  }
   return (
     <div className="App-profes">
       <table cellPadding={8}>
@@ -18,7 +21,7 @@ function Docente(props: any) {
           </td>
           <td className="App-profes-td">
             <ul>
-              <li className = "correo-oculto">E-mail: {props.email}</li>
+              <li>E-mail: <span className = "correo-oculto">{reverse(props.email)}</span></li>
               {/* <li>Cursos asignados*: - </li> */}
               <li>
                 Grado académico: {props.gradoAc}{" "}
