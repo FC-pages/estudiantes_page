@@ -11,15 +11,17 @@ export const Ul = styled.ul<INav>`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+  background: ${colors.main};
   position: absolute;
-  width: 80%;
-  top: 130px;
+  width: 100%;
+  top: 160px;
   justify-content: space-between;
   margin-top: 0px;
   align-items: center;
   font-size: 18px;
-  height: 110px;
-  margin-left: 150px;
+  height: 50px;
+  padding: 0px 60px;
+  /*margin-left: 150px;*/
   margin-right: 0px;
   z-index: 4;
 

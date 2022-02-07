@@ -18,7 +18,7 @@ function Docente(props: any) {
           </td>
           <td className="App-profes-td">
             <ul>
-              <li>E-mail: {props.email}</li>
+              <li className = "correo-oculto">E-mail: {props.email}</li>
               {/* <li>Cursos asignados*: - </li> */}
               <li>
                 Grado académico: {props.gradoAc}{" "}

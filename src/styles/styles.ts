@@ -62,17 +62,22 @@ export const ContainerCarousel = styled.div`
 `;
 export const Header = styled.header`
   background-color: #1D3557; /* #282c34 */
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+      background-image: url('${imagenmate}');
+      background-size:cover; /* auto, cover, contained, 200px 200px*/;
   font-size: calc(10px + 2vmin);
   color: black;
-  min-height: 210px;   
+  max-height: 200x;   
+  max-height: 200px;   
   img {
-    height: 160px;
+    height: 150px;
     padding: 0px 15px;
-    position: absolute; 
+    position: absolute;
+    top: 6px;
     z-index: 2;
   }
 
@@ -80,6 +85,7 @@ export const Header = styled.header`
     background: black;
     min-height: 10px;
     opacity: 50%;
+    width: 100%;
   }
   
   .main {
@@ -96,12 +102,10 @@ export const Header = styled.header`
     margin: 0px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     .title{
       display: flex;
       flex-direction: column;
-      background-image: url('${imagenmate}');
-      background-size:cover; /* auto, cover, contained, 200px 200px*/;
       min-height: 160px;
       justify-content: space-between;
 

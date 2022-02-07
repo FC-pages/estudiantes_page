@@ -382,6 +382,12 @@
   padding: 15pt;
 }
 
+/*
+.correo-oculto {
+  unicode-bidi:bidi-override;
+  direction: rtl;
+}
+*/
 @media (max-width: 768px) {
   .App-profes {
     width: 100%;
