@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function Otros() {
   return (
     <div>
       <p className="fs-4 fw-bold">
-        1.{" "}
+        1.{' '}
         <a
           className="a-link-title"
           href="https://www.rsme.es/2022/01/ultimo-boletin-2/"
@@ -22,17 +22,17 @@ function Otros() {
       <a className="ms-3" href="https://www.rsme.es/2022/01/ultimo-boletin-2/">
         <img
           style={{
-            height: "80px",
+            height: '80px',
           }}
           alt="Real Sociedad Matemática Española"
-          src="./RSME.jpg"
+          src="./enlaces/RSME.jpg"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        2.{" "}
+        2.{' '}
         <a className="a-link-title" href="https://iciam.org/history-iciam">
           The International Council for Industrial and Applied Mathematics
         </a>
@@ -46,16 +46,16 @@ function Otros() {
       </p>
       <a className="ms-3" href="https://iciam.org/history-iciam">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="The International Council for Industrial and Applied Mathematics"
-          src="./iciam-logo.png"
+          src="./enlaces/iciam-logo.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        3.{" "}
+        3.{' '}
         <a className="a-link-title" href="https://www.conicyt.cl/becasconicyt/">
           Prociencia - Concytec
         </a>
@@ -69,15 +69,15 @@ function Otros() {
       </p>
       <a className="ms-3" href="https://www.conicyt.cl/becasconicyt/">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Prociencia - Concytec"
-          src="./prociencia.png"
+          src="./enlaces/prociencia.png"
         />
       </a>
 
       <br />
       <p className="mt-3 fs-4 fw-bold">
-        4.{" "}
+        4.{' '}
         <a className="a-link-title" href="https://www.conicyt.cl/becasconicyt/">
           Becas CONYCIT
         </a>
@@ -89,16 +89,16 @@ function Otros() {
       </p>
       <a className="ms-3" href="https://www.conicyt.cl/becasconicyt/">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Becas CONYCIT"
-          src="./beca-conycit.jpg"
+          src="./enlaces/beca-conycit.jpg"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        5.{" "}
+        5.{' '}
         <a className="a-link-title" href="http://pec3.org">
           Peruvian Competence Center of Scientific Computing
         </a>
@@ -110,9 +110,9 @@ function Otros() {
       </p>
       <a className="ms-3" href="http://pec3.org">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Peruvian Competence Center of Scientific Computing"
-          src="./pecCubo.jpg"
+          src="./enlaces/pecCubo.jpg"
         />
       </a>
     </div>

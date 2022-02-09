@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function SeminariosOnline() {
   return (
     <div>
       <p className="fs-4 fw-bold">
-        1.{" "}
+        1.{' '}
         <a className="a-link-title" href="https://owos.univie.ac.at/">
           One World Optimization Seminar
         </a>
@@ -21,18 +21,18 @@ function SeminariosOnline() {
         <img
           style={{
             /*backgroundColor: "#126f91",*/
-            height: "80px",
+            height: '80px',
             /*padding: "0 10px",*/
           }}
           alt="La Recherche"
-          src="./owpde.png"
+          src="./enlaces/owpde.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        2.{" "}
+        2.{' '}
         <a className="a-link-title" href="http://www.mocao.org/va-webinar/">
           Variational Analysis and Optimisation Webinar
         </a>
@@ -46,16 +46,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="http://www.mocao.org/va-webinar/">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./mocao_logo_0.jpg"
+          src="./enlaces/mocao_logo_0.jpg"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        3.{" "}
+        3.{' '}
         <a
           className="a-link-title"
           href="https://gdrmoa.math.cnrs.fr/seminaire-francais-optimisation/"
@@ -74,15 +74,15 @@ function SeminariosOnline() {
         href="https://gdrmoa.math.cnrs.fr/seminaire-francais-optimisation/"
       >
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./grdmoa.png"
+          src="./enlaces/grdmoa.png"
         />
       </a>
 
       <br />
       <p className="mt-3 fs-4 fw-bold">
-        4.{" "}
+        4.{' '}
         <a
           className="a-link-title"
           href="http://www.fields.utoronto.ca/activities/21-22/optimization"
@@ -101,16 +101,16 @@ function SeminariosOnline() {
         href="http://www.fields.utoronto.ca/activities/21-22/optimization"
       >
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Fields Institute"
-          src="./fields.png"
+          src="./enlaces/fields.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        5.{" "}
+        5.{' '}
         <a
           className="a-link-title"
           href="https://gametheorynetwork.com/all-events/one-world-game-theory-seminar/"
@@ -130,15 +130,15 @@ function SeminariosOnline() {
         href="https://gametheorynetwork.com/all-events/one-world-game-theory-seminar/"
       >
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./logo-gamenet.png"
+          src="./enlaces/logo-gamenet.png"
         />
       </a>
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        6.{" "}
+        6.{' '}
         <a
           className="a-link-title"
           href="https://people.bath.ac.uk/mw2319/owpde/"
@@ -154,16 +154,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="https://people.bath.ac.uk/mw2319/owpde/">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./owpde.png"
+          src="./enlaces/owpde.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        7.{" "}
+        7.{' '}
         <a
           className="a-link-title"
           href="http://www.nonlocal-methods.eu/oneworld/"
@@ -179,16 +179,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="http://www.nonlocal-methods.eu/oneworld/">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./MADS.png"
+          src="./enlaces/MADS.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        8.{" "}
+        8.{' '}
         <a className="a-link-title" href="https://www.oneworldml.org/">
           One World Seminar Series on the Mathematics of Machine Learning
         </a>
@@ -202,16 +202,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="https://www.oneworldml.org/">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./math-ml.png"
+          src="./enlaces/math-ml.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        9.{" "}
+        9.{' '}
         <a
           className="a-link-title"
           href="https://www1.se.cuhk.edu.hk/~htwai/oneworld/"
@@ -229,16 +229,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="https://www1.se.cuhk.edu.hk/~htwai/oneworld/">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./owsp.jpg"
+          src="./enlaces/owsp.jpg"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        10.{" "}
+        10.{' '}
         <a
           className="a-link-title"
           href="https://www.youtube.com/channel/UCpAXM9I-v76xEPtevcCuA5g"
@@ -257,15 +257,15 @@ function SeminariosOnline() {
         href="https://www.youtube.com/channel/UCpAXM9I-v76xEPtevcCuA5g"
       >
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./flow.png"
+          src="./enlaces/flow.png"
         />
       </a>
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        11.{" "}
+        11.{' '}
         <a
           className="a-link-title"
           href="https://sites.google.com/view/oneworldimagine"
@@ -283,16 +283,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="https://sites.google.com/view/oneworldimagine">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./siam.png"
+          src="./enlaces/siam.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        12.{" "}
+        12.{' '}
         <a className="a-link-title" href="https://owars.info/">
           One World Actuarial Research Seminar
         </a>
@@ -304,16 +304,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="https://owars.info/">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./actuarial.png"
+          src="./enlaces/actuarial.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        13.{" "}
+        13.{' '}
         <a
           className="a-link-title"
           href="https://warwick.ac.uk/fac/sci/statistics/news/upcoming-seminars/abcworldseminar/#:~:text=Inspired%20by%20the%20%22One%20World,11.30am%20%5BUK%20time%5D."
@@ -332,16 +332,16 @@ function SeminariosOnline() {
         href="https://warwick.ac.uk/fac/sci/statistics/news/upcoming-seminars/abcworldseminar/#:~:text=Inspired%20by%20the%20%22One%20World,11.30am%20%5BUK%20time%5D."
       >
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./ims-logo.png"
+          src="./enlaces/ims-logo.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        14.{" "}
+        14.{' '}
         <a
           className="a-link-title"
           href="https://sites.google.com/view/minds-seminar/home"
@@ -361,13 +361,17 @@ function SeminariosOnline() {
         className="ms-3"
         href="https://sites.google.com/view/minds-seminar/home"
       >
-        <img style={{ height: "90px" }} alt="logo" src="./seminarX.jpg" />
+        <img
+          style={{ height: '90px' }}
+          alt="logo"
+          src="./enlaces/seminarX.jpg"
+        />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        15.{" "}
+        15.{' '}
         <a
           className="a-link-title"
           href="https://www.icms.org.uk/events/event/?id=1086"
@@ -381,13 +385,17 @@ function SeminariosOnline() {
         website.
       </p>
       <a className="ms-3" href="https://www.icms.org.uk/events/event/?id=1086">
-        <img style={{ height: "90px" }} alt="logo" src="./ICMS-logo.png" />
+        <img
+          style={{ height: '90px' }}
+          alt="logo"
+          src="./enlaces/ICMS-logo.png"
+        />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        16.{" "}
+        16.{' '}
         <a className="a-link-title" href="http://www.bacheliercongress.com/">
           Bachelier Finance Society One World Seminar
         </a>
@@ -399,16 +407,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="http://www.bacheliercongress.com/">
         <img
-          style={{ height: "90px", backgroundColor: "black" }}
+          style={{ height: '90px', backgroundColor: 'black' }}
           alt="Sciences et avenir"
-          src="./bachelier.png"
+          src="./enlaces/bachelier.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        17.{" "}
+        17.{' '}
         <a
           className="a-link-title"
           href="https://sites.google.com/view/waves-ow/home"
@@ -424,13 +432,17 @@ function SeminariosOnline() {
         pandemia de COVID-19.
       </p>
       <a className="ms-3" href="https://sites.google.com/view/waves-ow/home">
-        <img style={{ height: "90px" }} alt="logo" src="./seminarX.jpg" />
+        <img
+          style={{ height: '90px' }}
+          alt="logo"
+          src="./enlaces/seminarX.jpg"
+        />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        18.{" "}
+        18.{' '}
         <a className="a-link-title" href="https://www.irif.fr/~numeration/OWNS">
           One World Numeration Seminar
         </a>
@@ -442,16 +454,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="https://www.irif.fr/~numeration/OWNS">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./seminarX.jpg"
+          src="./enlaces/seminarX.jpg"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        19.{" "}
+        19.{' '}
         <a
           className="a-link-title"
           href="http://www.iamp.org/page.php?page=page_seminar"
@@ -466,16 +478,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="http://www.iamp.org/page.php?page=page_seminar">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="Sciences et avenir"
-          src="./iamp.png"
+          src="./enlaces/iamp.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        20.{" "}
+        20.{' '}
         <a
           className="a-link-title"
           href="https://blatt.sbg.ac.at/onlineseminar.php#top"
@@ -491,16 +503,16 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="https://blatt.sbg.ac.at/onlineseminar.php#top">
         <img
-          style={{ height: "100px" }}
+          style={{ height: '100px' }}
           alt="Sciences et avenir"
-          src="./geometric.png"
+          src="./enlaces/geometric.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        21.{" "}
+        21.{' '}
         <a
           className="a-link-title"
           href="https://www.psychonomic.org/page/oneworld"
@@ -515,9 +527,9 @@ function SeminariosOnline() {
       </p>
       <a className="ms-3" href="https://www.psychonomic.org/page/oneworld">
         <img
-          style={{ height: "80px" }}
+          style={{ height: '80px' }}
           alt="Sciences et avenir"
-          src="./psychonomic.png"
+          src="./enlaces/psychonomic.png"
         />
       </a>
     </div>

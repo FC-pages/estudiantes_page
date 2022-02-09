@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function Competiciones_estudiantiles() {
   return (
     <div>
       <p className="fs-4 fw-bold">
-        1.{" "}
+        1.{' '}
         <a
           className="a-link-title"
           href="https://la.mathworks.com/academia/students.html"
@@ -23,17 +23,17 @@ function Competiciones_estudiantiles() {
       >
         <img
           style={{
-            height: "75px",
+            height: '75px',
           }}
           alt="Imagine Cup"
-          src="./imaginecupv2.jpg"
+          src="./enlaces/imaginecupv2.jpg"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        2.{" "}
+        2.{' '}
         <a className="a-link-title" href="https://pythones.net/">
           IMC for University Students
         </a>
@@ -47,9 +47,9 @@ function Competiciones_estudiantiles() {
       </p>
       <a className="ms-3" href="https://pythones.net/">
         <img
-          style={{ height: "90px" }}
+          style={{ height: '90px' }}
           alt="IMC for University Students"
-          src="./imc-logo.jpg"
+          src="./enlaces/imc-logo.jpg"
         />
       </a>
 
