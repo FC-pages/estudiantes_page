@@ -2,9 +2,16 @@ import { Container, Tab, Nav, Row, Col } from 'react-bootstrap';
 import { FaYoutube, FaFacebookSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import '../../FuturoEstudiante/styles/grupestud.css';
+import { miembros, juntaDirectiva, asesores } from '../../../data/data-gem';
 import React from 'react';
+import Miembro from './Miembro';
+import './styles.css';
+import JuntaDirectiva from './JuntaDirectiva';
 
 export default function GruposEstPage() {
+  let eliminarDiacriticos = (texto: any) => {
+    return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  };
   return (
     <Container>
       <Tab.Container defaultActiveKey="Acerca de">
@@ -73,12 +80,74 @@ export default function GruposEstPage() {
                     className="a-link"
                     href="https://www.facebook.com/GEMFCUNI/"
                   >
-                    GEM
+                    GEMFCUNI
                   </a>
                 </p>
               </Row>
             </Tab.Pane>
-            <Tab.Pane eventKey="Miembros"></Tab.Pane>
+            <Tab.Pane eventKey="Miembros">
+              <p className="fs-4 fw-bold">Junta Directiva</p>
+              {juntaDirectiva
+                .sort(function (a: any, b: any) {
+                  let valueA = a.nombre;
+                  let valueB = b.nombre;
+                  valueA = eliminarDiacriticos(valueA);
+                  valueB = eliminarDiacriticos(valueB);
+
+                  let av = valueA.trim().toLowerCase();
+                  let bv = valueB.trim().toLowerCase();
+                  let r = av > bv ? 1 : av < bv ? -1 : 0;
+                  if (r === 0) {
+                    r =
+                      typeof a.key !== 'undefined' &&
+                      typeof b.key !== 'undefined'
+                        ? a.key - b.key
+                        : 0;
+                  }
+                  return r;
+                })
+                .map((d: any) => {
+                  return (
+                    <JuntaDirectiva
+                      nombre={d.nombre}
+                      codigo={d.codigo}
+                      cargo={d.cargo}
+                      correo={d.correo}
+                      cel={d.cel}
+                    />
+                  );
+                })}
+
+              <p className="fs-4 fw-bold pt-3">Miembros</p>
+              {miembros
+                .sort(function (a: any, b: any) {
+                  let valueA = a.nombre;
+                  let valueB = b.nombre;
+                  valueA = eliminarDiacriticos(valueA);
+                  valueB = eliminarDiacriticos(valueB);
+
+                  let av = valueA.trim().toLowerCase();
+                  let bv = valueB.trim().toLowerCase();
+                  let r = av > bv ? 1 : av < bv ? -1 : 0;
+                  if (r === 0) {
+                    r =
+                      typeof a.key !== 'undefined' &&
+                      typeof b.key !== 'undefined'
+                        ? a.key - b.key
+                        : 0;
+                  }
+                  return r;
+                })
+                .map((d: any) => {
+                  return (
+                    <Miembro
+                      nombre={d.nombre}
+                      codigo={d.codigo}
+                      cargo={d.cargo}
+                    />
+                  );
+                })}
+            </Tab.Pane>
             <Tab.Pane eventKey="Actividades">
               <p className="fs-4 fw-bold">
                 Seminarios de Divulgación Matemática
@@ -135,7 +204,7 @@ export default function GruposEstPage() {
                   />
                 </Col>
               </Row>
-              <p className="fs-4 fw-bold">
+              <p className="fs-4 fw-bold pt-3">
                 Primera Jornada Universitaria de Matemáticas
               </p>
               <Row>
@@ -164,7 +233,7 @@ export default function GruposEstPage() {
                   />
                 </Col>
               </Row>
-              <p className="fs-4 fw-bold">Talleres</p>
+              <p className="fs-4 fw-bold pt-3">Talleres</p>
               <Row>
                 <Col md={6}>
                   <img
