@@ -10,6 +10,27 @@ function Docentes() {
       return texto.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
   }
 
+
+  const obtenernombreapellido = ( nombre :any) => {
+    const titleCase = (str : String) =>  {
+        var splitStr = str.toLowerCase().split(' ');
+        for (var i = 0; i < splitStr.length; i++) {
+            // You do not need to check if i is larger than splitStr length, as your for does that for you
+            // Assign it back to the array
+            splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
+        }
+        // Directly return the joined string
+        return splitStr.join(' '); 
+      }
+
+
+    let nombres = nombre.split(",");
+    let primernombre = nombres[1].split(" ")[1];
+    let primerapellido = nombres[0].split(" ")[0];
+    return titleCase(primernombre +  " " + primerapellido);
+  }
+
+
   type dataType = {
     docentes: Array<any>;
 
@@ -118,8 +139,8 @@ function Docentes() {
           {data ===null ? <div/> : data.docentes.sort(
                 function(a :any, b:any) {
 
-                let valueA = a.nombres;
-                let valueB = b.nombres;
+                let valueA = obtenernombreapellido(a.nombres);
+                let valueB = obtenernombreapellido(b.nombres);
                 valueA = eliminarDiacriticos( valueA )
                 valueB = eliminarDiacriticos( valueB )
 
@@ -138,7 +159,7 @@ function Docentes() {
           ).map((d: any) => {
             return (
               <Docente
-                nombre={d.nombres}
+                nombre={obtenernombreapellido(d.nombres)}
                 foto={d.foto}
                 email={d.emailuni}
                 gradoAc={d.gradosytitulos}
@@ -242,9 +263,6 @@ function Docentes() {
                         </div>
                 */}
         </section>
-        <p className="p-3">
-          * Los cursos asignados son con respecto al periodo 2021-2
-        </p>
       </div>
     </Container>
   );
