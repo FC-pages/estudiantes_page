@@ -1,14 +1,53 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./styles.css";
 
 import Docente from "./Docente";
-import { Container } from "react-bootstrap";
+import { Container, Spinner } from "react-bootstrap";
 let { docentes } = require("../../data/data-docentes.js");
 
 function Docentes() {
   let eliminarDiacriticos = (texto:any) => {
       return texto.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
   }
+
+  type dataType = {
+    docentes: Array<any>;
+
+  };
+  const [data, setData] = useState({} as dataType)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
+
+  useEffect(() => {
+    fetch('https://script.googleusercontent.com/macros/echo?user_content_key=I1YFq5ffUUQ3azZIKONiHp1T3FVyvtcIAM3PfUefodo33h1SqqCuqz2yPAyw02N2o0EMelffpJYrsqhtsXWuCgzWtmVHBJOym5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnK9hLVD3Kt17yE6DQnI6BmZenSPmJECfh7vyjZJHKn1XgxmIEcEXJBraaCrdVp4vn9pytj_A4aoE&lib=MY1BW--6CseKPHKw9cdL87NwwPj3UkOcQ')
+      .then(response => {
+        if(response.ok) {
+          return response.json();
+        }
+        throw response;
+      })
+      .then(data => {
+        setData(data);
+        console.log(data.docentes);
+      })
+      .catch(error => {
+        console.error("Error fetching", error);
+        setError(error);
+        
+      })
+      .finally(() => {
+        setLoading(false);
+      })
+  }, [])
+
+  let Loading = () => {
+    return <Spinner animation="border" role="status">
+      <span className="visually-hidden">Loading...</span>
+    </Spinner>
+  }
+  if (loading) return <Loading/>
+  if (error) return <>"Error!"</>;
+
   return (
     <Container  fluid>
       <div className="App-cuerpo">
@@ -44,7 +83,7 @@ function Docentes() {
           {/* <div className="App-rectangulo"></div> */}
           {/* <section className="App-center"> */}
 
-          {docentes.sort(
+          {/*docentes.sort(
                 function(a :any, b:any) {
 
                 let valueA = a.nombre;
@@ -75,7 +114,40 @@ function Docentes() {
                 areasDeInteres={d.areasDeInteres}
               />
             );
+          })*/}
+          {data ===null ? <div/> : data.docentes.sort(
+                function(a :any, b:any) {
+
+                let valueA = a.nombres;
+                let valueB = b.nombres;
+                valueA = eliminarDiacriticos( valueA )
+                valueB = eliminarDiacriticos( valueB )
+
+                let av = valueA.trim().toLowerCase();
+                let bv = valueB.trim().toLowerCase();
+                let r = ((av > bv) ? 1 : ((av < bv) ? -1 : 0));
+                if(r === 0){
+                  r = (typeof a.key !== 'undefined' && typeof b.key !== 'undefined')?
+                    a.key - b.key : 0;
+                }
+                  return r;
+
+
+              }
+
+          ).map((d: any) => {
+            return (
+              <Docente
+                nombre={d.nombres}
+                foto={d.foto}
+                email={d.emailuni}
+                gradoAc={d.gradosytitulos}
+                dina={d.ctivitae}
+                areasDeInteres={d.lineas}
+              />
+            );
           })}
+
           {/*
                         <div className="App-profes">
                             <table cellPadding={8}> 

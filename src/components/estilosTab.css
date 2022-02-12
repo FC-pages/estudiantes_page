@@ -91,6 +91,9 @@
       color: #1d3557;
       text-shadow: -0.7px 0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 1.75px 1.75px #f3f3f2, 3.5px 3.5px #bbbbbb;
   }
+.tab-content {
+  min-height: 40px;
+}
 
 @keyframes slidein {
   from {
