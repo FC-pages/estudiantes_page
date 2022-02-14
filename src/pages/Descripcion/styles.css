@@ -179,8 +179,8 @@
 
 .App-resena-borde {
   margin: 0px -10px;
-  margin-top: -28px;
-  border-top: 16px solid #071332;
+  margin-top: -22px;
+  border-top: 11px solid #1d3557;
   padding: 0 15px;
   padding-top: 10px;
 }
@@ -215,7 +215,7 @@
   border-collapse: collapse;
   text-align: center;
 }
-.App-creditos th {
+.App-creditos-th {
   border: solid 1px #1d3557;
   background-color: #1d3557;
   color: white;
@@ -227,9 +227,15 @@
 .App-creditos td:last-child {
   text-align: left;
 }
-.App-creditos tr:nth-child(odd) {
-  background-color: rgba(204, 204, 204, 0.959);
+
+.App-creditos tr:first-child {
+  border: solid 1px #1d3557;
+  background-color: #1d3557;
+  color: white;
 }
+/* .App-creditos tr:nth-child(odd) {
+  background-color: rgba(226, 226, 226, 0.959);
+} */
 
 .App-archivo {
   /* list-style-type: circle ; */
@@ -243,9 +249,10 @@
 } */
 
 .App-profes-td2 {
-  padding: 7px;
+  /* padding: 7px; */
   /* padding-top: 5px; */
   /* padding-right: 0; */
+  padding-left: 0;;
   text-align: left;
   /* position: static; */
 }
@@ -295,6 +302,21 @@
   vertical-align: middle;
   /* margin-inline: auto; */
 }
+.borde{
+  display: block;
+  height: 100%;
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 25%);
+  color: #414545;
+  text-decoration: none;
+  /* text-decoration-line: none; */
+  /* text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial; */
+}
+.borde table:hover {
+  color: black
+}
+
 .App-profes table {
   border: 1px solid #00000020;
   border-collapse: collapse;
@@ -303,7 +325,7 @@
   text-align: left;
 }
 
-.App-profes th {
+.App-profes tr:first-child {
   background-color: #1d3557;
   color: white;
   text-align: left;

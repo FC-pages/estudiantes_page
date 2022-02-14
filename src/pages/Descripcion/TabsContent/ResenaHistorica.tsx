@@ -58,7 +58,7 @@ function ResenaHistorica() {
                     <b className="anios">1967</b>
                     <p className="App-resena-borde">
                       Se modifica nuevamente el Plan de Estudios, se incrementa
-                      los cursos de Química a 3 , y se establece que el quinto
+                      los cursos de Química a 3, y se establece que el quinto
                       año (etapa de especialización) tiene una orientación
                       profesional y otra académica. La profesión conduce al
                       Título de Físico-Matemático e involucra una preparación en

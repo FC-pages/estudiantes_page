@@ -59,7 +59,7 @@ function Perfil() {
           Ciencias de la UNI o en otras instituciones, sobre todo extranjeras.
           Las áreas de mayor desarrollo en la UNI son Optimización, Sistemas
           Dinámicos, Teoría Analítica de Números, Álgebra, Probabilidad,
-          Geometría y Análisis Numérico. Por último la matemática es la lingua
+          Geometría y Análisis Numérico. Por último, la matemática es la lingua
           franca de las ciencias, es el lenguaje en el que se plantean las
           preguntas de la ciencia y la técnica, y es, en muchos casos, la
           herramienta básica en la búsqueda de su solución{' '}

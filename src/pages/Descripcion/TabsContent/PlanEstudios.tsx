@@ -17,7 +17,7 @@ function PlanEstudios() {
               En el plan de estudios podemos encontrar cursos con una fuerte
               dosis de análisis científico para que el alumno tempranamente
               incursione en aspectos de investigación inicial. Se incluyen en la
-              malla curricular seis líneas de especialización, sin embargo ellas
+              malla curricular seis líneas de especialización; sin embargo, ellas
               están íntimamente entre conectadas por los cursos básicos llevados
               en el nivel de estudios generales y los siguientes semestres. En
               este quehacer el docente juega un papel de guía e integrador,
@@ -28,11 +28,17 @@ function PlanEstudios() {
               Total de Créditos Exigidos al alumno para egresar en la Escuela
               Profesional de Matemática:
             </b>
-            <table className="App-creditos" cellPadding={5}>
-              <tr>
+            <p></p>
+            <table className="App-creditos" cellPadding={4}>
+              {/* <tr>
                 <th> Item </th>
                 <th>Créditos</th>
                 <th>Especificación</th>
+              </tr> */}
+              <tr className="App-creditos-th">
+                <td > Item </td>
+                <td>Créditos</td>
+                <td >Especificación</td>
               </tr>
               <tr>
                 <td>01</td>
@@ -76,7 +82,7 @@ function PlanEstudios() {
             <ul className="App-archivo">
               <li>
                 Plan de estudios completo.{" "}
-                <FontAwesomeIcon className="icons" icon={faPaperclip} />
+                <a href="plancompleto.pdf"><FontAwesomeIcon className="icons" icon={faPaperclip} /></a>
               </li>
               <li>
                 Tabla de convalidaciones.{" "}
@@ -88,7 +94,7 @@ function PlanEstudios() {
               </li>
               <li>
                 Malla curricular sin electivos 2018-1.{" "}
-                <FontAwesomeIcon className="icons" icon={faPaperclip} />
+                <a href="mallacurricular.pdf">  <FontAwesomeIcon className="icons" icon={faPaperclip} /></a>
               </li>
               <li>
                 Sumillas de asignaturas electivas del plan de estudios 2018-1.{" "}
