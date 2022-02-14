@@ -115,6 +115,23 @@ function Otros() {
           src="./enlaces/pecCubo.jpg"
         />
       </a>
+
+      <br />
+
+      <p className="mt-3 fs-4 fw-bold">
+        6.{' '}
+        <a className="a-link-title" href="https://images.math.cnrs.fr/?lang=es">
+          Paisajes matemáticos
+        </a>
+      </p>
+      <p className="ms-3">La investigación matemática en relatos e imágenes.</p>
+      <a className="ms-3" href="https://images.math.cnrs.fr/?lang=es">
+        <img
+          style={{ height: '90px' }}
+          alt="Paisajes matemáticos"
+          src="./enlaces/logo-idm-es.png"
+        />
+      </a>
     </div>
   );
 }
