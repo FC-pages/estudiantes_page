@@ -1,4 +1,9 @@
 import React from "react";
+import ReactPlayer from "react-player";
+
+import { Row, Card } from "react-bootstrap";
+import * as S from "../../../styles/styles";
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,6 +15,13 @@ import {
 
 
 function PlanEstudios() {
+let videos = [
+  {
+    href:"https://www.youtube.com/watch?v=dxVKquza40Y&t", 
+    name: "Así es la Matemática legendaria en la UNI",
+    Description:"Un análisis completo acerca del plan de estudios de la carrera de Matemáticas en la UNI contrastado con la UNAM (México)",
+  }
+]
   return (
       <div className="App-cuerpo">
             <p></p>
@@ -99,6 +111,32 @@ function PlanEstudios() {
                 2018-1. <FontAwesomeIcon className="icons" icon={faPaperclip} />
               </li>
             </ul>
+
+      <Row xs={1} md={1} className="g-4">
+        <S.ContainerVideos className="containerTabOne">
+          <div className="video">
+            {videos.map((video: any) => {
+              return (
+                <Card bg="dark" text="white">
+                  <ReactPlayer controls width="100%" url={video.href} />
+                  <Card.Body>
+                    <Card.Title>{video.name}</Card.Title>
+                    <Card.Text>
+                      <div className="quote">
+                        <cite>
+                          {video.Description}.
+                        </cite>
+                        </div>
+                        <div>
+                        </div>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              );
+            })}
+          </div>
+        </S.ContainerVideos>
+      </Row>
           </div>
 )
 

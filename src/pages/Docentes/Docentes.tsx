@@ -12,21 +12,20 @@ function Docentes() {
 
 
   const obtenernombreapellido = ( nombre :any) => {
+  // Para obtener el primer nombre y el primer apellido
     const titleCase = (str : String) =>  {
+    // Convierte un String a stilo Título
         var splitStr = str.toLowerCase().split(' ');
         for (var i = 0; i < splitStr.length; i++) {
-            // You do not need to check if i is larger than splitStr length, as your for does that for you
-            // Assign it back to the array
             splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
         }
-        // Directly return the joined string
         return splitStr.join(' '); 
       }
-
-
     let nombres = nombre.split(",");
     let primernombre = nombres[1].split(" ")[1];
-    let primerapellido = nombres[0].split(" ")[0];
+    //console.log(nombres[0].split(" "))
+    // Profesora La Rosa
+    let primerapellido = nombres[0] === "LA ROSA OBANDO" ? "La Rosa": nombres[0].split(" ")[0];
     return titleCase(primernombre +  " " + primerapellido);
   }
 
@@ -49,10 +48,10 @@ function Docentes() {
       })
       .then(data => {
         setData(data);
-        console.log(data.docentes);
+        //console.log(data.docentes);
       })
       .catch(error => {
-        console.error("Error fetching", error);
+        //console.error("Error fetching", error);
         setError(error);
         
       })
@@ -62,7 +61,7 @@ function Docentes() {
   }, [])
 
   let Loading = () => {
-    return <Spinner animation="border" role="status">
+    return <Spinner className = "mt-5 mb-5" animation="border" role="status">
       <span className="visually-hidden">Loading...</span>
     </Spinner>
   }
@@ -165,6 +164,7 @@ function Docentes() {
                 gradoAc={d.gradosytitulos}
                 dina={d.ctivitae}
                 areasDeInteres={d.lineas}
+                resena={d.resena}
               />
             );
           })}

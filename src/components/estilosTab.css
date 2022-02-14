@@ -93,6 +93,24 @@
   }
 .tab-content {
   min-height: 40px;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+.animate-slidein {
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 @keyframes slidein {

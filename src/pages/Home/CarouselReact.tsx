@@ -17,7 +17,7 @@ function Eventos(){
   let Evento = (props : any) => {
     
       return (
-          <div className = "evento">
+          <div className = "evento animate-slidein">
             <div className = "fecha-evento">
               { props.fechaEvento }
             </div>
@@ -74,7 +74,7 @@ function CarouselReact() {
   console.log(carousel)
   return (
     <S.ContainerCarousel>
-    <Container>
+    <Container className = "animate-slidein">
       <Row>
         <Col xs = "12" lg = "8">
           <Carousel >
