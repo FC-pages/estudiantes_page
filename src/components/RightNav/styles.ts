@@ -11,15 +11,17 @@ export const Ul = styled.ul<INav>`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+  background: ${colors.main};
   position: absolute;
-  width: 80%;
-  top: 130px;
+  width: 100%;
+  top: 160px;
   justify-content: space-between;
   margin-top: 0px;
   align-items: center;
   font-size: 18px;
-  height: 110px;
-  margin-left: 150px;
+  height: 50px;
+  padding: 0px 100px;
+  /*margin-left: 150px;*/
   margin-right: 0px;
   z-index: 4;
 
@@ -63,7 +65,7 @@ export const Ul = styled.ul<INav>`
     top: -16px;
     right: 0;
     height: 100%;
-    width: 180px;
+    width: 300px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     z-index: 9;

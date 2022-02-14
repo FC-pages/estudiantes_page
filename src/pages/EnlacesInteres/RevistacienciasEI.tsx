@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function RevistaCiencias() {
   return (
     <div>
       <p className="fs-4 fw-bold">
-        1.{" "}
+        1.{' '}
         <a className="a-link-title" href="https://www.larecherche.fr/">
           La Recherche
         </a>
@@ -19,19 +19,19 @@ function RevistaCiencias() {
       <a className="ms-3" href="https://www.larecherche.fr/">
         <img
           style={{
-            backgroundColor: "#126f91",
-            height: "70px",
-            padding: "0 10px",
+            backgroundColor: '#126f91',
+            height: '70px',
+            padding: '0 10px',
           }}
           alt="La Recherche"
-          src="./logo_lr.png"
+          src="./enlaces/logo_lr.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        2.{" "}
+        2.{' '}
         <a className="a-link-title" href="https://www.sciencesetavenir.fr/">
           Sciences et avenir
         </a>
@@ -44,16 +44,16 @@ function RevistaCiencias() {
       </p>
       <a className="ms-3" href="https://www.sciencesetavenir.fr/">
         <img
-          style={{ height: "70px" }}
+          style={{ height: '70px' }}
           alt="Sciences et avenir"
-          src="./logo_sa.svg"
+          src="./enlaces/logo_sa.svg"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        3.{" "}
+        3.{' '}
         <a className="a-link-title" href="https://www.pourlascience.fr/">
           Pour la science
         </a>
@@ -65,16 +65,16 @@ function RevistaCiencias() {
       </p>
       <a className="ms-3" href="https://www.pourlascience.fr/">
         <img
-          style={{ height: "70px" }}
+          style={{ height: '70px' }}
           alt="Pour la science"
-          src="./logo_pls.png"
+          src="./enlaces/logo_pls.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        4.{" "}
+        4.{' '}
         <a className="a-link-title" href="https://images.math.cnrs.fr/">
           Images des Mathématiques
         </a>
@@ -87,16 +87,16 @@ function RevistaCiencias() {
       </p>
       <a className="ms-3" href="https://images.math.cnrs.fr/">
         <img
-          style={{ height: "80px" }}
+          style={{ height: '80px' }}
           alt="Images des Mathématiques"
-          src="./logo-idm-fr.png"
+          src="./enlaces/logo-idm-fr.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        5.{" "}
+        5.{' '}
         <a className="a-link-title" href="https://zbmath.org/">
           zbMATH Open
         </a>
@@ -105,13 +105,13 @@ function RevistaCiencias() {
         zbMATH, anteriormente Zentralblatt MATH, es un importante servicio de
         revisión que proporciona revisiones y resúmenes de artículos en
         matemáticas puras y aplicadas, producido por la oficina de Berlín de FIZ
-        Karlsruhe {"-"} Leibniz Institute for Information Infrastructure GmbH.
+        Karlsruhe {'-'} Leibniz Institute for Information Infrastructure GmbH.
       </p>
       <a className="ms-3" href="https://zbmath.org/">
         <img
-          style={{ height: "65px" }}
+          style={{ height: '65px' }}
           alt="Pour la science"
-          src="./zbMATH.gif"
+          src="./enlaces/zbMATH.gif"
         />
       </a>
     </div>

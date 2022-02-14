@@ -1,28 +1,28 @@
-import { Tab, Container, Nav } from "react-bootstrap";
-import React from "react";
-import "../../pages/FuturoEstudiante/styles/tabs.css";
+import { Tab, Container, Nav } from 'react-bootstrap';
+import React from 'react';
+import '../../pages/FuturoEstudiante/styles/tabs.css';
 
-import Competiciones from "./CompeticionesEI";
-import RevistaCiencias from "./RevistacienciasEI";
-import Otros from "./OtrosEI";
-import InstAcademicas from "./InstitucionesAcademicasEI";
-import Cursosonline from "./CursosOnlineEI";
-import SeminariosOnline from "./SeminariosOnlineEI";
+import Competiciones from './CompeticionesEI';
+import RevistaCiencias from './RevistacienciasEI';
+import Otros from './OtrosEI';
+import InstAcademicas from './InstitucionesAcademicasEI';
+import Cursosonline from './CursosOnlineEI';
+import SeminariosOnline from './SeminariosOnlineEI';
 
 export default function EnlacesInteresPage() {
   return (
     <Container
       style={{
-        borderStyle: "solid",
-        borderColor: "#1D3557",
-        paddingLeft: "0",
-        paddingRight: "0",
+        borderStyle: 'solid',
+        borderColor: '#1D3557',
+        paddingLeft: '0',
+        paddingRight: '0',
       }}
       className="text-start mt-5"
     >
       <Tab.Container defaultActiveKey="RevistaCiencias">
         <Nav
-          style={{ backgroundColor: "#1D3557" }}
+          style={{ backgroundColor: '#1D3557' }}
           className="justify-content-center pt-1 fs-6 style-with-otros"
         >
           <Nav.Item>
@@ -39,12 +39,12 @@ export default function EnlacesInteresPage() {
             <Nav.Link eventKey="CursosOnline">Cursos Online</Nav.Link>
           </Nav.Item>
           <Nav.Item>
+            <Nav.Link eventKey="SeminariosOnline"> Seminarios Online</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
             <Nav.Link eventKey="Competicionesestudiantiles">
               Competiciones Estudiantiles
             </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="SeminariosOnline"> Seminarios Online</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="Otros"> Otros </Nav.Link>

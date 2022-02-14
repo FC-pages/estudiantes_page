@@ -12,11 +12,10 @@ function Header() {
             <h1>Escuela Profesional de Matemática</h1>
             <h4>FC-UNI</h4>
           </div>
-          <div className="line"></div>
         </div>
 
-        <nav>
           {/*
+        <nav>
             <ul>
                 <li>
                   <NavLink to="/">INICIO</NavLink>
@@ -37,9 +36,10 @@ function Header() {
                   <NavLink to="/contacto">CONTACTO</NavLink>
                 </li>
               </ul>
-            */}
         </nav>
+            */}
       </div>
+         
     </S.Header>
   );
 }

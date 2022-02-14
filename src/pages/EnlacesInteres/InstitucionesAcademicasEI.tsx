@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function Instituciones_Academicas() {
   return (
     <div>
       <p className="fs-4 fw-bold">
-        1.{" "}
+        1.{' '}
         <a className="a-link-title" href="http://www.imca.edu.pe/">
           IMCA - Instituto de Matemática y Ciencias Afines
         </a>
@@ -19,17 +19,17 @@ function Instituciones_Academicas() {
       <a className="ms-3" href="http://www.imca.edu.pe/">
         <img
           style={{
-            height: "75px",
+            height: '75px',
           }}
           alt="IMCA - Instituto de Matemática y Ciencias Afines"
-          src="./imca.png"
+          src="./enlaces/imca.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        2.{" "}
+        2.{' '}
         <a className="a-link-title" href="https://impa.br/">
           IMPA - Instituto de Matemática Pura e Aplicada
         </a>
@@ -43,16 +43,16 @@ function Instituciones_Academicas() {
       </p>
       <a className="ms-3" href="https://impa.br/">
         <img
-          style={{ height: "80px" }}
+          style={{ height: '80px' }}
           alt="IMPA - Instituto de Matemática Pura e Aplicada"
-          src="./impav2.png"
+          src="./enlaces/impav2.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        3.{" "}
+        3.{' '}
         <a className="a-link-title" href="https://www.ens.psl.eu/en">
           École normale supérieure - PSL
         </a>
@@ -67,16 +67,16 @@ function Instituciones_Academicas() {
       </p>
       <a className="ms-3" href="https://www.ens.psl.eu/en">
         <img
-          style={{ height: "80px" }}
+          style={{ height: '80px' }}
           alt="École normale supérieure - PSL"
-          src="./ens-psl.jpg"
+          src="./enlaces/ens-psl.jpg"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        4.{" "}
+        4.{' '}
         <a className="a-link-title" href="http://www.ens-lyon.fr/en/">
           École normale supérieure de Lyon
         </a>
@@ -91,16 +91,16 @@ function Instituciones_Academicas() {
       </p>
       <a className="ms-3" href="http://www.ens-lyon.fr/en/">
         <img
-          style={{ height: "80px" }}
+          style={{ height: '80px' }}
           alt="École normale supérieure de Lyon"
-          src="./logo-ens-lyon.svg"
+          src="./enlaces/logo-ens-lyon.svg"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        5.{" "}
+        5.{' '}
         <a className="a-link-title" href="https://www.polytechnique.edu/en">
           École Polytechnique
         </a>
@@ -113,15 +113,15 @@ function Instituciones_Academicas() {
       </p>
       <a className="ms-3" href="https://www.polytechnique.edu/en">
         <img
-          style={{ height: "70px", backgroundColor: "#126f91" }}
+          style={{ height: '70px', backgroundColor: '#126f91' }}
           alt="École Polytechnique"
-          src="./logo-polytechnique.png"
+          src="./enlaces/logo-polytechnique.png"
         />
       </a>
 
       <br />
       <p className="mt-3 fs-4 fw-bold">
-        6.{" "}
+        6.{' '}
         <a className="a-link-title" href="https://math.berkeley.edu/">
           Berkeley Math
         </a>
@@ -136,14 +136,14 @@ function Instituciones_Academicas() {
       </p>
       <a className="ms-3" href="https://math.berkeley.edu/">
         <img
-          style={{ height: "80px" }}
+          style={{ height: '80px' }}
           alt="Berkeley Math"
-          src="./logo-math-berkeley.png"
+          src="./enlaces/logo-math-berkeley.png"
         />
       </a>
       <br />
       <p className="mt-3 fs-4 fw-bold">
-        7.{" "}
+        7.{' '}
         <a className="a-link-title" href="https://www.cnrs.fr/en">
           Centre National de la Recherche Scientifique
         </a>
@@ -157,14 +157,14 @@ function Instituciones_Academicas() {
       </p>
       <a className="ms-3" href="https://www.cnrs.fr/en">
         <img
-          style={{ height: "80px" }}
+          style={{ height: '80px' }}
           alt="Centre National de la Recherche Scientifique"
-          src="./logo-cnrs.png"
+          src="./enlaces/logo-cnrs.png"
         />
       </a>
       <br />
       <p className="mt-3 fs-4 fw-bold">
-        8.{" "}
+        8.{' '}
         <a className="a-link-title" href="https://www.mathunion.org/">
           International Mathematical Union (IMU)
         </a>
@@ -178,14 +178,14 @@ function Instituciones_Academicas() {
       </p>
       <a className="ms-3" href="https://www.mathunion.org/">
         <img
-          style={{ height: "80px", backgroundColor: "#D9B27B" }}
+          style={{ height: '80px', backgroundColor: '#D9B27B' }}
           alt="International Mathematical Union (IMU)"
-          src="./logo-imu.png"
+          src="./enlaces/logo-imu.png"
         />
       </a>
       <br />
       <p className="mt-3 fs-4 fw-bold">
-        9.{" "}
+        9.{' '}
         <a
           className="a-link-title"
           href="https://www.ictp.it/research/math.aspx"
@@ -201,9 +201,9 @@ function Instituciones_Academicas() {
       </p>
       <a className="ms-3" href="https://www.ictp.it/research/math.aspx">
         <img
-          style={{ height: "80px" }}
+          style={{ height: '80px' }}
           alt="International Centre for Theorical Physic"
-          src="./logo-ictp.png"
+          src="./enlaces/logo-ictp.png"
         />
       </a>
     </div>

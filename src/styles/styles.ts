@@ -62,17 +62,22 @@ export const ContainerCarousel = styled.div`
 `;
 export const Header = styled.header`
   background-color: #1D3557; /* #282c34 */
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+      background-image: url('${imagenmate}');
+      background-size:cover; /* auto, cover, contained, 200px 200px*/;
   font-size: calc(10px + 2vmin);
-  color: black;
-  min-height: 210px;   
+  color: ${colors.main};
+  max-height: 200x;   
+  max-height: 200px;   
   img {
-    height: 160px;
+    height: 150px;
     padding: 0px 15px;
-    position: absolute; 
+    position: absolute;
+    top: 6px;
     z-index: 2;
   }
 
@@ -80,6 +85,7 @@ export const Header = styled.header`
     background: black;
     min-height: 10px;
     opacity: 50%;
+    width: 100%;
   }
   
   .main {
@@ -96,12 +102,10 @@ export const Header = styled.header`
     margin: 0px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     .title{
       display: flex;
       flex-direction: column;
-      background-image: url('${imagenmate}');
-      background-size:cover; /* auto, cover, contained, 200px 200px*/;
       min-height: 160px;
       justify-content: space-between;
 
@@ -173,8 +177,8 @@ export const Seccion = styled.section`
       max-height:  360px;
       overflow: auto;
       h3 {
-        padding-top: 25px;
-        margin-bottom: 30px;
+        color: ${colors.main};
+        padding-top: 20px;
       }
       .body-eventos {
         padding: 0px 3px;
@@ -183,13 +187,14 @@ export const Seccion = styled.section`
       .evento{
         display: flex;
         margin: 10px 5px;
-        min-height: 100px;
+        min-height: 90px;
       }
       
       .fecha-evento {
+        font-size: 0.87em;
         background: #1d3557;
         color: white;
-        font-weight: bold;
+        font-weight: 500;
         padding: 10px 20px;
         display: flex;
         align-items: center;
@@ -205,7 +210,7 @@ export const Seccion = styled.section`
         width: 34%;
       }
       .descripcion {
-        font-size: 16px;
+        font-size: 0.97em;
         display: flex;
         align-items: center;
         margin: 0px 5px;

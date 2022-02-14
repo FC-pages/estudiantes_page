@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function CursosOnline() {
   return (
     <div>
       <p className="fs-4 fw-bold">
-        1.{" "}
+        1.{' '}
         <a
           className="a-link-title"
           href="https://la.mathworks.com/academia/students.html"
@@ -22,17 +22,17 @@ function CursosOnline() {
       >
         <img
           style={{
-            height: "75px",
+            height: '75px',
           }}
           alt="MathWorks for students"
-          src="./logo-mathworks.png"
+          src="./enlaces/logo-mathworks.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        2.{" "}
+        2.{' '}
         <a className="a-link-title" href="https://pythones.net/">
           Pythones
         </a>
@@ -44,16 +44,16 @@ function CursosOnline() {
       </p>
       <a className="ms-3" href="https://pythones.net/">
         <img
-          style={{ height: "80px" }}
+          style={{ height: '80px' }}
           alt="Sciences et avenir"
-          src="./python.png"
+          src="./enlaces/python.png"
         />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        3.{" "}
+        3.{' '}
         <a
           className="a-link-title"
           href="https://www.geogebra.org/classic?lang=es"
@@ -66,15 +66,19 @@ function CursosOnline() {
         encontrará diversos tutoriales para aprender a utilizar este software.
       </p>
       <a className="ms-3" href="https://www.geogebra.org/classic?lang=es">
-        <img style={{ height: "80px" }} alt="ens-psl" src="./geogebra.png" />
+        <img
+          style={{ height: '80px' }}
+          alt="ens-psl"
+          src="./enlaces/geogebra.png"
+        />
       </a>
 
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        4.{" "}
+        4.{' '}
         <a className="a-link-title" href="https://www.edx.org/es/school/mitx">
-          HarvardX {"&"} MitX
+          HarvardX {'&'} MitX
         </a>
       </p>
       <p className="ms-3">
@@ -85,9 +89,9 @@ function CursosOnline() {
       </p>
       <a className="ms-3" href="https://www.edx.org/es/school/mitx">
         <img
-          style={{ height: "110px" }}
+          style={{ height: '110px' }}
           alt="Images des Mathématiques"
-          src="./harvardMit.png"
+          src="./enlaces/harvardMit.png"
         />
       </a>
     </div>

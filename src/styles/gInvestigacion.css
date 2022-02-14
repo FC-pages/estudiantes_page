@@ -9,8 +9,11 @@
   display: block;
   margin-right: auto;
   float: right;
-  max-width: 95%;
-  min-width: 150px;
+  /*max-width: 95%;
+  min-width: 150px;*/
+  height: 150px;
+  width: 120px;
+  /*background-size: 100px 120px;*/
   /*padding-left: 35px;*/
 }
 .foto-profesorX {
@@ -43,10 +46,29 @@
   font-style: italic;
   font-weight: bold;
 }
+
+.cell {
+  /*background-color: purple;*/
+  flex: 390px;
+  /*border: solid;*/
+  padding-left: 20px;
+  padding-right: 0px;
+  /*border-color: black;*/
+}
+
+.grid {
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 85%;
+  margin-left: 14%;
+  
+}
 .itemRight {
   /*width: 30vw;*/
-  width: 30%;
-  padding: 10px;
+  width: 72%;
+  padding: 7px;
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: justify;

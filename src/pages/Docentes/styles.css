@@ -283,6 +283,8 @@
   margin: 0px auto;
   text-align: left;
   vertical-align: middle;
+  border: 1px solid rgba(0,0,0,.045);
+   border-radius: 0.25rem;
   /* margin-inline: auto; */
 }
 
@@ -351,6 +353,13 @@
   /* border-right: 1.5px dashed #ccc; */
 }
 
+.App-profes-td ul li:nth-child(2) {
+  max-height: 50px;
+  overflow: auto;
+}
+.App-profes-td ul .resenia {
+  color: #08698f;
+}
 .App-profes-images2 {
   background-image: url("../../images/fotoblanco.png");
   background-repeat: no-repeat;
@@ -371,7 +380,7 @@
 }
 
 .App-profes img {
-  width: 110px;
+  width: 105px;
   height: 140px;
 }
 
@@ -382,6 +391,10 @@
   padding: 15pt;
 }
 
+.correo-oculto {
+  unicode-bidi:bidi-override;
+  direction: rtl;
+}
 @media (max-width: 768px) {
   .App-profes {
     width: 100%;

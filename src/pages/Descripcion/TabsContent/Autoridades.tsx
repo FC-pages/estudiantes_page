@@ -9,6 +9,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 function Autoridades() {
+  const reverse = (s:any) =>{
+      return s.split("").reverse().join("");
+  }
   return(
       <div className="App-cuerpo">
         <article id="tab4">
@@ -147,7 +150,6 @@ function Autoridades() {
                               Central FC: Anexo 17
                             </li>
                             <li>
-
                               {" "}
                               <FontAwesomeIcon
                                 className="icons2"

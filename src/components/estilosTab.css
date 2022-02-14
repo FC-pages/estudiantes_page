@@ -91,6 +91,27 @@
       color: #1d3557;
       text-shadow: -0.7px 0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 1.75px 1.75px #f3f3f2, 3.5px 3.5px #bbbbbb;
   }
+.tab-content {
+  min-height: 40px;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+.animate-slidein {
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 @keyframes slidein {
   from {
