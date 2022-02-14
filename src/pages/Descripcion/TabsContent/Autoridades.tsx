@@ -9,6 +9,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 function Autoridades() {
+  const reverse = (s:any) =>{
+      return s.split("").reverse().join("");
+  }
   return(
       <div className="App-cuerpo">
         <article id="tab4">
@@ -28,13 +31,13 @@ function Autoridades() {
                       <td className="App-profes-td2">
                         <b> Dr. Pedro Canales García</b>
                         <ul>
-                          <li>
+                          <li >
                             {" "}
                             <FontAwesomeIcon
                               className="icons2"
                               icon={faEnvelope}
                             />{" "}
-                            E-mail: pcanales@uni.edu.pe
+                            E-mail: <span className = "correo-oculto" >{ reverse("pcanales@uni.edu.pe") }</span>
                           </li>
                           <li>
                             {" "}
@@ -80,7 +83,7 @@ function Autoridades() {
                               className="icons2"
                               icon={faEnvelope}
                             />{" "}
-                            E-mail: eocana@uni.edu.pe
+                            E-mail: <span className = "correo-oculto">{ reverse("eocana@uni.edu.pe") }</span>
                           </li>
                           <li>
                             {" "}
@@ -125,7 +128,7 @@ function Autoridades() {
                               className="icons2"
                               icon={faEnvelope}
                             />{" "}
-                            E-mail: rperezc@uni.edu.pe{" "}
+                            E-mail: <span className = "correo-oculto">{ reverse("rperezc@uni.edu.pe") }</span>{" "}
                           </li>
                           <li>
                             {" "}

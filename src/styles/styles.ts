@@ -70,7 +70,7 @@ export const Header = styled.header`
       background-image: url('${imagenmate}');
       background-size:cover; /* auto, cover, contained, 200px 200px*/;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: ${colors.main};
   max-height: 200x;   
   max-height: 200px;   
   img {
@@ -177,8 +177,8 @@ export const Seccion = styled.section`
       max-height:  360px;
       overflow: auto;
       h3 {
-        padding-top: 25px;
-        margin-bottom: 30px;
+        color: ${colors.main};
+        padding-top: 20px;
       }
       .body-eventos {
         padding: 0px 3px;
@@ -187,13 +187,14 @@ export const Seccion = styled.section`
       .evento{
         display: flex;
         margin: 10px 5px;
-        min-height: 100px;
+        min-height: 90px;
       }
       
       .fecha-evento {
+        font-size: 0.87em;
         background: #1d3557;
         color: white;
-        font-weight: bold;
+        font-weight: 500;
         padding: 10px 20px;
         display: flex;
         align-items: center;
@@ -209,7 +210,7 @@ export const Seccion = styled.section`
         width: 34%;
       }
       .descripcion {
-        font-size: 16px;
+        font-size: 0.97em;
         display: flex;
         align-items: center;
         margin: 0px 5px;

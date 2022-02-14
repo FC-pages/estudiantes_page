@@ -24,6 +24,7 @@ export const TestimoniosTab = styled.div`
 
 export const TCard = styled.div`
   margin: 0px 10px;
+  width: 27rem;
   .header {
     margin: 0px 0px 10px 0px;
     display: flex;
@@ -56,7 +57,6 @@ export const TCard = styled.div`
 `
 
 export const TCard2 = styled.div`
-  margin: 0px 10px;
   .header {
     margin: 0px 0px 10px 0px;
     display: flex;

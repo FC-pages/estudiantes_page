@@ -21,7 +21,7 @@ function App() {
         <RightNav open={open} home={true} />
       </div>
       <div className="pt-5 text-start">
-        <footer
+        <footer className = "footer-"
           style={{
             backgroundColor: "#1D3557",
             position: "absolute",

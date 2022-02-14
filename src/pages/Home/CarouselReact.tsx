@@ -32,9 +32,10 @@ function Eventos(){
     return(
         <S.Seccion>
           <div className = "eventos-seccion">
-            <h3>
+            <h3 className = "">
               { toggleEvents ? "EVENTOS FUTUROS": "EVENTOS PASADOS" }
             </h3>
+            <hr/>
             <div className = "body-eventos">
               {
                 toggleEvents?
