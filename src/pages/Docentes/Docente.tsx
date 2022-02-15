@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Modal, Button, Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
+import perfilImage from '../../images/perfil_black.png';
 
 function Docente(props: any) {
 
@@ -39,7 +40,6 @@ function Docente(props: any) {
     e.preventDefault();
   }
 
-
   return (
     <div className="App-profes">
       <table cellPadding={8}>
@@ -52,7 +52,9 @@ function Docente(props: any) {
         <tr>
           {/* <td className="App-profes-imagesm"></td>  */}
           <td>
-            <img alt="" src={props.foto} />{" "}
+            <div className = "cont-img">
+              <img alt="" src={props.foto ? props.foto:perfilImage} />{" "}
+            </div>
           </td>
           <td className="App-profes-td">
             <ul>

@@ -300,14 +300,24 @@
 
 .img-modal {
   width: 240px;
-  height: 330px;
+  height: 336px;
   overflow:hidden;
-  margin: 0px auto;
+  margin: 10px auto;
 }
+
+/*
 .img-modal img {
-  width: 250px;
-  height: 340px;
+  width: 249px;
+  height: 338px;
   margin: 0px -5px 0px -5px;
+}
+*/
+
+.img-modal img {
+    float: left;
+    width:  243.0px;
+    height: 338px;
+    object-fit: cover;
 }
 
 
@@ -400,10 +410,21 @@
   /* object-fit: contain; */
 }
 
-.App-profes img {
+.cont-img {
+  /*
   width: 105px;
-  height: 140px;
+  height: 147px;
+  overflow: hidden;
+  */
 }
+.App-profes img {
+  /*height: 147px;*/
+    float: left;
+    width:  110px; /*111px;*/
+    height: 154px; /*148px;*/
+    object-fit: cover;
+}
+
 
 /* FOOTER */
 .App-footer {

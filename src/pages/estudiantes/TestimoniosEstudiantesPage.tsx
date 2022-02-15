@@ -11,7 +11,7 @@ export default function TestimoniosEstudiantesPage() {
             <ReactPlayer
               controls
               width="100%"
-              url="https://www.youtube.com/watch?v=yDyMSliKsxI"
+              url="https://drive.google.com/drive/folders/1uIoF9-7YqynB2cDqa8_-PJcOClGZ3tkT?usp=sharing"
             />
             <Card.Body>
               <Card.Title>Nombre Estudiante 1</Card.Title>
