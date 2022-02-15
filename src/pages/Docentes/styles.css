@@ -277,6 +277,7 @@
 .App-profes {
   display: inline-block;
   /* font-size: 11pt; */
+
   height: max-content;
   padding: 5px 5px;
   width: 455px;
@@ -291,6 +292,7 @@
 .App-profes table {
   padding: 5px;
   min-width: 445px;
+  min-height: 246.5px;
   /* paddi */
   text-align: left;
 }

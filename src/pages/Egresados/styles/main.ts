@@ -244,3 +244,26 @@ export const ModalContainer = styled.div`
     display: flex;
   }
 `
+
+export const ContainerVideos  = styled.div`
+  width: 100%;
+  .video {
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+    >div {
+      width: 45%;
+     margin: 50px 10px;
+    }
+  }
+
+  @media (max-width: 1031px) {
+    .video{
+      >div {
+        width: 100%;
+      }
+    }
+  }
+`
+
+

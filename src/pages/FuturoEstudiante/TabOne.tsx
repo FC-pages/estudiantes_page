@@ -12,6 +12,12 @@ let videos = [
     Description:
       "Las matemáticas tienen un triple propósito. Debe proporcionar un instrumento para el estudio de la naturaleza. Pero esto no es todo: tiene un propósito filosófico y, me atrevo a decir, estético.",
   },
+  {
+    name: "Perú entre los mejores países en olimpiada de Matemática",
+    href: "https://www.youtube.com/watch?v=JE0IM-FgU_0",
+    Description:
+      "Estudiantes peruanos entre los mejores en Olimpiada Mundial de Matemática y los mejores de América Latina.",
+  },
 ];
 
 const TabOne: FC<{}> = () => {
@@ -36,16 +42,22 @@ const TabOne: FC<{}> = () => {
                   <Card.Body>
                     <Card.Title>{video.name}</Card.Title>
                     <Card.Text>
-                      <div className="quote">
-                        <cite>
-                          “{video.Description}». 
-                        </cite>
-                        </div>
-                        <div>
-                        <figcaption className="quote">
-                          &mdash;<cite>Henri Poincaré</cite>  
-                        </figcaption>
-                        </div>
+                        {video.name === "Importancia de estudiar Matemática" ? 
+                          <>
+                          <div className="quote">
+                            <cite>
+                              “{video.Description}». 
+                            </cite>
+                          </div>
+                          <div>
+                            <figcaption className="quote">
+                              &mdash;<cite>Henri Poincaré</cite>  
+                            </figcaption>
+                          </div>
+                          </>
+                          :
+                          video.Description
+                          }
                     </Card.Text>
 
 

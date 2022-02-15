@@ -15,10 +15,10 @@ let videos = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
-    name: "Video - Complementario",
-    href: "https://www.youtube.com/watch?v=yDyMSliKsxI",
+    name: "El IMCA: una isla de eficiencia en el Perú para la investigación matemática",
+    href: "https://www.youtube.com/watch?v=joeD2sdpHa8",
     Description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sint illum iusto nostrum cumque qui voluptas",
+      "",
   },
 ];
 

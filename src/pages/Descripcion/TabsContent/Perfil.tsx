@@ -12,7 +12,7 @@ function Perfil() {
         {/* <img src={fotomunguia} />
                         <img src="./fotomunguia.jpeg" /> */}
         <p></p>
-        <p>
+        <p className = "p-parrafo">
           {' '}
           La Escuela Profesional de Matemática, ofrece a sus estudiantes una
           formación competitiva en los fundamentos de la matemática moderna, lo
@@ -22,7 +22,7 @@ function Perfil() {
           conocimiento.{' '}
         </p>
         <img alt="" id="img-vidrio" src={matematicoVidrio} width={600}></img>
-        <p>
+        <p className = "s-parrafo">
           {' '}
           Es ampliamente conocido que la Matemática cumple un rol trascendental
           en los sectores informático, financiero, de telecomunicaciones,
@@ -32,8 +32,7 @@ function Perfil() {
           desenvuelven en estas actividades, por lo que sus oportunidades de
           crecimiento y desarrollo profesional suelen ser bastante amplias.{' '}
         </p>
-        <img alt="" id="img-optimizacion" src={optimizacion} width={300}></img>
-        <p>
+        <p className = "t-parrafo">
           {' '}
           Es cada vez mayor el número de egresados de la especialidad de
           matemática que tienen demanda e ingresan a trabajar en el sector
@@ -44,7 +43,8 @@ function Perfil() {
           reconocimiento de patrones, aprendizaje automático y en modelamiento
           de procesos, especialmente en lo que concierne a incertidumbre.{' '}
         </p>
-        <img alt="" id="img-salud" src={salud} width={400}></img>
+        <img alt="" id="img-optimizacion" src={optimizacion} width={300}></img>
+        {/*<img alt="" id="img-salud" src={salud} width={400}></img>-->*/}
         <p>
           {' '}
           En el ámbito de las ciencias, la matemática cumple un papel muy
