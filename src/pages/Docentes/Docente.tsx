@@ -86,7 +86,9 @@ function Docente(props: any) {
             <br/>
             <br/>
             <span className = "fw-bold">Grados y títulos: </span><span>{ props.gradosAc }</span>
-            <img className = "mt-4 mx-auto d-block" width="75%" alt="" src={props.foto}></img>
+            <div className = "img-modal">
+              <img  alt="" src={props.foto}></img>
+            </div>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>

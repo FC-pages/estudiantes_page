@@ -298,6 +298,18 @@
   text-align: left;
 }
 
+.img-modal {
+  width: 240px;
+  height: 330px;
+  overflow:hidden;
+  margin: 0px auto;
+}
+.img-modal img {
+  width: 250px;
+  height: 340px;
+  margin: 0px -5px 0px -5px;
+}
+
 
 .App-profes th {
   background-color: #1d3557;
