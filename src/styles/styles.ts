@@ -164,6 +164,7 @@ export const Header = styled.header`
          }
 
   .main{
+    margin-top: 50px;
     justify-content: space-around;
   }
 `
