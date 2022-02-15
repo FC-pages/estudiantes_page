@@ -172,6 +172,8 @@ export const Header = styled.header`
 export const Seccion = styled.section`
   height 390px;
   .eventos-seccion {
+      
+      border: 1px solid rgba(0,0,0,.125);
       background: #C4C4C4;
       min-height:  360px;
       max-height:  360px;
@@ -187,7 +189,7 @@ export const Seccion = styled.section`
       .evento{
         display: flex;
         margin: 10px 5px;
-        min-height: 90px;
+        min-height: 80px;
       }
       
       .fecha-evento {
@@ -198,27 +200,19 @@ export const Seccion = styled.section`
         padding: 10px 20px;
         display: flex;
         align-items: center;
-        width: 34%;
+        max-width: 100px;
       }
-      .fecha-evento-pasado {
-        background: #ba373c;
-        color: white;
-        font-weight: bold;
-        padding: 10px 20px;
-        display: flex;
-        align-items: center;
-        width: 34%;
-      }
+      
       .descripcion {
         font-size: 0.97em;
         display: flex;
         align-items: center;
-        margin: 0px 5px;
-        width: 70%;
+        text-align: left;
+        margin: 0px 10px;
         justify-content: center;
         a {
+          color: ${colors.main};
           text-decoration: none;
-          color: #142C68;
           :hover {
             color: #0DADEA;
           }
@@ -230,6 +224,7 @@ export const Seccion = styled.section`
       }
   }
       .footer-eventos {
+        padding-top: 2px;
         background: #1d3557;
         color: white;
         height: 30px;

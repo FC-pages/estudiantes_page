@@ -57,13 +57,13 @@ function Docente(props: any) {
           <td className="App-profes-td">
             <ul>
               <li className = "notnoselect"
-              >E-mail: <span className = "correo-oculto">{reverse(props.email)}</span></li>
+              ><span className = "tag">E-mail:</span> <span className = "correo-oculto">{reverse(props.email)}</span></li>
               {/* <li>Cursos asignados*: - </li> */}
               <li>
-                Grado académico: {props.gradoAc}{" "}
+                <span className = "tag">Grado o Título:</span> {props.gradoAc}{" "}
               </li>
-              <li>Línea de interés: {props.areasDeInteres}</li>
-              <li>C.V:&nbsp;&nbsp;&nbsp;   
+              <li><span className = "tag">Línea de interés:</span> {props.areasDeInteres}</li>
+              <li><span className = "tag">C.V:</span>&nbsp;&nbsp;&nbsp;   
                 <a href={props.dina}>
                   <FontAwesomeIcon className="icons2" icon={faFileAlt} />
                 </a>{" "}
@@ -82,7 +82,11 @@ function Docente(props: any) {
             <Modal.Title>{props.nombre}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            {props.resena} <img width="100%" alt="" src={props.foto}></img>
+            {props.resena}
+            <br/>
+            <br/>
+            <span className = "fw-bold">Grados y títulos: </span><span>{ props.gradosAc }</span>
+            <img className = "mt-4" width="100%" alt="" src={props.foto}></img>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>

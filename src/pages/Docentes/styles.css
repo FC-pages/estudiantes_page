@@ -355,12 +355,18 @@
   /* border-right: 1.5px dashed #ccc; */
 }
 
+.App-profes-td ul li .tag {
+  font-weight: 500;
+
+}
+
 .App-profes-td ul li:nth-child(2) {
   max-height: 50px;
   overflow: auto;
 }
 .App-profes-td ul .resenia {
   color: #08698f;
+  cursor: pointer;
 }
 .App-profes-images2 {
   background-image: url("../../images/fotoblanco.png");

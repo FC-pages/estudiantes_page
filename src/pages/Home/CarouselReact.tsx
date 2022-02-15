@@ -33,7 +33,7 @@ function Eventos(){
         <S.Seccion>
           <div className = "eventos-seccion">
             <h3 className = "">
-              { toggleEvents ? "EVENTOS FUTUROS": "EVENTOS PASADOS" }
+              { toggleEvents ? "Eventos Futuros": "Eventos Pasados" }
             </h3>
             <hr/>
             <div className = "body-eventos">

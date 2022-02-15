@@ -161,7 +161,8 @@ function Docentes() {
                 nombre={obtenernombreapellido(d.nombres)}
                 foto={d.foto}
                 email={d.emailuni}
-                gradoAc={d.gradosytitulos}
+                gradoAc={d.gradootitulo}
+                gradosAc={d.gradosytitulos}
                 dina={d.ctivitae}
                 areasDeInteres={d.lineas}
                 resena={d.resena}
