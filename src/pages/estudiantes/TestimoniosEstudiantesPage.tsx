@@ -14,7 +14,7 @@ export default function TestimoniosEstudiantesPage() {
               url="https://drive.google.com/drive/folders/1uIoF9-7YqynB2cDqa8_-PJcOClGZ3tkT?usp=sharing"
             />
             <Card.Body>
-              <Card.Title>Testimonio de Janice</Card.Title>
+              <Card.Title>Testimonio de la alumna Janice Escobedo</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
                 23/02/2022
               </Card.Subtitle>
