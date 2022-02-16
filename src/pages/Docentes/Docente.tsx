@@ -94,9 +94,10 @@ function Docente(props: any) {
             <Modal.Title>{props.nombre}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
+            <p className = "justificado">
             {props.resena}
-            <br/>
-            <br/>
+            </p>
+            <p className = "justificado">
             <span className = "fw-bold">Grados y títulos: </span><span>{ props.gradosAc }</span>
             <br/>
             {props.datos.condicion? 
@@ -118,6 +119,7 @@ function Docente(props: any) {
                   <img  alt="" src={props.foto}></img>
                 </div>
                 :<div/>}
+              </p>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>

@@ -450,3 +450,6 @@
     width: auto;
   }
 }
+.justificado {
+  text-align: justify;
+}
