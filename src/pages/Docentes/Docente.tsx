@@ -42,41 +42,44 @@ function Docente(props: any) {
 
   return (
     <div className="App-profes">
-      <table cellPadding={8}>
-        <tr>
-          <td className="App-profes-nom" colSpan={2}>
-            {" "}
-            <b>{props.nombre}</b>
-          </td>
-        </tr>
-        <tr>
-          {/* <td className="App-profes-imagesm"></td>  */}
-          <td>
-            <img alt="" src={props.foto} />{" "}
-          </td>
-          <td className="App-profes-td">
-            <ul>
-              <li className = "notnoselect"
-              >E-mail: <span className = "correo-oculto">{reverse(props.email)}</span></li>
-              {/* <li>Cursos asignados*: - </li> */}
-              <li>
-                Grado académico: {props.gradoAc}{" "}
-              </li>
-              <li>Línea de interés: {props.areasDeInteres}</li>
-              <li>C.V:&nbsp;&nbsp;&nbsp;   
-                <a href={props.dina}>
-                  <FontAwesomeIcon className="icons2" icon={faFileAlt} />
-                </a>{" "}
-              </li>
-              <li className = "resenia" onClick={handleShow} >
-                Reseña
+      <a className="borde">
+        <table cellPadding={7}>
+          <tr>
+            <td colSpan={2}>{props.nombre} </td>
+          </tr>
+          {/* <tr>
+            <td className="App-profes-nom" colSpan={2}>
+              {" "}
+              {props.nombre}
+              {" "}
+            </td>
+          </tr> */}
+          <tr>
+            <td>
+              <img alt="" src={props.foto} />{" "}
+            </td>
+            <td className="App-profes-td">
+              <ul>
+                <li className = "notnoselect"
+                >E-mail: <span className = "correo-oculto">{reverse(props.email)}</span></li>
+                <li>
+                  Grado académico: {props.gradoAc}{" "}
+                </li>
+                <li>Línea de interés: {props.areasDeInteres}</li>
+                <li>C.V:&nbsp;&nbsp;&nbsp;   
+                  <a href={props.dina}>
+                    <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+                  </a>{" "}
+                </li>
+                <li className = "resenia" onClick={handleShow} >
+                  Reseña
 
-              </li>
-            </ul>
-          </td>
-        </tr>
-      </table>
-
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        </a>
       <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>{props.nombre}</Modal.Title>

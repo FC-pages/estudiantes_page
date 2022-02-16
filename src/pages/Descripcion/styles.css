@@ -83,8 +83,6 @@
 .App-ul {
   list-style: none outside none;
   color: white;
-  /* list-style: none; */
-  /* text-align: center; */
   background-color: #1d3557;
   background-position: center;
   justify-items: center;
@@ -93,8 +91,6 @@
   justify-content: space-between;
   margin-top: -1px;
   margin-left: -1px;
-  /* display: flex; */
-  /* align-items: center; */
 }
 .App-ul li:hover {
   /* pointer-events: stroke; */
@@ -173,9 +169,6 @@
   text-align: right;
   /* padding-right: 10px; */
 }
-/* .App-resena p {
-  
-} */
 
 .App-resena-borde {
   margin: 0px -10px;
@@ -197,9 +190,7 @@
 
 .anios {
   font-size: 50px;
-  /* border-bottom: 10px solid #071332;
-  border-width: 100%;
-  background-size: 0px 50px;
+  /* background-size: 0px 50px; */
   /* padding: 10px 0px; */
   margin: 0px 10px;
   margin-right: 10px;
@@ -233,9 +224,10 @@
   background-color: #1d3557;
   color: white;
 }
-/* .App-creditos tr:nth-child(odd) {
+.App-creditos tr:nth-child(odd) {
   background-color: rgba(226, 226, 226, 0.959);
-} */
+  /* background-color: #1d3557; */
+}
 
 .App-archivo {
   /* list-style-type: circle ; */
@@ -243,10 +235,10 @@
   max-height: min-content;
   list-style-position: inside;
 }
-/* .App-archivo li:before {
+.App-archivo li::marker {
   font-family: 'FontAwesome';
-    content: '\f15c';
-} */
+  content: '\f105';
+}
 
 .App-profes-td2 {
   /* padding: 7px; */
@@ -349,9 +341,11 @@
 }
 
 .App-profes-nom {
+  background-color: #1d3557;
+  color: white;
+  text-align: left;
   padding: 7px;
-  padding-bottom: 0;
-  font-size: 13pt;
+  width: 455px;
 }
 
 .App-profes-td {
