@@ -7,15 +7,17 @@ type AccordionData = {
     content: ReactNode;
   };
 
-function AccordionItem({
+function AccordionItem(
+  {
   data,
   isOpen,
-  btnOnClick,
-}: {
+  btnOnClick,   
+  }: {
   data: AccordionData;
   isOpen: boolean;
   btnOnClick: () => void;
-}) {
+     }) 
+  {
   const contentRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
 
@@ -24,10 +26,12 @@ function AccordionItem({
       const contentEl = contentRef.current as HTMLDivElement;
 
       setHeight(contentEl.scrollHeight);
-    } else {
+    } 
+    else {
       setHeight(0);
     }
-  }, [isOpen]);
+  });
+
 
   return (
     <li className={`accordion-item ${isOpen ? 'active' : ''}`}>

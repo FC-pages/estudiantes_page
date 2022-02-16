@@ -22,7 +22,8 @@ const TabTwo: FC<{}> = () => {
         <h3 className="t-stroke-shadow">Línea de Ecuaciones Diferenciales y Sistemas Dinámicos</h3>
       </div>
       <hr></hr>
-      <div className="container">
+      <div className='grid'>
+        <div className='cell'>
         <div className="itemLeft">
           <img src="roger-metzger.JPG" className="foto-profesor" width={110}></img></div>
         <div className="itemRight">
@@ -39,6 +40,7 @@ const TabTwo: FC<{}> = () => {
           </a>{" "}
         </div>
         
+      </div>
       </div>
     </Fragment>
   );
