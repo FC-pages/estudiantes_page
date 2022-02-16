@@ -59,7 +59,7 @@ function Docente(props: any) {
           <td className="App-profes-td">
             <ul>
               <li className = "notnoselect"
-              ><span className = "tag">E-mail:</span> <span className = "correo-oculto">{reverse(props.email)}</span></li>
+              ><span className = "tag">E-mail:</span> <span className = "correo-oculto">{reverse(props.email).replace(/\s+/g, '')}</span></li>
               {/* <li>Cursos asignados*: - </li> */}
               <li>
                 <span className = "tag">Grado o Título:</span> {props.gradoAc}{" "}
