@@ -32,7 +32,6 @@ function Docente(props: any) {
       }
       
     } 
-    console.log(props.nombre, ": ", gradosDocenteArray);
   }
   obtenerMayorGrado(props.gradoAc);
 
@@ -43,6 +42,7 @@ function Docente(props: any) {
   return (
     <div className="App-profes">
       <table cellPadding={8}>
+        <tbody>
         <tr>
           <td className="App-profes-nom" colSpan={2}>
             {" "}
@@ -77,6 +77,7 @@ function Docente(props: any) {
             </ul>
           </td>
         </tr>
+        </tbody>
       </table>
 
       <Modal show={show} onHide={handleClose}>

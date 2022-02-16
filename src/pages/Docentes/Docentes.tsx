@@ -155,7 +155,7 @@ function Docentes() {
 
               }
 
-          ).map((d: any) => {
+          ).map((d: any, id: any) => {
             return (
               <Docente
                 nombre={obtenernombreapellido(d.nombres)}
@@ -166,6 +166,7 @@ function Docentes() {
                 dina={d.ctivitae}
                 areasDeInteres={d.lineas}
                 resena={d.resena}
+                key = {id}
               />
             );
           })}
