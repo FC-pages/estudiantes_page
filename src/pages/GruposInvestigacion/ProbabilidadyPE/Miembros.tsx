@@ -24,7 +24,8 @@ const TabTwo: FC<{}> = () => {
         <h3 className="t-stroke-shadow">Línea de Probabilidad y Procesos Estocásticos</h3>
       </div>
       <hr></hr>
-      <div className="container">
+      <div className='grid'>
+        <div className='cell'>
         <div className="itemLeft">
           <img src="gonzalo-panizo.JPG" className="foto-profesor" width={110}></img></div>
         <div className="itemRight">
@@ -41,6 +42,7 @@ const TabTwo: FC<{}> = () => {
           </a>{" "}
         </div>
         
+      </div>
       </div>
       
     </Fragment>
