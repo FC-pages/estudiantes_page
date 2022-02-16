@@ -11,9 +11,9 @@ export const ContainerPerfil = styled.div`
     margin-right: auto;
     margin-left: auto;
   }
-  .p-parrafo {
-  }
-  .t-parrafo {
+
+  img {
+    margin: 3px 10px;
   }
   #img-vidrio {
     float: right;
@@ -26,17 +26,15 @@ export const ContainerPerfil = styled.div`
     float: left;
   }
   #img-profesores {
+    margin-top: 90px;
     width: 100%;
-  }
-  img {
-    margin: 3px 10px;
   }
 
   @media (max-width: 768px) {
    #img-vidrio {
     float: right;
-    max-width: 60%;
-    width: 60%;
+    max-width: 70%;
+    width: 70%;
   }
   #img-optimizacion {
     max-width: 60%;

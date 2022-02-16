@@ -10,7 +10,7 @@ let videos = [
     name: "Investigación - Matemática",
     href: "https://www.youtube.com/watch?v=V6OzvIKVCv8",
     Description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sint illum iusto nostrum ",
+      "Doctorado en Ciencias con mención en Matemáticas del profesor Luis Flores Luyo",
   },
   {
     name: "Industria - Testimonio",

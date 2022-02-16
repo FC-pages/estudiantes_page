@@ -103,39 +103,7 @@ function Docentes() {
           {/* <div className="App-rectangulo"></div> */}
           {/* <section className="App-center"> */}
 
-          {/*docentes.sort(
-                function(a :any, b:any) {
-
-                let valueA = a.nombre;
-                let valueB = b.nombre;
-                valueA = eliminarDiacriticos( valueA )
-                valueB = eliminarDiacriticos( valueB )
-
-                let av = valueA.trim().toLowerCase();
-                let bv = valueB.trim().toLowerCase();
-                let r = ((av > bv) ? 1 : ((av < bv) ? -1 : 0));
-                if(r === 0){
-                  r = (typeof a.key !== 'undefined' && typeof b.key !== 'undefined')?
-                    a.key - b.key : 0;
-                }
-                  return r;
-
-
-              }
-
-          ).map((d: any) => {
-            return (
-              <Docente
-                nombre={d.nombre}
-                foto={d.foto}
-                email={d.email}
-                gradoAc={d.gradoAc}
-                dina={d.dina}
-                areasDeInteres={d.areasDeInteres}
-              />
-            );
-          })*/}
-          {data ===null ? <div/> : data.docentes.sort(
+         {data ===null ? <div/> : data.docentes.sort(
                 function(a :any, b:any) {
 
                 let valueA = obtenernombreapellido(a.nombres);
@@ -151,13 +119,12 @@ function Docentes() {
                     a.key - b.key : 0;
                 }
                   return r;
-
-
               }
 
           ).map((d: any, id: any) => {
             return (
               <Docente
+                datos = { d }
                 nombre={obtenernombreapellido(d.nombres)}
                 foto={d.foto}
                 email={d.emailuni}

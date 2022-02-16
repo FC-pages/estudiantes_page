@@ -65,11 +65,20 @@ function Docente(props: any) {
                 <span className = "tag">Grado o Título:</span> {props.gradoAc}{" "}
               </li>
               <li><span className = "tag">Línea de interés:</span> {props.areasDeInteres}</li>
-              <li><span className = "tag">C.V:</span>&nbsp;&nbsp;&nbsp;   
-                <a href={props.dina}>
-                  <FontAwesomeIcon className="icons2" icon={faFileAlt} />
-                </a>{" "}
-              </li>
+              {!props.datos.pagina && props.datos.ctivitae?
+                <li><span className = "tag">CTI Vitae:</span>&nbsp;&nbsp;&nbsp;   
+                  <a href={props.dina}>
+                    <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+                  </a>{" "}
+                </li>
+                :<div/>}
+                {props.datos.pagina?
+                  <li><span className = "tag">Página web:</span>&nbsp;&nbsp;&nbsp;   
+                    <a href={props.datos.pagina}>
+                      <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+                    </a>{" "}
+                  </li>:<div/>
+              }
               <li className = "resenia" onClick={handleShow} >
                 Reseña
 
@@ -89,9 +98,26 @@ function Docente(props: any) {
             <br/>
             <br/>
             <span className = "fw-bold">Grados y títulos: </span><span>{ props.gradosAc }</span>
-            <div className = "img-modal">
-              <img  alt="" src={props.foto}></img>
-            </div>
+            <br/>
+            {props.datos.condicion? 
+              <><span className = "fw-bold"> Condicion: </span> <span>  {props.datos.condicion}. </span></>
+              :
+              <span/>}
+            <br/>
+            {props.datos.categoria? 
+              <><span className = "fw-bold"> Categoría: </span> <span>  {props.datos.categoria}. </span></>
+              :
+              <span/>}
+            <br/>
+            {props.datos.dedicacion? 
+              <><span className = "fw-bold"> Dedicación: </span> <span>  {props.datos.dedicacion}. </span></>
+              :
+              <span/>}
+              {props.datos.foto?
+                <div className = "img-modal">
+                  <img  alt="" src={props.foto}></img>
+                </div>
+                :<div/>}
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
