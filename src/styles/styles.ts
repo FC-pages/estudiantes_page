@@ -58,6 +58,8 @@ export const ContainerCarousel = styled.div`
   }
   img {
     height: 390px;
+    float: left;
+    object-fit: cover;
   }
 `;
 export const Header = styled.header`
@@ -164,6 +166,7 @@ export const Header = styled.header`
          }
 
   .main{
+    margin-top: 50px;
     justify-content: space-around;
   }
 `

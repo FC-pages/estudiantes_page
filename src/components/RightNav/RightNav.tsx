@@ -15,6 +15,7 @@ import GruposInvestigacion from '../../pages/GruposInvestigacion/GruposInvestiga
 
 import {
   BrowserRouter as Router,
+  MemoryRouter,
   Routes,
   Route,
   NavLink,
@@ -46,7 +47,7 @@ type Props = {
 
 function RightNav(props: Props) {
   return (
-    <Router>
+    <MemoryRouter>
       <S.Ul open={props.open} home={props.home}>
         <S.LogoUl
           src="./logo-UNI-footer.png"
@@ -157,7 +158,7 @@ function RightNav(props: Props) {
         <Route path="/GruposInvestigacion" element={< GruposInvestigacion/>} />
         <Route path={routes.contacto} element={<ContactoPage />} />
       </Routes>
-    </Router>
+    </MemoryRouter>
   );
 }
 

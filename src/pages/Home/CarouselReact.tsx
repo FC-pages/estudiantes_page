@@ -11,8 +11,6 @@ function Eventos(){
 
   const [toggleEvents, setTogleEvents] = useState(true);
   
-  console.log("Eventos", eventos);
-  console.log("Eventos reverse", eventos.reverse());
 
   let Evento = (props : any) => {
     
@@ -39,24 +37,29 @@ function Eventos(){
             <div className = "body-eventos">
               {
                 toggleEvents?
-                eventos.map((e : any) => {
+                eventos.map((e : any, id: any) => {
                   if (e.future === toggleEvents)
                   return(
                     <Evento 
                       fechaEvento = {e.fechaEvento} 
                       descripcion = { e.descripcion } 
                       eventoFuturo= { e.future } 
-                      hrefLink = { e.hrefLink } />
+                      hrefLink = { e.hrefLink }
+                      key = {id}
+                      />
                     )
                 }):
-                eventos.map((e : any) => {
+                eventos.map((e : any, id: any) => {
                   if (e.future === toggleEvents)
                   return(
                     <Evento 
                       fechaEvento = {e.fechaEvento} 
                       descripcion = { e.descripcion } 
                       eventoFuturo= { e.future } 
-                      hrefLink = { e.hrefLink } />
+                      hrefLink = { e.hrefLink } 
+                      key = {id}
+                      />
+                      
                     )
                 }).reverse()
                 
@@ -72,15 +75,14 @@ function Eventos(){
 }
 
 function CarouselReact() {
-  console.log(carousel)
   return (
     <S.ContainerCarousel>
     <Container className = "animate-slidein">
       <Row>
         <Col xs = "12" lg = "8">
           <Carousel >
-            {carousel.map((item: any) => (
-              <Carousel.Item>
+            {carousel.map((item: any, id: any) => (
+              <Carousel.Item key = {id}>
                 <a href = {item.href}>
                 <img
                   className="d-block w-100"

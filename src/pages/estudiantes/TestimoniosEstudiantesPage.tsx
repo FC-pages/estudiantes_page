@@ -11,17 +11,14 @@ export default function TestimoniosEstudiantesPage() {
             <ReactPlayer
               controls
               width="100%"
-              url="https://www.youtube.com/watch?v=yDyMSliKsxI"
+              url="https://drive.google.com/drive/folders/1uIoF9-7YqynB2cDqa8_-PJcOClGZ3tkT?usp=sharing"
             />
             <Card.Body>
-              <Card.Title>Nombre Estudiante 1</Card.Title>
+              <Card.Title>Testimonio de la alumna Janice Escobedo</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
-                dd/mm/aaaa
+                23/02/2022
               </Card.Subtitle>
               <Card.Text>
-                Descripción del estudiante Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Perferendis sint illum iusto
-                nostrum cumque qui voluptas
               </Card.Text>
             </Card.Body>
           </Card>

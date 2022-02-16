@@ -43,7 +43,7 @@ export default function GruposEstPage() {
                     alt="Logo GEM"
                     src="./gem/Gem.png"
                   />
-                  <p style={{ textJustify: 'inter-word' }}>
+                  <p style={{ textAlign: 'justify' }}>
                     La Asociación Estudiantil de Matemática, se forma gracias a
                     la iniciativa de un grupo de estudiantes de Matemática
                     interesados en crear canales de comunicación entre todos los

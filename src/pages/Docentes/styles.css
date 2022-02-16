@@ -64,12 +64,13 @@
 }
 
 .App-cuerpo {
-  text-align: left;
+  text-align: justify;
 }
 
 .tab-content {
   padding: 0 15px;
   overflow: auto;
+  text-align: justify;
 }
 
 .App-center {
@@ -285,6 +286,7 @@
   text-align: left;
   vertical-align: middle;
   border: 1px solid rgba(0,0,0,.045);
+  overflow: auto;
    border-radius: 0.25rem;
   /* margin-inline: auto; */
 }
@@ -295,6 +297,28 @@
   min-height: 246.5px;
   /* paddi */
   text-align: left;
+}
+
+.img-modal {
+  width: 240px;
+  height: 336px;
+  overflow:hidden;
+  margin: 10px auto;
+}
+
+/*
+.img-modal img {
+  width: 249px;
+  height: 338px;
+  margin: 0px -5px 0px -5px;
+}
+*/
+
+.img-modal img {
+    float: left;
+    width:  243.0px;
+    height: 338px;
+    object-fit: cover;
 }
 
 
@@ -387,10 +411,21 @@
   /* object-fit: contain; */
 }
 
-.App-profes img {
+.cont-img {
+  /*
   width: 105px;
-  height: 140px;
+  height: 147px;
+  overflow: hidden;
+  */
 }
+.App-profes img {
+  /*height: 147px;*/
+    float: left;
+    width:  110px; /*111px;*/
+    height: 154px; /*148px;*/
+    object-fit: cover;
+}
+
 
 /* FOOTER */
 .App-footer {
@@ -414,4 +449,7 @@
   .App-profes-td ul {
     width: auto;
   }
+}
+.justificado {
+  text-align: justify;
 }
