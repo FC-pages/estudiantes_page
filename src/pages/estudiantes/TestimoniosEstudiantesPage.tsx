@@ -11,7 +11,7 @@ export default function TestimoniosEstudiantesPage() {
             <ReactPlayer
               controls
               width="100%"
-              url="https://drive.google.com/drive/folders/1uIoF9-7YqynB2cDqa8_-PJcOClGZ3tkT?usp=sharing"
+              url="https://www.youtube.com/watch?v=n6i73YhDFV8"
             />
             <Card.Body>
               <Card.Title>Testimonio de la alumna Janice Escobedo</Card.Title>
