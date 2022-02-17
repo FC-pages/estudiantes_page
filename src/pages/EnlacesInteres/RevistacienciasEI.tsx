@@ -3,8 +3,45 @@ import React from 'react';
 function RevistaCiencias() {
   return (
     <div>
-      <p className="fs-4 fw-bold">
+      <p className="mt-3 fs-4 fw-bold">
         1.{' '}
+        <a className="a-link-title" href="https://zbmath.org/">
+          zbMATH Open
+        </a>
+      </p>
+      <p className="ms-3">
+        zbMATH, anteriormente Zentralblatt MATH, es un importante servicio de
+        revisión que proporciona revisiones y resúmenes de artículos en
+        matemáticas puras y aplicadas, producido por la oficina de Berlín de FIZ
+        Karlsruhe {'-'} Leibniz Institute for Information Infrastructure GmbH.
+      </p>
+      <a className="ms-3" href="https://zbmath.org/">
+        <img
+          style={{ height: '65px' }}
+          alt="Pour la science"
+          src="./enlaces/zbMATH.gif"
+        />
+      </a>
+
+      <br />
+
+      <p className="mt-3 fs-4 fw-bold">
+        2.{' '}
+        <a className="a-link-title" href="https://images.math.cnrs.fr/?lang=es">
+          Paisajes matemáticos
+        </a>
+      </p>
+      <p className="ms-3">La investigación matemática en relatos e imágenes.</p>
+      <a className="ms-3" href="https://images.math.cnrs.fr/?lang=es">
+        <img
+          style={{ height: '90px' }}
+          alt="Paisajes matemáticos"
+          src="./enlaces/logo-idm-es.png"
+        />
+      </a>
+
+      <p className="fs-4 fw-bold">
+        3.{' '}
         <a className="a-link-title" href="https://www.larecherche.fr/">
           La Recherche
         </a>
@@ -31,7 +68,7 @@ function RevistaCiencias() {
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        2.{' '}
+        4.{' '}
         <a className="a-link-title" href="https://www.sciencesetavenir.fr/">
           Sciences et avenir
         </a>
@@ -53,7 +90,7 @@ function RevistaCiencias() {
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        3.{' '}
+        5.{' '}
         <a className="a-link-title" href="https://www.pourlascience.fr/">
           Pour la science
         </a>
@@ -74,7 +111,7 @@ function RevistaCiencias() {
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        4.{' '}
+        6.{' '}
         <a className="a-link-title" href="https://images.math.cnrs.fr/">
           Images des Mathématiques
         </a>
@@ -90,28 +127,6 @@ function RevistaCiencias() {
           style={{ height: '80px' }}
           alt="Images des Mathématiques"
           src="./enlaces/logo-idm-fr.png"
-        />
-      </a>
-
-      <br />
-
-      <p className="mt-3 fs-4 fw-bold">
-        5.{' '}
-        <a className="a-link-title" href="https://zbmath.org/">
-          zbMATH Open
-        </a>
-      </p>
-      <p className="ms-3">
-        zbMATH, anteriormente Zentralblatt MATH, es un importante servicio de
-        revisión que proporciona revisiones y resúmenes de artículos en
-        matemáticas puras y aplicadas, producido por la oficina de Berlín de FIZ
-        Karlsruhe {'-'} Leibniz Institute for Information Infrastructure GmbH.
-      </p>
-      <a className="ms-3" href="https://zbmath.org/">
-        <img
-          style={{ height: '65px' }}
-          alt="Pour la science"
-          src="./enlaces/zbMATH.gif"
         />
       </a>
     </div>
