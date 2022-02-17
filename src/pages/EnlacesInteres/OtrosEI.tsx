@@ -76,6 +76,7 @@ function Otros() {
       </a>
 
       <br />
+
       <p className="mt-3 fs-4 fw-bold">
         4.{' '}
         <a className="a-link-title" href="https://www.conicyt.cl/becasconicyt/">
@@ -92,44 +93,6 @@ function Otros() {
           style={{ height: '90px' }}
           alt="Becas CONYCIT"
           src="./enlaces/beca-conycit.jpg"
-        />
-      </a>
-
-      <br />
-
-      <p className="mt-3 fs-4 fw-bold">
-        5.{' '}
-        <a className="a-link-title" href="http://pec3.org">
-          Peruvian Competence Center of Scientific Computing
-        </a>
-      </p>
-      <p className="ms-3">
-        PeC 3 es una red de universidades y científicos de Perú y Alemania con
-        el objetivo de fomentar la investigación y la educación en computación
-        científica, matemáticas aplicadas y computacionales.
-      </p>
-      <a className="ms-3" href="http://pec3.org">
-        <img
-          style={{ height: '90px' }}
-          alt="Peruvian Competence Center of Scientific Computing"
-          src="./enlaces/pecCubo.jpg"
-        />
-      </a>
-
-      <br />
-
-      <p className="mt-3 fs-4 fw-bold">
-        6.{' '}
-        <a className="a-link-title" href="https://images.math.cnrs.fr/?lang=es">
-          Paisajes matemáticos
-        </a>
-      </p>
-      <p className="ms-3">La investigación matemática en relatos e imágenes.</p>
-      <a className="ms-3" href="https://images.math.cnrs.fr/?lang=es">
-        <img
-          style={{ height: '90px' }}
-          alt="Paisajes matemáticos"
-          src="./enlaces/logo-idm-es.png"
         />
       </a>
     </div>
