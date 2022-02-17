@@ -33,7 +33,7 @@ export default function Descripcion() {
       <Tab.Container defaultActiveKey="Perfil">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: "#1D3557" }}
+          style={{ backgroundColor: "#282C34" }} //#1D3557
           className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>

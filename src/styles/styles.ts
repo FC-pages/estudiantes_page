@@ -197,7 +197,7 @@ export const Seccion = styled.section`
       
       .fecha-evento {
         font-size: 0.87em;
-        background: #1d3557;
+        background: ${colors.main};
         color: white;
         font-weight: 500;
         padding: 10px 20px;
@@ -217,7 +217,8 @@ export const Seccion = styled.section`
           color: ${colors.main};
           text-decoration: none;
           :hover {
-            color: #0DADEA;
+            color: #0DADEA;//${colors.azulTurquesa};
+
           }
         }
       }
@@ -228,7 +229,7 @@ export const Seccion = styled.section`
   }
       .footer-eventos {
         padding-top: 2px;
-        background: #1d3557;
+        background: ${colors.main};
         color: white;
         height: 30px;
         :hover {

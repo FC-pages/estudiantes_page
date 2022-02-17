@@ -33,7 +33,7 @@ export const Ul = styled.ul<INav>`
     cursor: pointer;
 
     &:hover {
-      color: #0DADEA;
+      color: ${colors.azulTurquesa};
     }
   }
 
@@ -43,7 +43,7 @@ export const Ul = styled.ul<INav>`
   }
       .active{
             //background: white;
-            color: #0dadea //#0DADEA azul claro
+            color: ${colors.azulTurquesa};// 
             //font-weight: bold;
           }
 
@@ -76,7 +76,7 @@ export const Ul = styled.ul<INav>`
       margin-right: 34px;
 
       &:hover {
-        color: #0DADEA;
+        color: ${colors.azulTurquesa};
       }
     }
   }
@@ -139,7 +139,7 @@ export const DropdownMenu = styled.div`
           padding: 18px 10px;
           font-size: 0.8em;
             :hover {
-              color: #0DADEA;
+              color: ${colors.azulTurquesa};
             }
         }
       }
