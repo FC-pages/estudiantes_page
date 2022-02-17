@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faEnvelope,
   faHandPointRight,
@@ -34,10 +34,11 @@ function Autoridades() {
                           <ul>
                             <li>
                               {" "}
-                              <FontAwesomeIcon
+                              <FontAwesomeIcon icon={faEnvelope} className="icons2" />
+                              {/* <FontAwesomeIcon
                                 className="icons2"
                                 icon={faEnvelope}
-                              />{" "}
+                              /> */}{" "}
                               E-mail: pcanales@uni.edu.pe
                             </li>
                             <li>
@@ -51,8 +52,7 @@ function Autoridades() {
                             <li>
                               {" "}
                               <FontAwesomeIcon
-                                className="icons2"
-                                icon={faHandPointRight}
+                                icon={faHandPointRight} className="icons2" 
                               />{" "}
                               Central UNI: Anexos 5000, 5002, 5003
                             </li>

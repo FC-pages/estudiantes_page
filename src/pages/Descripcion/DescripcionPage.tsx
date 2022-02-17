@@ -7,13 +7,17 @@ import PlanesYMallas from './TabsContent/PanesYMallas';
 import Autoridades from './TabsContent/Autoridades';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
+/* import {
   faEnvelope,
   faHandPointRight,
   faPaperclip,
   faPhoneAlt,
-} from "@fortawesome/free-solid-svg-icons";
-import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
+} from "@fortawesome/free-solid-svg-icons"; */
+import { faEnvelope,
+  faHandPointRight,
+  faPaperclip,
+  faPhoneAlt, } from '@fortawesome/free-solid-svg-icons'
+import { faFileAlt } from "@fortawesome/free-solid-svg-icons"; 
 
 
 
