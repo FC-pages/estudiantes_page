@@ -1,12 +1,11 @@
 import { Container, Tab, Nav, Row, Col } from 'react-bootstrap';
 import { FaYoutube, FaFacebookSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import '../../FuturoEstudiante/styles/grupestud.css';
 import { miembros, juntaDirectiva, asesores } from '../../../data/data-gem';
 import React from 'react';
-import Miembro from './Miembro';
+import Miembro from './GEM/Miembro';
 import './styles.css';
-import JuntaDirectiva from './JuntaDirectiva';
+import JuntaDirectiva from './GEM/JuntaDirectiva';
 
 export default function GruposEstPage() {
   let eliminarDiacriticos = (texto: any) => {

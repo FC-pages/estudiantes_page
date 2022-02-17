@@ -6,7 +6,7 @@ import * as S from './styles/main';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
-let { alumnos } = require('../../data/data-alumnos.js'  );
+let { alumnos } = require('../../../../data/data-alumnos.js'  );
 
 
 function Alumnos() {

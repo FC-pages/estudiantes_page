@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Tab, Nav } from "react-bootstrap";
-import PlanEstudios from './PlanEstudios';
-import MallasPage from './MallasEstudio';
+import PlanEstudios from './PlanesYMallas/PlanEstudios';
+import MallasPage from './PlanesYMallas/MallasEstudio';
 
 export default function PlanesYMallas() {
   return (

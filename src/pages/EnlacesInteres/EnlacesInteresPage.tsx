@@ -1,6 +1,6 @@
 import { Tab, Container, Nav } from 'react-bootstrap';
 import React from 'react';
-import '../../pages/FuturoEstudiante/styles/tabs.css';
+//import '../../pages/FuturoEstudiante/styles/tabs.css';
 
 import Competiciones from './CompeticionesEI';
 import RevistaCiencias from './RevistacienciasEI';
@@ -22,7 +22,7 @@ export default function EnlacesInteresPage() {
     >
       <Tab.Container defaultActiveKey="RevistaCiencias">
         <Nav
-          style={{ backgroundColor: '#1D3557' }}
+          style={{ backgroundColor: '#282C34' }}
           className="justify-content-center pt-1 fs-6 style-with-otros"
         >
           <Nav.Item>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Tab, Nav } from "react-bootstrap";
-import Tesistas from "../../Egresados/Tesistas";
-import Alumnos from "../../Egresados/Alumnos";
+import Tesistas from "./AlumnosYTesistasTab/Tesistas";
+import Alumnos from "./AlumnosYTesistasTab/Alumnos";
 
 export default function AlumnosYTesistas() {
   return (

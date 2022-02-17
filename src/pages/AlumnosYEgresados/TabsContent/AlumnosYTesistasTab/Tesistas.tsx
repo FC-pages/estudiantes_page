@@ -1,6 +1,6 @@
 import { Table } from 'react-bootstrap';
 import * as S from './styles/main';
-let { tesistas } = require('../../data/data-alumnos.js'  );
+let { tesistas } = require('../../../../data/data-alumnos.js'  );
 
 function Tesistas() {
   return (

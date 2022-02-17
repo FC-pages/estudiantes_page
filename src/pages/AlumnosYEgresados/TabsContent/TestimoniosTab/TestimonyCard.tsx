@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Modal, Button, Card } from "react-bootstrap";
-import * as S from "./styles/main";
+import * as S from "../AlumnosYTesistasTab/styles/main";
 
 type CardProps = {
   name: string;

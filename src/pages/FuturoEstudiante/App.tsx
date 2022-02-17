@@ -1,10 +1,9 @@
 import React from "react";
 import { Tab, Container, Nav } from "react-bootstrap";
-import "./styles/estudiantes.css";
 
-import TabOne from "./TabOne";
-import TabTwo from "./TabTwo";
-import TabThree from "./TabThree";
+import TabOne from "./PerfilIngreso";
+import TabTwo from "./CampoLaboral";
+import TabThree from "./Investigacion";
 
 
 export default function Descripcion() {
@@ -21,7 +20,7 @@ export default function Descripcion() {
       <Tab.Container defaultActiveKey="Perfil ingreso">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: "#1D3557" }}
+          style={{ backgroundColor: "#282C34" }}
           className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>

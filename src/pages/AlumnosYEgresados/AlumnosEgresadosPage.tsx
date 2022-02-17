@@ -2,7 +2,7 @@ import React from 'react';
 import { Tab, Container, Nav } from 'react-bootstrap';
 import GruposEstPage from './TabsContent/GruposEstPage';
 import '../../components/estilosTab.css';
-import TestimoniosPage from './TestimoniosPage';
+import TestimoniosPage from './TabsContent/TestimoniosPage';
 import EgresadosTitulados from './TabsContent/EgresadosTitulados';
 import AlumnosYTesistas from './TabsContent/AlumnosYTesistas';
 
@@ -20,7 +20,7 @@ export default function AlumnosEgresadosPage() {
       <Tab.Container defaultActiveKey="Alumnos y Tesistas">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: '#1D3557' }}
+          style={{ backgroundColor: '#282C34' }}
           className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>

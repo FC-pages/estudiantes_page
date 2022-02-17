@@ -2,7 +2,7 @@ import React from "react";
 import ReactPlayer from "react-player";
 
 import { Row, Card } from "react-bootstrap";
-import * as S from "../../../styles/styles";
+import * as S from "../../../../styles/styles";
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

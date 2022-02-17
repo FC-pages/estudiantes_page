@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Tab, Nav } from "react-bootstrap";
-import Testimonios from "../Egresados/Testimonios";
-import TestimoniosEstudiantesPage from "./TestimoniosEstudiantesPage";
+import Testimonios from "./TestimoniosTab/Testimonios";
+import TestimoniosEstudiantesPage from "./TestimoniosTab/TestimoniosEstudiantesPage";
 
 export default function TestimoniosPage() {
   return (

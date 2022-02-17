@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Table } from 'react-bootstrap';
-import * as S from './styles/main';
-import { titulados } from '../../data/data-alumnos.js';
+import * as S from '../AlumnosYTesistasTab/styles/main';
+import { titulados } from '../../../../data/data-alumnos.js';
 import { Modal, Button, Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";

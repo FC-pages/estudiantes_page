@@ -18,7 +18,7 @@ export default function DocentesTabs() {
       <Tab.Container defaultActiveKey="Docentes">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: "#1D3557" }}
+          style={{ backgroundColor: "#282C34" }}
           className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item >

@@ -1,17 +1,16 @@
 import * as S from "./styles";
 
 import Home from "../../pages/Home/Home";
-import Descripcion from "../../pages/Descripcion/Descripcion";
-import FuturoEstudiante from "../../pages/FuturoEstudiante/FuturoEstudiante";
-import AlumnosEgresadosPage from "../../pages/estudiantes/AlumnosEgresadosPage";
+import Descripcion from "../../pages/Descripcion/DescripcionPage";
+import FuturoEstudiante from "../../pages/FuturoEstudiante/FuturoEstudiantePage";
+import AlumnosEgresadosPage from "../../pages/AlumnosYEgresados/AlumnosEgresadosPage";
 import EnlacesInteresPage from "../../pages/EnlacesInteres/EnlacesInteresPage";
-import Egresados from "../../pages/Egresados";
-import DocentesTabs from "../../pages/Docentes/DocentesTabs";
-//import GruposInvestigacion from "../../pages/GruposInvestigacion/GrupoOptimizacion";
+import DocentesTabs from "../../pages/Docentes/DocentesPage";
+//import GruposInvestigacion from "../../pages/LineasInvestigacion/GrupoOptimizacion";
 import routes from "../../helpers/routes";
-import Optimizacion from "../../pages/GruposInvestigacion/Optimizacion/Optimizacion";
-import ANumerico from "../../pages/GruposInvestigacion/AnalisisNumerico/AnalisisNumerico";
-import GruposInvestigacion from '../../pages/GruposInvestigacion/GruposInvestigacion';
+import Optimizacion from "../../pages/LineasInvestigacion/Optimizacion/Optimizacion";
+import ANumerico from "../../pages/LineasInvestigacion/AnalisisNumerico/AnalisisNumerico";
+import GruposInvestigacion from '../../pages/LineasInvestigacion/GruposInvestigacion';
 
 import {
   BrowserRouter as Router,
@@ -143,7 +142,6 @@ function RightNav(props: Props) {
         <Route path={routes.enlacesInteres} element={<EnlacesInteresPage />} />
         <Route path={routes.descripcion} element={<Descripcion />} />
         <Route path={routes.futuroEstudiante} element={<FuturoEstudiante />} />
-        <Route path={routes.egresados} element={<Egresados />} />
         <Route
           path={routes.grupos_investigacion}
           element={<GruposInvestigacion />}

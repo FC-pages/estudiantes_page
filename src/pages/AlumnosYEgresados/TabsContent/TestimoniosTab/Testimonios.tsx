@@ -1,8 +1,8 @@
-import * as S from "./styles/main";
+import * as S from "../AlumnosYTesistasTab/styles/main";
 import TestimonyCard from "./TestimonyCard";
 import { Row, Card } from "react-bootstrap";
 import ReactPlayer from "react-player";
-let { testimonios } = require("../../data/data-testimonios.js");
+let { testimonios } = require("../../../../data/data-testimonios.js");
 
 function Testimonios() {
 

@@ -22,7 +22,7 @@ export default function AlumnosEgresadosPage() {
       <Tab.Container defaultActiveKey="Analisis">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: "#1D3557" }}
+          style={{ backgroundColor: "#282C34" }}
           className="justify-content-center pt-1 fs-6 style-gr-i"
         >
           <Nav.Item >
