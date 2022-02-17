@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { Modal, Button, Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import perfilImage from '../../images/perfil_black.png';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+
 
 function Docente(props: any) {
 
@@ -41,53 +43,57 @@ function Docente(props: any) {
 
   return (
     <div className="App-profes">
-      <table cellPadding={8}>
-        <tbody>
-        <tr>
-          <td className="App-profes-nom" colSpan={2}>
-            {" "}
-            <b>{props.nombre}</b>
-          </td>
-        </tr>
-        <tr>
-          {/* <td className="App-profes-imagesm"></td>  */}
-          <td>
-            <div className = "cont-img">
-              <img alt="" src={props.foto ? props.foto:perfilImage} />{" "}
-            </div>
-          </td>
-          <td className="App-profes-td">
-            <ul>
-              <li className = "notnoselect"
-              ><span className = "tag">E-mail:</span> <span className = "correo-oculto">{reverse(props.email).replace(/\s+/g, '')}</span></li>
-              {/* <li>Cursos asignados*: - </li> */}
-              <li>
-                <span className = "tag">Grado o Título:</span> {props.gradoAc}{" "}
-              </li>
-              <li><span className = "tag">Línea de interés:</span> {props.areasDeInteres}</li>
-              {!props.datos.pagina && props.datos.ctivitae?
-                <li><span className = "tag">CTI Vitae:</span>&nbsp;&nbsp;&nbsp;   
-                  <a href={props.dina}>
-                    <FontAwesomeIcon className="icons2" icon={faFileAlt} />
-                  </a>{" "}
+      <a className="borde">
+        <table cellPadding={6}>
+          <tbody>
+          <tr>
+            <td colSpan={2}>{props.nombre} </td>
+          </tr>
+          {/* <tr>
+            <td className="App-profes-nom" colSpan={2}>
+              <p>{props.nombre}</p>
+            </td>
+          </tr> */}
+          <tr>
+            {/* <td className="App-profes-imagesm"></td>  */}
+            <td>
+              <div className = "cont-img">
+                <img alt="" src={props.foto ? props.foto:perfilImage} />{" "}
+              </div>
+            </td>
+            <td className="App-profes-td">
+              <ul>
+                <li className = "notnoselect"
+                ><span className = "tag">E-mail:</span> <span className = "correo-oculto">{reverse(props.email).replace(/\s+/g, '')}</span></li>
+                {/* <li>Cursos asignados*: - </li> */}
+                <li>
+                  <span className = "tag">Grado o Título:</span> {props.gradoAc}{" "}
                 </li>
-                :<div/>}
-                {props.datos.pagina?
-                  <li><span className = "tag">Página web:</span>&nbsp;&nbsp;&nbsp;   
-                    <a href={props.datos.pagina}>
+                <li><span className = "tag">Línea de interés:</span> {props.areasDeInteres}</li>
+                {!props.datos.pagina && props.datos.ctivitae?
+                  <li><span className = "tag">CTI Vitae:</span>&nbsp;&nbsp;&nbsp;   
+                    <a href={props.dina}>
                       <FontAwesomeIcon className="icons2" icon={faFileAlt} />
                     </a>{" "}
-                  </li>:<div/>
-              }
-              <li className = "resenia" onClick={handleShow} >
-                Reseña
+                  </li>
+                  :<div/>}
+                  {props.datos.pagina?
+                    <li><span className = "tag">Página web:</span>&nbsp;&nbsp;&nbsp;   
+                      <a href={props.datos.pagina}>
+                        <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+                      </a>{" "}
+                    </li>:<div/>
+                }
+                <li className = "resenia" onClick={handleShow} >
+                  Reseña
 
-              </li>
-            </ul>
-          </td>
-        </tr>
-        </tbody>
-      </table>
+                </li>
+              </ul>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </a>
 
       <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
