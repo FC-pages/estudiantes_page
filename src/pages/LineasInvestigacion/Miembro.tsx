@@ -1,6 +1,7 @@
-import perfilImage from '../../../../images/perfil_black.png';
+import React from 'react';
+import { FaFileAlt } from 'react-icons/fa';
 
-function JuntaDirectiva(props: any) {
+export default function Miembro(props: any) {
   const reverse = (s: any) => {
     return s.split('').reverse().join('');
   };
@@ -15,20 +16,11 @@ function JuntaDirectiva(props: any) {
             <tr>
               <td>
                 <div className="cont-img">
-                  <img alt="" src={props.foto ? props.foto : perfilImage} />{' '}
+                  <img alt="" src={props.foto} />{' '}
                 </div>
               </td>
               <td className="App-profes-td">
                 <ul>
-                  <li>
-                    <span className="tag">Codigo:</span> {props.codigo}
-                  </li>
-                  <li>
-                    <span className="tag">Ciclo:</span> {props.ciclo}
-                  </li>
-                  <li>
-                    <span className="tag">Cargo:</span> {props.cargo}
-                  </li>
                   <li className="notnoselect">
                     <span className="tag">E-mail:</span>{' '}
                     <span className="correo-oculto">
@@ -36,7 +28,17 @@ function JuntaDirectiva(props: any) {
                     </span>
                   </li>
                   <li>
-                    <span className="tag">Celular:</span> {props.cel}
+                    <span className="tag">Función:</span> {props.funcion}
+                  </li>
+                  <li>
+                    <span className="tag">Grado académico:</span>{' '}
+                    {props.gradoacd}
+                  </li>
+                  <li>
+                    <span className="tag">CV:</span>{' '}
+                    <a className="a-link" href={props.cv}>
+                      <FaFileAlt size={17} />
+                    </a>
                   </li>
                 </ul>
               </td>
@@ -47,5 +49,3 @@ function JuntaDirectiva(props: any) {
     </div>
   );
 }
-
-export default JuntaDirectiva;

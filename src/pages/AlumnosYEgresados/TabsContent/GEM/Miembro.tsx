@@ -1,25 +1,34 @@
+import perfilImage from '../../../../images/perfil_black.png';
+
 function Miembro(props: any) {
   return (
     <div className="App-profes">
-      <table cellPadding={8}>
-        <tr>
-          <td className="App-profes-nom" colSpan={2}>
-            {' '}
-            <b>{props.nombre}</b>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img alt="" src={props.foto} />{' '}
-          </td>
-          <td className="App-profes-td">
-            <ul>
-              <li>Codigo: {props.codigo} </li>
-              <li>Cargo: {props.cargo} </li>
-            </ul>
-          </td>
-        </tr>
-      </table>
+      <span className="borde">
+        <table cellPadding={6}>
+          <tbody>
+            <tr>
+              <td colSpan={2}>{props.nombre}</td>
+            </tr>
+            <tr>
+              <td>
+                <div className="cont-img">
+                  <img alt="" src={props.foto ? props.foto : perfilImage} />{' '}
+                </div>
+              </td>
+              <td className="App-profes-td">
+                <ul>
+                  <li>
+                    <span className="tag">Codigo:</span> {props.codigo}
+                  </li>
+                  <li>
+                    <span className="tag">Cargo:</span> {props.cargo}
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </span>
     </div>
   );
 }
