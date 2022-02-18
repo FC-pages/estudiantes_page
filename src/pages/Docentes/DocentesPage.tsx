@@ -4,6 +4,8 @@ import "../../components/estilosTab.css";
 import Docentes from './Docentes';
 import Publicaciones from './Publicaciones/Publicacionesmain';
 
+import { colors } from '../../styles/colors';
+
 export default function DocentesTabs() {
   return (
     <Container
@@ -18,7 +20,7 @@ export default function DocentesTabs() {
       <Tab.Container defaultActiveKey="Docentes">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: "#282C34" }}
+          style={{ backgroundColor: colors.main}}
           className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item >

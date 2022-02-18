@@ -3,7 +3,8 @@
   color: #4C4A48 !important;
 }
 body {
-  min-height: 100vh;
+  min-height: 100%;
+  margin-bottom: 154px !important;
 }
 
 .App-logo {
