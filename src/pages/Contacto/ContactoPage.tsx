@@ -7,6 +7,10 @@ import { BsTelephoneFill } from 'react-icons/bs';
 import './styles.css';
 
 export default function ContactoPage() {
+
+  const reverse = (s: any) => {
+    return s.split('').reverse().join('');
+  };
   return (
     <Container className="text-start pt-5">
       <Row className="mt-5">
@@ -26,7 +30,8 @@ export default function ContactoPage() {
             </ul>
           </p>
           <p>
-            <span className="fw-bold">E-mail: </span> estadistica_fc@uni.edu.pe
+            <span className="fw-bold">E-mail: </span> <span>{reverse("es t a d i s t i c a _ f c @ u n i . e d u.pe").replace(/\s+/g, '')}</span>
+
           </p>
           <p>
             <span className="fw-bold">Teléfono: </span> 481-1070 anexos 5011 /
@@ -49,7 +54,7 @@ export default function ContactoPage() {
             </ul>
           </p>
           <p>
-            <span className="fw-bold">E-mail: </span> escuelas_fc@uni.edu.pe
+            <span className="fw-bold">E-mail: </span> <span>{reverse("e s c u e l a s _ f c @ u n i . e d u .p e").replace(/\s+/g, '')}</span>
           </p>
           <p>
             <span className="fw-bold">Teléfono: </span> 481-1070 anexo 5033
@@ -78,7 +83,9 @@ export default function ContactoPage() {
           <p>
             <MdEmail size={25} title="email" />{' '}
             <a className="a-link" href="mailto:fc@fcuni.edu.pe">
-              fc@fcuni.edu.pe
+<span>{reverse("f c @ f c u n i . e d u . p e").replace(/\s+/g, '')}</span>
+
+              
             </a>
           </p>
         </Col>

@@ -2,7 +2,7 @@ exports.miembrosOptimizacion = [
     {
       "nombre": "Eladio Ocaña",
       "foto": "./eladio_ocania_carnet.jpeg",
-      "email": "eocana@uni.edu.pe",
+      "email": "e o c a n a @ u n i . e d u . p e",
       "funcion": "Coordinador",
       "gradoAc": "Doctor",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=213",
@@ -10,7 +10,7 @@ exports.miembrosOptimizacion = [
     {
       "nombre": "Ernesto Oré",
       "foto": "ernesto_ore_carnet.png",
-      "email": "eore@uni.edu.pe",
+      "email": "e o r e @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Doctor",
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=39687",
@@ -18,7 +18,7 @@ exports.miembrosOptimizacion = [
     {
       "nombre": "Luis Flores",
       "foto": "luis_flores_carnet.png",
-      "email": "lfloresl@uni.edu.pe",
+      "email": "l f l o r e s l @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Doctor",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=90685",
@@ -26,7 +26,7 @@ exports.miembrosOptimizacion = [
     {
       "nombre": "Pedro Canales",
       "foto": "./pedro_canales_carnet.png",
-      "email": "pcanales@uni.edu.pe",
+      "email": "p c a n a l e s @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Doctor",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=28421",
@@ -34,7 +34,7 @@ exports.miembrosOptimizacion = [
     {
       "nombre": "Leopoldo Paredes",
       "foto": "./docentes/leopoldo_paredes_carnet.png",
-      "email": "lparedess@uni.edu.pe",
+      "email": "l p a r e d e s s @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Licenciado",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=95237",
@@ -42,7 +42,7 @@ exports.miembrosOptimizacion = [
     {
       "nombre": "Johnny Valverde",
       "foto": "johnny_valverde_carnet.PNG",
-      "email": "jvalverde@uni.edu.pe",
+      "email": "jv a l v e r d e @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Magister ",
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=c98aec269452ababfabdf9a9343c?id_investigador=22865",
@@ -50,7 +50,7 @@ exports.miembrosOptimizacion = [
     {
       "nombre": "Frank Navarro",
       "foto": "frank_navarro_carnet.png",
-      "email": "fnavarro@uni.edu.pe",
+      "email": "f  n a v a r r o @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Doctor",
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=16961",
@@ -58,7 +58,7 @@ exports.miembrosOptimizacion = [
     {
       "nombre": "Rosulo Perez",
       "foto": "./rosulo_perez_carnet.png",
-      "email": "rperezc@uni.edu.pe",
+      "email": "r p e r e z c @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Doctor",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=47587",
@@ -66,7 +66,7 @@ exports.miembrosOptimizacion = [
     {
       "nombre": "Hector Guimaray",
       "foto": "./xprofesor.png",
-      "email": "hguimaray@uni.edu.pe",
+      "email": "hg u i m a r a y @ u n i . e d u . pe",
       "funcion": "Investigador",
       "gradoAc": "Doctor",
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=c7d8dca9f9ca5d4dc24752a57f87?id_investigador=57967",
@@ -74,7 +74,7 @@ exports.miembrosOptimizacion = [
     {
       "nombre": "Jesús Cernades",
       "foto": "./jesus_cernades_carnet.png",
-      "email": "jesus.cernades.g@uni.edu.pe",
+      "email": "j e s u s . c e r n a d e s . g @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Magister",
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=36929",
@@ -85,7 +85,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Oswaldo Velasquez",
       "foto": "oswaldo_velasquez_carnet.png",
-      "email": "ovelasquez@uni.edu.pe",
+      "email": "o v e l a s q u e z @ u n i . e d u . p e",
       "funcion": "Coordinador",
       "gradoAc": "Doctor",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=16951",
@@ -96,7 +96,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Joe Palacios",
       "foto": "joe_palacios_carnet.png",
-      "email": "jpalaciosb@uni.edu.pe",
+      "email": "j p a l a c i o s b @ u n i . e d u . p e",
       "funcion": "Coordinador",
       "gradoAc": "Doctor",
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=45263",
@@ -107,7 +107,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Gonzalo Panizo",
       "foto": "gonzalo_panizo_carnet.png",
-      "email": "gpanizog@uni.edu.pe",
+      "email": "g p a n i z o g @ u n i . e d u . p e",
       "funcion": "Coordinador",
       "gradoAc": "Doctor",
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=14546",
@@ -118,7 +118,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Roger Metzger",
       "foto": "roger_metzger_carnet.png",
-      "email": "rmetzger@uni.edu.pe",
+      "email": "r m e t z g e r @ u n i . e d u . p e",
       "funcion": "Coordinador",
       "gradoAc": "Doctor",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=2056",
@@ -130,7 +130,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Ángel Ramirez",
       "foto": "./angel_ramirez_carnet.png",
-      "email": "aramirezg@uni.edu.pe",
+      "email": "a r a m i r e z g @ u n i . e d u . p e",
       "funcion": "Coordinador",
       "gradoAc": "Doctor",
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=27285",
@@ -138,7 +138,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Irla Mantilla",
       "foto": "./irla_mantilla_carnet.png",
-      "email": "irlamn@uni.edu.pe",
+      "email": "i r l a m n @ u n i . e d u . p e",
       "funcion": "Investigadora",
       "gradoAc": "Doctora",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=15560",
@@ -146,7 +146,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Jonathan Munguia",
       "foto": "./fotomunguia.jpeg",
-      "email": "jmunguial@uni.edu.pe",
+      "email": "j m u n g u i a l @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Doctor",
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=82909",
@@ -154,7 +154,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Luis Roca",
       "foto": "luis_roca_carnet.png",
-      "email": "lrocag@uni.edu.pe",
+      "email": "l r o c a g @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Licenciado",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=401"

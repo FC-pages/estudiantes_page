@@ -4,7 +4,7 @@ exports.juntaDirectiva = [
     codigo: '20190381E',
     ciclo: '7',
     cargo: 'Presidente',
-    correo: 'jhonatan.ancco.c@uni.pe',
+    correo: 'j h o n a t a n . a n c c o . c @ u n i . p e',
     cel: '972883321',
   },
   {
@@ -12,7 +12,7 @@ exports.juntaDirectiva = [
     codigo: '20191346I',
     ciclo: '6',
     cargo: 'Vicepresidente',
-    correo: 'cristhian.blas.h@uni.pe',
+    correo: 'c r i s t h i a n . b l a s . h @ u n i . p e',
     cel: '969448921',
   },
   {
@@ -20,7 +20,7 @@ exports.juntaDirectiva = [
     codigo: '220172192J',
     ciclo: '9',
     cargo: 'Tesorera',
-    correo: 'mgeronimoa@uni.pe',
+    correo: 'm  g e r o n i m o a @ u n i . p e',
     cel: '978025012',
   },
   {

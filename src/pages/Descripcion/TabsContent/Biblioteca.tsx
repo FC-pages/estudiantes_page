@@ -1,7 +1,12 @@
 
 import React from "react";
 
+
 function Biblioteca() {
+
+  const reverse = (s: any) => {
+    return s.split('').reverse().join('');
+  };
   return (
     <div>
         <p>La Biblioteca de la Facultad de Ciencias de la Universidad de Ingeniería (UNI),
@@ -66,7 +71,7 @@ function Biblioteca() {
         Lic. Maritza Dietz Castro
         Jefe de la Biblioteca (e)
         <ul>
-            <li>E-mail: gradosytitulosfc@uni.edu.pe</li>
+            <li>E-mail: <span className = "correo-oculto">{reverse("gradosytitulosfc@uni.edu.pe").replace(/\s+/g, '')}</span></li>
             <li>Teléfono: 481-0824 anexo 5020 / 5025</li>
         </ul>
         <a href="http://www.bibliotecavirtual.uni.edu.pe/">Link de la biblioteca</a>

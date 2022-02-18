@@ -11,6 +11,10 @@ export default function GruposEstPage() {
   let eliminarDiacriticos = (texto: any) => {
     return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   };
+
+  const reverse = (s: any) => {
+    return s.split('').reverse().join('');
+  };
   return (
     <Container>
       <Tab.Container defaultActiveKey="Acerca de">
@@ -69,8 +73,9 @@ export default function GruposEstPage() {
                 </p>
                 <p className="ps-4">
                   <MdEmail size={25} title="email" />{' '}
-                  <a className="a-link" href="mailto:gem@uni.edu.pe">
-                    gem@uni.edu.pe
+                  <a className="a-link correo-oculto" href="mailto:gem@uni.edu.pe">
+{reverse("gem@uni.edu.pe").replace(/\s+/g, '')}
+                    
                   </a>
                 </p>
                 <p className="ps-4">

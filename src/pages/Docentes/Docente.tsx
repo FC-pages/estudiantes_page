@@ -13,25 +13,6 @@ function Docente(props: any) {
     return s.split('').reverse().join('');
   };
 
-  const obtenerMayorGrado = (gradosDocente: any) => {
-    if (gradosDocente === undefined) return '';
-    //Para obtener el mayor grado académico
-    const grados = ['doctor', 'maestro', 'licenciado', 'bachiller'];
-    let gradosDocenteArray = [];
-    let words = gradosDocente.split(' ');
-    let gradoString = [];
-    for (let i = 0; i < words.length; i++) {
-      if (grados.includes(words[i].toLowerCase())) {
-        gradosDocenteArray.push(gradoString);
-        gradoString = [];
-        gradoString.push(words[i]);
-      } else {
-        gradoString.push(words[i]);
-      }
-    }
-  };
-  obtenerMayorGrado(props.gradoAc);
-
   let preventDragHandler = (e: any) => {
     e.preventDefault();
   };
