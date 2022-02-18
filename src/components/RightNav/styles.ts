@@ -24,6 +24,7 @@ export const Ul = styled.ul<INav>`
   /*margin-left: 150px;*/
   margin-right: 0px;
   z-index: 4;
+  overflow: hidden;
 
   a {
     text-decoration: none;
@@ -42,7 +43,7 @@ export const Ul = styled.ul<INav>`
     font-size: 0.8em;
   }
       .active{
-            //background: white;
+            //background: #02142F;
             color: ${colors.azulTurquesa};// 
             //font-weight: bold;
           }
