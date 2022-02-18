@@ -5,6 +5,7 @@ import Perfil from './TabsContent/Perfil';
 import ResenaHistorica from './TabsContent/ResenaHistorica';
 import PlanesYMallas from './TabsContent/PanesYMallas';
 import Autoridades from './TabsContent/Autoridades';
+import Biblioteca from './TabsContent/Biblioteca';
 
 import { colors } from '../../styles/colors';
 
@@ -55,6 +56,9 @@ export default function Descripcion() {
             <Nav.Link eventKey="Planes y Mallas de estudio">Planes y Mallas de estudio</Nav.Link>
           </Nav.Item>
           <Nav.Item>
+            <Nav.Link eventKey="Biblioteca">Biblioteca</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
             <Nav.Link eventKey="Autoridades">
               Autoridades
             </Nav.Link>
@@ -70,6 +74,9 @@ export default function Descripcion() {
             </Tab.Pane>
             <Tab.Pane eventKey="Planes y Mallas de estudio">
               <PlanesYMallas />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Biblioteca">
+              <Biblioteca />
             </Tab.Pane>
             <Tab.Pane eventKey="Autoridades">
               <Autoridades />

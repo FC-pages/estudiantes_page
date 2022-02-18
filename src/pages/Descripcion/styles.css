@@ -158,7 +158,7 @@
   left: 50%;
 }
 
-.App-resena {
+.resena {
   margin-inline: auto;
   max-inline-size: 60em;
   /* padding: 10px 10px; */
@@ -167,33 +167,20 @@
   font-size: 13px;
 }
 
-.App-resena tr td:first-child {
+.resena tr td:first-child {
   border-collapse: collapse;
   border-right: 5px solid rgb(7, 19, 50, 0.3);
   text-align: right;
   /* padding-right: 10px; */
 }
-/* .App-resena p {
-  
-} */
 
-.App-resena-borde {
+.resena-borde {
   margin: 0px -10px;
   margin-top: -22px;
   border-top: 11px solid #1d3557;
   padding: 0 15px;
   padding-top: 10px;
 }
-/* .App-resena tr td p {
-    background-size: 50px 50px; 
-  padding-right: 20px; 
-  margin:0px -10px;
-  margin-top: -28px;
-  border-top: 16px solid #071332;
-  padding: 0 15px;
-  padding-top: 10px;
-  
-}  */
 
 .anios {
   font-size: 50px;
@@ -243,10 +230,10 @@
   max-height: min-content;
   list-style-position: inside;
 }
-/* .App-archivo li:before {
+.App-archivo li:before {
   font-family: 'FontAwesome';
     content: '\f15c';
-} */
+}
 
 .App-profes-td2 {
   /* padding: 7px; */
@@ -405,4 +392,41 @@
   background-color: #1d3557;
   color: white;
   padding: 15pt;
+}
+
+/* BIBLIOTECA */
+
+.div-imagen {
+  display:inline-block;
+  position:relative;
+}
+
+.div-imagen > div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+}
+
+.desvanecer:hover {
+  opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.text {
+  position: relative;
+  top: 75%;
+  display: inline-block;
+  padding: 10px 12% 10px 15px;
+  background-color: #2841dd;
+  /* background-image: url(https://assets.website-files.com/60b56cd…/60b6ebf…_arrow-small.svg); */
+  background-position: 95% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
