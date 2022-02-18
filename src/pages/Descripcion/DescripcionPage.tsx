@@ -33,6 +33,7 @@ export default function Descripcion() {
         borderColor: "#1D3557",
         paddingLeft: "0",
         paddingRight: "0",
+        backgroundColor: "white",
       }}
       className="mt-5"
     >
