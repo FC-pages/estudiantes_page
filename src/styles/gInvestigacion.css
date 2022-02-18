@@ -11,8 +11,9 @@
   float: right;
   /*max-width: 95%;
   min-width: 150px;*/
-  height: 150px;
-  width: 120px;
+  height: 154px;/*150px*/
+  width: 120px;/*120p*/
+  object-fit: cover;
   /*background-size: 100px 120px;*/
   /*padding-left: 35px;*/
 }
@@ -21,7 +22,9 @@
   margin-left: auto;
   margin-right: auto;
   float: right;
-  width: 58%;
+  height: 154px;/*150px*/
+  width: 120px;/*120p*/
+  object-fit: cover;
   /*padding-left: 35px;*/
 }
 .foto-publicaciones {
@@ -30,6 +33,14 @@
   margin-right: auto;
   /* float: right; */
 }
+.foto-eventos {
+  display: block;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 400px;
+  /* float: right; */
+}
+
 .itemLeft {
   /*width: 12vw;*/
   width: 20%;
@@ -120,6 +131,24 @@
   font-style: italic;
   font-weight: bold;
 }
+
+.evento {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 3vw;
+  /*width: 10vw;*/
+  /*background-color: purple;*/
+  /*background-color: rgba(111,41,97,.3);*/
+  /*border: 2px solid rgba(111,41,97,.5);*/
+  display: inline-block;
+  vertical-align: top;
+  color: #00427a;
+  font-style: italic;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+}
+
 .itemLeft2 {
   width: 38vw;
   padding: 3px;

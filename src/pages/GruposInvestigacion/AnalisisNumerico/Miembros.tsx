@@ -1,11 +1,13 @@
 import React, { FC, Fragment } from 'react';
 import '../../../styles/gInvestigacion.css';
 import profesor1 from '../../../images/IrlaMantilla3.jpg';
-import profesor2 from '../../../images/AngelRamirez2.jpg';
+/*import profesor2 from '../../../images/AngelRamirez2.jpg';*/
+import profesor2 from '../../../images/angelRamires-carnet.png';
 import profesor3 from '../../../images/Mungia2.jpg';
-import profesor5 from '../../../images/roca.png';
+/*import profesor5 from '../../../images/roca.png';*/
+import profesor5 from '../../../images/luis-roca-carnet.png';
 
-import profesorX from '../../../images/profesorX.png';
+import profesorX from '../../../images/xprofesor.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 
