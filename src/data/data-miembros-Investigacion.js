@@ -129,7 +129,7 @@ exports.miembrosTeoriaDeNumeros = [
   exports.miembroAnalisisNumerico = [
     {
       "nombre": "Ángel Ramirez",
-      "foto": "./angel_ramirez_carnet.png",
+      "foto": "./angelRamires-carnet.png",
       "email": "aramirezg@uni.edu.pe",
       "funcion": "Coordinador",
       "gradoAc": "Doctor",
