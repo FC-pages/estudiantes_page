@@ -8,6 +8,8 @@ import ProbabilidadMain from './ProbabilidadyPE/ProbayPEMain';
 import AlgebraGyTopoMain from './AlgebraGyTopo/AlgebraGyTopoMain';
 import EDySDMain from './EDySD/EDySDmain'
 
+import { colors } from '../../styles/colors';
+
 export default function AlumnosEgresadosPage() {
   return (
     <Container
@@ -22,7 +24,7 @@ export default function AlumnosEgresadosPage() {
       <Tab.Container defaultActiveKey="Analisis">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: "#282C34" }}
+          style={{ backgroundColor: colors.main }}
           className="justify-content-center pt-1 fs-6 style-gr-i"
         >
           <Nav.Item >
