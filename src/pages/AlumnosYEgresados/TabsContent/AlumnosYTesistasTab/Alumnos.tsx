@@ -10,6 +10,11 @@ function Alumnos() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+
+  const reverse = (s: any) => {
+    return s.split('').reverse().join('');
+  };
+
   return (
     <S.TabContent>
       <Table striped bordered hover>
@@ -32,8 +37,8 @@ function Alumnos() {
                       {a.nombre}
                     </a>
                   </td>
-                  <td>{a.ciclo}</td>
-                  <td>{a.contacto}</td>
+                  <td >{a.ciclo}</td>
+                  <td className = "correo-oculto">{reverse(a.contacto).replace(/\s+/g, '')}</td>
                 </tr>
                 <Modal show={show} onHide={handleClose}>
                   <S.ModalContainer>

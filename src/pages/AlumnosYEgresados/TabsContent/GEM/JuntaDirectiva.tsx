@@ -32,7 +32,7 @@ function JuntaDirectiva(props: any) {
                   <li className="notnoselect">
                     <span className="tag">E-mail:</span>{' '}
                     <span className="correo-oculto">
-                      {reverse(props.correo)}
+                      {reverse(props.correo).replace(/\s+/g, '')}
                     </span>
                   </li>
                   <li>
