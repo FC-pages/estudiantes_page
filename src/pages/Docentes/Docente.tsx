@@ -38,7 +38,7 @@ function Docente(props: any) {
 
   return (
     <div className="App-profes">
-      <a className="borde">
+      <span className="borde">
         <table cellPadding={6}>
           <tbody>
             <tr>
@@ -100,7 +100,7 @@ function Docente(props: any) {
             </tr>
           </tbody>
         </table>
-      </a>
+      </span>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

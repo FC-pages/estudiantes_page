@@ -1,33 +1,46 @@
+import perfilImage from '../../../../images/perfil_black.png';
+
 function JuntaDirectiva(props: any) {
   const reverse = (s: any) => {
     return s.split('').reverse().join('');
   };
   return (
     <div className="App-profes">
-      <table cellPadding={8}>
-        <tr>
-          <td className="App-profes-nom" colSpan={2}>
-            {' '}
-            <b>{props.nombre}</b>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img alt="" src={props.foto} />{' '}
-          </td>
-          <td className="App-profes-td">
-            <ul>
-              <li>Codigo: {props.codigo} </li>
-              <li>Cargo: {props.cargo} </li>
-              <li>
-                E-mail:{' '}
-                <span className="correo-oculto">{reverse(props.correo)}</span>
-              </li>
-              <li>Celular: {props.cel} </li>
-            </ul>
-          </td>
-        </tr>
-      </table>
+      <span className="borde">
+        <table cellPadding={6}>
+          <tbody>
+            <tr>
+              <td colSpan={2}>{props.nombre}</td>
+            </tr>
+            <tr>
+              <td>
+                <div className="cont-img">
+                  <img alt="" src={props.foto ? props.foto : perfilImage} />{' '}
+                </div>
+              </td>
+              <td className="App-profes-td">
+                <ul>
+                  <li>
+                    <span className="tag">Codigo:</span> {props.codigo}
+                  </li>
+                  <li>
+                    <span className="tag">Cargo:</span> {props.cargo}
+                  </li>
+                  <li className="notnoselect">
+                    <span className="tag">E-mail:</span>{' '}
+                    <span className="correo-oculto">
+                      {reverse(props.correo)}
+                    </span>
+                  </li>
+                  <li>
+                    <span className="tag">Celular:</span> {props.cel}
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </span>
     </div>
   );
 }
