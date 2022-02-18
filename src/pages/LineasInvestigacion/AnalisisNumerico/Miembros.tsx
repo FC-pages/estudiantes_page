@@ -8,6 +8,7 @@ import profesor5 from '../../../images/roca.png';
 import profesorX from '../../../images/profesorX.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import { FaFileAlt } from 'react-icons/fa';
 
 /*import CardMore from "../Components/CardMore";*/
 
@@ -18,8 +19,8 @@ const TabTwo: FC<{}> = () => {
         <h3 className="t-stroke-shadow">Línea de Análisis Numérico</h3>
       </div>
       <hr></hr>
-      <div className='grid'>
-        <div className='cell'>
+      <div className="grid">
+        <div className="cell">
           <div className="itemLeft">
             <img alt="" src={profesor2} className="foto-profesor"></img>
           </div>
@@ -38,11 +39,11 @@ const TabTwo: FC<{}> = () => {
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
             <a href="#">
-              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+              <FaFileAlt />
             </a>{' '}
           </div>
         </div>
-        <div className='cell'>
+        <div className="cell">
           <div className="itemLeft">
             <img alt="" src={profesor1} className="foto-profesor"></img>
           </div>
@@ -61,12 +62,12 @@ const TabTwo: FC<{}> = () => {
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
             <a href="#">
-              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+              <FaFileAlt />
             </a>{' '}
           </div>
         </div>
 
-        <div className='cell'>
+        <div className="cell">
           <div className="itemLeft">
             <img alt="" src={profesor3} className="foto-profesor"></img>
           </div>
@@ -85,12 +86,12 @@ const TabTwo: FC<{}> = () => {
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
             <a href="#">
-              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+              <FaFileAlt />
             </a>{' '}
           </div>
         </div>
 
-        <div className='cell'>
+        <div className="cell">
           <div className="itemLeft">
             <img alt="" src={profesor5} className="foto-profesor"></img>
           </div>
@@ -109,12 +110,12 @@ const TabTwo: FC<{}> = () => {
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
             <a href="#">
-              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+              <FaFileAlt />
             </a>{' '}
           </div>
         </div>
 
-        <div className='cell'>
+        <div className="cell">
           <div className="itemLeft">
             <img alt="" src={profesorX} className="foto-profesor"></img>
           </div>
@@ -133,12 +134,12 @@ const TabTwo: FC<{}> = () => {
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
             <a href="#">
-              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+              <FaFileAlt />
             </a>{' '}
           </div>
         </div>
 
-        <div className='cell'>
+        <div className="cell">
           <div className="itemLeft">
             <img alt="" src={profesorX} className="foto-profesor"></img>
           </div>
@@ -157,12 +158,12 @@ const TabTwo: FC<{}> = () => {
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
             <a href="#">
-              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+              <FaFileAlt />
             </a>{' '}
           </div>
         </div>
 
-        <div className='cell'>
+        <div className="cell">
           <div className="itemLeft">
             <img alt="" src={profesorX} className="foto-profesor"></img>
           </div>
@@ -181,7 +182,7 @@ const TabTwo: FC<{}> = () => {
             <b>CV:</b>
             {/* <a href="#" className="tit">CV:</a>*/}
             <a href="#">
-              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
+              <FaFileAlt />
             </a>{' '}
           </div>
         </div>
