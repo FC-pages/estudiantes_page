@@ -1,7 +1,7 @@
 import { Container, Tab, Nav, Row, Col } from 'react-bootstrap';
 import { FaYoutube, FaFacebookSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import { miembros, juntaDirectiva, asesores } from '../../../data/data-gem';
+import { miembros, juntaDirectiva } from '../../../data/data-gem';
 import React from 'react';
 import Miembro from './GEM/Miembro';
 import '../../Docentes/styles.css';
@@ -112,6 +112,7 @@ export default function GruposEstPage() {
                         nombre={d.nombre}
                         codigo={d.codigo}
                         cargo={d.cargo}
+                        ciclo={d.ciclo}
                         correo={d.correo}
                         cel={d.cel}
                       />

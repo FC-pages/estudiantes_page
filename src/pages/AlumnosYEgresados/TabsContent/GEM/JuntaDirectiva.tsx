@@ -24,6 +24,9 @@ function JuntaDirectiva(props: any) {
                     <span className="tag">Codigo:</span> {props.codigo}
                   </li>
                   <li>
+                    <span className="tag">Ciclo:</span> {props.ciclo}
+                  </li>
+                  <li>
                     <span className="tag">Cargo:</span> {props.cargo}
                   </li>
                   <li className="notnoselect">
