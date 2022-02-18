@@ -1,12 +1,16 @@
+
 import React, { FC, Fragment } from 'react';
 import '../../../styles/gInvestigacion.css';
 import profesor1 from '../../../images/IrlaMantilla3.jpg';
-import profesor2 from '../../../images/AngelRamirez2.jpg';
+/*import profesor2 from '../../../images/AngelRamirez2.jpg';*/
+import profesor2 from '../../../images/angelRamires-carnet.png';
 import profesor3 from '../../../images/Mungia2.jpg';
-import profesor5 from '../../../images/roca.png';
+/*import profesor5 from '../../../images/roca.png';*/
+import profesor5 from '../../../images/luis-roca-carnet.png';
 
-import profesorX from '../../../images/profesorX.png';
-import { FaFileAlt } from 'react-icons/fa';
+import profesorX from '../../../images/xprofesor.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 
 /*import CardMore from "../Components/CardMore";*/
 
@@ -17,8 +21,8 @@ const TabTwo: FC<{}> = () => {
         <h3 className="t-stroke-shadow">Línea de Análisis Numérico</h3>
       </div>
       <hr></hr>
-      <div className="grid">
-        <div className="cell">
+      <div className='grid'>
+        <div className='cell'>
           <div className="itemLeft">
             <img alt="" src={profesor2} className="foto-profesor"></img>
           </div>
@@ -36,12 +40,12 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a className="a-link" href="#">
-              <FaFileAlt size={17} />
+            <a href="#">
+              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
             </a>{' '}
           </div>
         </div>
-        <div className="cell">
+        <div className='cell'>
           <div className="itemLeft">
             <img alt="" src={profesor1} className="foto-profesor"></img>
           </div>
@@ -59,13 +63,13 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a className="a-link" href="#">
-              <FaFileAlt size={17} />
+            <a href="#">
+              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
             </a>{' '}
           </div>
         </div>
 
-        <div className="cell">
+        <div className='cell'>
           <div className="itemLeft">
             <img alt="" src={profesor3} className="foto-profesor"></img>
           </div>
@@ -83,13 +87,13 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a className="a-link" href="#">
-              <FaFileAlt size={17} />
+            <a href="#">
+              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
             </a>{' '}
           </div>
         </div>
 
-        <div className="cell">
+        <div className='cell'>
           <div className="itemLeft">
             <img alt="" src={profesor5} className="foto-profesor"></img>
           </div>
@@ -107,13 +111,13 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a className="a-link" href="#">
-              <FaFileAlt size={17} />
+            <a href="#">
+              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
             </a>{' '}
           </div>
         </div>
 
-        <div className="cell">
+        <div className='cell'>
           <div className="itemLeft">
             <img alt="" src={profesorX} className="foto-profesor"></img>
           </div>
@@ -131,13 +135,13 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a className="a-link" href="#">
-              <FaFileAlt size={17} />
+            <a href="#">
+              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
             </a>{' '}
           </div>
         </div>
 
-        <div className="cell">
+        <div className='cell'>
           <div className="itemLeft">
             <img alt="" src={profesorX} className="foto-profesor"></img>
           </div>
@@ -155,13 +159,13 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a className="a-link" href="#">
-              <FaFileAlt size={17} />
+            <a href="#">
+              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
             </a>{' '}
           </div>
         </div>
 
-        <div className="cell">
+        <div className='cell'>
           <div className="itemLeft">
             <img alt="" src={profesorX} className="foto-profesor"></img>
           </div>
@@ -179,8 +183,8 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV:</b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a className="a-link" href="#">
-              <FaFileAlt size={17} />
+            <a href="#">
+              <FontAwesomeIcon className="icons2" icon={faFileAlt} />
             </a>{' '}
           </div>
         </div>
