@@ -15,7 +15,7 @@ function Titulado(props: any) {
       <tr>
         <td>{props.index}</td>
         <td>
-          <a onClick={handleShow} href="#">
+          <a className="a-link" onClick={handleShow} href="#">
             {props.titulado.nombre}
           </a>
         </td>

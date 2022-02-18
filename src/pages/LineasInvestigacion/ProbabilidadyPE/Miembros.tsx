@@ -38,8 +38,11 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a href="http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=cec04f9bdf12f40b5535eed85b35?id_investigador=14546">
-              <FaFileAlt />
+            <a
+              className="a-link"
+              href="http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=cec04f9bdf12f40b5535eed85b35?id_investigador=14546"
+            >
+              <FaFileAlt size={17} />
             </a>{' '}
           </div>
         </div>

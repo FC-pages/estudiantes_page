@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import perfilImage from '../../images/perfil_black.png';
 import { FaFileAlt } from 'react-icons/fa';
+import { BiWorld } from 'react-icons/bi';
 
 function Docente(props: any) {
   const [show, setShow] = useState(false);
@@ -74,8 +75,8 @@ function Docente(props: any) {
                   {!props.datos.pagina && props.datos.ctivitae ? (
                     <li>
                       <span className="tag">CTI Vitae:</span>&nbsp;&nbsp;&nbsp;
-                      <a href={props.dina}>
-                        <FaFileAlt />
+                      <a className="a-link" href={props.dina}>
+                        <FaFileAlt size={17} />
                       </a>{' '}
                     </li>
                   ) : (
@@ -84,8 +85,8 @@ function Docente(props: any) {
                   {props.datos.pagina ? (
                     <li>
                       <span className="tag">Página web:</span>&nbsp;&nbsp;&nbsp;
-                      <a href={props.datos.pagina}>
-                        <FaFileAlt />
+                      <a className="a-link" href={props.datos.pagina}>
+                        <BiWorld size={17} />
                       </a>{' '}
                     </li>
                   ) : (

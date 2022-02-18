@@ -84,30 +84,30 @@ function PlanEstudios() {
       <ul className="App-archivo">
         <li>
           Plan de estudios completo.{' '}
-          <a href="plancompleto.pdf">
-            <FaPaperclip />
+          <a className="a-link" href="plancompleto.pdf">
+            <FaPaperclip size={20} />
           </a>
         </li>
         <li>
-          Tabla de convalidaciones. <FaPaperclip />
+          Tabla de convalidaciones. <FaPaperclip size={20} />
         </li>
         <li>
-          Malla curricular con electivos 2018-1. <FaPaperclip />
+          Malla curricular con electivos 2018-1. <FaPaperclip size={20} />
         </li>
         <li>
           Malla curricular sin electivos 2018-1.{' '}
-          <a href="mallacurricular.pdf">
+          <a className="a-link" href="mallacurricular.pdf">
             {' '}
-            <FaPaperclip />
+            <FaPaperclip size={20} />
           </a>
         </li>
         <li>
           Sumillas de asignaturas electivas del plan de estudios 2018-1.{' '}
-          <FaPaperclip />
+          <FaPaperclip size={20} />
         </li>
         <li>
           Sumillas de asignaturas obligatorias del plan de estudios 2018-1.{' '}
-          <FaPaperclip />
+          <FaPaperclip size={20} />
         </li>
       </ul>
 

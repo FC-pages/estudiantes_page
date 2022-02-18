@@ -36,8 +36,8 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a href="#">
-              <FaFileAlt />
+            <a className="a-link" href="#">
+              <FaFileAlt size={17} />
             </a>{' '}
           </div>
         </div>
@@ -59,8 +59,8 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a href="#">
-              <FaFileAlt />
+            <a className="a-link" href="#">
+              <FaFileAlt size={17} />
             </a>{' '}
           </div>
         </div>
@@ -83,8 +83,8 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a href="#">
-              <FaFileAlt />
+            <a className="a-link" href="#">
+              <FaFileAlt size={17} />
             </a>{' '}
           </div>
         </div>
@@ -107,8 +107,8 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a href="#">
-              <FaFileAlt />
+            <a className="a-link" href="#">
+              <FaFileAlt size={17} />
             </a>{' '}
           </div>
         </div>
@@ -131,8 +131,8 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a href="#">
-              <FaFileAlt />
+            <a className="a-link" href="#">
+              <FaFileAlt size={17} />
             </a>{' '}
           </div>
         </div>
@@ -155,8 +155,8 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a href="#">
-              <FaFileAlt />
+            <a className="a-link" href="#">
+              <FaFileAlt size={17} />
             </a>{' '}
           </div>
         </div>
@@ -179,8 +179,8 @@ const TabTwo: FC<{}> = () => {
             <br />
             <b>CV:</b>
             {/* <a href="#" className="tit">CV:</a>*/}
-            <a href="#">
-              <FaFileAlt />
+            <a className="a-link" href="#">
+              <FaFileAlt size={17} />
             </a>{' '}
           </div>
         </div>

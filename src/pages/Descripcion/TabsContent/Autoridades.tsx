@@ -28,16 +28,16 @@ function Autoridades() {
                     <ul>
                       <li>
                         {' '}
-                        <FaEnvelope /> E-mail: pcanales@uni.edu.pe
+                        <FaEnvelope size={17} /> E-mail: pcanales@uni.edu.pe
                       </li>
                       <li>
                         {' '}
-                        <FaPhoneAlt /> Teléfono: 481-0824{' '}
+                        <FaPhoneAlt size={17} /> Teléfono: 481-0824{' '}
                       </li>
                       <li>
                         {' '}
-                        <FaHandPointRight /> Central UNI: Anexos 5000, 5002,
-                        5003
+                        <FaHandPointRight size={17} /> Central UNI: Anexos 5000,
+                        5002, 5003
                       </li>
                     </ul>
                   </td>
@@ -70,15 +70,15 @@ function Autoridades() {
                     <ul>
                       <li>
                         {' '}
-                        <FaEnvelope /> E-mail: eocana@uni.edu.pe
+                        <FaEnvelope size={17} /> E-mail: eocana@uni.edu.pe
                       </li>
                       <li>
                         {' '}
-                        <FaPhoneAlt /> Central FC: Anexo 14{' '}
+                        <FaPhoneAlt size={17} /> Central FC: Anexo 14{' '}
                       </li>
                       <li>
                         {' '}
-                        <FaHandPointRight /> Central UNI: Anexo 5033
+                        <FaHandPointRight size={17} /> Central UNI: Anexo 5033
                       </li>
                     </ul>
                   </td>
@@ -110,15 +110,15 @@ function Autoridades() {
                     <b> Dr. Rosulo Perez Cupe</b>
                     <ul>
                       <li>
-                        <FaEnvelope /> E-mail: rperezc@uni.edu.pe{' '}
+                        <FaEnvelope size={17} /> E-mail: rperezc@uni.edu.pe{' '}
                       </li>
                       <li>
                         {' '}
-                        <FaPhoneAlt /> Central FC: Anexo 17
+                        <FaPhoneAlt size={17} /> Central FC: Anexo 17
                       </li>
                       <li>
                         {' '}
-                        <FaHandPointRight /> Central UNI: Anexo 5025
+                        <FaHandPointRight size={17} /> Central UNI: Anexo 5025
                       </li>
                     </ul>
                   </td>
