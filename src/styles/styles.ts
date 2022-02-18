@@ -173,10 +173,10 @@ export const Header = styled.header`
 
 
 export const Seccion = styled.section`
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 25%);
   height 390px;
   .eventos-seccion {
       
-      border: 1px solid rgba(0,0,0,.125);
       background: #C4C4C4;
       min-height:  360px;
       max-height:  360px;

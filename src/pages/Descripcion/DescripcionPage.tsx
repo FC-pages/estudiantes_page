@@ -13,10 +13,11 @@ export default function Descripcion() {
   return (
     <Container
       style={{
-        borderStyle: 'solid',
-        borderColor: '#1D3557',
-        paddingLeft: '0',
-        paddingRight: '0',
+        borderStyle: "solid",
+        borderColor: "#1D3557",
+        paddingLeft: "0",
+        paddingRight: "0",
+        backgroundColor: "white",
       }}
       className="mt-5"
     >

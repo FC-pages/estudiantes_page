@@ -18,6 +18,7 @@ export default function AlumnosEgresadosPage() {
         borderColor: "#1D3557",
         paddingLeft: "0",
         paddingRight: "0",
+        backgroundColor: "white",
       }}
       className="mt-5"
     >
@@ -56,7 +57,11 @@ export default function AlumnosEgresadosPage() {
             </Nav.Link>
           </Nav.Item>
         </Nav>
-        <Container className="p-3">
+        <Container className="p-3"
+          style={{
+            background: "white",
+          }}
+        >
           <Tab.Content >
             <Tab.Pane eventKey="Analisis">
               <AnalisisyTeoNumerosMain />
