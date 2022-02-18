@@ -1,22 +1,24 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import GoogleMaps from "simple-react-google-maps";
-import { FaYoutube, FaFacebookSquare, FaMapMarkerAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { BsTelephoneFill } from "react-icons/bs";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import GoogleMaps from 'simple-react-google-maps';
+import { FaYoutube, FaFacebookSquare, FaMapMarkerAlt } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import { BsTelephoneFill } from 'react-icons/bs';
+import './styles.css';
 
 export default function ContactoPage() {
   return (
     <Container className="text-start pt-5">
       <Row className="mt-5">
         <Col>
-          <p className=" text-center fw-bold fs-5">Área de Estadística y Registros Académicos</p>
+          <p className=" text-center fw-bold fs-5">
+            Área de Estadística y Registros Académicos
+          </p>
           <p>
-            <span className = "fw-bold">Jefe: </span> Dr. Helmuth Villavicencio Fernández            
+            <span className="fw-bold">Jefe: </span> Dr. Helmuth Villavicencio
+            Fernández
           </p>
-          <p className = "fw-bold">
-            Secretarias:
-          </p>
+          <p className="fw-bold">Secretarias:</p>
           <p>
             <ul>
               <li> Mabel Carmen Rosales Ramirez</li>
@@ -24,55 +26,57 @@ export default function ContactoPage() {
             </ul>
           </p>
           <p>
-            <span className = "fw-bold">E-mail: </span> estadistica_fc@uni.edu.pe
+            <span className="fw-bold">E-mail: </span> estadistica_fc@uni.edu.pe
           </p>
           <p>
-            <span className = "fw-bold">Teléfono: </span> 481-1070 anexos 5011 / 5023
+            <span className="fw-bold">Teléfono: </span> 481-1070 anexos 5011 /
+            5023
           </p>
         </Col>
 
         <Col>
-          <p className=" text-center fw-bold fs-5">Escuela Profesional de Matemática</p>
+          <p className=" text-center fw-bold fs-5">
+            Escuela Profesional de Matemática
+          </p>
           <p>
-            <span className = "fw-bold">Director: </span>Dr. Eladio Teofilo Ocaña Anaya
+            <span className="fw-bold">Director: </span>Dr. Eladio Teofilo Ocaña
+            Anaya
           </p>
-          <p className = "fw-bold">
-            Secretarias:
-          </p>
+          <p className="fw-bold">Secretarias:</p>
           <p>
             <ul>
               <li>Andrea Milagros Hidalgo Salomé</li>
             </ul>
           </p>
           <p>
-            <span className = "fw-bold">E-mail: </span>  escuelas_fc@uni.edu.pe
+            <span className="fw-bold">E-mail: </span> escuelas_fc@uni.edu.pe
           </p>
           <p>
-            <span className = "fw-bold">Teléfono: </span> 481-1070 anexo 5033
+            <span className="fw-bold">Teléfono: </span> 481-1070 anexo 5033
           </p>
         </Col>
       </Row>
       <Row className="mt-5">
         <GoogleMaps
           apiKey="AIzaSyAl604-0W-alm6jtAPd9Bh0LR1PPZKhmDg"
-          style={{ height: "500px", width: "100%" }}
+          style={{ height: '500px', width: '100%' }}
           zoom={19}
           center={{ lat: -12.017411204346917, lng: -77.05072943150438 }}
-          markers={{ lat: -12.017411204346917, lng: -77.05072943150438 }} //optional
+          markers={{ lat: -12.017411204346917, lng: -77.05072943150438 }}
         />
       </Row>
       <Row className="mt-5">
         <Col>
           <p className="text-center fw-bold fs-5">Información</p>
           <p>
-            <FaMapMarkerAlt size={25} title="ubicación" /> Puerta #5 {"-"} Av.
-            Tupac Amaru N° 210 Rimac (Lima {"-"} Perú)
+            <FaMapMarkerAlt size={25} title="ubicación" /> Puerta #5 {'-'} Av.
+            Tupac Amaru N° 210 Rimac (Lima {'-'} Perú)
           </p>
           <p>
             <BsTelephoneFill size={25} title="telefono" /> (51-1) 381-3868
           </p>
           <p>
-            <MdEmail size={25} title="email" />{" "}
+            <MdEmail size={25} title="email" />{' '}
             <a className="a-link" href="mailto:fc@fcuni.edu.pe">
               fc@fcuni.edu.pe
             </a>
@@ -81,7 +85,7 @@ export default function ContactoPage() {
         <Col>
           <p className=" text-center fw-bold fs-5">Redes Sociales</p>
           <p>
-            <FaFacebookSquare size={25} title="facebook" />{" "}
+            <FaFacebookSquare size={25} title="facebook" />{' '}
             <a
               className="a-link"
               href="https://www.facebook.com/Facultad-de-Ciencias-UNI-183409708573/"
@@ -90,7 +94,7 @@ export default function ContactoPage() {
             </a>
           </p>
           <p>
-            <FaYoutube size={25} title="youtube" />{" "}
+            <FaYoutube size={25} title="youtube" />{' '}
             <a
               className="a-link"
               href="https://www.youtube.com/channel/UCZza82v4Mb5W2M6QrMJrECw"
@@ -99,9 +103,6 @@ export default function ContactoPage() {
             </a>
           </p>
         </Col>
-
-        
- 
       </Row>
     </Container>
   );
