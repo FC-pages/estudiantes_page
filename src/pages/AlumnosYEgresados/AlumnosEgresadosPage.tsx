@@ -20,7 +20,7 @@ export default function AlumnosEgresadosPage() {
       <Tab.Container defaultActiveKey="Alumnos y Tesistas">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: '#282C34' }}
+          style={{ backgroundColor: '#1d3557' }}
           className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>

@@ -5,6 +5,8 @@ import TabOne from "./PerfilIngreso";
 import TabTwo from "./CampoLaboral";
 import TabThree from "./Investigacion";
 
+import { colors } from '../../styles/colors';
+
 
 export default function Descripcion() {
   return (
@@ -20,7 +22,7 @@ export default function Descripcion() {
       <Tab.Container defaultActiveKey="Perfil ingreso">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: "#282C34" }}
+          style={{ backgroundColor: colors.main }}
           className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>

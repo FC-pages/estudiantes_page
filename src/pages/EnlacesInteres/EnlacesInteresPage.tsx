@@ -9,6 +9,8 @@ import InstAcademicas from './InstitucionesAcademicasEI';
 import Cursosonline from './CursosOnlineEI';
 import SeminariosOnline from './SeminariosOnlineEI';
 
+import { colors } from '../../styles/colors';
+
 export default function EnlacesInteresPage() {
   return (
     <Container
@@ -22,7 +24,7 @@ export default function EnlacesInteresPage() {
     >
       <Tab.Container defaultActiveKey="RevistaCiencias">
         <Nav
-          style={{ backgroundColor: '#282C34' }}
+          style={{ backgroundColor: colors.main }}
           className="justify-content-center pt-1 fs-6 style-with-otros"
         >
           <Nav.Item>

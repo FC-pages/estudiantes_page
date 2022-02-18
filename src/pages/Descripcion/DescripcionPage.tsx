@@ -6,6 +6,8 @@ import ResenaHistorica from './TabsContent/ResenaHistorica';
 import PlanesYMallas from './TabsContent/PanesYMallas';
 import Autoridades from './TabsContent/Autoridades';
 
+import { colors } from '../../styles/colors';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 /* import {
   faEnvelope,
@@ -36,7 +38,7 @@ export default function Descripcion() {
       <Tab.Container defaultActiveKey="Perfil">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: "#282C34" }} //#1D3557
+          style={{ backgroundColor: colors.main }} //#1D3557
           className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>
