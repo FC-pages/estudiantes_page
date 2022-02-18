@@ -32,7 +32,7 @@ const TabFour: FC<{}> = () => {
           <li><a href="http://www.imca.edu.pe/isora2015/" className="tit2">http://www.imca.edu.pe/isora2015/</a></li>
         </ul>
         </div>
-        <div className="evento">
+        <div className="eventoss">
         <img src={eventA} className="foto-eventos"></img>
         </div>
       </div>

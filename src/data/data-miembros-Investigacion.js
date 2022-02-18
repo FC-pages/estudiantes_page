@@ -65,7 +65,7 @@ exports.miembrosOptimizacion = [
     },
     {
       "nombre": "Hector Guimaray",
-      "foto": "./fotoblanco.jpg",
+      "foto": "./xprofesor.png",
       "email": "hguimaray@uni.edu.pe",
       "funcion": "Investigador",
       "gradoAc": "Doctor",
@@ -161,7 +161,7 @@ exports.miembrosTeoriaDeNumeros = [
     },
     {
       "nombre": "Josue Zacarías Olivet Rojas",
-      "foto": "./fotoblanco.jpg",
+      "foto": "./xprofesor.png",
       "email": "correo@uni.edu.pe",
       "funcion": "Investigador",
       "gradoAc": "Bachiller",
