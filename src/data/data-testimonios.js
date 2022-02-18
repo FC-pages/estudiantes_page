@@ -15,6 +15,6 @@ exports.testimonios = [
     "name": "Daniel Camarena Perez",
     "image": "./daniel_camarena_carnet.png",
     "fotoCompleta": "./daniel_camarena_completa.jpeg",
-    "testimony": "Egresado y Licenciado de la Escuela de Matemática de la Facultad de Ciencias de 1996 al 2002, obtuvo una maestría en Estadística en la Pontificia Universidad Católica de Chile de 2010 al 2012, obtuvo un máster en ciencias y finanzas en el IEDE Business School con sede en Chile de 2013 al 2014 y recibió un grado en ‘’Alianzas Público-Privadas: Implementando Soluciones para América Latina y el Caribe’’ en el 2015. Se desempeñó como Consultor Senior en Asociaciones Público-Privadas en IKONS ATN, donde se desempeñó como Modelador Financiero, Analista de Riesgos, Analista Cuantitativo y Cualitativo de Información y Desarrollador de aplicaciones y/o complementos para la Toma de Decisiones. Ha sido un gran amigo e impulsor de las matemáticas en el sector financiero, con mucha tristeza falleció en Lima, el 26 de abril de 2021.",
+    "testimony": "",
   },
 ]
