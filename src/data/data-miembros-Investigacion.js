@@ -130,7 +130,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Ángel Ramirez",
       "foto": "./angel_ramirez_carnet.png",
-      "email": "a r a m i r e z g @ u n i . e d u . p e",
+      "email": "aramirezg@uni.edu.pe",
       "funcion": "Coordinador",
       "gradoAc": "Doctor",
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=27285",
