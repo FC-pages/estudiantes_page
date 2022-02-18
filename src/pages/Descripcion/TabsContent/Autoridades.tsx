@@ -1,13 +1,5 @@
 import React from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faEnvelope,
-  faHandPointRight,
-  faPaperclip,
-  faPhoneAlt,
-} from '@fortawesome/free-solid-svg-icons';
-
 import { FaEnvelope, FaPhoneAlt, FaHandPointRight } from 'react-icons/fa';
 
 function Autoridades() {
@@ -36,28 +28,14 @@ function Autoridades() {
                     <ul>
                       <li>
                         {' '}
-                        {/* <FontAwesomeIcon icon={faEnvelope} className="icons2" /> */}
-                        <FaEnvelope />
-                        {/* <FontAwesomeIcon
-                                className="icons2"
-                                icon={faEnvelope}
-                              /> */}{' '}
-                        E-mail: pcanales@uni.edu.pe
+                        <FaEnvelope /> E-mail: pcanales@uni.edu.pe
                       </li>
                       <li>
                         {' '}
-                        {/* <FontAwesomeIcon
-                                className="icons2"
-                                icon={faPhoneAlt}
-                              /> */}
                         <FaPhoneAlt /> Teléfono: 481-0824{' '}
                       </li>
                       <li>
                         {' '}
-                        {/* <FontAwesomeIcon
-                          icon={faHandPointRight}
-                          className="icons2"
-                        /> */}
                         <FaHandPointRight /> Central UNI: Anexos 5000, 5002,
                         5003
                       </li>
@@ -92,26 +70,14 @@ function Autoridades() {
                     <ul>
                       <li>
                         {' '}
-                        {/* <FontAwesomeIcon
-                          className="icons2"
-                          icon={faEnvelope}
-                        /> */}
                         <FaEnvelope /> E-mail: eocana@uni.edu.pe
                       </li>
                       <li>
                         {' '}
-                        {/* <FontAwesomeIcon
-                          className="icons2"
-                          icon={faPhoneAlt}
-                        /> */}
                         <FaPhoneAlt /> Central FC: Anexo 14{' '}
                       </li>
                       <li>
                         {' '}
-                        {/* <FontAwesomeIcon
-                          className="icons2"
-                          icon={faHandPointRight}
-                        /> */}
                         <FaHandPointRight /> Central UNI: Anexo 5033
                       </li>
                     </ul>
@@ -144,23 +110,14 @@ function Autoridades() {
                     <b> Dr. Rosulo Perez Cupe</b>
                     <ul>
                       <li>
-                        {/* <FontAwesomeIcon className="icons2" icon={faEnvelope} /> */}
                         <FaEnvelope /> E-mail: rperezc@uni.edu.pe{' '}
                       </li>
                       <li>
                         {' '}
-                        {/* <FontAwesomeIcon
-                          className="icons2"
-                          icon={faPhoneAlt}
-                        /> */}
                         <FaPhoneAlt /> Central FC: Anexo 17
                       </li>
                       <li>
                         {' '}
-                        {/* <FontAwesomeIcon
-                          className="icons2"
-                          icon={faHandPointRight}
-                        /> */}
                         <FaHandPointRight /> Central UNI: Anexo 5025
                       </li>
                     </ul>

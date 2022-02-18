@@ -4,14 +4,6 @@ import ReactPlayer from 'react-player';
 import { Row, Card } from 'react-bootstrap';
 import * as S from '../../../../styles/styles';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faEnvelope,
-  faHandPointRight,
-  faPaperclip,
-  faPhoneAlt,
-} from '@fortawesome/free-solid-svg-icons';
-
 import { FaPaperclip } from 'react-icons/fa';
 
 function PlanEstudios() {
@@ -93,36 +85,28 @@ function PlanEstudios() {
         <li>
           Plan de estudios completo.{' '}
           <a href="plancompleto.pdf">
-            {/* <FontAwesomeIcon className="icons" icon={faPaperclip} /> */}
             <FaPaperclip />
           </a>
         </li>
         <li>
-          Tabla de convalidaciones.{' '}
-          {/* <FontAwesomeIcon className="icons" icon={faPaperclip} /> */}
-          <FaPaperclip />
+          Tabla de convalidaciones. <FaPaperclip />
         </li>
         <li>
-          Malla curricular con electivos 2018-1.{' '}
-          {/* <FontAwesomeIcon className="icons" icon={faPaperclip} /> */}
-          <FaPaperclip />
+          Malla curricular con electivos 2018-1. <FaPaperclip />
         </li>
         <li>
           Malla curricular sin electivos 2018-1.{' '}
           <a href="mallacurricular.pdf">
             {' '}
-            {/* <FontAwesomeIcon className="icons" icon={faPaperclip} /> */}
             <FaPaperclip />
           </a>
         </li>
         <li>
           Sumillas de asignaturas electivas del plan de estudios 2018-1.{' '}
-          {/* <FontAwesomeIcon className="icons" icon={faPaperclip} /> */}
           <FaPaperclip />
         </li>
         <li>
           Sumillas de asignaturas obligatorias del plan de estudios 2018-1.{' '}
-          {/* <FontAwesomeIcon className="icons" icon={faPaperclip} /> */}
           <FaPaperclip />
         </li>
       </ul>

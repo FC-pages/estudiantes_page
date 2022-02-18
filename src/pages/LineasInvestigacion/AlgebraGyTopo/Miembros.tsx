@@ -1,14 +1,5 @@
 import React, { FC, Fragment } from 'react';
 import '../../../styles/gInvestigacion.css';
-import profesor1 from '../../../images/IrlaMantilla3.jpg';
-import profesor2 from '../../../images/AngelRamirez2.jpg';
-import profesor3 from '../../../images/Mungia2.jpg';
-import profesor4 from '../../../images/profesor4.jpg';
-import profesor5 from '../../../images/roca.png';
-
-import profesorX from '../../../images/profesorX.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import { FaFileAlt } from 'react-icons/fa';
 
 /*import CardMore from "../Components/CardMore";*/
@@ -48,7 +39,6 @@ const TabTwo: FC<{}> = () => {
             <b>CV: </b>
             {/* <a href="#" className="tit">CV:</a>*/}
             <a href="http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=cf8f86f20bf96321147eb780efda?id_investigador=45263">
-              {/* <FontAwesomeIcon className="icons2" icon={faFileAlt} /> */}
               <FaFileAlt />
             </a>{' '}
           </div>

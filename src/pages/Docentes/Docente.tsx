@@ -1,9 +1,6 @@
 import { useState } from 'react';
-import { Modal, Button, Card } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import { Modal, Button } from 'react-bootstrap';
 import perfilImage from '../../images/perfil_black.png';
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FaFileAlt } from 'react-icons/fa';
 
 function Docente(props: any) {
@@ -78,7 +75,6 @@ function Docente(props: any) {
                     <li>
                       <span className="tag">CTI Vitae:</span>&nbsp;&nbsp;&nbsp;
                       <a href={props.dina}>
-                        {/* <FontAwesomeIcon className="icons2" icon={faFileAlt} /> */}
                         <FaFileAlt />
                       </a>{' '}
                     </li>
@@ -89,7 +85,6 @@ function Docente(props: any) {
                     <li>
                       <span className="tag">Página web:</span>&nbsp;&nbsp;&nbsp;
                       <a href={props.datos.pagina}>
-                        {/* <FontAwesomeIcon className="icons2" icon={faFileAlt} /> */}
                         <FaFileAlt />
                       </a>{' '}
                     </li>

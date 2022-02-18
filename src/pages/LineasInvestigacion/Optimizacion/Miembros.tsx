@@ -8,9 +8,6 @@ import profesor5 from '../../../images/navarro.png';
 import profesor6 from '../../../images/rosuloPerez.png';
 import profesor7 from '../../../images/cernades.png';
 import profesorX from '../../../images/profesorX.png';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import { FaFileAlt } from 'react-icons/fa';
 /*import CardMore from "../Components/CardMore";*/
 

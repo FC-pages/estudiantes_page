@@ -2,9 +2,7 @@ import { useState } from 'react';
 import { Table } from 'react-bootstrap';
 import * as S from '../AlumnosYTesistasTab/styles/main';
 import { titulados } from '../../../../data/data-alumnos.js';
-import { Modal, Button, Card } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+import { Modal, Card } from 'react-bootstrap';
 import { FaFilePdf } from 'react-icons/fa';
 
 function Titulado(props: any) {
@@ -52,7 +50,6 @@ function Titulado(props: any) {
                     <span className="modal-tag-titulo">
                       Título de tésis{' '}
                       <a href={props.titulado.tesisLink}>
-                        {/* <FontAwesomeIcon className="icons2" icon={faFilePdf} /> */}
                         <FaFilePdf />
                       </a>
                     </span>
