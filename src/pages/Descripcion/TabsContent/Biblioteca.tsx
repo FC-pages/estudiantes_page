@@ -1,9 +1,9 @@
 
 import React from "react";
-
+import { FaAngleRight } from 'react-icons/fa';
 function Biblioteca() {
   return (
-    <div>
+    <div className="Biblioteca">
         <p>La Biblioteca de la Facultad de Ciencias de la Universidad de Ingeniería (UNI),
        como todas las bibliotecas, se enfrenta en los últimos años a nuevos retos tales como 
        los relacionados con la gestión de la información digital, la adaptación de los 
@@ -52,32 +52,75 @@ function Biblioteca() {
         para bibliotecas, desde noviembre del 2013 la Biblioteca de la Facultad de Ciencias, 
         ve la conveniencia de usar este sistema único de gestión de los recursos de información 
         de la Universidad Nacional de Ingeniería.</p>
-        <h3>Servicios</h3>
+        <h4>Servicios</h4>
         <ul>
-            <li>Préstamo</li>
-            <li>Lectura en sala</li>
-            <li>Información y referencia</li>
-            <li>Reprografía y reproducción</li>
-            <li>Consulta de catálogo en línea</li>
-            <li>Biblioteca virtual</li>
-            <li>Carnetización</li>
-        </ul>
-        <h3>Contacto</h3>
-        Lic. Maritza Dietz Castro
-        Jefe de la Biblioteca (e)
-        <ul>
-            <li>E-mail: gradosytitulosfc@uni.edu.pe</li>
-            <li>Teléfono: 481-0824 anexo 5020 / 5025</li>
+            <li><FaAngleRight size={17}/> Préstamo</li>
+            <li><FaAngleRight size={17}/> Lectura en sala</li>
+            <li><FaAngleRight size={17}/> Información y referencia</li>
+            <li><FaAngleRight size={17}/> Reprografía y reproducción</li>
+            <li><FaAngleRight size={17}/> Consulta de catálogo en línea</li>
+            <li><FaAngleRight size={17}/> Biblioteca virtual</li>
+            <li><FaAngleRight size={17}/>Carnetización</li>
         </ul>
         <a href="http://www.bibliotecavirtual.uni.edu.pe/">Link de la biblioteca</a>
         <p></p>
-        {/* <div className="div-imagen"> */}
         <div className="div-imagen">
-            <div className="text">
+            {/* <div className="text">
                 Descripción de la foto que quieres que se muestre
-            </div>
-        <img className="desvanecer" src="./lecturaensala.jpg" />
+            </div> */}
+            <img className="desvanecer" src="./lecturaensala.jpg" />
         </div>
+
+        <div className="div-imagen">
+            {/* <div className="text">
+                Descripción de la foto que quieres que se muestre
+            </div> */}
+            <img className="desvanecer" src="./biblioteca_fc_2-min.jpg" />
+        </div>
+
+        <div className="div-imagen">
+            {/* <div className="overlay">
+                Descripción de la foto que quieres que se muestre
+                <div className="catItemDateCreated">
+                    <span>16</span> Nov</div>   
+            </div> */}
+            <img className="desvanecer" src="./biblioteca_fc_3-min.jpg" />
+        </div>
+        <div className="div-imagen">
+            {/* <div className="text">
+                Descripción de la foto que quieres que se muestre
+            </div> */}
+            <img className="desvanecer" src="./biblioteca_fc_4-min.jpg" />
+        </div>
+        <div className="div-imagen">
+            {/* <div className="text">
+                Descripción de la foto que quieres que se muestre
+            </div> */}
+            <img className="desvanecer" src="./biblioteca_fc_5-min.jpg" />
+        </div>
+        <div className="div-imagen">
+            {/* <div className="text">
+                Descripción de la foto que quieres que se muestre
+            </div> */}
+            <img className="desvanecer" src="./biblioteca_fc_6-min.jpg" />
+        </div>
+        {/* <figure className="gallery">
+            <ul >
+                <li><figure><img src="./lecturaensala.jpg" /></figure> </li>
+                <li><figure><img src="./biblioteca_fc_2-min.jpg" /> </figure></li>
+                <li><figure><img src="./biblioteca_fc_3-min.jpg" /> </figure> </li>
+                <li><figure><img src="./biblioteca_fc_4-min.jpg" /> </figure></li>
+                <li><figure><img src="./biblioteca_fc_5-min.jpg" /> </figure></li>
+                <li><figure><img src="./biblioteca_fc_6-min.jpg" /> </figure></li>
+            </ul>
+        </figure> */}
+        <h4>Contacto</h4>
+        Lic. Maritza Dietz Castro
+        Jefe de la Biblioteca (e)
+        <ul>
+            <li><FaAngleRight size={17}/>E-mail: gradosytitulosfc@uni.edu.pe</li>
+            <li ><FaAngleRight size={17}/>Teléfono: 481-0824 anexo 5020 / 5025</li>
+        </ul>
     </div>
   ) 
 }

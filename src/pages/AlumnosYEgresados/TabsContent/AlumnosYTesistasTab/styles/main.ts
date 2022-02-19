@@ -38,9 +38,18 @@ export const TCard = styled.div`
       margin-right: 30px;
     }
   }
+  .in-article-card {
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0.5rem 1.2rem rgb(0 0 0 / 20%);
+    padding: 0.75rem 1.25rem;
+  }
   .card-testimony {
     background: #102e2e;
-    border-radius: 5px;
+    border-radius: 18px;
+    // border: 1px solid #eaeaea;
+    box-shadow: 0 0.5rem 1.2rem rgb(0 0 0 / 20%);
+    padding: 0.75rem 1.25rem;
   }
   .card-title {
     color: white;
@@ -57,6 +66,10 @@ export const TCard = styled.div`
 `
 
 export const TCard2 = styled.div`
+  .card {
+    border-radius:8px;
+    border: 0
+  }
   .header {
     margin: 0px 0px 10px 0px;
     display: flex;
@@ -71,7 +84,16 @@ export const TCard2 = styled.div`
     }
   }
   .card-testimony {
+    border-radius: 8px;
+    // border: 1px solid #eaeaea;
+    box-shadow: 0 0.5rem 1.25rem rgb(0 0 0 / 20%);
+    padding: 0.75rem 1.25rem;
   }
+  .in-article-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
   .card-title {
     color: black;
   }
@@ -247,13 +269,14 @@ export const ModalContainer = styled.div`
 
 export const ContainerVideos  = styled.div`
   width: 100%;
+  
   .video {
     width: 100%;
   display: flex;
   flex-wrap: wrap;
     >div {
-      width: 45%;
-     margin: 50px 10px;
+      width: 100%;
+     margin: 1px 8px;
     }
   }
 

@@ -19,7 +19,7 @@ function Autoridades() {
                 </tr>
                 <tr>
                   {/* <td className="App-profes-images"></td>  */}
-                  <td>
+                  <td className='img'>
                     {' '}
                     <img alt="" width={100} src="./pedro_canales_carnet.png" />
                   </td>
@@ -61,7 +61,7 @@ function Autoridades() {
                       </tr> */}
                 <tr>
                   {/* <td className="App-profes-images"></td>  */}
-                  <td>
+                  <td className='img'>
                     {' '}
                     <img alt="" width={100} src="./eladio_ocania_carnet.jpeg" />
                   </td>
@@ -102,7 +102,7 @@ function Autoridades() {
                       </tr> */}
                 <tr>
                   {/* <td className="App-profes-images"></td>  */}
-                  <td>
+                  <td className='img'>
                     {' '}
                     <img alt="" width={100} src="./rosulo_perez_carnet.png" />
                   </td>

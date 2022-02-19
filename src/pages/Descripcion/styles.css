@@ -160,11 +160,14 @@
 
 .resena {
   margin-inline: auto;
-  max-inline-size: 60em;
+  max-inline-size: 70em;
   /* padding: 10px 10px; */
   text-align: left;
   vertical-align: top;
   font-size: 13px;
+}
+.resena tr td {
+  max-width: 35em;
 }
 
 .resena tr td:first-child {
@@ -195,6 +198,20 @@
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #1d3557;
+}
+.anios2 {
+  font-size: 45px;
+  margin: 0px 10px;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  /* letter-spacing:0.05em; */
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #1d3557;
+}
+
+.top {
+  vertical-align: top;
 }
 
 .App-creditos {
@@ -230,18 +247,14 @@
   max-height: min-content;
   list-style-position: inside;
 }
-.App-archivo li:before {
+/* .App-archivo li:before {
   font-family: 'FontAwesome';
     content: '\f15c';
-}
+} */
 
 .App-profes-td2 {
-  /* padding: 7px; */
-  /* padding-top: 5px; */
-  /* padding-right: 0; */
-  padding-left: 0;;
+  padding:0px 6px;
   text-align: left;
-  /* position: static; */
 }
 
 .App-profes-td2 ul {
@@ -250,6 +263,7 @@
   padding: 4px;
   font-size: 10pt;
   text-align: left;
+  /* float: left; */
 }
 
 .App-profes-td2 ul li {
@@ -280,10 +294,9 @@
 
 .App-profes {
   display: inline-block;
-  /* font-size: 11pt; */
   height: max-content;
-  padding: 5px 5px;
-  width: 455px;
+  /* padding: 5px 0px; */
+  width: 450px;
   margin: 0px auto;
   text-align: left;
   vertical-align: middle;
@@ -305,9 +318,8 @@
 }
 
 .App-profes table {
-  border: 1px solid #00000020;
   border-collapse: collapse;
-  padding: 5px;
+  /* padding: 5px 0px; */
   /* paddi */
   text-align: left;
 }
@@ -316,9 +328,13 @@
   background-color: #1d3557; /*#282c34;*/
   color: white;
   text-align: left;
-  padding: 7px;
   width: 455px;
 }
+
+.App-profes tr td {
+  padding:3.5px 6px;
+}
+
 /* .App-profes tr td:first-child {
   border-right:2px solid #c4c4c4; 
 } */
@@ -335,6 +351,10 @@
   border-right: 5px slightseagreen;
 }
 
+.img {
+  width: 115px;
+}
+
 .App-profes-nom {
   padding: 7px;
   padding-bottom: 0;
@@ -342,7 +362,7 @@
 }
 
 .App-profes-td {
-  padding: 7px;
+  padding: 5px 0px;
   /* padding-top: 5px; */
   /* padding-right: 0; */
   text-align: left;
@@ -376,16 +396,6 @@
   vertical-align: middle;
   width: 110px;
 }
-.App-profes-imagesm {
-  background-image: url("../../images/fotomunguia.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100px 125px;
-  background-position: center;
-  vertical-align: top;
-  /* height: 140px; */
-  width: 110px;
-  /* object-fit: contain; */
-}
 
 /* FOOTER */
 .App-footer {
@@ -399,6 +409,12 @@
 .div-imagen {
   display:inline-block;
   position:relative;
+  margin: 10px;
+  margin-left: 0;
+}
+.div-imagen img {
+  /* width: 30%; */
+  width: 405px;
 }
 
 .div-imagen > div {
@@ -411,7 +427,9 @@
 }
 
 .desvanecer:hover {
-  opacity: 0.07;
+  opacity: 0.7;
+  /* visibility: hidden; */
+  /* background-color: rgb(0 0 0 25%); */
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
@@ -424,9 +442,59 @@
   top: 75%;
   display: inline-block;
   padding: 10px 12% 10px 15px;
-  background-color: #2841dd;
+  background-color: #1d3557;
+  color: white;
   /* background-image: url(https://assets.website-files.com/60b56cd…/60b6ebf…_arrow-small.svg); */
-  background-position: 95% 50%;
+  background-position: 55% 50%;
   background-size: auto;
   background-repeat: no-repeat;
+}
+.listak2 .catItemDateCreated {
+  padding: 10px 8px 3px 8px;
+  background: #59B733;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  width: 60px;
+  line-height: 18px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.Biblioteca ul {
+  list-style: none;
+  margin: 0;
+  padding: 4px;
+  font-size: 10pt;
+  text-align: left;
+}
+
+.Biblioteca ul li {
+  content: "";
+  color: #1d3557;
+}
+
+.gallery ul li{
+  margin: 0 1em 1em 0;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: calc(33% - 1em);
+}
+.gallery ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }

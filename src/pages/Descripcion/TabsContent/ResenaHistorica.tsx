@@ -1,7 +1,17 @@
-
+import * as S from "../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
+import ReactPlayer from "react-player";
+import { Row, Card } from "react-bootstrap";
 import React from "react";
 
 function ResenaHistorica() {
+  let videos = [
+    {
+      name: "Testimonio del prof. Segundo Félix Escalante del Águila",
+      href: "https://www.youtube.com/watch?v=PzzDDUtftvA",
+      Description:
+        "",
+    }
+  ];
   return (
       
           <div className="App-cuerpo">
@@ -121,7 +131,18 @@ function ResenaHistorica() {
                 </tr>
                 <tr>
                   <td>
-                    <img alt="" src="./impa.png" />
+                    <b className="anios">2009</b>
+                    <p className="resena-borde">
+                      Resolución Rectoral Nº 1481 del 3.11.09 se creó la Escuela Profesional 
+                      de Ciencia de la Computación.
+                    </p>
+                    
+                  </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td>
                     <b className="anios"> 2010</b>
                     <p className="resena-borde">
                       La Facultad de Ciencias cumple 50 años de su creación con actividades 
@@ -129,28 +150,55 @@ function ResenaHistorica() {
                       egresados, publicándose el libro "50 años de la Facultad de Ciencias".{" "}
                     </p>
                   </td>
-                  <td> </td>
                 </tr>
                 <tr>
-                  <td> </td>
-                  <td>
-                    <b className="anios">2012</b>
-                    <p className="resena-borde">
-                      Resolución Rectoral Nº 1481 del 3.11.09 se creó la Escuela Profesional 
-                      de Ciencia de la Computación.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
+                  <td className="top">
                     <img alt="" src="./impa.png" />
-                    <b className="anios"> act.</b>
+                    <b className="anios2" > Actualmente</b>
                     <p className="resena-borde">
                       La Facultad de Ciencias cuenta con las especialidades de Física, 
                       Matemática, Química, Ingeniería física y Ciencias de la computación. {" "}
                     </p>
                   </td>
-                  <td> </td>
+                  <td>
+                    <Row xs={1} md={1} className="g-4">
+                      <S.ContainerVideos className="containerTabOne">
+                        <div className="video">
+                          {videos.map((video: any) => {
+                            return (
+                              <Card bg="dark" text="white">
+                                <ReactPlayer controls width="100%" height={200}  url={video.href} />
+                                <Card.Body>
+                                  <Card.Title>{video.name}</Card.Title>
+                                  <Card.Text>
+                                      {video.name === "Importancia de estudiar Matemática" ? 
+                                        <>
+                                        <div className="quote">
+                                          <cite>
+                                            “{video.Description}». 
+                                          </cite>
+                                        </div>
+                                        <div>
+                                          <figcaption className="quote">
+                                            &mdash;<cite>Henri Poincaré</cite>  
+                                          </figcaption>
+                                        </div>
+                                        </>
+                                        :
+                                        video.Description
+                                        }
+                                  </Card.Text>
+
+
+
+                                </Card.Body>
+                              </Card>
+                            );
+                          })}
+                        </div>
+                      </S.ContainerVideos>
+                    </Row> 
+                  </td>
                 </tr>
               </table>
           </div>
