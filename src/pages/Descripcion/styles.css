@@ -220,22 +220,22 @@
   text-align: center;
 }
 .App-creditos-th {
-  border: solid 1px #1d3557;
+  /* border: solid 1px #1d3557; */
   background-color: #1d3557;
-  color: white;
+  /* color: white; */
 }
-.App-creditos td {
+/* .App-creditos td {
   border: solid 1px #1d3557;
-}
+} */
 
 .App-creditos td:last-child {
   text-align: left;
 }
 
 .App-creditos tr:first-child {
-  border: solid 1px #1d3557;
-  background-color: #1d3557;
-  color: white;
+  /* border: solid 1px #1d3557; */
+  background-color: #000000;
+  /* color: white; */
 }
 /* .App-creditos tr:nth-child(odd) {
   background-color: rgba(226, 226, 226, 0.959);
@@ -471,7 +471,7 @@
 
 .Biblioteca ul {
   list-style: none;
-  margin: 0;
+  /* margin: 0px; */
   padding: 4px;
   font-size: 10pt;
   text-align: left;
@@ -479,7 +479,7 @@
 
 .Biblioteca ul li {
   content: "";
-  color: #1d3557;
+  /* color: #1d3557; */
 }
 
 .gallery ul li{
@@ -497,4 +497,26 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.icons {
+  padding: 5px 0px;
+  text-align: left;
+}
+
+.icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 4px;
+  font-size: 14pt;
+  text-align: left;
+}
+.icons ul li {
+  content: "";
+  margin-left: 2px;
+  text-indent: -4px;
+}
+
+.blue {
+  color: #3c72be;
 }

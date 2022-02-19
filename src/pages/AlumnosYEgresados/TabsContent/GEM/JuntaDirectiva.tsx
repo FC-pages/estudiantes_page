@@ -4,7 +4,7 @@ function JuntaDirectiva(props: any) {
   };
   return (
     <div className="App-profes">
-      <a className="borde">
+      <span className="borde">
         <table cellPadding={6}>
           <tr>
             <td colSpan={2}>
@@ -28,7 +28,7 @@ function JuntaDirectiva(props: any) {
             </td>
           </tr>
         </table>
-      </a>
+      </span>
     </div>
   );
 }
