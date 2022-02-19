@@ -10,6 +10,11 @@ function Titulado(props: any) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+
+  const reverse = (s: any) => {
+    return s.split('').reverse().join('');
+  };
+
   return (
     <>
       <tr>
@@ -22,7 +27,8 @@ function Titulado(props: any) {
         <td>{props.titulado.tituloDeTesis}</td>
         <td>{props.titulado.fechaSustentacionTesis}</td>
         <td>{props.titulado.actividadActual}</td>
-        <td>{props.titulado.contacto}</td>
+        <td className = "correo-oculto">{reverse(props.titulado.contacto).replace(/\s+/g, '')}</td>
+                       
       </tr>
       <Modal show={show} onHide={handleClose}>
         <S.ModalContainer>
@@ -67,7 +73,7 @@ function Titulado(props: any) {
                     <span className="modal-tag-titulo">Asesor</span>
                     <span className="modal-titulo">
                       {props.titulado.asesor.nombre} -{' '}
-                      {props.titulado.asesor.email}{' '}
+                      <span className = "correo-oculto">{reverse(props.titulado.asesor.email).replace(/\s+/g, '')} </span>
                     </span>
                   </>
                 ) : (

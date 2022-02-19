@@ -26,6 +26,7 @@ const Acerca: FC<{}> = () => {
       <img alt="" src={fotoGrupo} className="foto-grupo" />
 
       <br />
+      {/*
       <p className="justify">
         El principal interés del grupo es el{' '}
         <b>desarrollo matemático y computacional de la optimización</b>. El
@@ -44,28 +45,14 @@ const Acerca: FC<{}> = () => {
       </p>
       <i>Información agregada...(para referencia)</i>
       <h4 className="justify">Justificación</h4>
+       */}
       <p className="justify">
-        La evaluación se encuentra presente en diversas áreas del saber humano
-        como la Educación, Psicología, Medicina, Economía, Medio Ambiente,
-        Análisis Político, Ingeniería y Marketing entre otros. Nuestra sociedad
-        tiene un marcado interés por el estudio del impacto que tienen diversos
-        programas emprendidos por los gobiernos u organizaciones privadas en la
-        mejora de nuestra calidad de vida. En tal sentido, es necesario
-        establecer metodologías adecuadas que permitan no solo evaluar el
-        impacto de tales programas sino también sustentar, afinar e interpretar
-        sus resultados a la luz del establecimiento de los modelos matemáticos y
-        estadísticos subyacentes en el proceso de medición de las variables en
-        estudio. Si bien el país experimenta una creciente demanda de este tipo
-        de estudios, existe de otro lado un déficit en el desarrollo y
-        aplicación de modelos cuantitativos. Frente a este panorama se
-        constituyó el grupo de Investigación de Modelos Matemáticos y
-        Estadísticos para Evaluación (MMEPE). El grupo MMEPE es una línea de
-        investigación sectorial del Departamento de Ciencias reconocida por la
-        antigua Dirección Académica de Investigación DAI en el año 2005 y es un
-        grupo de Investigación del vicerrectorado de investigación desde 2007.
-        Está formado por profesores de la sección Matemática e incluye
-        profesores de otras unidades de la PUCP y profesores de otras
-        universidades.
+      En el sector industrial o económico surge a menudo la necesidad de determinar los valores de ciertas variables con el fin de maximizar o minimizar algún criterio. 
+<br/> <br/>
+La modelización de estos tipos de problemas y el desarrollo de métodos de solución (y la implementación eficiente) son de interés importante del grupo de optimización. 
+<br/> <br/>
+Algoritmos de optimización que incluyen modelos lineales y no lineales, modelos de optimización combinatoria y enfoques heurísticos, son temas que se desarrollan en el grupo.
+
       </p>
       <h4 className="justify">Objetivo General</h4>
       <p className="justify">

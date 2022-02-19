@@ -2,6 +2,10 @@
 import React from "react";
 import { FaAngleRight } from 'react-icons/fa';
 function Biblioteca() {
+
+  const reverse = (s: any) => {
+    return s.split('').reverse().join('');
+  };
   return (
     <div className="Biblioteca">
         <p>La Biblioteca de la Facultad de Ciencias de la Universidad de Ingeniería (UNI),

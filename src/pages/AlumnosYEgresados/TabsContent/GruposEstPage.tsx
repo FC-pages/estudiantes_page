@@ -1,15 +1,19 @@
 import { Container, Tab, Nav, Row, Col } from 'react-bootstrap';
 import { FaYoutube, FaFacebookSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import { miembros, juntaDirectiva, asesores } from '../../../data/data-gem';
+import { miembros, juntaDirectiva } from '../../../data/data-gem';
 import React from 'react';
 import Miembro from './GEM/Miembro';
-import './styles.css';
+import '../../Docentes/styles.css';
 import JuntaDirectiva from './GEM/JuntaDirectiva';
 
 export default function GruposEstPage() {
   let eliminarDiacriticos = (texto: any) => {
     return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  };
+
+  const reverse = (s: any) => {
+    return s.split('').reverse().join('');
   };
   return (
     <Container>
@@ -69,8 +73,9 @@ export default function GruposEstPage() {
                 </p>
                 <p className="ps-4">
                   <MdEmail size={25} title="email" />{' '}
-                  <a className="a-link" href="mailto:gem@uni.edu.pe">
-                    gem@uni.edu.pe
+                  <a className="a-link correo-oculto" href="mailto:gem@uni.edu.pe">
+{reverse("gem@uni.edu.pe").replace(/\s+/g, '')}
+                    
                   </a>
                 </p>
                 <p className="ps-4">
@@ -86,66 +91,71 @@ export default function GruposEstPage() {
             </Tab.Pane>
             <Tab.Pane eventKey="Miembros">
               <p className="fs-4 fw-bold">Junta Directiva</p>
-              {juntaDirectiva
-                .sort(function (a: any, b: any) {
-                  let valueA = a.nombre;
-                  let valueB = b.nombre;
-                  valueA = eliminarDiacriticos(valueA);
-                  valueB = eliminarDiacriticos(valueB);
+              <div className="App-center">
+                {juntaDirectiva
+                  .sort(function (a: any, b: any) {
+                    let valueA = a.nombre;
+                    let valueB = b.nombre;
+                    valueA = eliminarDiacriticos(valueA);
+                    valueB = eliminarDiacriticos(valueB);
 
-                  let av = valueA.trim().toLowerCase();
-                  let bv = valueB.trim().toLowerCase();
-                  let r = av > bv ? 1 : av < bv ? -1 : 0;
-                  if (r === 0) {
-                    r =
-                      typeof a.key !== 'undefined' &&
-                      typeof b.key !== 'undefined'
-                        ? a.key - b.key
-                        : 0;
-                  }
-                  return r;
-                })
-                .map((d: any) => {
-                  return (
-                    <JuntaDirectiva
-                      nombre={d.nombre}
-                      codigo={d.codigo}
-                      cargo={d.cargo}
-                      correo={d.correo}
-                      cel={d.cel}
-                    />
-                  );
-                })}
+                    let av = valueA.trim().toLowerCase();
+                    let bv = valueB.trim().toLowerCase();
+                    let r = av > bv ? 1 : av < bv ? -1 : 0;
+                    if (r === 0) {
+                      r =
+                        typeof a.key !== 'undefined' &&
+                        typeof b.key !== 'undefined'
+                          ? a.key - b.key
+                          : 0;
+                    }
+                    return r;
+                  })
+                  .map((d: any) => {
+                    return (
+                      <JuntaDirectiva
+                        nombre={d.nombre}
+                        codigo={d.codigo}
+                        cargo={d.cargo}
+                        ciclo={d.ciclo}
+                        correo={d.correo}
+                        cel={d.cel}
+                      />
+                    );
+                  })}
+              </div>
 
               <p className="fs-4 fw-bold pt-3">Miembros</p>
-              {miembros
-                .sort(function (a: any, b: any) {
-                  let valueA = a.nombre;
-                  let valueB = b.nombre;
-                  valueA = eliminarDiacriticos(valueA);
-                  valueB = eliminarDiacriticos(valueB);
+              <div className="App-center">
+                {miembros
+                  .sort(function (a: any, b: any) {
+                    let valueA = a.nombre;
+                    let valueB = b.nombre;
+                    valueA = eliminarDiacriticos(valueA);
+                    valueB = eliminarDiacriticos(valueB);
 
-                  let av = valueA.trim().toLowerCase();
-                  let bv = valueB.trim().toLowerCase();
-                  let r = av > bv ? 1 : av < bv ? -1 : 0;
-                  if (r === 0) {
-                    r =
-                      typeof a.key !== 'undefined' &&
-                      typeof b.key !== 'undefined'
-                        ? a.key - b.key
-                        : 0;
-                  }
-                  return r;
-                })
-                .map((d: any) => {
-                  return (
-                    <Miembro
-                      nombre={d.nombre}
-                      codigo={d.codigo}
-                      cargo={d.cargo}
-                    />
-                  );
-                })}
+                    let av = valueA.trim().toLowerCase();
+                    let bv = valueB.trim().toLowerCase();
+                    let r = av > bv ? 1 : av < bv ? -1 : 0;
+                    if (r === 0) {
+                      r =
+                        typeof a.key !== 'undefined' &&
+                        typeof b.key !== 'undefined'
+                          ? a.key - b.key
+                          : 0;
+                    }
+                    return r;
+                  })
+                  .map((d: any) => {
+                    return (
+                      <Miembro
+                        nombre={d.nombre}
+                        codigo={d.codigo}
+                        cargo={d.cargo}
+                      />
+                    );
+                  })}
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="Actividades">
               <p className="fs-4 fw-bold">

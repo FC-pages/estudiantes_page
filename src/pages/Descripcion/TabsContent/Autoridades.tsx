@@ -6,6 +6,8 @@ function Autoridades() {
   const reverse = (s: any) => {
     return s.split('').reverse().join('');
   };
+
+
   return (
     <div className="App-cuerpo">
       <article id="tab4">
@@ -28,7 +30,8 @@ function Autoridades() {
                     <ul>
                       <li>
                         {' '}
-                        <FaEnvelope size={17} /> E-mail: pcanales@uni.edu.pe
+                        <FaEnvelope size={17} /> E-mail: <span className = "correo-oculto">{reverse("pcanales@uni.edu.pe").replace(/\s+/g, '')}</span>
+                      
                       </li>
                       <li>
                         {' '}
@@ -70,7 +73,8 @@ function Autoridades() {
                     <ul>
                       <li>
                         {' '}
-                        <FaEnvelope size={17} /> E-mail: eocana@uni.edu.pe
+                        <FaEnvelope size={17} /> E-mail: <span className = "correo-oculto">{reverse("eocana@uni.edu.pe").replace(/\s+/g, '')}</span>
+
                       </li>
                       <li>
                         {' '}
@@ -110,7 +114,7 @@ function Autoridades() {
                     <b> Dr. Rosulo Perez Cupe</b>
                     <ul>
                       <li>
-                        <FaEnvelope size={17} /> E-mail: rperezc@uni.edu.pe{' '}
+                        <FaEnvelope size={17} /> E-mail: <span className = "correo-oculto">{reverse("rperezc@uni.edu.pe").replace(/\s+/g, '')}</span>{' '}
                       </li>
                       <li>
                         {' '}

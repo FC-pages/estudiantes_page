@@ -1,10 +1,14 @@
 import React, { FC, Fragment } from 'react';
 import '../../../styles/gInvestigacion.css';
-import { FaFileAlt } from 'react-icons/fa';
+import Miembro from '../Miembro';
+import { miembrosEcuacionesDiferenciales } from '../../../data/data-miembros-Investigacion';
 
 /*import CardMore from "../Components/CardMore";*/
 
 const TabTwo: FC<{}> = () => {
+  let eliminarDiacriticos = (texto: any) => {
+    return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  };
   return (
     <Fragment>
       <div>
@@ -13,38 +17,37 @@ const TabTwo: FC<{}> = () => {
         </h3>
       </div>
       <hr></hr>
-      <div className="grid">
-        <div className="cell">
-          <div className="itemLeft">
-            <img
-              alt=""
-              src="roger-metzger.JPG"
-              className="foto-profesor"
-              width={110}
-            ></img>
-          </div>
-          <div className="itemRight">
-            <b>Profesor: </b>
-            <span className="tit">Roger Metzger </span> <br />
-            <b>E-mail: </b>
-            <a href="#" className="tit2">
-              rmetzger@uni.edu.pe
-            </a>{' '}
-            <br />
-            <b>Función: </b> Coordinador
-            <br />
-            <b>Grado académico: </b> Doctor
-            <br />
-            <b>CV: </b>
-            {/* <a href="#" className="tit">CV:</a>*/}
-            <a
-              className="a-link"
-              href="http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=cf15346c1e14958d9812f7a18dde?id_investigador=2056"
-            >
-              <FaFileAlt size={17} />
-            </a>{' '}
-          </div>
-        </div>
+      <div className="App-center">
+        {miembrosEcuacionesDiferenciales
+          .sort(function (a: any, b: any) {
+            let valueA = a.nombre;
+            let valueB = b.nombre;
+            valueA = eliminarDiacriticos(valueA);
+            valueB = eliminarDiacriticos(valueB);
+
+            let av = valueA.trim().toLowerCase();
+            let bv = valueB.trim().toLowerCase();
+            let r = av > bv ? 1 : av < bv ? -1 : 0;
+            if (r === 0) {
+              r =
+                typeof a.key !== 'undefined' && typeof b.key !== 'undefined'
+                  ? a.key - b.key
+                  : 0;
+            }
+            return r;
+          })
+          .map((d: any) => {
+            return (
+              <Miembro
+                nombre={d.nombre}
+                foto={d.foto}
+                correo={d.email}
+                funcion={d.funcion}
+                gradoacd={d.gradoAc}
+                cv={d.cv}
+              />
+            );
+          })}
       </div>
     </Fragment>
   );

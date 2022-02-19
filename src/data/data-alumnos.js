@@ -7,7 +7,7 @@ exports.titulados = [
     "gradoAc": "Droctor en Ciencias con mencion en Matemática",
     "asesor": {
       "nombre": "Dr. Irla Mantilla Núñez",
-      "email": "irlamn@uni.edu.pe"
+      "email": "i r l a m n @ u n i . e d u . p e"
     },
     "coAsesor": {
       "nombre": "",
@@ -15,7 +15,7 @@ exports.titulados = [
     },
     "fechaSustentacionTesis": "27 de setiembre de 2012",
     "actividadActual": "Docente en la UNI",
-    "contacto": "munguial@uni.edu.pe",
+    "contacto": "m u n g u i a l @ u n i . e d u . p e",
   },
   {
     "nombre": "Jorge Enrique Mayta Guillermo",
@@ -25,7 +25,7 @@ exports.titulados = [
     "gradoAc": "",
     "asesor": {
       "nombre": "William Carlos Echegaray Castillo ",
-      "email": "wechegaray@uni.edu.pe"
+      "email": "w e c h e g a r a y @ u n i . e d u . p e"
     },
     "coAsesor": {
       "nombre": "",
@@ -33,7 +33,7 @@ exports.titulados = [
     },
     "fechaSustentacionTesis": "14 de octubre del 2016",
     "actividadActual": "Docente en la UNI",
-    "contacto": "jmaytag@uni.edu.pe",
+    "contacto": "j m a y t a g @ u n i . e d u . p e",
   },
   {
     "nombre": "Ángel Enrique Ramírez Gutiérrez",
@@ -44,7 +44,7 @@ exports.titulados = [
     "gradoAc": "",
     "asesor": {
       "nombre": "Dra. Irla Mantilla Nuñez",
-      "email": "imn@uni.edu.pe"
+      "email": "i m n @ u n i . e d u . p e"
     },
     "coAsesor": {
       "nombre": "",
@@ -52,7 +52,7 @@ exports.titulados = [
     },
     "fechaSustentacionTesis": "09 de Julio del 2010",
     "actividadActual": "Docente en la UNI",
-    "contacto": "aramirezg@uni.edu.pe",
+    "contacto": "a r a m i r e z g @ u n i . e d u . p e",
   },
   {
     "nombre": "Abraham Zamudio",
@@ -70,7 +70,7 @@ exports.titulados = [
     },
     "fechaSustentacionTesis": "",
     "actividadActual": "Desarrollador de Software",
-    "contacto": "abraham.zamudio@gmail.com",
+    "contacto": "a b r a h a m . z a m u d i o @ g m a i l . c o m",
   },
   {
     "nombre": "",
@@ -113,7 +113,7 @@ exports.alumnos = [
   {
     "nombre": "Janice Katherine Escobedo Vásquez",
     "ciclo": "6",
-    "contacto": "janice.escobedo.v@uni.pe",
+    "contacto": "j a n i c e . e s c o b e d o . v @ u n i . p e",
     "imgOrce": "./alumnos/orce_janice_escobedo_vasquez.png",
 
   }
