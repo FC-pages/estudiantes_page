@@ -2,7 +2,8 @@ import { Container } from "react-bootstrap";
 import React from "react";
 
 import ReactPlayer from "react-player";
-
+import { FaAngleRight } from 'react-icons/fa';
+import { FaPaperclip } from 'react-icons/fa';
 import { Row, Card } from "react-bootstrap";
 import * as S from "../../../../styles/styles";
 
@@ -16,21 +17,36 @@ let videos = [
   }
 ]
   return (
-    <Container className="text-start p-3">
+    // <Container className="text-start p-3">
+    <Container>
       <p className="fw-bold fs-5">Mallas curriculares</p>
-      <Container>
-        <a className="a-link" href="./PLANMATEMATICA2018.pdf">
-          Malla General
-        </a>
-        <p>Malla Análisi Numérico y Ecuaciones Diferenciales</p>
-        <p>Malla Optimización y Control</p>
-        <p>Malla Estadistica y Procesos Estocasticos</p>
-      </Container>
+      <div className="Biblioteca">
+        <ul>
+          <li>
+            <FaAngleRight size={17}/>
+            Malla General  {' '}
+            <a className="a-link" href="./PLANMATEMATICA2018.pdf">
+            <FaPaperclip size={20} />
+            </a>
+          </li>
+          <li> 
+            <FaAngleRight size={17}/>
+            {/* <FaAngleRight size={17} className="blue"/> */}
+            Malla Análisis Numérico y Ecuaciones Diferenciales {' '} </li>
+          <li> 
+            <FaAngleRight size={17}/>
+            {/* <FaAngleRight size={17} className="blue"/>  */}
+            Malla Optimización y Control {' '}</li>
+          <li> 
+            <FaAngleRight size={17}/>
+            {/* <FaAngleRight size={17} className="blue"/>  */}
+            Malla Estadistica y Procesos Estocasticos {' '}</li>
+        </ul>
+      </div>
       <p className="fw-bold fs-5">Plan de estudios</p>
       <Container>
         <p>Plan de Estudios Vigente</p>
       </Container>
-
 
       <Row xs={1} md={1} className="g-4">
         <S.ContainerVideos className="containerTabOne">
