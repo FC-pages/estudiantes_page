@@ -8,10 +8,30 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Corre el backend y el frontend en el puerto 5000.\
+(Si se modifica el front se tiene que volver a correr todo de nuevo\
+para ver los cambios).\
+
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+
+
+### `npm run start-client`
+
+Corre solo el front como se ha estado trabajando hasta ahora en el puerto 3000.\
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+
+### `npm run start-server`
+
+Corre solo el servidor en el puerto 5000.\
+
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+
+The server will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ### `npm test`

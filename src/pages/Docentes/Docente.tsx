@@ -16,6 +16,20 @@ function Docente(props: any) {
   let preventDragHandler = (e: any) => {
     e.preventDefault();
   };
+  const getImageName = ( nombre:any) => {
+    // Para obtener el primer nombre y el primer apellido
+      
+      let nombres = nombre.split(",");
+      let primernombre = nombres[1].split(" ")[1];
+      //console.log(nombres[0].split(" "))
+      // Profesora La Rosa
+      let primerapellido = nombres[0] === "LA ROSA OBANDO" ? "La Rosa": nombres[0].split(" ")[0];
+      let filename = primernombre +  "_" + primerapellido;
+
+      return  filename.toLowerCase() + ".jpg";
+    }
+  let fileImage = getImageName(props.datos.nombres);
+
 
   return (
     <div className="App-profes">
@@ -34,7 +48,7 @@ function Docente(props: any) {
               {/* <td className="App-profes-imagesm"></td>  */}
               <td>
                 <div className="cont-img">
-                  <img alt="" src={props.foto ? props.foto : perfilImage} />{' '}
+                  <img alt="" src={props.datos.foto ? '/images/docentes/' + fileImage : perfilImage} />{' '}
                 </div>
               </td>
               <td className="App-profes-td">
