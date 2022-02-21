@@ -4,14 +4,7 @@ let { testimonios } = require("../../../../data/data-testimonios.js");
 
 function Testimonios() {
 
-let videos = [
-  {
-    name: "Testimonio del prof. Segundo Félix Escalante del Águila",
-    href: "https://www.youtube.com/watch?v=PzzDDUtftvA",
-    Description:
-      "",
-  }
-];
+
 
   return (
     <div>
