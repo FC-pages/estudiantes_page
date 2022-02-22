@@ -277,6 +277,7 @@ export const ContainerVideos  = styled.div`
     >div {
       width: 100%;
      margin: 1px 8px;
+     margin-top: 50px
     }
   }
 
@@ -284,6 +285,14 @@ export const ContainerVideos  = styled.div`
     .video{
       >div {
         width: 100%;
+      }
+    }
+  }
+  @media (max-width: 767.20px) {
+    .video{
+      >div {
+        width: 100%;
+        margin-top: 120px;
       }
     }
   }

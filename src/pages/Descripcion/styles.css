@@ -167,7 +167,7 @@
   font-size: 13px;
 }
 .resena tr td {
-  max-width: 35em;
+  width: 50%;
 }
 
 .resena tr td:first-child {
