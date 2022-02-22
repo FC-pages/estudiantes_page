@@ -167,7 +167,7 @@
   font-size: 13px;
 }
 .resena tr td {
-  width: 50%;
+  max-width: 35em;
 }
 
 .resena tr td:first-child {
@@ -325,7 +325,7 @@
 }
 
 .App-profes tr:first-child {
-  background-color: #162842; /*#042354;#162842;#1d3557; #282c34; Color Principal*/
+  background-color: #042354;/*#162842;#1d3557; #282c34;*/
   color: white;
   text-align: left;
   width: 455px;

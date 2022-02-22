@@ -10,7 +10,7 @@ function Header() {
         <div className="title">
           <div>
             <h1>Escuela Profesional de Matemática</h1>
-            <h4>FC-UNI</h4>
+            <h4>Facultad de Ciencias - Universidad Nacional de Ingeniería</h4>
           </div>
         </div>
 
