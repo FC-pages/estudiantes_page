@@ -19,15 +19,13 @@ export default function ContactoPage() {
             Área de Estadística y Registros Académicos
           </p>
           <p>
-            <span className="fw-bold">Jefe: </span> Dr. Helmuth Villavicencio
+            <span className="fw-bold">Jefe: </span> Dr. Helmuth Villavicencio Fernandez
           </p>
           <p className="fw-bold">Secretarias:</p>
           <p>
             <ul>
-              {/*<li> Mabel Carmen Rosales Ramirez</li>*/}
-              <li> Mabel Rosales</li>
-              <li> Elizabeth Almonacid</li>
-              {/*<li> Elizabeth Roxana Almonacid García</li>*/}
+              <li> Mabel Carmen Rosales Ramirez</li>
+              <li> Elizabeth Roxana Almonacid García</li>
             </ul>
           </p>
           <p>
@@ -50,13 +48,12 @@ export default function ContactoPage() {
             Escuela Profesional de Matemática
           </p>
           <p>
-            <span className="fw-bold">Director: </span>Dr. Eladio Ocaña
+            <span className="fw-bold">Director: </span>Dr. Eladio Teófilo Ocaña Anaya
           </p>
           <p className="fw-bold">Secretarias:</p>
           <p>
             <ul>
-              <li>Andrea Hidalgo</li>
-              {/*<li>Andrea Milagros Hidalgo Salomé</li>*/}
+              <li>Andrea Milagros Hidalgo Salomé</li>
             </ul>
           </p>
           <p>
