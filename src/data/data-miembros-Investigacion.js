@@ -169,7 +169,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Marcia Nesiosup",
       //"nombre": "Marcia P.Nesiosup Vilca",
-      "foto": "./fotoblanco.jpg",
+      "foto": "./xprofesor.png",
       "email": "correo@uni.edu.pe",
       "funcion": "Tesista",
       "gradoAc": "Bachiller",
@@ -178,7 +178,7 @@ exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Kriss Gutierrez",
       //"nombre": "Kriss Lady Gutierrez Anco",
-      "foto": "./fotoblanco.jpg",
+      "foto": "./xprofesor.png",
       "email": "correo@uni.edu.pe",
       "funcion": "Tesista",
       "gradoAc": "Bachiller",
