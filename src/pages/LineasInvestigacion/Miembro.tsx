@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFileAlt } from 'react-icons/fa';
+import { BiWorld } from 'react-icons/bi';
 
 export default function Miembro(props: any) {
   const reverse = (s: any) => {
@@ -34,12 +35,26 @@ export default function Miembro(props: any) {
                     <span className="tag">Grado académico:</span>{' '}
                     {props.gradoacd}
                   </li>
-                  <li>
-                    <span className="tag">CV:</span>{' '}
-                    <a className="a-link" href={props.cv}>
-                      <FaFileAlt size={17} />
-                    </a>
-                  </li>
+                    {!props.pagina && props.cv ? (
+                      <li>
+                        <span className="tag">CTI Vitae:</span>&nbsp;&nbsp;&nbsp;
+                        <a className="a-link" href={props.cv}>
+                          <FaFileAlt size={17} />
+                        </a>{' '}
+                      </li>
+                    ) : (
+                      <div />
+                    )}
+                    {props.pagina ? (
+                      <li>
+                        <span className="tag">Página web:</span>&nbsp;&nbsp;&nbsp;
+                        <a className="a-link" href={props.pagina}>
+                          <BiWorld size={17} />
+                        </a>{' '}
+                      </li>
+                    ) : (
+                      <div />
+                    )}
                 </ul>
               </td>
             </tr>

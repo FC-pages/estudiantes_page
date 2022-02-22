@@ -32,24 +32,8 @@ exports.miembrosOptimizacion = [
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=28421",
     },
     {
-      "nombre": "Leopoldo Paredes",
-      "foto": "./docentes/leopoldo_paredes_carnet.png",
-      "email": "l p a r e d e s s @ u n i . e d u . p e",
-      "funcion": "Investigador",
-      "gradoAc": "Licenciado",
-      "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=95237",
-    },
-    {
-      "nombre": "Johnny Valverde",
-      "foto": "johnny_valverde_carnet.PNG",
-      "email": "jv a l v e r d e @ u n i . e d u . p e",
-      "funcion": "Investigador",
-      "gradoAc": "Magister ",
-      "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=c98aec269452ababfabdf9a9343c?id_investigador=22865",
-    },
-    {
       "nombre": "Frank Navarro",
-      "foto": "frank_navarro_carnet.png",
+      "foto": "https://drive.google.com/uc?export=view&id=1jEKoGWFrea3Ptzg5zb3ZmymgZztTA0Z0",
       "email": "f  n a v a r r o @ u n i . e d u . p e",
       "funcion": "Investigador",
       "gradoAc": "Doctor",
@@ -84,11 +68,12 @@ exports.miembrosOptimizacion = [
 exports.miembrosTeoriaDeNumeros = [
     {
       "nombre": "Oswaldo Velasquez",
-      "foto": "oswaldo_velasquez_carnet.png",
+      "foto": "https://drive.google.com/uc?export=view&id=1YS4ck7nTbxPTAL8VSOvZ0ubKYFkRLHe3",
       "email": "o v e l a s q u e z @ u n i . e d u . p e",
       "funcion": "Coordinador",
       "gradoAc": "Doctor",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=16951",
+      "pagina" : "http://www.imca.edu.pe/oswaldo",
       }
   ];
 
@@ -137,7 +122,7 @@ exports.miembrosTeoriaDeNumeros = [
     },
     {
       "nombre": "Irla Mantilla",
-      "foto": "./irla_mantilla_carnet.png",
+      "foto": "https://drive.google.com/uc?export=view&id=1H721rA1r1wOTZeWQZ0LAWXoyloiq0RCH",
       "email": "i r l a m n @ u n i . e d u . p e",
       "funcion": "Investigadora",
       "gradoAc": "Doctora",
@@ -152,6 +137,23 @@ exports.miembrosTeoriaDeNumeros = [
       "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=82909",
     },
     {
+      "nombre": "Leopoldo Paredes",
+      "foto": "./docentes/leopoldo_paredes_carnet.png",
+      "email": "l p a r e d e s s @ u n i . e d u . p e",
+      "funcion": "Investigador",
+      "gradoAc": "Licenciado",
+      "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=95237",
+    },
+    {
+      "nombre": "Johnny Valverde",
+      "foto": "johnny_valverde_carnet.PNG",
+      "email": "jv a l v e r d e @ u n i . e d u . p e",
+      "funcion": "Investigador",
+      "gradoAc": "Magister ",
+      "cv": "http://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=c98aec269452ababfabdf9a9343c?id_investigador=22865",
+    },
+
+    {
       "nombre": "Luis Roca",
       "foto": "luis_roca_carnet.png",
       "email": "l r o c a g @ u n i . e d u . p e",
@@ -160,26 +162,29 @@ exports.miembrosTeoriaDeNumeros = [
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=401"
     },
     {
-      "nombre": "Josue Zacarías Olivet Rojas",
+      "nombre": "Josue Olivet",
+      //"nombre": "Josue Zacarías Olivet Rojas",
       "foto": "./xprofesor.png",
       "email": "correo@uni.edu.pe",
-      "funcion": "Investigador",
+      "funcion": "Tesista",
       "gradoAc": "Bachiller",
       "cv": "" 
     },
     {
-      "nombre": "Kriss Lady Gutierrez Anco",
+      "nombre": "Kriss Gutierrez",
+      //"nombre": "Kriss Lady Gutierrez Anco",
       "foto": "./fotoblanco.jpg",
       "email": "correo@uni.edu.pe",
-      "funcion": "Investigadora",
+      "funcion": "Tesista",
       "gradoAc": "Bachiller",
       "cv": ""
     },
     {
-      "nombre": "Marcia P.Nesiosup Vilca",
+      "nombre": "Marcia Nesiosup",
+      //"nombre": "Marcia P.Nesiosup Vilca",
       "foto": "./fotoblanco.jpg",
       "email": "correo@uni.edu.pe",
-      "funcion": "Investigadora",
+      "funcion": "Tesista",
       "gradoAc": "Bachiller",
       "cv": ""
     }

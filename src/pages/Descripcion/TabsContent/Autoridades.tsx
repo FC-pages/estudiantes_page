@@ -26,7 +26,8 @@ function Autoridades() {
                     <img alt="" width={100} src="./pedro_canales_carnet.png" />
                   </td>
                   <td className="App-profes-td2">
-                    <b> Dr. Pedro Canales García</b>
+                    <b> Dr. Pedro Canales</b>
+                    {/*<b> Dr. Pedro Canales García</b>*/}
                     <ul>
                       <li>
                         {' '}
@@ -69,7 +70,8 @@ function Autoridades() {
                     <img alt="" width={100} src="./eladio_ocania_carnet.jpeg" />
                   </td>
                   <td className="App-profes-td2">
-                    <b> Dr. Eladio Ocaña Anaya</b>
+                    <b> Dr. Eladio Ocaña</b>
+                    {/*<b> Dr. Eladio Ocaña Anaya</b>*/}
                     <ul>
                       <li>
                         {' '}
@@ -111,7 +113,8 @@ function Autoridades() {
                     <img alt="" width={100} src="./rosulo_perez_carnet.png" />
                   </td>
                   <td className="App-profes-td2">
-                    <b> Dr. Rosulo Perez Cupe</b>
+                    <b> Dr. Rósulo Perez</b>
+                    {/*<b> Dr. Rosulo Perez Cupe</b>*/}
                     <ul>
                       <li>
                         <FaEnvelope size={17} /> E-mail: <span className = "correo-oculto">{reverse("rperezc@uni.edu.pe").replace(/\s+/g, '')}</span>{' '}
