@@ -38,6 +38,7 @@ const TabTwo: FC<{}> = () => {
                 nombre={d.nombre}
                 foto={d.foto}
                 correo={d.email}
+                pagina={d.pagina}
                 funcion={d.funcion}
                 gradoacd={d.gradoAc}
                 cv={d.cv}

@@ -19,6 +19,7 @@ export default function EnlacesInteresPage() {
         borderColor: '#1D3557',
         paddingLeft: '0',
         paddingRight: '0',
+        backgroundColor: 'white',
       }}
       className="text-start mt-5"
     >

@@ -5,6 +5,7 @@ import '../../components/estilosTab.css';
 import TestimoniosPage from './TabsContent/TestimoniosPage';
 import EgresadosTitulados from './TabsContent/EgresadosTitulados';
 import AlumnosYTesistas from './TabsContent/AlumnosYTesistas';
+import { colors } from '../../styles/colors';
 
 export default function AlumnosEgresadosPage() {
   return (
@@ -14,13 +15,14 @@ export default function AlumnosEgresadosPage() {
         borderColor: '#1D3557',
         paddingLeft: '0',
         paddingRight: '0',
+        backgroundColor: 'white',
       }}
       className="mt-5"
     >
       <Tab.Container defaultActiveKey="Alumnos y Tesistas">
         <Nav
           // variant="tabs"
-          style={{ backgroundColor: '#1d3557' }}
+          style={{ backgroundColor: colors.main }}
           className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>
