@@ -161,14 +161,19 @@ exports.miembrosTeoriaDeNumeros = [
       "gradoAc": "Licenciado",
       "cv": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=401"
     },
+    
+  
+  ];
+
+  exports.miembroAnalisisNumericoTesistas = [
     {
-      "nombre": "Josue Olivet",
-      //"nombre": "Josue Zacarías Olivet Rojas",
-      "foto": "./xprofesor.png",
+      "nombre": "Marcia Nesiosup",
+      //"nombre": "Marcia P.Nesiosup Vilca",
+      "foto": "./fotoblanco.jpg",
       "email": "correo@uni.edu.pe",
       "funcion": "Tesista",
       "gradoAc": "Bachiller",
-      "cv": "" 
+      "cv": ""
     },
     {
       "nombre": "Kriss Gutierrez",
@@ -180,14 +185,14 @@ exports.miembrosTeoriaDeNumeros = [
       "cv": ""
     },
     {
-      "nombre": "Marcia Nesiosup",
-      //"nombre": "Marcia P.Nesiosup Vilca",
-      "foto": "./fotoblanco.jpg",
+      "nombre": "Josue Olivet",
+      //"nombre": "Josue Zacarías Olivet Rojas",
+      "foto": "./xprofesor.png",
       "email": "correo@uni.edu.pe",
       "funcion": "Tesista",
       "gradoAc": "Bachiller",
-      "cv": ""
+      "cv": "" 
     }
-  ];
 
+  ];
 
