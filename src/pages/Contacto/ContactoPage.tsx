@@ -20,18 +20,19 @@ export default function ContactoPage() {
           </p>
           <p>
             <span className="fw-bold">Jefe: </span> Dr. Helmuth Villavicencio
-            Fernández
           </p>
           <p className="fw-bold">Secretarias:</p>
           <p>
             <ul>
-              <li> Mabel Carmen Rosales Ramirez</li>
-              <li> Elizabeth Roxana Almonacid García</li>
+              {/*<li> Mabel Carmen Rosales Ramirez</li>*/}
+              <li> Mabel Rosales</li>
+              <li> Elizabeth Almonacid</li>
+              {/*<li> Elizabeth Roxana Almonacid García</li>*/}
             </ul>
           </p>
           <p>
             <span className="fw-bold">E-mail: </span>{' '}
-            <span>
+            <span className = "correo-oculto">
               {reverse('es t a d i s t i c a _ f c @ u n i . e d u.pe').replace(
                 /\s+/g,
                 ''
@@ -49,18 +50,18 @@ export default function ContactoPage() {
             Escuela Profesional de Matemática
           </p>
           <p>
-            <span className="fw-bold">Director: </span>Dr. Eladio Teofilo Ocaña
-            Anaya
+            <span className="fw-bold">Director: </span>Dr. Eladio Ocaña
           </p>
           <p className="fw-bold">Secretarias:</p>
           <p>
             <ul>
-              <li>Andrea Milagros Hidalgo Salomé</li>
+              <li>Andrea Hidalgo</li>
+              {/*<li>Andrea Milagros Hidalgo Salomé</li>*/}
             </ul>
           </p>
           <p>
             <span className="fw-bold">E-mail: </span>{' '}
-            <span>
+            <span className = "correo-oculto">
               {reverse('e s c u e l a s _ f c @ u n i . e d u .p e').replace(
                 /\s+/g,
                 ''
@@ -94,7 +95,7 @@ export default function ContactoPage() {
           <p>
             <MdEmail size={25} title="email" />{' '}
             <a className="a-link" href="mailto:fc@fcuni.edu.pe">
-              <span>
+              <span className = "correo-oculto">
                 {reverse('f c @ f c u n i . e d u . p e').replace(/\s+/g, '')}
               </span>
             </a>
