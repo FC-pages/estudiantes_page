@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import imagenmate from '../images/imagenmate.png';
+import bg from '../images/bg.jpg';
 import { colors } from './colors';
 
 
@@ -70,6 +71,7 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-between;
       background-image: url('${imagenmate}');
+      //background-image: url('${bg}');
       background-size:cover; /* auto, cover, contained, 200px 200px*/;
   font-size: calc(10px + 2vmin);
   color: ${colors.main};
