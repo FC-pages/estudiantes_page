@@ -168,6 +168,7 @@
 }
 
 .accordion-item-title {
+  text-align: left;
   width: 100%;
   margin: 0;
   background-color: rgba(141, 141, 141, 0.705);
@@ -184,6 +185,7 @@
   font-weight: 400;
   cursor: pointer;
   user-select: none;
+  text-align: center;
 }
 
 .accordion-item-btn::after {
@@ -216,3 +218,17 @@
 .containerTabOne {
   padding-left: 15vw;
 }
+
+/*
+.video4 {
+  margin-left: 20%;
+}
+*/
+.video4 {
+  /*align-items: center;*/
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+}
+

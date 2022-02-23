@@ -33,7 +33,7 @@ export default function OptimizacionMain() {
         <Container className="p-3">
           <Tab.Content >
             <Tab.Pane eventKey="Acerca">
-              <Acerca/>
+              hj<Acerca/>
             </Tab.Pane>
             <Tab.Pane eventKey="Miembros">
               <Miembros/> 
