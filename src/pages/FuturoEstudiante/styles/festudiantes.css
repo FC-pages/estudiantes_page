@@ -185,7 +185,7 @@
   font-weight: 400;
   cursor: pointer;
   user-select: none;
-  text-align: center;
+  text-align: left;
 }
 
 .accordion-item-btn::after {
