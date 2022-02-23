@@ -18,7 +18,7 @@ export default function TestimoniosPage() {
             <Nav.Link eventKey="Egresados" >Egresados</Nav.Link>
           </Nav.Item>
         </Nav>
-        <Container
+        <div
           className="fs-6">
         
           <Tab.Content className="p-4  fs-8">
@@ -29,7 +29,7 @@ export default function TestimoniosPage() {
               <Testimonios />
             </Tab.Pane>
           </Tab.Content>
-         </Container>
+         </div>
       </Tab.Container>
     </Container>
     
