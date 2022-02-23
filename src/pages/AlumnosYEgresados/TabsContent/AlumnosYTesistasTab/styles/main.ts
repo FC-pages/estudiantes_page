@@ -276,8 +276,8 @@ export const ContainerVideos  = styled.div`
   flex-wrap: wrap;
     >div {
       width: 100%;
-     margin: 1px 8px;
-     margin-top: 50px
+     margin: 1px 15px;
+     margin-top: 85px
     }
   }
 
@@ -292,7 +292,7 @@ export const ContainerVideos  = styled.div`
     .video{
       >div {
         width: 100%;
-        margin-top: 120px;
+        margin-top: 85px;
       }
     }
   }
