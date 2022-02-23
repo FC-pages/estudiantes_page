@@ -15,7 +15,7 @@ export const StyledBurger = styled.div<INav>`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 45px;
+  top: 25px;
   right: 20px;
   z-index: 20;
   display: none;
@@ -114,7 +114,7 @@ export const Header = styled.header`
       justify-content: space-between;
 
       h1 {
-        margin: 30px 0px 5px 0px;
+        margin: 20px 0px 5px 0px;
       }
       h4 {
         margin: 0px 0px;
