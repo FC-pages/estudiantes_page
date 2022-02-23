@@ -30,7 +30,7 @@ export default function OptimizacionMain() {
             <Nav.Link eventKey="Eventos">Eventos Académicos</Nav.Link>
           </Nav.Item>
         </Nav>
-        <Container className="p-3">
+        <div>
           <Tab.Content >
             <Tab.Pane eventKey="Acerca">
               hj<Acerca/>
@@ -48,7 +48,7 @@ export default function OptimizacionMain() {
               <EventosAcademicos/> 
             </Tab.Pane>
           </Tab.Content>
-        </Container>
+        </div>
       </Tab.Container>
     </Container>
   );
