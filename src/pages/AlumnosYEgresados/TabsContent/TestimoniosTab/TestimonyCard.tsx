@@ -25,7 +25,7 @@ function TestimonyCard({ name, image, testimony, fotoCompleta }: CardProps) {
 
   return (
     <S.TCard2>
-      <Card style={{ width: "30rem" }}>
+      <Card >
         <Card.Body className="card-testimony">
           <div className="card-testimony-header">
             <img
