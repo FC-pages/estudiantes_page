@@ -14,6 +14,7 @@ const TabTwo: FC<{}> = () => {
         <h3 className="t-stroke-shadow">Línea de Optimización</h3>
       </div>
       <hr></hr>
+      <h4>DOCENTES</h4>
       <div className="App-center">
         {miembrosOptimizacion
           .sort(function (a: any, b: any) {
