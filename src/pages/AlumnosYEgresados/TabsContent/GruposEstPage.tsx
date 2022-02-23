@@ -29,7 +29,7 @@ export default function GruposEstPage() {
             <Nav.Link eventKey="Actividades">Actividades</Nav.Link>
           </Nav.Item>
         </Nav>
-        <div className="text-start p-3">
+        <div className="text-start">
           <Tab.Content>
             <Tab.Pane eventKey="Acerca de">
               <Row>
