@@ -80,7 +80,7 @@ export const Header = styled.header`
   max-height: 200x;   
   max-height: 200px;   
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
       background-image: url('${imagenmate}');
 
   }
