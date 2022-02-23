@@ -79,6 +79,11 @@ export const Header = styled.header`
   color: ${colors.main};
   max-height: 200x;   
   max-height: 200px;   
+
+  @media (max-width: 768px) {
+      background-image: url('${imagenmate}');
+
+  }
   img {
     height: 150px;
     padding: 0px 15px;
