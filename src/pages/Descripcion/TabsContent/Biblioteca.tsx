@@ -8,6 +8,12 @@ function Biblioteca() {
   };
   return (
     <div className="Biblioteca">
+        <a href="http://www.bibliotecavirtual.uni.edu.pe/" className="w-inline-block enlaces">
+            <div className="position">
+            <p className="text3"> Enlace</p></div>
+            <b className="text2"> BIBLIOTECA VIRTUAL - FACULTAD DE CIENCIAS</b>
+        </a>
+        <p></p>
         <p>La Biblioteca de la Facultad de Ciencias de la Universidad de Ingeniería (UNI),
        como todas las bibliotecas, se enfrenta en los últimos años a nuevos retos tales como 
        los relacionados con la gestión de la información digital, la adaptación de los 
@@ -35,7 +41,7 @@ function Biblioteca() {
   revistas en papel, 121 unidades de soporte electrónico y una colección de la Video-Enciclopedia 
   de Física; además del acceso en línea a las bases de datos catalográficos a través de cuatro 
   computadores para usuarios. </p>
-        <h3>Reseña Histórica</h3>
+        <h4>Reseña Histórica</h4>
         <p>En el año 1960 se crea la Facultad de Ciencias (FC) con las especialidades  de Física,
         Química y Matemática. En marzo de 1962, se crea el Instituto de Matemática (IMUNI)
         que por medio de una donación de la Fundación Ford, es dotado de colecciones de 
@@ -118,9 +124,15 @@ function Biblioteca() {
                 <li><figure><img src="./biblioteca_fc_6-min.jpg" /> </figure></li>
             </ul>
         </figure> */}
+        {/* <div className="contenedor">
+            <img src="./biblio.jpg" />
+            <div className="texto-encima">Texto</div>
+            <div className="centrado">Centrado</div>
+        </div> */}
+        
         <h4>Contacto</h4>
-        Lic. Maritza Dietz Castro
-        Jefe de la Biblioteca (e)
+        <p>Lic. Maritza Dietz</p>
+        <p>Jefe de la Biblioteca (e)</p>
         <ul>
             <li><FaAngleRight size={17}/>E-mail: gradosytitulosfc@uni.edu.pe</li>
             <li ><FaAngleRight size={17}/>Teléfono: 481-0824 anexo 5020 / 5025</li>
