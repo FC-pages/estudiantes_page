@@ -68,7 +68,8 @@ export const TCard = styled.div`
 export const TCard2 = styled.div`
   .card {
     border-radius:8px;
-    border: 0
+    border: 0;
+    max-width: 30rem;
   }
   .header {
     margin: 0px 0px 10px 0px;

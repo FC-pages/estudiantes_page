@@ -69,7 +69,6 @@
 }
 
 .tab-content {
-  padding: 0 15px;
 }
 
 .App-center {
@@ -171,7 +170,7 @@
 }
 
 .resena tr td {
-  width: 50%;
+  max-width: 35em;
 }
 
 .resena tr td:first-child {

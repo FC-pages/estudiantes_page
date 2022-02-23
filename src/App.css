@@ -5,7 +5,7 @@
 body {
   min-height: 100%;
   margin-bottom: 154px !important;
-  background-image: url("./images/bg.jpg");
+  /*background-image: url("./images/bg.jpg");*/
 }
 
 .App-logo {
