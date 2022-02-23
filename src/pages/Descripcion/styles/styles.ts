@@ -33,8 +33,8 @@ export const ContainerPerfil = styled.div`
   @media (max-width: 768px) {
    #img-vidrio {
     float: right;
-    max-width: 60%;
-    width: 60%;
+    max-width: 50%;
+    width: 50%;
   }
   #img-optimizacion {
     max-width: 60%;
