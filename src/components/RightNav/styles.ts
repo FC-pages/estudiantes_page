@@ -62,7 +62,7 @@ export const Ul = styled.ul<INav>`
 
     padding: 0px 40px;
     flex-flow: column nowrap;
-    background-color: #fdfdfdfa;
+    background-color: ${colors.main};//#fdfdfdfa;
     position: fixed;
     transform: ${(props) => props.open ? 'translateX(0)' : 'translateX(100%)'};
     top: -16px;
@@ -75,13 +75,21 @@ export const Ul = styled.ul<INav>`
     justify-content: normal;
 
     li {
-      color: #000;
+      color: white;//#000;
       margin-right: 34px;
 
       &:hover {
         color: ${colors.azulTurquesa};
       }
     }
+    .active{
+          li{
+                //background: #02142F;
+                color: ${colors.azulTurquesa};// 
+                //font-weight: bold;
+          }
+    }
+
   }
 `
 
