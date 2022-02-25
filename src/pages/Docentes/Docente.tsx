@@ -17,7 +17,7 @@ function Docente(props: any) {
     e.preventDefault();
   };
 
-  let titulos = ['Maestro', 'Maestra', 'Magíster', 'Doctor', 'Ingeniero', 'Ingeniera']
+  let titulos = ['Maestro', 'Maestra', 'Magíster', 'Doctor', 'Doctora', 'Ingeniero', 'Ingeniera']
   return (
     <div className="App-profes">
       <span className="borde">
