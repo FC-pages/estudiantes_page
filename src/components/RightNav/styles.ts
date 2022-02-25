@@ -20,7 +20,7 @@ export const Ul = styled.ul<INav>`
   align-items: center;
   font-size: 18px;
   height: 50px;
-  padding: 0px 40;
+  padding: 0px 100px;
   /*margin-left: 150px;*/
   margin-right: 0px;
   z-index: 4;
@@ -59,6 +59,8 @@ export const Ul = styled.ul<INav>`
   }
 
   @media (max-width: 768px) {
+
+    padding: 0px 40px;
     flex-flow: column nowrap;
     background-color: #fdfdfdfa;
     position: fixed;
