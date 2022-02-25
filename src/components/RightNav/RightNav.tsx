@@ -44,7 +44,7 @@ type Props = {
   home: boolean;
 };
 
-function RightNav(props: Props) {
+function RightNav(props: any) {
   return (
     <MemoryRouter>
       <S.Ul open={props.open} home={props.home}>
@@ -52,83 +52,28 @@ function RightNav(props: Props) {
           src="./logo-UNI-footer.png"
           alt={"Universidad Nacional de Ingeniería"}
         />
-        <NavLink to={routes.home}>
+        <NavLink to={routes.home} onClick={() => props.setOpen(!props.open)}>
           <li>Inicio</li>{" "}
         </NavLink>
-        <NavLink to={routes.descripcion}>
+        <NavLink to={routes.descripcion} onClick={() => props.setOpen(!props.open)}>
           <li>Descripción</li>{" "}
         </NavLink>
-        <NavLink to={routes.futuroEstudiante}>
+        <NavLink to={routes.futuroEstudiante} onClick={() => props.setOpen(!props.open)}>
           <li>Futuro Estudiante</li>{" "}
         </NavLink>
-        <NavLink to={routes.docentes}>
+        <NavLink to={routes.docentes} onClick={() => props.setOpen(!props.open)}>
           <li>Docentes</li>{" "}
         </NavLink>
-        <NavLink to={routes.estudiantes_egresados}>
+        <NavLink to={routes.estudiantes_egresados} onClick={() => props.setOpen(!props.open)}>
           <li>Alumnos y egresados</li>{" "}
         </NavLink>
-        <NavLink to="/GruposInvestigacion">
+        <NavLink to="/GruposInvestigacion" onClick={() => props.setOpen(!props.open)}>
               <li>Líneas de investigación</li>{" "}
-            </NavLink>
-
-  {/*
-        <S.DropdownMenu>
-          <li>Grupos de Investigación</li>
-          <div id="dropdown-menu">
-            <NavLink to="/linea_inv1">
-              <li>Análisis y Teoría de Números</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv2">
-              <li>Optimización</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv3">
-              <li>Álgebra, Geometría y Topología</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv4">
-              <li>Probabilidad y Procesos Estocásticos</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv5">
-              <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv6">
-              <li>Análisis Numérico</li>{" "}
-            </NavLink>
-                      </div>
-        </S.DropdownMenu>
-        */}
-        {/*
-        <Dropdown className="menu-desp">
-          <Dropdown.Toggle variant="danger" id="dropdown-basic">
-            Grupos de investigación
-          </Dropdown.Toggle>
-
-          <Dropdown.Menu>
-            <NavLink className="dropdown-item" to="/linea_inv1">
-              <li>Linea de Análisis y Teoría de Números</li>{" "}
-            </NavLink>
-            <NavLink className="dropdown-item" to="/linea_inv2">
-              <li>Línea de Optimización</li>{" "}
-            </NavLink>
-            <NavLink className="dropdown-item" to="/linea_inv3">
-              <li>Línea de Álgebra, Geometría y Topología</li>{" "}
-            </NavLink>
-            <NavLink className="dropdown-item" to="/linea_inv4">
-              <li>Línea de Probabilidad y Procesos Estocásticos</li>{" "}
-            </NavLink>
-            <NavLink className="dropdown-item" to="/linea_inv5">
-              <li>Línea de Ecuaciones Diferenciales y Sistemas Dinámicos</li>{" "}
-            </NavLink>
-            <NavLink className="dropdown-item" to="/linea_inv6">
-              <li>Línea de Análisis Numérico</li>{" "}
-            </NavLink>
-          </Dropdown.Menu>
-        </Dropdown>
-        */}
-
-        <NavLink to={routes.enlacesInteres}>
+        </NavLink>
+        <NavLink to={routes.enlacesInteres} onClick={() => props.setOpen(!props.open)}>
           <li>Enlaces de interes</li>{" "}
         </NavLink>
-        <NavLink to={routes.contacto}>
+        <NavLink to={routes.contacto} onClick={() => props.setOpen(!props.open)}>
           <li>Contacto</li>{" "}
         </NavLink>
       </S.Ul>

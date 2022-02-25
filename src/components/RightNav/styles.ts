@@ -20,7 +20,7 @@ export const Ul = styled.ul<INav>`
   align-items: center;
   font-size: 18px;
   height: 50px;
-  padding: 0px 100px;
+  padding: 0px 40;
   /*margin-left: 150px;*/
   margin-right: 0px;
   z-index: 4;
