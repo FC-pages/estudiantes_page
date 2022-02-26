@@ -52,7 +52,7 @@ function Docente(props: any) {
                   </li>
                   <li>
                     <span className="tag">Línea de interés:</span>{' '}
-                    {props.areasDeInteres}
+                    {props.datos.lineas.toString().replace(/,/g,", ")}
                   </li>
                   {!props.datos.pagina && props.datos.ctivitae ? (
                     <li>
