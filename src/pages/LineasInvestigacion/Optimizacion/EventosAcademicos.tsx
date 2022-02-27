@@ -20,13 +20,18 @@ const TabFour: FC<{}> = () => {
       <h4 className="tit">ISORA (Internacional Seminar on Optimization and Related Areas)</h4>
       <div className="grid">
         <div className="itemLeft3">
-          Este seminario se lleva a cabo cada dos años de forma ininterrumpida desde el año 1993, como un <i>homenaje a la memoria del profesor Eugen Blum</i>, matemático suizo que pasó los últimos 20 años de su vida en el Perú como profesor de la Universidad Nacional de Ingeniería (UNI), institución que promueve este seminario después de su muerte. 
+Este seminario se organiza cada dos años de manera ininterrumpida desde el año 1993, en homenaje a la memoria del profesor Eugen Blum, matemático suizo quien pasó sus últimos 20 años de vida en el Perú como profesor de la Universidad Nacional de Ingeniería (UNI), institución que promueve este seminario.
           <br/>
-          <br/>El área de investigación que desarrolló el prof. Blum fue Optimización Matemática, quien realizó aportes fundamentales. 
           <br/>
-          <br/>Las reuniones ISORA son ahora entre las conferencias periódicas más importantes sobre Optimización y sus aplicaciones en América del Sur.<br/>
-          <br/>A continuación los enlaces de las tres últimas ediciones:<br/>
-          <ul>
+El área de investigación que desarrolló el prof. Blum fue Optimización Matemática, quien realizó aportes relevantes al área.
+          <br/>
+          <br/>
+El ISORA es ahora una de las reuniones periódicas más importantes sobre Optimización (y sus aplicaciones) en América del Sur.
+          <br/>
+          <br/>
+A continuación los enlaces de las tres últimas ediciones:
+          <br/>
+                    <ul>
             <li><a href="http://isora2019.imca.edu.pe/" className="tit2">http://isora2019.imca.edu.pe/</a></li>
             <li><a href="http://isora2017.imca.edu.pe/" className="tit2">http://isora2017.imca.edu.pe/</a></li>
             <li><a href="http://www.imca.edu.pe/isora2015/" className="tit2">http://www.imca.edu.pe/isora2015/</a></li>

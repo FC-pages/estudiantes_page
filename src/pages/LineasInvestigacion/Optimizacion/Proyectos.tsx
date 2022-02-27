@@ -1,6 +1,39 @@
 import React, { FC, Fragment } from "react";
 import "../../../styles/gInvestigacion.css";
 
+let proyectos = [
+  {
+    titulo: "A Inertial-Relaxed splitting algorithm for inclusion problems mixing a composite monotone plus a co-coercive operator",
+    i : "IdI, FC-UNI, 2021.",
+    resumen: "Debido a la gran demanda de métodos de descomposición que permitan lidiar con problemas de optimización de gran talla, proponemos en este proyecto desarrollar algunos algoritmos de descomposición del tipo proximal, aplicados a un modelo extendido de optimización. Además estudiaremos el comportamiento de sus parámetros y la inclusión de nuevos parámetros con el fin de lograr una mejor aceleración de convergencia de estos métodos.",
+  },
+  {
+    titulo: "Optimización combinatoria en grafos con incertidumbre de ubicación",
+    i : "Programa Ecosnord, 2020-2022",
+    resumen: "",
+  },
+  {
+    titulo: "Dualidad fuerte para problemas de optimización cuadrática",
+    i : "IdI, FC-UNI, 2020.",
+    resumen: "El desarrollo del presente trabajo es estudiar la dualidad fuerte (salto de dualidad cero y existencia de solución) para problemas de optimización cuadrática.  Los problemas de optimización cuadrática aparecen con frecuencia como un sub-problema en ciertos algoritmos tales como el algoritmo de región de confianza para problemas de optimización con restricciones donde el problema original es minimizar una función diferenciable no lineal sujeta a restricciones de igualdad y/o desigualdad. La teoría de la dualidad Lagrangiana ha demostrado ser una herramienta importante en el estudio de los problemas de optimización convexa, tanto del punto de vista teórico como del aspecto numérico, por ejemplo para desarrollar métodos computacionales tales como el método dual o primal-dual que resuelven el problema primal a través de los multiplicadores de Lagrange. Bajo no convexidad, Rockafellar, entre otros, introdujo el llamado método lagrangiano aumentado (no lineal) para reducir el salto de dualidad. Estudiaremos bajo qué condiciones (necesarias y suficientes) existe dualidad fuerte para un problema cuadrático correspondiente al lagrangiano aumentado. Veremos diferentes tipos de estos lagrangianos : proximal, sharp, entre otros.",
+  },
+  {
+    titulo: "Algoritmos de descomposición aplicados a problemas de programación mixta",
+    i : "IdI, FC-UNI, 2020",
+    resumen: "",
+  }
+]
+
+const Proyecto = (props: any) => {
+  return (
+    <>
+      <h4 className="tit">{ props.proy.titulo }. <i>{ props.proy.i }</i></h4>
+      <p>{ props.proy.resumen }</p>
+      <hr className="dotted"></hr>
+    </>
+  )
+}
+
 const TabThree: FC<{}> = () => {
   return (
     <Fragment>
@@ -9,6 +42,7 @@ const TabThree: FC<{}> = () => {
       </div>
       <hr></hr>
       {/* <h3>Proyectos</h3> */}
+      {/*
       <h4 className="tit">A Inertial-Relaxed splitting algorithm for inclusion problems mixing a composite monotone plus a co-coercive operator <i>IdI, FC-UNI, 2021</i></h4>
       <p>The increasing popularity of cluster-randomized trials has created many opportunities and challenges for statisticians. In recent years a variation of the traditional cluster randomized trial has been proposed called stepped...</p>
       <hr className="dotted"></hr>
@@ -24,6 +58,14 @@ const TabThree: FC<{}> = () => {
       <h4 className="tit">Algoritmos de descomposición aplicados a problemas de programación mixta. <i>IdI, FC-UNI, 2020</i></h4>
       <p>Una limitación de los modelos clásicos de regresión es que estos asumen un conjunto de supuestos acerca de la naturaleza de las variables consideradas. Supuestos usuales son asumir normalidad en los errores,...</p>
       <hr className="dotted"></hr>
+      */}
+      { proyectos.map((proyecto) => {
+        return (
+          <Proyecto
+            proy = {proyecto}
+          />
+        )
+      }) }
      
     </Fragment>
   );

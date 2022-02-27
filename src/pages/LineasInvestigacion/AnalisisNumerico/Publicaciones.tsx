@@ -1,12 +1,12 @@
 import React, { FC, Fragment } from "react";
 /*import table from "../table.png";*/
 import "../../../styles/gInvestigacion.css";
-import pub1 from "../../../images/cover_bjps.gif";
-import pub2 from "../../../images/journal_jdg.gif";
-import pub3 from "../../../images/pub3.gif";
-import pub4 from "../../../images/pub4.jpeg";
-import pub5 from "../../../images/pub5.jpg";
-import pubb from "../../../images/pubb.gif";
+import pub1 from "../images/AnalisisNumerico/cover_bjps.gif";
+import pub2 from "../images/AnalisisNumerico/journal_jdg.gif";
+import pub3 from "../images/AnalisisNumerico/pub3.gif";
+import pub4 from "../images/AnalisisNumerico/pub4.jpeg";
+import pub5 from "../images/AnalisisNumerico/pub5.jpg";
+import pubb from "../images/AnalisisNumerico/pubb.gif";
 
 const TabFour: FC<{}> = () => {
   return (

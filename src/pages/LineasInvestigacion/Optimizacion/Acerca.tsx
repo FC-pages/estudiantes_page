@@ -47,12 +47,19 @@ const Acerca: FC<{}> = () => {
       <h4 className="justify">Justificación</h4>
        */}
       <p className="justify">
-      En el sector industrial o económico surge a menudo la necesidad de determinar los valores de ciertas variables con el fin de maximizar o minimizar algún criterio. 
+      {/*En el sector industrial o económico surge a menudo la necesidad de determinar los valores de ciertas variables con el fin de maximizar o minimizar algún criterio. 
 <br/> <br/>
 La modelización de estos tipos de problemas y el desarrollo de métodos de solución (y la implementación eficiente) son de interés importante del grupo de optimización. 
 <br/> <br/>
 Algoritmos de optimización que incluyen modelos lineales y no lineales, modelos de optimización combinatoria y enfoques heurísticos, son temas que se desarrollan en el grupo.
+<br/> <br/>*/}
+En los sectores industrial, económico y otros, surgen a menudo la necesidad de determinar los valores de ciertas variables con el fin de maximizar o minimizar algún criterio.
+<br/> <br/>
 
+La modelización de estos tipos de problemas y el desarrollo de métodos de solución (y la implementación eficiente) son de interés importante del grupo de optimización.
+<br/> <br/>
+
+Algoritmos  que incluyen modelos lineales y no lineales, modelos de optimización combinatoria y enfoques heurísticos, son temas que se desarrollan en el grupo.
       </p>
       <h4 className="justify">Objetivo General</h4>
       <p className="justify">
