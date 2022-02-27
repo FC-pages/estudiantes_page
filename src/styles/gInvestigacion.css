@@ -244,6 +244,15 @@
   .itemLeft2 {
     width: 100%;
   }
+
+}
+@media screen and (max-width: 760px) {
+  .foto-grupo {
+    max-width: 100%;
+  }
+  .foto-analisis-numerico {
+    width: 90%;
+  }
 }
 
 .icons2 {
