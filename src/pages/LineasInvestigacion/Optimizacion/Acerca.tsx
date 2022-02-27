@@ -1,7 +1,7 @@
 import React, { FC, Fragment } from 'react';
 //import fotoGrupo from '../../../images/grupoInvestigacion.jpg';
 import '../../../styles/gInvestigacion.css';
-import miembros_optimizacion from "../images/Optimizacion/foto_miembros.png";
+import miembros_optimizacion from "../images/Optimizacion/foto_miembros2.png";
 
 const Acerca: FC<{}> = () => {
   return (

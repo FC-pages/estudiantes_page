@@ -3,7 +3,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 90%;
+  max-width: 75%;
+}
+.foto-analisis-numerico {
+  width: 40%;
 }
 .foto-profesor {
   display: block;
