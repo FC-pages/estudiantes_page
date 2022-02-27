@@ -1,6 +1,7 @@
 import React, { FC, Fragment } from 'react';
-import fotoGrupo from '../../../images/grupoInvestigacion.jpg';
+//import fotoGrupo from '../../../images/grupoInvestigacion.jpg';
 import '../../../styles/gInvestigacion.css';
+import miembros_optimizacion from "../images/Optimizacion/foto_miembros.png";
 
 const Acerca: FC<{}> = () => {
   return (
@@ -23,7 +24,7 @@ const Acerca: FC<{}> = () => {
       </div>
       <br />
 
-      <img alt="" src={fotoGrupo} className="foto-grupo" />
+      <img alt="" src={miembros_optimizacion} className="foto-grupo" />
 
       <br />
       {/*

@@ -29,9 +29,10 @@
 }
 .foto-publicaciones {
   display: block;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-right: auto;
   /* float: right; */
+  height: 160px;
 }
 .foto-eventos {
   display: block;
@@ -171,6 +172,19 @@
   margin-left: 2%;
 }
 
+
+
+.eventoss img {
+  cursor: zoom-in;
+}
+
+
+.modal-image .modal-dialog {
+  max-width: 800px;
+}
+.modal-image img {
+  width: 100%;
+}
 .grid {
   /*background-color: blue;*/
   display: flex;

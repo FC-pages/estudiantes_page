@@ -7,6 +7,10 @@ import pub3 from "../images/Optimizacion/pub3.gif";
 import pub4 from "../images/Optimizacion/pub4.jpeg";
 import pub5 from "../images/Optimizacion/pub5.jpg";
 import pubb from "../images/Optimizacion/pubb.gif";
+import jo_convex_analisis from "../images/Optimizacion/journal_of_convex_analysis.jpeg";
+import optimization from "../images/Optimizacion/optimization.jpeg";
+import ej_operational_research from "../images/Optimizacion/european_journal_of_operational_research.jpeg";
+import jo_heuritics from "../images/Optimizacion/journal_of_heuritics.jpeg";
 
 let publicaciones = [
   {
@@ -15,7 +19,7 @@ let publicaciones = [
     revista: "Journal of Convex Analysis 27, No. 3, 2020.",
     abstract: "Operator splitting methods have been recently concerned with inclusions problems based on composite operators made of the sum of two monotone operators, one of them associated with a linear transformation. We analyze here a general and new splitting method which indeed splits both operator proximal steps, and avoiding costly numerical algebra on the linear operator. The family of algorithms induced by our generalized setting includes known methods like Chambolle-Pock primal-dual algorithm and Shefi-Teboulle Proximal Alternate Direction Method of Multipliers. The study of the ergodic and non ergodic convergence rates show similar rates with the classical Douglas-Rachford splitting scheme. We end with an application to a multi-block convex optimization model which leads to a generalized Separable Augmented Lagrangian Algorithm.",
     src: "https://www.heldermann.de/JCA/JCA27/JCA273/jca27045.htm",
-    imagen: pubb,
+    imagen: jo_convex_analisis,
   },
   {
     titulo: "The relationship between two representations of linear subspaces",
@@ -23,7 +27,7 @@ let publicaciones = [
     revista: "Optimization 69 (11), pp. 2421-2430, 2020.",
     abstract: "This work gives complete expressions of inertia of matrices involved in a linear subspace of ℝn×ℝn when they are presented in two different ways, specifically, as image and as well as kernel of linear maps.",
     src: "https://www.tandfonline.com/doi/abs/10.1080/02331934.2019.1598405?journalCode=gopt20",
-    imagen: pub1,
+    imagen: optimization,
   },
   {
     titulo: "Mixed integer formulations for a routing problem with information collection in wireless networks",
@@ -31,7 +35,7 @@ let publicaciones = [
     revista: "European Journal of Operational Research, Volume 280, Issue 2, pp. 621-638, 2020.",
     abstract: "We study a routing-collecting problem where a system of stations is considered. A vehicle is responsible for collecting information generated continuously in the stations and to deliver it to a base station. The objective is to determine the vehicle route and the collection operations, both physical and wireless, in order to maximize the amount of information collected during a time horizon. Three mixed integer programming models are introduced and a computational study is reported to compare the performance of a solver based on each one of the models.",
     src: "https://www.sciencedirect.com/science/article/abs/pii/S0377221719305636",
-    imagen: pub3,
+    imagen: ej_operational_research,
   },
   {
     titulo: "Heuristics for a vehicle routing problem with information collection in wireless networks",
@@ -39,7 +43,7 @@ let publicaciones = [
     revista: "Journal of Heuristics, Volume 26, Issue 2, pp 187–217, 2020.",
     abstract: "We consider a wireless network where a given set of stations is continuously generating information. A single vehicle, located at a base station, is available to collect the information via wireless transfer. The wireless transfer vehicle routing problem (WTVRP) is to decide which stations should be visited in the vehicle route, how long shall the vehicle stay in each station, and how much information shall be transferred from the nearby stations to the vehicle during each stay. The goal is to collect the maximum amount of information during a time period after which the vehicle returns to the base station. The WTVRP is NP-hard. Although it can be solved to optimality for small size instances, one needs to rely on good heuristic schemes to obtain good solutions for large size instances. In this work, we consider a mathematical formulation based on the vehicle visits. Several heuristics strategies are proposed, most of them based on the mathematical model. These strategies include constructive and improvement heuristics. Computational experiments show that a strategy that combines a combinatorial greedy heuristic to design a initial vehicle route, improved by a fix-and-optimize heuristic to provide a local optimum, followed by an exchange heuristic, affords good solutions within reasonable amount of running time.",
     src: "https://link.springer.com/article/10.1007/s10732-019-09429-6",
-    imagen: pub4,
+    imagen: jo_heuritics,
   }
 ]
 
