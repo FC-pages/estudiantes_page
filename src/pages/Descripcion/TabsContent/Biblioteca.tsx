@@ -11,7 +11,7 @@ function Biblioteca() {
         <a href="http://www.bibliotecavirtual.uni.edu.pe/" className="w-inline-block enlaces">
             <div className="position">
             <p className="text3"> Enlace</p></div>
-            <b className="text2"> BIBLIOTECA VIRTUAL - FACULTAD DE CIENCIAS</b>
+            <b className="text2"> BIBLIOTECA - FACULTAD DE CIENCIAS</b>
         </a>
         <p></p>
         <p>La Biblioteca de la Facultad de Ciencias de la Universidad de Ingeniería (UNI),
