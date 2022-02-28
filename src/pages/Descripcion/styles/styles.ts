@@ -22,7 +22,7 @@ export const ContainerPerfil = styled.div`
   }
   #img-optimizacion {
     max-width: 40%;
-    width: 40%;
+    width: 35%;
     float: left;
   }
   #img-profesores {
