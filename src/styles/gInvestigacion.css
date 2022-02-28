@@ -3,7 +3,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 90%;
+  max-width: 75%;
+}
+.foto-analisis-numerico {
+  width: 40%;
 }
 .foto-profesor {
   display: block;
@@ -29,16 +32,17 @@
 }
 .foto-publicaciones {
   display: block;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-right: auto;
   /* float: right; */
+  height: 160px;
 }
 .foto-eventos {
   display: block;
-  margin-left: 10px;
+  /*margin-left: 10px;*/
   margin-right: auto;
   width: 400px;
-  /* float: right; */
+   /*float: right; */
 }
 
 .itemLeft {
@@ -72,8 +76,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 85%; /*85%*/
-  margin-left: 14%;
+  width: 90%; /*85%*/
+  /*margin-left: 14%;*/
 
   
 }
@@ -101,6 +105,7 @@
   color: #007a91;
   font-weight: bold;
   font-size: 16px;
+  width: 56%;
 }
 .justify {
   text-align: justify;
@@ -132,22 +137,68 @@
   font-weight: bold;
 }
 
+
+.itemLeft3 {
+  /*width: 38vw;*/
+  flex: 420px;
+ 
+  /*background-color: green;*/
+  /*background-color: rgba(111,41,97,.3);*/
+  /*border: 2px solid rgba(111,41,97,.5);*/
+  vertical-align: middle;
+  text-align: justify;
+  text-justify: inter-word;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*width: 70%;*/
+ /* width: 85%; /*85%*/
+  /*margin-left: 14%;*/
+
+}
+
+
 .eventoss {
+  flex: 320px;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 3vw;
+  /*padding-right: 3vw;*/
   /*width: 10vw;*/
   /*background-color: purple;*/
   /*background-color: rgba(111,41,97,.3);*/
   /*border: 2px solid rgba(111,41,97,.5);*/
-  display: inline-block;
+  /*display: inline-block;*/
   vertical-align: top;
   color: #00427a;
-  font-style: italic;
-  font-weight: bold;
-  width: 50px;
-  height: 50px;
+  /*width: 50px;*/
+  /*height: 50px;*/
+  width: 25%; /*85%*/
+  margin-left: 2%;
 }
+
+
+
+.eventoss img {
+  cursor: zoom-in;
+}
+
+
+.modal-image .modal-dialog {
+  max-width: 800px;
+}
+.modal-image img {
+  width: 100%;
+}
+.grid {
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%; /*85%*/
+  /*margin-left: 14%;*/
+
+  
+}
+
 
 .itemLeft2 {
   width: 38vw;
@@ -187,6 +238,21 @@
   .column {
     width: 100%;
   }
+  .tit {
+    width:100%;
+  }
+  .itemLeft2 {
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 760px) {
+  .foto-grupo {
+    max-width: 100%;
+  }
+  .foto-analisis-numerico {
+    width: 90%;
+  }
 }
 
 .icons2 {
@@ -216,4 +282,11 @@
   padding: 10px;
 }
 
+.miembros {
+  align-items: center;
+  align-content: center;
+  /*background-color: pink;*/
+  text-align: center;
+  margin: auto;
+}
 

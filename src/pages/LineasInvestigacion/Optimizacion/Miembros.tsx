@@ -15,7 +15,7 @@ const TabTwo: FC<{}> = () => {
       </div>
       <hr></hr>
       <h4>DOCENTES</h4>
-      <div className="App-center">
+      <div className="miembros">
         {miembrosOptimizacion
           .sort(function (a: any, b: any) {
             let valueA = a.nombre;

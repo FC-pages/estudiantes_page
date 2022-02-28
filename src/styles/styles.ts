@@ -274,6 +274,8 @@ export const ContainerVideos  = styled.div`
     width: 100%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
     >div {
       width: 45%;
      margin: 50px 10px;

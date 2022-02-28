@@ -17,6 +17,7 @@ function Docente(props: any) {
     e.preventDefault();
   };
 
+  let titulos = ['Maestro', 'Maestra', 'Magíster', 'Doctor', 'Doctora', 'Ingeniero', 'Ingeniera']
   return (
     <div className="App-profes">
       <span className="borde">
@@ -47,11 +48,11 @@ function Docente(props: any) {
                   </li>
                   {/* <li>Cursos asignados*: - </li> */}
                   <li>
-                    <span className="tag">Grado o Título:</span> {props.gradoAc}{' '}
+                    <span className="tag">Grado o Título:</span> {titulos.includes(props.datos.gradootitulo)? props.datos.gradootitulo:<></> }{' '}
                   </li>
                   <li>
                     <span className="tag">Línea de interés:</span>{' '}
-                    {props.areasDeInteres}
+                    {props.datos.lineas.toString().replace(/,/g,", ")}
                   </li>
                   {!props.datos.pagina && props.datos.ctivitae ? (
                     <li>

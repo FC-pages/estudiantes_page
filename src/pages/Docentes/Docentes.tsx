@@ -51,7 +51,7 @@ function Docentes() {
         //console.log(data.docentes);
       })
       .catch(error => {
-        //console.error("Error fetching", error);
+        console.error("Error fetching", error);
         setError(error);
         
       })

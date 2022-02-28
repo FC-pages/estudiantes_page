@@ -42,7 +42,7 @@ export default function AlumnosEgresadosPage() {
             <Nav.Link eventKey="GEM">GEM</Nav.Link>
           </Nav.Item>
         </Nav>
-        <Container className="pt-3 pb-3">
+        <div className="pt-3 pb-3 pl-0 pr-0">
           <Tab.Content>
             <Tab.Pane eventKey="Alumnos y Tesistas">
               <AlumnosYTesistas />
@@ -57,7 +57,7 @@ export default function AlumnosEgresadosPage() {
               <GruposEstPage />
             </Tab.Pane>
           </Tab.Content>
-        </Container>
+        </div>
       </Tab.Container>
     </Container>
   );

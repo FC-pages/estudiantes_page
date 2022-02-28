@@ -57,7 +57,7 @@ export default function AlumnosEgresadosPage() {
             </Nav.Link>
           </Nav.Item>
         </Nav>
-        <Container className="p-3"
+        <div className="pt-3 pb-3"
           style={{
             background: "white",
           }}
@@ -82,7 +82,7 @@ export default function AlumnosEgresadosPage() {
               <AnalisisNumericoMain/>
             </Tab.Pane>
           </Tab.Content>
-        </Container>
+        </div>
       </Tab.Container>
     </Container>
   );

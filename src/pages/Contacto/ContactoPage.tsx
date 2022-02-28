@@ -24,8 +24,10 @@ export default function ContactoPage() {
           <p className="fw-bold">Secretarias:</p>
           <p>
             <ul>
-              <li> Mabel Carmen Rosales Ramirez</li>
-              <li> Elizabeth Roxana Almonacid García</li>
+              <li> Mabel Rosales Ramirez</li>
+              {/*<li> Mabel Carmen Rosales Ramirez</li>*/}
+              <li> Elizabeth Almonacid García</li>
+              {/*<li> Elizabeth Roxana Almonacid García</li>*/}
             </ul>
           </p>
           <p>
@@ -48,12 +50,14 @@ export default function ContactoPage() {
             Escuela Profesional de Matemática
           </p>
           <p>
-            <span className="fw-bold">Director: </span>Dr. Eladio Teófilo Ocaña Anaya
+            {/*<span className="fw-bold">Director: </span>Dr. Eladio Teófilo Ocaña Anaya*/}
+            <span className="fw-bold">Director: </span>Dr. Eladio Ocaña Anaya
           </p>
           <p className="fw-bold">Secretarias:</p>
           <p>
             <ul>
-              <li>Andrea Milagros Hidalgo Salomé</li>
+              <li>Andrea Hidalgo Salomé</li>
+              {/*<li>Andrea Milagros Hidalgo Salomé</li>*/}
             </ul>
           </p>
           <p>

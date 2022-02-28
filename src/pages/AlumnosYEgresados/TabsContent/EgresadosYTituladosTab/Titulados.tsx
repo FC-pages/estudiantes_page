@@ -17,17 +17,17 @@ function Titulado(props: any) {
 
   return (
     <>
-      <tr>
+      <tr >
         <td>{props.index}</td>
-        <td>
+        <td className = "text-start">
           <a className="a-link" onClick={handleShow} href="#">
             {props.titulado.nombre}
           </a>
         </td>
-        <td>{props.titulado.tituloDeTesis}</td>
-        <td>{props.titulado.fechaSustentacionTesis}</td>
-        <td>{props.titulado.actividadActual}</td>
-        <td className = "correo-oculto">{reverse(props.titulado.contacto).replace(/\s+/g, '')}</td>
+        <td className = "text-start">{props.titulado.tituloDeTesis}</td>
+        <td className = "text-start">{props.titulado.fechaSustentacionTesis}</td>
+        <td className = "text-start">{props.titulado.actividadActual}</td>
+        <td className = "correo-oculto text-start">{reverse(props.titulado.contacto).replace(/\s+/g, '')}</td>
                        
       </tr>
       <Modal show={show} onHide={handleClose}>

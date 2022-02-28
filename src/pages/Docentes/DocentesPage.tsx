@@ -37,7 +37,7 @@ export default function DocentesTabs() {
         </Nav>
         <div className="pt-3">
           <Tab.Content >
-            <Tab.Pane eventKey="Docentes">
+            <Tab.Pane className = "text-center" eventKey="Docentes">
               <Docentes />
             </Tab.Pane>
             <Tab.Pane eventKey="Publicaciones">

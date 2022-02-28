@@ -19,7 +19,7 @@ function App() {
           <div />
           <div />
         </S.StyledBurger>
-        <RightNav open={open} home={true} />
+        <RightNav open={open} home={true}  setOpen = {setOpen} />
       </div>
     <Footer/>
     </>
