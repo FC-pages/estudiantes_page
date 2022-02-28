@@ -185,41 +185,20 @@
   
 }  */
 
-.anios {
+/* .anios {
   font-size: 50px;
-  /* border-bottom: 10px solid #071332;
+  border-bottom: 10px solid #071332;
   border-width: 100%;
   background-size: 0px 50px;
-  /* padding: 10px 0px; */
+  padding: 10px 0px;
   margin: 0px 10px;
   margin-right: 10px;
-  color: rgb(255, 255, 255);
-  /* letter-spacing:0.05em; */
+  color: rgb(255, 255, 255)
+  letter-spacing:0.05em;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #1d3557;
-}
-
-.App-creditos {
-  margin: 5px auto;
-  border-collapse: collapse;
-  text-align: center;
-}
-.App-creditos th {
-  border: solid 1px #1d3557;
-  background-color: #1d3557;
-  color: white;
-}
-.App-creditos td {
-  border: solid 1px #1d3557;
-}
-
-.App-creditos td:last-child {
-  text-align: left;
-}
-.App-creditos tr:nth-child(odd) {
-  background-color: rgba(204, 204, 204, 0.959);
-}
+} */
 
 .App-archivo {
   /* list-style-type: circle ; */
@@ -232,61 +211,19 @@
     content: '\f15c';
 } */
 
-.App-profes-td2 {
-  padding: 7px;
-  /* padding-top: 5px; */
-  /* padding-right: 0; */
-  text-align: left;
-  /* position: static; */
-}
-
-.App-profes-td2 ul {
-  list-style: none;
-  margin: 0;
-  padding: 4px;
-  font-size: 10pt;
-  text-align: left;
-}
-
-.App-profes-td2 ul li {
-  content: "";
-  /* border-left: 4px solid #CCC; */
-  padding-left: 12px;
-  line-height: 180%;
-  border-bottom: 1.8px dashed #ccc;
-  margin-left: 2px;
-  text-indent: -10px;
-  /* border-right: 1.5px dashed #ccc; */
-}
-
-.App-rectangulo {
-  background: rgb(7, 19, 50, 0.3);
-  height: 10px;
-  width: 100%;
-  margin-top: -8px;
-}
-
-.App-rectangulo2 {
-  background: #1d3557;
-  height: 10px;
-  width: 100%;
-  /* margin-bottom: -5px ; */
-  margin-top: 15px;
-}
 
 .App-profes {
   display: inline-block;
   /* font-size: 11pt; */
-
   height: max-content;
-  padding: 5px 5px;
+  padding: 6px 6px;
   width: 455px;
   margin: 0px auto;
   text-align: left;
   vertical-align: middle;
-  border: 1px solid rgba(0,0,0,.045);
+  /* border: 1px solid rgba(0,0,0,.045); */
   overflow: auto;
-   border-radius: 0.25rem;
+   /* border-radius: 0.25rem; */
   /* margin-inline: auto; */
 }
 
@@ -380,7 +317,6 @@
 
 .App-profes-td ul li .tag {
   font-weight: 500;
-
 }
 
 .App-profes-td ul li:nth-child(2) {
@@ -391,32 +327,13 @@
   color: #08698f;
   cursor: pointer;
 }
-.App-profes-images2 {
-  background-image: url("../../images/fotoblanco.png");
-  background-repeat: no-repeat;
-  background-size: 100px 125px;
-  background-position: center;
-  vertical-align: middle;
-  width: 110px;
-}
-.App-profes-imagesm {
-  background-image: url("../../images/fotomunguia.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100px 125px;
-  background-position: center;
-  vertical-align: top;
-  /* height: 140px; */
-  width: 110px;
-  /* object-fit: contain; */
-}
-
+/*
 .cont-img {
-  /*
   width: 105px;
   height: 147px;
   overflow: hidden;
-  */
-}
+  
+}*/
 .App-profes img {
   /*height: 147px;*/
     float: left;

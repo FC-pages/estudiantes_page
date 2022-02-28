@@ -1,6 +1,7 @@
 
 import React from "react";
-import { FaAngleRight } from 'react-icons/fa';
+import { FaAngleRight} from 'react-icons/fa';
+import { FaPhoneVolume} from 'react-icons/fa';
 function Biblioteca() {
 
   const reverse = (s: any) => {
@@ -10,8 +11,9 @@ function Biblioteca() {
     <div className="Biblioteca">
         <a href="http://www.bibliotecavirtual.uni.edu.pe/" className="w-inline-block enlaces">
             <div className="position">
-            <p className="text3"> Enlace</p></div>
-            <b className="text2"> BIBLIOTECA - FACULTAD DE CIENCIAS</b>
+              <p className="text3"> Enlace</p></div>
+              <b className="text2"> BIBLIOTECA - FACULTAD DE CIENCIAS</b>
+            </div>
         </a>
         <p></p>
         <p>La Biblioteca de la Facultad de Ciencias de la Universidad de Ingeniería (UNI),
@@ -70,73 +72,69 @@ function Biblioteca() {
             <li><FaAngleRight size={17}/> Reprografía y reproducción</li>
             <li><FaAngleRight size={17}/> Consulta de catálogo en línea</li>
             <li><FaAngleRight size={17}/> Biblioteca virtual</li>
-            <li><FaAngleRight size={17}/>Carnetización</li>
+            <li><FaAngleRight size={17}/> Carnetización</li>
         </ul>
-        <a href="http://www.bibliotecavirtual.uni.edu.pe/">Link de la biblioteca</a>
         <p></p>
-        <div className="div-imagen">
-            {/* <div className="text">
-                Descripción de la foto que quieres que se muestre
-            </div> */}
-            <img className="desvanecer" src="./lecturaensala.jpg" />
-        </div>
+        <div className="App-center">
+            <div className="div-imagen w-inline-block">
+                <div className="position">
+                    <p>Descripción de la foto que quieres que se muestre</p>
+                </div>
+                <img className="desvanecer" src="./lecturaensala.jpg" />
+            </div>
 
-        <div className="div-imagen">
-            {/* <div className="text">
-                Descripción de la foto que quieres que se muestre
-            </div> */}
-            <img className="desvanecer" src="./biblioteca_fc_2-min.jpg" />
-        </div>
+            <div className="div-imagen">
+                {/* <div className="text">
+                    Descripción de la foto que quieres que se muestre
+                </div> */}
+                <img className="desvanecer" src="./biblioteca_fc_2-min.jpg" />
+            </div>
 
-        <div className="div-imagen">
-            {/* <div className="overlay">
-                Descripción de la foto que quieres que se muestre
-                <div className="catItemDateCreated">
-                    <span>16</span> Nov</div>   
-            </div> */}
-            <img className="desvanecer" src="./biblioteca_fc_3-min.jpg" />
+            <div className="div-imagen">
+                {/* <div className="overlay">
+                    Descripción de la foto que quieres que se muestre
+                    <div className="catItemDateCreated">
+                        <span>16</span> Nov</div>   
+                </div> */}
+                <img className="desvanecer" src="./biblioteca_fc_3-min.jpg" />
+            </div>
+            <div className="div-imagen">
+                {/* <div className="text">
+                    Descripción de la foto que quieres que se muestre
+                </div> */}
+                <img className="desvanecer" src="./biblioteca_fc_4-min.jpg" />
+            </div>
+            <div className="div-imagen">
+                {/* <div className="text">
+                    Descripción de la foto que quieres que se muestre
+                </div> */}
+                <img className="desvanecer" src="./biblioteca_fc_5-min.jpg" />
+            </div>
+            <div className="div-imagen">
+                {/* <div className="text">
+                    Descripción de la foto que quieres que se muestre
+                </div> */}
+                <img className="desvanecer" src="./biblioteca_fc_6-min.jpg" />
+            </div>
         </div>
-        <div className="div-imagen">
-            {/* <div className="text">
-                Descripción de la foto que quieres que se muestre
-            </div> */}
-            <img className="desvanecer" src="./biblioteca_fc_4-min.jpg" />
+        <hr></hr>
+        <div className="App-center">
+            <div className="block borde">
+                <div className="block-container App-center">
+                        <FaPhoneVolume className="main-color" size={35} /><br></br>
+                        <p><strong>Lic. Maritza Dietz Castro</strong><br></br>
+                        Jefe de la Biblioteca (e)<br></br>
+                        <strong>E-mail:</strong> gradosytitulosfc@uni.edu.pe<br></br>
+                        <strong>Teléfono:</strong> 481-0824 anexo 5020 / 5025</p> 
+                </div>
+            </div>
+            <div className="block borde">
+                <div className="block-container App-center">
+                    <p>Cuadro 2</p>
+                </div>
+            </div>
         </div>
-        <div className="div-imagen">
-            {/* <div className="text">
-                Descripción de la foto que quieres que se muestre
-            </div> */}
-            <img className="desvanecer" src="./biblioteca_fc_5-min.jpg" />
-        </div>
-        <div className="div-imagen">
-            {/* <div className="text">
-                Descripción de la foto que quieres que se muestre
-            </div> */}
-            <img className="desvanecer" src="./biblioteca_fc_6-min.jpg" />
-        </div>
-        {/* <figure className="gallery">
-            <ul >
-                <li><figure><img src="./lecturaensala.jpg" /></figure> </li>
-                <li><figure><img src="./biblioteca_fc_2-min.jpg" /> </figure></li>
-                <li><figure><img src="./biblioteca_fc_3-min.jpg" /> </figure> </li>
-                <li><figure><img src="./biblioteca_fc_4-min.jpg" /> </figure></li>
-                <li><figure><img src="./biblioteca_fc_5-min.jpg" /> </figure></li>
-                <li><figure><img src="./biblioteca_fc_6-min.jpg" /> </figure></li>
-            </ul>
-        </figure> */}
-        {/* <div className="contenedor">
-            <img src="./biblio.jpg" />
-            <div className="texto-encima">Texto</div>
-            <div className="centrado">Centrado</div>
-        </div> */}
-        
-        <h4>Contacto</h4>
-        <p>Lic. Maritza Dietz</p>
-        <p>Jefe de la Biblioteca (e)</p>
-        <ul>
-            <li><FaAngleRight size={17}/>E-mail: gradosytitulosfc@uni.edu.pe</li>
-            <li ><FaAngleRight size={17}/>Teléfono: 481-0824 anexo 5020 / 5025</li>
-        </ul>
+        <p></p>
     </div>
   ) 
 }

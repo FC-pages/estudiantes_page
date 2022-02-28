@@ -29,18 +29,18 @@ function PlanEstudios() {
         multidisciplinarios
       </p>
       <p></p>
-      <b>
+      <h6>
         Total de Créditos Exigidos al alumno para egresar en la Escuela
         Profesional de Matemática:
-      </b>
+      </h6>
       <p></p>
-      <table className="App-creditos" cellPadding={4}>
+      <table className="creditos" cellPadding={4}>
         {/* <tr>
                 <th> Item </th>
                 <th>Créditos</th>
                 <th>Especificación</th>
               </tr> */}
-        <tr className="App-creditos-th">
+        <tr>
           <td> Item </td>
           <td>Créditos</td>
           <td>Especificación</td>
@@ -79,30 +79,27 @@ function PlanEstudios() {
         </tr>
       </table>
       <p></p>
-      <b>Descargar:</b>
-
-      <div className='Biblioteca'>
+      <h6>Descargar:</h6>
+      <div className='vineta'>
         <ul>
           <li>
-            <FaAngleRight size={17}/>
-            Plan de estudios completo.{' '}
+            <FaAngleRight size={17}/>Plan de estudios completo.{' '}
             <a className="a-link" href="plancompleto.pdf">
+              
               <FaPaperclip size={20} />
             </a>
           </li>
           <li>
             <FaAngleRight size={17}/>
-            Tabla de convalidaciones. <FaPaperclip size={20} />
+            Tabla de convalidaciones.{' '} <FaPaperclip size={20} />
           </li>
           <li>
             <FaAngleRight size={17}/>
-            Malla curricular con electivos 2018-1. <FaPaperclip size={20} />
+            Malla curricular con electivos 2018-1.{' '} <FaPaperclip size={20} />
           </li>
           <li>
-            <FaAngleRight size={17}/>
-            Malla curricular sin electivos 2018-1.{' '}
+            <FaAngleRight size={17}/>Malla curricular sin electivos 2018-1.{' '}
             <a className="a-link" href="mallacurricular.pdf">
-              {' '}
               <FaPaperclip size={20} />
             </a>
           </li>

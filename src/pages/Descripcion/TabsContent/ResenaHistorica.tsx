@@ -136,7 +136,6 @@ function ResenaHistorica() {
                       Resolución Rectoral Nº 1481 del 3.11.09 se creó la Escuela Profesional 
                       de Ciencia de la Computación.
                     </p>
-                    
                   </td>
                   <td> </td>
                 </tr>
@@ -152,7 +151,7 @@ function ResenaHistorica() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="top">
+                  <td>
                     <img alt="" src="./impa.png" />
                     <p></p>
                     <b className="anios2" > Actualmente</b>
@@ -160,8 +159,6 @@ function ResenaHistorica() {
                       La Facultad de Ciencias cuenta con las especialidades de Física, 
                       Matemática, Química, Ingeniería física y Ciencias de la computación. {" "}
                     </p>
-                  </td>
-                  <td>
                     <Row xs={1} md={1} className="g-4">
                       <S.ContainerVideos className="containerTabOne">
                         <div className="video">
@@ -170,7 +167,7 @@ function ResenaHistorica() {
                               <Card bg="dark" text="white">
                                 <ReactPlayer controls width="100%" height={200}  url={video.href} />
                                 <Card.Body>
-                                  <Card.Title>{video.name}</Card.Title>
+                                  <Card.Title className="fonth3">{video.name}</Card.Title>
                                   <Card.Text>
                                       {video.name === "Importancia de estudiar Matemática" ? 
                                         <>
@@ -200,6 +197,7 @@ function ResenaHistorica() {
                       </S.ContainerVideos>
                     </Row> 
                   </td>
+                  <td></td>
                 </tr>
               </table>
           </div>

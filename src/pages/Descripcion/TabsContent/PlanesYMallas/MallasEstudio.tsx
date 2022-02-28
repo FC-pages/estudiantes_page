@@ -20,7 +20,7 @@ let videos = [
     // <Container className="text-start p-3">
     <Container>
       <p className="fw-bold fs-5">Mallas curriculares</p>
-      <div className="Biblioteca">
+      <div className="vineta">
         <ul>
           <li>
             <FaAngleRight size={17}/>
@@ -31,22 +31,29 @@ let videos = [
           </li>
           <li> 
             <FaAngleRight size={17}/>
-            {/* <FaAngleRight size={17} className="blue"/> */}
-            Malla Análisis Numérico y Ecuaciones Diferenciales {' '} </li>
+            Malla Análisis Numérico y Ecuaciones Diferenciales. {' '}
+            <FaPaperclip size={20} />
+          </li>
           <li> 
             <FaAngleRight size={17}/>
-            {/* <FaAngleRight size={17} className="blue"/>  */}
-            Malla Optimización y Control {' '}</li>
+            Malla Optimización y Control. {' '}
+            <FaPaperclip size={20} />
+          </li>
           <li> 
             <FaAngleRight size={17}/>
-            {/* <FaAngleRight size={17} className="blue"/>  */}
-            Malla Estadistica y Procesos Estocasticos {' '}</li>
+            Malla Estadistica y Procesos Estocasticos. {' '}
+            <FaPaperclip size={20} />
+          </li>
         </ul>
       </div>
       <p className="fw-bold fs-5">Plan de estudios</p>
-      <Container>
-        <p>Plan de Estudios Vigente</p>
-      </Container>
+      <div className="vineta">
+        <ul>
+          <li> <FaAngleRight size={17}/>Plan de Estudios Vigente. {' '}
+          <FaPaperclip size={20} />
+          </li>
+        </ul>
+      </div>
 
       <Row xs={1} md={1} className="g-4">
         <S.ContainerVideos className="containerTabOne">

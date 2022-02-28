@@ -13,32 +13,28 @@ function Autoridades() {
       <article id="tab4">
         <p></p>
         <section className="App-center">
-          <div className="App-profes">
-            <a className="borde">
+          {/* <div className="App-profes">
+            <span className="borde">
               <table cellPadding={6}>
                 <tr>
                   <td colSpan={2}>DECANO </td>
                 </tr>
                 <tr>
-                  {/* <td className="App-profes-images"></td>  */}
+                  <td className="App-profes-images"></td> 
                   <td className='img'>
-                    {' '}
                     <img alt="" width={100} src="./pedro_canales_carnet.png" />
                   </td>
                   <td className="App-profes-td2">
                     <b> Dr. Pedro Canales García</b>
                     <ul>
                       <li>
-                        {' '}
                         <FaEnvelope size={17} /> E-mail: <span className = "correo-oculto">{reverse("pcanales@uni.edu.pe").replace(/\s+/g, '')}</span>
                       
                       </li>
                       <li>
-                        {' '}
                         <FaPhoneAlt size={17} /> Teléfono: 481-0824{' '}
                       </li>
                       <li>
-                        {' '}
                         <FaHandPointRight size={17} /> Central UNI: Anexos 5000,
                         5002, 5003
                       </li>
@@ -46,10 +42,10 @@ function Autoridades() {
                   </td>
                 </tr>
               </table>
-            </a>
-          </div>
+            </span>
+          </div> */}
           <div className="App-profes">
-            <a className="borde">
+            <span className="borde">
               <table cellPadding={6}>
                 <tr>
                   <td colSpan={2}>
@@ -73,37 +69,31 @@ function Autoridades() {
                     <ul>
                       <li>
                         {' '}
-                        <FaEnvelope size={17} /> E-mail: <span className = "correo-oculto">{reverse("eocana@uni.edu.pe").replace(/\s+/g, '')}</span>
+                        <FaEnvelope size={17} />{' '}E-mail: <span className = "correo-oculto">{reverse("eocana@uni.edu.pe").replace(/\s+/g, '')}</span>
 
                       </li>
                       <li>
                         {' '}
-                        <FaPhoneAlt size={17} /> Central FC: Anexo 14{' '}
+                        <FaPhoneAlt size={17} />{' '}Central FC: Anexo 14{' '}
                       </li>
                       <li>
                         {' '}
-                        <FaHandPointRight size={17} /> Central UNI: Anexo 5033
+                        <FaHandPointRight size={17} /> {' '}Central UNI: Anexo 5033
                       </li>
                     </ul>
                   </td>
                 </tr>
               </table>
-            </a>
+            </span>
           </div>
           <div className="App-profes">
-            <a className="borde">
+            <span className="borde">
               <table cellPadding={6}>
                 <tr>
                   <td colSpan={2}>
                     DIRECTOR DEL DEPARTAMENTO ACAD. DE MATEMÁTICA{' '}
                   </td>
                 </tr>
-                {/* <tr>
-                        <th colSpan={2}>
-                          {" "}
-                          Director del Departamento acad. de Matemática
-                        </th>
-                      </tr> */}
                 <tr>
                   {/* <td className="App-profes-images"></td>  */}
                   <td className='img'>
@@ -114,21 +104,21 @@ function Autoridades() {
                     <b> Dr. Rosulo Perez Cupe</b>
                     <ul>
                       <li>
-                        <FaEnvelope size={17} /> E-mail: <span className = "correo-oculto">{reverse("rperezc@uni.edu.pe").replace(/\s+/g, '')}</span>{' '}
+                        <FaEnvelope size={17} /> {' '}E-mail: <span className = "correo-oculto">{reverse("rperezc@uni.edu.pe").replace(/\s+/g, '')}</span>{' '}
                       </li>
                       <li>
                         {' '}
-                        <FaPhoneAlt size={17} /> Central FC: Anexo 17
+                        <FaPhoneAlt size={17} /> {' '}Central FC: Anexo 17
                       </li>
                       <li>
                         {' '}
-                        <FaHandPointRight size={17} /> Central UNI: Anexo 5025
+                        <FaHandPointRight size={17} /> {' '}Central UNI: Anexo 5025
                       </li>
                     </ul>
                   </td>
                 </tr>
               </table>
-            </a>
+            </span>
           </div>
           {/*
                 <div className="App-profes">
