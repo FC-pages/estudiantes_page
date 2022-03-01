@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaFileAlt } from 'react-icons/fa';
 import { BiWorld } from 'react-icons/bi';
+import perfilImage from '../../images/perfil_black.png';
 
 export default function Miembro(props: any) {
   const reverse = (s: any) => {
@@ -15,7 +16,7 @@ export default function Miembro(props: any) {
     'Doctora',
     'Ingeniero',
     'Ingeniera',
-  ];
+  ]; let sinpagina = ['no tengo']
   return (
     <div className="App-profes">
       <span className="borde">
@@ -27,7 +28,7 @@ export default function Miembro(props: any) {
             <tr>
               <td>
                 <div className="cont-img">
-                  <img alt="" src={props.foto} />{' '}
+                <img alt="" src={props.foto ? props.foto : perfilImage} />{' '}
                 </div>
               </td>
               <td className="App-profes-td">
@@ -66,9 +67,9 @@ export default function Miembro(props: any) {
                   {props.pagina ? (
                     <li>
                       <span className="tag">Página web:</span>&nbsp;&nbsp;&nbsp;
-                      <a className="a-link" href={props.pagina}>
+                      {sinpagina.includes(props.pagina) ? <></> : <a className="a-link" href={props.pagina}>
                         <BiWorld size={17} />
-                      </a>{' '}
+                      </a>}{' '}
                     </li>
                   ) : (
                     <div />
