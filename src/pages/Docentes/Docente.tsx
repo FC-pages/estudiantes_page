@@ -28,7 +28,7 @@ function Docente(props: any) {
     //
       let primerapellido = nombres[0] === "LA ROSA OBANDO" ? "La Rosa": nombres[0].split(" ")[0];
       let str = (primernombre +  "_" + primerapellido).toLowerCase().replace(/ /g, "");
-      return 'docentes/'.concat(`${removeAccents(str)}.jpg`);
+      return 'docentes/'.concat(`${str}.jpg`);
   }
 
 
