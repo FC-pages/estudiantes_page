@@ -95,6 +95,27 @@ function Otros() {
           src="./enlaces/beca-conycit.jpg"
         />
       </a>
+
+
+
+    <br />
+
+      <p className="mt-3 fs-4 fw-bold">
+        5.{' '}
+        <a className="a-link-title" href="https://www.abc.es/ciencia/">
+          Ciencia en ABC.es
+        </a>
+      </p>
+      <p className="ms-3">
+      </p>
+      <a className="ms-3" href="https://www.conicyt.cl/becasconicyt/">
+        <img
+          style={{ height: '90px' }}
+          alt="abc ciencia"
+          src="./enlaces/abc_ciencia.png"
+        />
+      </a>
+
     </div>
   );
 }
