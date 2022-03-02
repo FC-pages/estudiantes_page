@@ -107,6 +107,10 @@
   font-size: 16px;
   width: 56%;
 }
+.tit a {
+  text-decoration: none;
+  color: #007a91;
+}
 .justify {
   text-align: justify;
   text-justify: inter-word;

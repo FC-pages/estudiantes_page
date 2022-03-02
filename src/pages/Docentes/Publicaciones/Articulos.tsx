@@ -3,10 +3,48 @@ import React, { FC, Fragment } from "react";
 // import "../../../styles/gInvestigacion.css";
 
 // import profesor1 from "../../images/profesor1.jpg"; 
+import { optimization_publicaciones, analisisNumerico_publicaciones } from '../../../data/publicaciones.js';
+const Publicacion = (props: any) => {
+
+  return (
+      <>
+      <h4 className="tit"><a href = {props.pub.src}>&quot;{ props.pub.titulo }&quot; <i>({ props.pub.autores }). { props.pub.revista }</i></a></h4>
+      <br/>
+      <hr className="dotted"></hr>
+      </>
+  )
+}
 
 const Articulo: FC<{}> = () => {
+  let publicaciones = optimization_publicaciones.concat(analisisNumerico_publicaciones);
+    publicaciones.sort(function (a: any, b: any) {
+                let valueA = a.anio;
+                let valueB = b.anio;
+                //valueA = eliminarDiacriticos(valueA);
+                //valueB = eliminarDiacriticos(valueB);
+
+                let av = valueA
+                let bv = valueB
+                let r = av < bv ? 1 : av > bv ? -1 : 0;
+                if (r === 0) {
+                  r =
+                    typeof a.key !== 'undefined' && typeof b.key !== 'undefined'
+                      ? a.key - b.key
+                      : 0;
+                }
+                return r;
+              })
   return (
     <Fragment>
+      {
+        publicaciones.map((publicacion) => {
+          return <Publicacion
+            pub = {publicacion}
+            />
+        })
+      }
+
+
     </Fragment>
   );
 };
