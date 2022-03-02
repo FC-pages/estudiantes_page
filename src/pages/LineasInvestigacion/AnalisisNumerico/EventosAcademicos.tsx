@@ -11,6 +11,9 @@ import conf2 from "../images/AnalisisNumerico/labosin.jpeg";
 const TabFour: FC<{}> = () => {
   return (
     <Fragment>
+
+        <img src={conf2} className="foto-publicaciones"></img>
+      {/*
       <div>
         <h3 className="t-stroke-shadow">Línea de Análisis Numérico</h3>
       </div>
@@ -69,7 +72,7 @@ const TabFour: FC<{}> = () => {
         </div>
       </div>
       <br/>
-
+      */}
 
     </Fragment>
   );
