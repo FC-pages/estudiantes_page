@@ -21,10 +21,10 @@ export default function OptimizacionMain() {
             <Nav.Link eventKey="Miembros">Miembros</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Proyectos">Proyectos de Investigación</Nav.Link>
+            <Nav.Link eventKey="Proyectos">Proyectos</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Publicaciones">Trabajos de Investigación</Nav.Link>
+            <Nav.Link eventKey="Publicaciones">Publicaciones</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="Eventos">Eventos Académicos</Nav.Link>

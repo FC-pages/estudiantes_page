@@ -95,7 +95,12 @@ function Otros() {
           src="./enlaces/beca-conycit.jpg"
         />
       </a>
-    </div>
+
+
+
+    <br />
+
+          </div>
   );
 }
 export default Otros;

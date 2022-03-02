@@ -62,6 +62,7 @@ La modelización de estos tipos de problemas y el desarrollo de métodos de solu
 
 Algoritmos  que incluyen modelos lineales y no lineales, modelos de optimización combinatoria y enfoques heurísticos, son temas que se desarrollan en el grupo.
       </p>
+      {/*
       <h4 className="justify">Objetivo General</h4>
       <p className="justify">
         El objetivo general del grupo de investigación es proponer, estudiar
@@ -97,6 +98,7 @@ Algoritmos  que incluyen modelos lineales y no lineales, modelos de optimizaci�
           profesionales incluyendo el desarrollo de tutoriales.
         </li>
       </ul>
+      */}
     </>
   );
 };

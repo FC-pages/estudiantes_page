@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import imagenmate from '../images/imagenmate.png';
+import imgmate from '../images/matematica2.jpg';
 import bg from '../images/bg.jpg';
 import { colors } from './colors';
 
@@ -70,13 +71,19 @@ export const Header = styled.header`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-      background-image: url('${imagenmate}');
+      //background-image: url('${imagenmate}');
+      background-image: url('${imgmate}');
       //background-image: url('${bg}');
       background-size:cover; /* auto, cover, contained, 200px 200px*/;
   font-size: calc(10px + 2vmin);
   color: ${colors.main};
   max-height: 200x;   
   max-height: 200px;   
+
+  @media (max-width: 480px) {
+      background-image: url('${imagenmate}');
+
+  }
   img {
     height: 150px;
     padding: 0px 15px;

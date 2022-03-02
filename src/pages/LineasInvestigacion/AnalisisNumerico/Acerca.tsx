@@ -1,7 +1,7 @@
 import React, { FC, Fragment } from 'react';
 import fotoGrupo from '../../../images/grupoInvestigacion22.jpg';
 import '../../../styles/gInvestigacion.css';
-import labosin_miembros from "../images/AnalisisNumerico/Labosin_miembros2.jpeg";
+import labosin_miembros from "../images/AnalisisNumerico/imagen_principal2.jpeg";
 
 import profesor1 from '../../images/profesor1.jpg';
 
@@ -58,7 +58,7 @@ Si bien el país experimenta una creciente demanda de este tipo de estudios, exi
         <li>Dr. Santiago de Vicente</li>
         <li>Dr. Bernardo Cockburn</li>
       </ul>
-      <h4 className="justify">Líneas de investigación:</h4>
+      <h4 className="justify">Temas de investigación:</h4>
       <ul className="justify">
         <li>Ecuaciones Diferenciales Parciales y la Dinámica de fluidos</li>
         <li>Simulación Numérica de la Combustión</li>

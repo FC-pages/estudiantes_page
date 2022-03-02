@@ -10,9 +10,9 @@ function PlanEstudios() {
   let videos = [
     {
       href: 'https://www.youtube.com/watch?v=dxVKquza40Y&t',
-      name: 'Así es la Matemática legendaria en la UNI',
+      name: 'Un análisis completo acerca del plan de estudios de la carrera de Matemática FC-UNI',
       Description:
-        'Un análisis completo acerca del plan de estudios de la carrera de Matemáticas en la UNI contrastado con la UNAM (México)',
+        '',
     },
   ];
   return (
@@ -123,7 +123,7 @@ function PlanEstudios() {
                     <Card.Title>{video.name}</Card.Title>
                     <Card.Text>
                       <div className="quote">
-                        <cite>{video.Description}.</cite>
+                        <cite>{video.Description}</cite>
                       </div>
                       <div></div>
                     </Card.Text>
