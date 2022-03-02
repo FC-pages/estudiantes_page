@@ -13,6 +13,25 @@ function Docente(props: any) {
     return s.split('').reverse().join('');
   };
 
+
+  const getNameImage = ( nombresDocente: String) => {
+    const removeAccents = (str: String) => {
+      return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    } 
+    // Para obtener el primer nombre y el primer apellido
+      
+      let nombres = nombresDocente.split(",");
+      let primernombre = nombres[1].split(" ")[1];
+      //console.log(nombres[0].split(" "))
+      // Profesora La Rosa
+    //
+    //
+      let primerapellido = nombres[0] === "LA ROSA OBANDO" ? "La Rosa": nombres[0].split(" ")[0];
+      let str = (primernombre +  "_" + primerapellido).toLowerCase().replace(/ /g, "");
+      return 'docentes/'.concat(`${str}.jpg`);
+  }
+
+
   let preventDragHandler = (e: any) => {
     e.preventDefault();
   };
@@ -35,7 +54,7 @@ function Docente(props: any) {
               {/* <td className="App-profes-imagesm"></td>  */}
               <td>
                 <div className="cont-img">
-                  <img alt="" src={props.foto ? props.foto : perfilImage} />{' '}
+                  <img alt="" src={props.foto ? process.env.REACT_APP_API_URL + "images/" + getNameImage( props.datos.nombres ) : perfilImage} />{' '}
                 </div>
               </td>
               <td className="App-profes-td">
