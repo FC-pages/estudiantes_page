@@ -129,6 +129,24 @@ function RevistaCiencias() {
           src="./enlaces/logo-idm-fr.png"
         />
       </a>
+
+      <p className="mt-3 fs-4 fw-bold">
+        7.{' '}
+        <a className="a-link-title" href="https://www.abc.es/ciencia/">
+          ABC Ciencia
+        </a>
+      </p>
+      <p className="ms-3">
+      </p>
+      <a className="ms-3" href="https://www.conicyt.cl/becasconicyt/">
+        <img
+          style={{ height: '90px' }}
+          alt="abc ciencia"
+          src="./enlaces/abc_ciencia.png"
+        />
+      </a>
+
+
     </div>
   );
 }
