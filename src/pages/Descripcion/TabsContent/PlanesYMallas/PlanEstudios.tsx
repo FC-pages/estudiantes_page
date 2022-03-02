@@ -10,28 +10,20 @@ function PlanEstudios() {
   let videos = [
     {
       href: 'https://www.youtube.com/watch?v=dxVKquza40Y&t',
-      name: 'Así es la Matemática legendaria en la UNI',
+      name: 'Un análisis completo acerca del plan de estudios de la carrera de Matemática FC-UNI',
       Description:
-        'Un análisis completo acerca del plan de estudios de la carrera de Matemáticas en la UNI contrastado con la UNAM (México)',
+        '',
     },
   ];
   return (
     <div className="App-cuerpo">
       <p></p>
       <p>
-        En el plan de estudios podemos encontrar cursos con una fuerte dosis de
-        análisis científico para que el alumno tempranamente incursione en
-        aspectos de investigación inicial. Se incluyen en la malla curricular
-        seis líneas de especialización; sin embargo, ellas están íntimamente
-        entre conectadas por los cursos básicos llevados en el nivel de estudios
-        generales y los siguientes semestres. En este quehacer el docente juega
-        un papel de guía e integrador, tocando aspectos de tópicos
-        multidisciplinarios
-      </p>
+        En el plan de estudios podemos encontrar cursos con una fuerte dosis de análisis para que el alumno incursione tempranamente en la investigación científica. En la malla curricular se consideran seis líneas de investigación que se desarrollan en la escuela, todas ellas compartiendo los cursos básicos que se desarrollan en los seis primeros semestres de la carrera. 
+              </p>
       <p></p>
       <h6>
-        Total de Créditos Exigidos al alumno para egresar en la Escuela
-        Profesional de Matemática:
+        Total de créditos para egresar: 210
       </h6>
       <p></p>
       <table className="creditos" cellPadding={4}>
@@ -127,7 +119,7 @@ function PlanEstudios() {
                     <Card.Title>{video.name}</Card.Title>
                     <Card.Text>
                       <div className="quote">
-                        <cite>{video.Description}.</cite>
+                        <cite>{video.Description}</cite>
                       </div>
                       <div></div>
                     </Card.Text>
