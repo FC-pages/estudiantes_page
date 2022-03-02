@@ -6,7 +6,7 @@ import event from "../../../images/event.jpg";
 import congreso1 from "../../../images/congreso1.jpg";
 import congreso2 from "../../../images/congreso2.jpg";
 import conf1 from "../../../images/conf1.jpeg";
-import conf2 from "../../../images/conf2.jpeg";
+import conf2 from "../images/AnalisisNumerico/labosin.jpeg";
 
 const TabFour: FC<{}> = () => {
   return (

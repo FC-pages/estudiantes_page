@@ -3,6 +3,7 @@ import React, { FC, Fragment } from "react";
 import "../../../styles/gInvestigacion.css";
 
 import { analisisNumerico_publicaciones } from "../../../data/publicaciones.js";
+import Publicacion from '../Publicacion';
 
 let publicaciones = [
   {
@@ -33,27 +34,6 @@ let publicaciones = [
     imagen: "",
   }]
 
-
-const Publicacion = (props: any) => {
-
-  return (
-      <>
-      <h4 className="tit">&quot;{ props.pub.titulo }&quot; <i>({ props.pub.autores }). { props.pub.revista }</i></h4>
-      <div className="container">
-        <div className="itemLeft2">
-          { props.pub.abstract }
-          </div>
-        <div className="itemRight2">
-          <a href = { props.pub.src }>
-            <img src= { props.pub.imagen } className="foto-publicaciones"></img>
-          </a>
-        </div>
-      </div>
-      <br/>
-      <hr className="dotted"></hr>
-      </>
-  )
-}
 
 
 const TabFour: FC<{}> = () => {

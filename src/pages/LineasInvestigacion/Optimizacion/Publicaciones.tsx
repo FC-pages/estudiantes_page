@@ -12,6 +12,7 @@ import optimization from "../images/Optimizacion/optimization.jpeg";
 import ej_operational_research from "../images/Optimizacion/european_journal_of_operational_research.jpeg";
 import jo_heuritics from "../images/Optimizacion/journal_of_heuritics.jpeg";
 import { optimization_publicaciones } from "../../../data/publicaciones.js";
+import Publicacion from "../Publicacion";
 
 let publicaciones = [
   {
@@ -51,27 +52,6 @@ let publicaciones = [
     imagen: jo_heuritics,
   }
 ]
-
-const Publicacion = (props: any) => {
-
-  return (
-      <>
-      <h4 className="tit">&quot;{ props.pub.titulo }&quot; <i>({ props.pub.autores }). { props.pub.revista }</i></h4>
-      <div className="container">
-        <div className="itemLeft2">
-          { props.pub.abstract }
-          </div>
-        <div className="itemRight2">
-          <a href = { props.pub.src }>
-            <img src= { props.pub.imagen } className="foto-publicaciones"></img>
-          </a>
-        </div>
-      </div>
-      <br/>
-      <hr className="dotted"></hr>
-      </>
-  )
-}
 
 const TabFour: FC<{}> = () => {
   return (

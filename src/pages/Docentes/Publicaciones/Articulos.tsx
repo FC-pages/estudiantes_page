@@ -8,7 +8,7 @@ const Publicacion = (props: any) => {
 
   return (
       <>
-      <h4 className="tit"><a href = {props.pub.src}>&quot;{ props.pub.titulo }&quot; <i>({ props.pub.autores }). { props.pub.revista }</i></a></h4>
+      <h4 className="tit"><a href = {props.pub.src}>{ props.pub.autores } { props.pub.titulo } <i> { props.pub.revista } {props.pub.volume}, {props.pub.issue} ({props.pub.anio}), {props.pub.pag}.</i></a></h4>
       <br/>
       <hr className="dotted"></hr>
       </>
