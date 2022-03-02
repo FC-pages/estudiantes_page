@@ -1,12 +1,79 @@
-import React, { FC, Fragment } from 'react';
+import React, { FC, Fragment, useState, useEffect } from 'react';
 import '../../../styles/gInvestigacion.css';
 import Miembro from '../Miembro';
-import { miembrosTeoriaDeNumeros } from '../../../data/data-miembros-Investigacion';
+import { Spinner } from 'react-bootstrap';
+//import { miembrosTeoriaDeNumeros } from '../../../data/data-miembros-Investigacion';
 
 const TabTwo: FC<{}> = () => {
   let eliminarDiacriticos = (texto: any) => {
     return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   };
+
+  const obtenernombreapellido = (nombre: any) => {
+    // Para obtener el primer nombre y el primer apellido
+    const titleCase = (str: String) => {
+      // Convierte un String a stilo Título
+      var splitStr = str.toLowerCase().split(' ');
+      for (var i = 0; i < splitStr.length; i++) {
+        splitStr[i] =
+          splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+      }
+      return splitStr.join(' ');
+    };
+    let nombres = nombre.split(',');
+    let primernombre = nombres[1].split(' ')[1];
+    //console.log(nombres[0].split(" "))
+    // Profesora La Rosa
+    let primerapellido =
+      nombres[0] === 'LA ROSA OBANDO' ? 'La Rosa' : nombres[0].split(' ')[0];
+    return titleCase(primernombre + ' ' + primerapellido);
+  };
+
+  type dataType = Array<any>;
+  const [data, setData] = useState({} as dataType);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch(
+      'https://script.googleusercontent.com/macros/echo?user_content_key=I1YFq5ffUUQ3azZIKONiHp1T3FVyvtcIAM3PfUefodo33h1SqqCuqz2yPAyw02N2o0EMelffpJYrsqhtsXWuCgzWtmVHBJOym5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnK9hLVD3Kt17yE6DQnI6BmZenSPmJECfh7vyjZJHKn1XgxmIEcEXJBraaCrdVp4vn9pytj_A4aoE&lib=MY1BW--6CseKPHKw9cdL87NwwPj3UkOcQ'
+    )
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw response;
+      })
+      .then((data) => {
+        //filtrando linea
+        const newdata = data.docentes.filter((docente: any) => {
+          for (let i = 0; i <= docente.lineas.length - 1; i++) {
+            if (docente.lineas[i] === 'Análisis y Teoría de Números')
+              return true;
+          }
+          return false;
+        });
+        setData(newdata);
+      })
+      .catch((error) => {
+        console.error('Error fetching', error);
+        setError(error);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
+  }, []);
+
+  let Loading = () => {
+    return (
+      <Spinner className="mt-5 mb-5" animation="border" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </Spinner>
+    );
+  };
+  if (loading) return <Loading />;
+  if (error) return <>"Error!"</>;
+
   return (
     <Fragment>
       {/* <h3>Miembros del grupo:</h3> */}
@@ -18,10 +85,10 @@ const TabTwo: FC<{}> = () => {
       <hr></hr>
       <h4>DOCENTES</h4>
       <div className="App-center">
-        {miembrosTeoriaDeNumeros
+        {data
           .sort(function (a: any, b: any) {
-            let valueA = a.nombre;
-            let valueB = b.nombre;
+            let valueA = obtenernombreapellido(a.nombres);
+            let valueB = obtenernombreapellido(b.nombres);
             valueA = eliminarDiacriticos(valueA);
             valueB = eliminarDiacriticos(valueB);
 
@@ -36,16 +103,17 @@ const TabTwo: FC<{}> = () => {
             }
             return r;
           })
-          .map((d: any) => {
+          .map((d: any, id: any) => {
             return (
               <Miembro
-                nombre={d.nombre}
+                nombre={obtenernombreapellido(d.nombres)}
                 foto={d.foto}
-                correo={d.email}
-                pagina={d.pagina}
+                correo={d.emailuni}
                 funcion={d.funcion}
-                gradoacd={d.gradoAc}
-                cv={d.cv}
+                gradoacd={d.gradootitulo}
+                cv={d.ctivitae}
+                pagina={d.pagina}
+                key={id}
               />
             );
           })}
