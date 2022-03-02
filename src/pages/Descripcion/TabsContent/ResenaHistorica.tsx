@@ -153,9 +153,8 @@ function ResenaHistorica() {
                 <tr>
                   <td>
                     <img alt="" src="./impa.png" />
-                    <p></p>
-                    <b className="anios2" > Actualmente</b>
-                    <p className="resena-borde2">
+                    <b className="anios" > 2022</b>
+                    <p className="resena-borde">
                       La Facultad de Ciencias cuenta con las especialidades de Física, 
                       Matemática, Química, Ingeniería física y Ciencias de la computación. {" "}
                     </p>

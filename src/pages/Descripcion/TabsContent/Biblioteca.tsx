@@ -2,6 +2,11 @@
 import React from "react";
 import { FaAngleRight} from 'react-icons/fa';
 import { FaPhoneVolume} from 'react-icons/fa';
+// import { BsJournalBookmarkFill } from "@react-icons/all-files/fa/BsJournalBookmarkFill";
+import { BsJournalBookmarkFill } from "react-icons/bs";
+import { FaBook } from "react-icons/fa";
+import { ImBooks } from "react-icons/im";
+import { RiContactsFill } from "react-icons/ri";
 function Biblioteca() {
 
   const reverse = (s: any) => {
@@ -9,12 +14,13 @@ function Biblioteca() {
   };
   return (
     <div className="Biblioteca">
-        <a href="http://www.bibliotecavirtual.uni.edu.pe/" className="w-inline-block enlaces">
+        <div className="w-inline-block enlaces">{/* <a href="http://www.bibliotecavirtual.uni.edu.pe/" className="w-inline-block enlaces"> */}
             <div className="position">
-                <p className="text3"> Enlace</p>
+                    {/* <p className="text3"> Enlace</p> */}
+                <b className="text2"> BIBLIOTECA - FACULTAD DE CIENCIAS</b>
             </div>
-            <b className="text2"> BIBLIOTECA VIRTUAL - FACULTAD DE CIENCIAS</b>
-        </a>
+        </div>
+        {/* </a> */}
         <p></p>
         <p>La Biblioteca de la Facultad de Ciencias de la Universidad de Ingeniería (UNI),
        como todas las bibliotecas, se enfrenta en los últimos años a nuevos retos tales como 
@@ -43,7 +49,7 @@ function Biblioteca() {
   revistas en papel, 121 unidades de soporte electrónico y una colección de la Video-Enciclopedia 
   de Física; además del acceso en línea a las bases de datos catalográficos a través de cuatro 
   computadores para usuarios. </p>
-        <h4>Reseña Histórica</h4>
+        <h4 className="t-stroke-shadow-h5">Reseña Histórica</h4>
         <p>En el año 1960 se crea la Facultad de Ciencias (FC) con las especialidades  de Física,
         Química y Matemática. En marzo de 1962, se crea el Instituto de Matemática (IMUNI)
         que por medio de una donación de la Fundación Ford, es dotado de colecciones de 
@@ -64,20 +70,49 @@ function Biblioteca() {
         para bibliotecas, desde noviembre del 2013 la Biblioteca de la Facultad de Ciencias, 
         ve la conveniencia de usar este sistema único de gestión de los recursos de información 
         de la Universidad Nacional de Ingeniería.</p>
-        <h4>Servicios</h4>
-        <ul>
-            <li><FaAngleRight size={17}/> Préstamo</li>
-            <li><FaAngleRight size={17}/> Lectura en sala</li>
-            <li><FaAngleRight size={17}/> Información y referencia</li>
-            <li><FaAngleRight size={17}/> Reprografía y reproducción</li>
-            <li><FaAngleRight size={17}/> Consulta de catálogo en línea</li>
-            <li><FaAngleRight size={17}/> Biblioteca virtual</li>
-            <li><FaAngleRight size={17}/> Carnetización</li>
-        </ul>
+
+        <div>
+            <div className="block float-left">
+                <h4 className="t-stroke-shadow-h5">Servicios</h4>
+                <ul>
+                    <li><FaAngleRight size={17}/> Préstamo</li>
+                    <li><FaAngleRight size={17}/> Lectura en sala</li>
+                    <li><FaAngleRight size={17}/> Información y referencia</li>
+                    <li><FaAngleRight size={17}/> Reprografía y reproducción</li>
+                    <li><FaAngleRight size={17}/> Consulta de catálogo en línea</li>
+                    <li><FaAngleRight size={17}/> Biblioteca virtual</li>
+                    <li><FaAngleRight size={17}/> Carnetización</li>
+                </ul>
+            </div>
+            <div className="float-right">
+                <a href="http://www.bibliotecavirtual.uni.edu.pe/" className="block block-style borde">
+                    <div className="block-container App-center">
+                    <FaBook className="main-color" size={26} /><br></br>
+                            <strong>Biblioteca UNI</strong><br></br>
+                            <p className="text-left">
+                                {/* provista por actualización.carnets.bc@gmail.com */}
+                                <strong>1.</strong> Ingresar cuenta y contraseña del alumno<br></br>
+                                {/* <strong>2.</strong> Filtrar el libro de su interés <br></br> */}
+                            </p> 
+                    </div>
+                </a>
+                <a href="http://www.catalogo.uni.edu.pe/" className="block block-style borde">
+                    <div className="block-container App-center">
+                            <ImBooks className="main-color" size={35} /><br></br>
+                            <strong>Catálogo UNI</strong><br></br>
+                            <p className="text-left">Busqueda por referencia bibliográfica<br></br> 
+                            <strong>1.</strong> Escribir el término de busqueda : FC <br></br>
+                            <strong>2.</strong> Opción: Todas las bibliotecas : FC <br></br>
+                            <strong> 3.</strong> Resultado de búqueda: Título, Autor, Ciudad, Editorial, Año, Número de ejemplares</p>
+                    </div>
+                </a>
+            </div>
+        </div>
         <p></p>
+        {/* <hr></hr> */}
         <div className="App-center">
             <div className="div-imagen w-inline-block">
-                <div className="position">
+                <div>
                     <p>Descripción de la foto que quieres que se muestre</p>
                 </div>
                 <img className="desvanecer" src="./lecturaensala.jpg" />
@@ -119,20 +154,20 @@ function Biblioteca() {
         </div>
         <hr></hr>
         <div className="App-center">
-            <div className="block borde">
+            <div className="block borde block-style">
                 <div className="block-container App-center">
-                        <FaPhoneVolume className="main-color" size={35} /><br></br>
+                        <RiContactsFill className="main-color" size={30} /><br></br>
                         <p><strong>Lic. Maritza Dietz Castro</strong><br></br>
                         Jefe de la Biblioteca (e)<br></br>
                         <strong>E-mail:</strong> gradosytitulosfc@uni.edu.pe<br></br>
                         <strong>Teléfono:</strong> 481-0824 anexo 5020 / 5025</p> 
                 </div>
             </div>
-            <div className="block borde">
+            {/* <div className="block borde block-style">
                 <div className="block-container App-center">
                     <p>Cuadro 2</p>
                 </div>
-            </div>
+            </div> */}
         </div>
         <p></p>
     </div>

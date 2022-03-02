@@ -19,19 +19,15 @@ function PlanEstudios() {
     <div className="App-cuerpo">
       <p></p>
       <p>
-        En el plan de estudios podemos encontrar cursos con una fuerte dosis de
-        análisis científico para que el alumno tempranamente incursione en
-        aspectos de investigación inicial. Se incluyen en la malla curricular
-        seis líneas de especialización; sin embargo, ellas están íntimamente
-        entre conectadas por los cursos básicos llevados en el nivel de estudios
-        generales y los siguientes semestres. En este quehacer el docente juega
-        un papel de guía e integrador, tocando aspectos de tópicos
-        multidisciplinarios
+      En el plan de estudios podemos encontrar cursos con una fuerte dosis de análisis para 
+      que el alumno incursione tempranamente en la investigación científica. En la malla 
+      curricular se consideran seis líneas de investigación que se desarrollan en la escuela,
+       todas ellas compartiendo los cursos básicos que se desarrollan en los seis primeros 
+       semestres de la carrera. 
       </p>
       <p></p>
       <h6>
-        Total de Créditos Exigidos al alumno para egresar en la Escuela
-        Profesional de Matemática:
+      Total de créditos para egresar: 210 
       </h6>
       <p></p>
       <table className="creditos" cellPadding={4}>
@@ -79,7 +75,7 @@ function PlanEstudios() {
         </tr>
       </table>
       <p></p>
-      <h6>Descargar:</h6>
+      <h5 className="t-stroke-shadow-h5">Descargar:</h5>
       <div className='vineta'>
         <ul>
           <li>
