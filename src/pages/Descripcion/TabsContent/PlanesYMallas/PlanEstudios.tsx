@@ -19,11 +19,15 @@ function PlanEstudios() {
     <div className="App-cuerpo">
       <p></p>
       <p>
-        En el plan de estudios podemos encontrar cursos con una fuerte dosis de análisis para que el alumno incursione tempranamente en la investigación científica. En la malla curricular se consideran seis líneas de investigación que se desarrollan en la escuela, todas ellas compartiendo los cursos básicos que se desarrollan en los seis primeros semestres de la carrera. 
-              </p>
+      En el plan de estudios podemos encontrar cursos con una fuerte dosis de análisis para 
+      que el alumno incursione tempranamente en la investigación científica. En la malla 
+      curricular se consideran seis líneas de investigación que se desarrollan en la escuela,
+       todas ellas compartiendo los cursos básicos que se desarrollan en los seis primeros 
+       semestres de la carrera. 
+      </p>
       <p></p>
       <h6>
-        Total de créditos para egresar: 210
+      Total de créditos para egresar: 210 
       </h6>
       <p></p>
       <table className="creditos" cellPadding={4}>
@@ -71,7 +75,7 @@ function PlanEstudios() {
         </tr>
       </table>
       <p></p>
-      <h6>Descargar:</h6>
+      <h5 className="t-stroke-shadow-h5">Descargar:</h5>
       <div className='vineta'>
         <ul>
           <li>

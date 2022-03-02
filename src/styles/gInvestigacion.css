@@ -265,12 +265,11 @@
 }
 
 .t-stroke-shadow {
-  /* text-align: left; */
-      /*color: #1d3557;*/
+
       /* text-shadow: -0.7px 0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 1.75px 1.75px #f3f3f2, 3.5px 3.5px #bbbbbb;
        */
-      text-shadow: -0.7px 0.7px #ffffff,-0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 2.5px 2.5px #bbbbbb;
-  }
+  text-shadow: -0.7px 0.7px #ffffff,-0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 2.5px 2.5px #bbbbbb;
+}
   
 .boxVisitar {
   background-color: #AE263A;

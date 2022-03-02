@@ -19,7 +19,7 @@ let videos = [
   return (
     // <Container className="text-start p-3">
     <Container>
-      <p className="fw-bold fs-5">Mallas curriculares</p>
+      <h5 className="t-stroke-shadow-h5">Mallas curriculares</h5>
       <div className="vineta">
         <ul>
           <li>
@@ -46,7 +46,7 @@ let videos = [
           </li>
         </ul>
       </div>
-      <p className="fw-bold fs-5">Plan de estudios</p>
+      <h5 className="t-stroke-shadow-h5">Plan de estudios</h5>
       <div className="vineta">
         <ul>
           <li> <FaAngleRight size={17}/>Plan de Estudios Vigente. {' '}
