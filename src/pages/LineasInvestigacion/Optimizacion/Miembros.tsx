@@ -5,6 +5,7 @@ import { Spinner } from 'react-bootstrap';
 //import { miembrosOptimizacion } from '../../../data/data-miembros-Investigacion';
 
 const TabTwo: FC<{}> = () => {
+  let nom_coordinador = 'OCAÑA ANAYA, ELADIO TEÓFILO';
   let eliminarDiacriticos = (texto: any) => {
     return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   };
@@ -30,6 +31,7 @@ const TabTwo: FC<{}> = () => {
 
   type dataType = Array<any>;
   const [data, setData] = useState({} as dataType);
+  const [coord, setCoord] = useState({} as any);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -47,6 +49,11 @@ const TabTwo: FC<{}> = () => {
         //filtrando linea
         const newdata = data.docentes.filter((docente: any) => {
           for (let i = 0; i <= docente.lineas.length - 1; i++) {
+            if (docente.nombres == nom_coordinador) {
+              setCoord(docente);
+              console.log("coordinador", docente)
+              return false;
+            }
             if (docente.lineas[i] === 'Optimización') return true;
           }
           return false;
@@ -78,6 +85,18 @@ const TabTwo: FC<{}> = () => {
         <h3 className="t-stroke-shadow">Línea de Optimización</h3>
       </div>
       <hr></hr>
+      <h4>COORDINADOR</h4>
+      <div className="App-center">
+          {coord?<Miembro
+                nombre={obtenernombreapellido(coord.nombres)}
+                foto={coord.foto}
+                correo={coord.emailuni}
+                funcion={coord.funcion}
+                gradoacd={coord.gradootitulo}
+                cv={coord.ctivitae}
+                pagina={coord.pagina}
+              />:<></>}
+      </div>
       <h4>DOCENTES</h4>
       <div className="miembros">
         {data

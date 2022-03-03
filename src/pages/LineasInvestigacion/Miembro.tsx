@@ -33,16 +33,12 @@ export default function Miembro(props: any) {
               </td>
               <td className="App-profes-td">
                 <ul>
-                  {props.correo ? (
                     <li className="notnoselect">
                       <span className="tag">E-mail:</span>{' '}
                       <span className="correo-oculto">
                         {reverse(props.correo).replace(/\s+/g, '')}
                       </span>
                     </li>
-                  ) : (
-                    <div />
-                  )}
                   {props.funcion ? (
                     <li>
                       <span className="tag">Función:</span> {props.funcion}
@@ -54,26 +50,18 @@ export default function Miembro(props: any) {
                     <span className="tag">Grado académico:</span>{' '}
                     {titulos.includes(props.gradoacd) ? props.gradoacd : <></>}{' '}
                   </li>
-                  {props.cv ? (
                     <li>
                       <span className="tag">CTI Vitae:</span>&nbsp;&nbsp;&nbsp;
                       <a className="a-link" href={props.cv}>
                         <FaFileAlt size={17} />
                       </a>{' '}
                     </li>
-                  ) : (
-                    <div />
-                  )}
-                  {props.pagina ? (
                     <li>
                       <span className="tag">Página web:</span>&nbsp;&nbsp;&nbsp;
                       {sinpagina.includes(props.pagina) ? <></> : <a className="a-link" href={props.pagina}>
                         <BiWorld size={17} />
                       </a>}{' '}
                     </li>
-                  ) : (
-                    <div />
-                  )}
                 </ul>
               </td>
             </tr>
