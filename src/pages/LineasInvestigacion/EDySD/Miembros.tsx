@@ -94,7 +94,7 @@ const TabTwo: FC<{}> = () => {
         </h3>
       </div>
       <hr></hr>
-      <h4>COORDINADOR</h4>
+      <h6>COORDINADOR</h6>
       <div className="App-center">
           {coord?<Miembro
                 nombre={obtenernombreapellido(coord.nombres)}
@@ -106,7 +106,7 @@ const TabTwo: FC<{}> = () => {
                 pagina={coord.pagina}
               />:<></>}
       </div>
-      <h4>DOCENTES</h4>
+      <h6>DOCENTES</h6>
       <div className="App-center">
         {data
           .sort(function (a: any, b: any) {

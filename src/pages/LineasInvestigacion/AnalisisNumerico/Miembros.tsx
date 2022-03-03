@@ -90,7 +90,7 @@ const TabTwo: FC<{}> = () => {
         <h3 className="t-stroke-shadow">Línea de Análisis Numérico</h3>
       </div>
       <hr></hr>
-      <h4>COORDINADOR</h4>
+      <h6>COORDINADOR</h6>
       <div className="App-center">
           {coord?<Miembro
                 nombre={obtenernombreapellido(coord.nombres)}
@@ -103,7 +103,7 @@ const TabTwo: FC<{}> = () => {
               />:<></>}
       </div>
 
-      <h4>DOCENTES</h4>
+      <h6>DOCENTES</h6>
             
       <div className="App-center">
         {data
@@ -139,7 +139,7 @@ const TabTwo: FC<{}> = () => {
             );
           })}
       </div>
-      <h4>TESISTAS</h4>
+      <h6>TESISTAS</h6>
       <div className="App-center">
         {miembroAnalisisNumericoTesistas
           .sort(function (a: any, b: any) {
