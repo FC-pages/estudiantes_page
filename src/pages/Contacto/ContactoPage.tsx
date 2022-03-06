@@ -97,7 +97,7 @@ export default function ContactoPage() {
             <MdEmail size={25} title="email" />{' '}
             <a className="a-link" href="mailto:fc@fcuni.edu.pe">
               <span className = "correo-oculto">
-                {reverse('f c @ f c u n i . e d u . p e').replace(/\s+/g, '')}
+                {reverse('f c @ u n i . e d u . p e').replace(/\s+/g, '')}
               </span>
             </a>
           </p>
