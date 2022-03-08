@@ -2,9 +2,13 @@ import React, { FC, Fragment, useState, useEffect } from 'react';
 import '../../../styles/gInvestigacion.css';
 import Miembro from '../Miembro';
 import { Spinner } from 'react-bootstrap';
+import useAuth from '../../../auth/useAuth';
+import axios from 'axios';
 //import { miembrosAlgebra } from '../../../data/data-miembros-Investigacion';
 
 const TabTwo: FC<{}> = () => {
+  //Importamos el token
+  const { token } = useAuth();
   let nom_coordinador = 'PALACIOS BALDEÓN, JOE ALBINO';
   let eliminarDiacriticos = (texto: any) => {
     return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -35,6 +39,7 @@ const TabTwo: FC<{}> = () => {
   const [coord, setCoord] = useState({} as any);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [linea, setLinea] = useState(null);
 
   useEffect(() => {
     fetch(
@@ -52,7 +57,7 @@ const TabTwo: FC<{}> = () => {
           for (let i = 0; i <= docente.lineas.length - 1; i++) {
             if (docente.nombres == nom_coordinador) {
               setCoord(docente);
-              console.log("coordinador", docente)
+              console.log('coordinador', docente);
               return false;
             }
             if (docente.lineas[i] === 'Álgebra Geometría y Topología')
@@ -69,6 +74,29 @@ const TabTwo: FC<{}> = () => {
       .finally(() => {
         setLoading(false);
       });
+  }, []);
+
+  useEffect(() => {
+    axios
+      .get(
+        process.env.REACT_APP_API_URL +
+          'api/v1/lineasinves/Álgebra Geometría y Topología',
+        {
+          headers: {
+            'x-access-token': token,
+          },
+        }
+      )
+      .then((res: { data: any }) => {
+        //Iteramos sobre los docentes miembros de de la linea de investigacion
+        //y accedemos a su propiedad miembro que contiene los datos de cada docente
+        setLinea(res.data);
+        for (let i = 0; i < res.data.miembros.docentes.length; i++) {
+          console.log(res.data.miembros.docentes[i].miembro);
+        }
+        console.log(linea);
+      })
+      .catch((err: any) => console.error(err));
   }, []);
 
   let Loading = () => {
@@ -89,19 +117,23 @@ const TabTwo: FC<{}> = () => {
         </h3>
       </div>
       <hr></hr>
-      
+
       <h6>DOCENTES</h6>
-      
+
       <div className="App-center">
-    {coord?<Miembro
-                nombre={obtenernombreapellido(coord.nombres) + ' (Coordinador)'}
-                foto={coord.foto}
-                correo={coord.emailuni}
-                funcion={coord.funcion}
-                gradoacd={coord.gradootitulo}
-                cv={coord.ctivitae}
-                pagina={coord.pagina}
-              />:<></>}
+        {coord ? (
+          <Miembro
+            nombre={obtenernombreapellido(coord.nombres) + ' (Coordinador)'}
+            foto={coord.foto}
+            correo={coord.emailuni}
+            funcion={coord.funcion}
+            gradoacd={coord.gradootitulo}
+            cv={coord.ctivitae}
+            pagina={coord.pagina}
+          />
+        ) : (
+          <></>
+        )}
         {data
           .sort(function (a: any, b: any) {
             let valueA = obtenernombreapellido(a.nombres);
