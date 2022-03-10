@@ -2,9 +2,12 @@ import React, { FC, Fragment, useState, useEffect } from 'react';
 import '../../../styles/gInvestigacion.css';
 import Miembro from '../Miembro';
 import { Spinner } from 'react-bootstrap';
+import useAuth from '../../../auth/useAuth';
+import axios from 'axios';
 //import { miembrosOptimizacion } from '../../../data/data-miembros-Investigacion';
 
 const TabTwo: FC<{}> = () => {
+  const { token } = useAuth();
   let nom_coordinador = 'OCAÑA ANAYA, ELADIO TEÓFILO';
   let eliminarDiacriticos = (texto: any) => {
     return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -34,40 +37,45 @@ const TabTwo: FC<{}> = () => {
   const [coord, setCoord] = useState({} as any);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [linea, setLinea] = useState<any[]>([]);
+
 
   useEffect(() => {
-    fetch(
-      'https://script.googleusercontent.com/macros/echo?user_content_key=I1YFq5ffUUQ3azZIKONiHp1T3FVyvtcIAM3PfUefodo33h1SqqCuqz2yPAyw02N2o0EMelffpJYrsqhtsXWuCgzWtmVHBJOym5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnK9hLVD3Kt17yE6DQnI6BmZenSPmJECfh7vyjZJHKn1XgxmIEcEXJBraaCrdVp4vn9pytj_A4aoE&lib=MY1BW--6CseKPHKw9cdL87NwwPj3UkOcQ'
-    )
-      .then((response) => {
-        if (response.ok) {
-          return response.json();
+    axios
+      .get(
+        process.env.REACT_APP_API_URL +
+          'api/v1/lineasinves/Optimización',
+        {
+          headers: {
+            'x-access-token': token,
+          },
         }
-        throw response;
-      })
-      .then((data) => {
-        //filtrando linea
-        const newdata = data.docentes.filter((docente: any) => {
-          for (let i = 0; i <= docente.lineas.length - 1; i++) {
-            if (docente.nombres == nom_coordinador) {
+      )
+      .then((res: { data: any }) => {
+        //Iteramos sobre los docentes miembros de de la linea de investigacion
+        //y accedemos a su propiedad miembro que contiene los datos de cada docente
+
+        const newdata = res.data.miembros.docentes.filter((docente: any) => {
+            if (docente.miembro.nombres == nom_coordinador) {
               setCoord(docente);
-              console.log("coordinador", docente)
               return false;
             }
-            if (docente.lineas[i] === 'Optimización') return true;
-          }
-          return false;
+            return true;
         });
-        setData(newdata);
+        setLinea(newdata);
+
+        //setLinea(res.data.miembros.docentes);
+        
       })
-      .catch((error) => {
-        console.error('Error fetching', error);
-        setError(error);
-      })
+      .catch((err: any) => console.error(err))
       .finally(() => {
         setLoading(false);
       });
   }, []);
+
+
+
+
 
   let Loading = () => {
     return (
@@ -89,31 +97,31 @@ const TabTwo: FC<{}> = () => {
       <h6>COORDINADOR</h6>
       <div className="App-center">
           {coord?<Miembro
-                nombre={obtenernombreapellido(coord.nombres)}
-                foto={coord.foto}
-                correo={coord.emailuni}
-                funcion={coord.funcion}
-                gradoacd={coord.gradootitulo}
-                cv={coord.ctivitae}
-                pagina={coord.pagina}
+                nombre={obtenernombreapellido(coord.miembro.nombres)}
+                foto={coord.miembro.foto}
+                correo={coord.miembro.emailuni}
+                funcion={coord.miembro.funcion}
+                gradoacd={coord.miembro.gradootitulo}
+                cv={coord.miembro.ctivitae}
+                pagina={coord.miembro.pagina}
               />:<></>}
       </div>
       */}
       <h6>DOCENTES</h6>
       <div className="miembros">
           {coord?<Miembro
-                nombre={obtenernombreapellido(coord.nombres) + " (Coordinador)"}
-                foto={coord.foto}
-                correo={coord.emailuni}
-                funcion={coord.funcion}
-                gradoacd={coord.gradootitulo}
-                cv={coord.ctivitae}
-                pagina={coord.pagina}
+                nombre={obtenernombreapellido(coord.miembro.nombres) + " (Coordinador)"}
+                foto={coord.miembro.foto}
+                correo={coord.miembro.emailuni}
+                funcion={coord.miembro.funcion}
+                gradoacd={coord.miembro.gradootitulo}
+                cv={coord.miembro.ctivitae}
+                pagina={coord.miembro.pagina}
               />:<></>}
-        {data
+        {linea&&linea
           .sort(function (a: any, b: any) {
-            let valueA = obtenernombreapellido(a.nombres);
-            let valueB = obtenernombreapellido(b.nombres);
+            let valueA = obtenernombreapellido(a.miembro.nombres);
+            let valueB = obtenernombreapellido(b.miembro.nombres);
             valueA = eliminarDiacriticos(valueA);
             valueB = eliminarDiacriticos(valueB);
 
@@ -131,13 +139,13 @@ const TabTwo: FC<{}> = () => {
           .map((d: any, id: any) => {
             return (
               <Miembro
-                nombre={obtenernombreapellido(d.nombres)}
-                foto={d.foto}
-                correo={d.emailuni}
-                funcion={d.funcion}
-                gradoacd={d.gradootitulo}
-                cv={d.ctivitae}
-                pagina={d.pagina}
+                nombre={obtenernombreapellido(d.miembro.nombres)}
+                foto={d.miembro.foto}
+                correo={d.miembro.emailuni}
+                funcion={d.miembro.funcion}
+                gradoacd={d.miembro.gradootitulo}
+                cv={d.miembro.ctivitae}
+                pagina={d.miembro.pagina}
                 key={id}
               />
             );

@@ -28,7 +28,7 @@ export default function Miembro(props: any) {
             <tr>
               <td>
                 <div className="cont-img">
-                <img alt="" src={props.foto ? props.foto : perfilImage} />{' '}
+                <img alt="" src={props.foto ? process.env.REACT_APP_API_URL+props.foto : perfilImage} />{' '}
                 </div>
               </td>
               <td className="App-profes-td">
