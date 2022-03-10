@@ -5,6 +5,7 @@ import '../../components/estilosTab.css';
 import TestimoniosPage from './TabsContent/TestimoniosPage';
 import EgresadosTitulados from './TabsContent/EgresadosTitulados';
 import AlumnosYTesistas from './TabsContent/AlumnosYTesistas';
+import Expociencia from './TabsContent/Expociencia';
 import { colors } from '../../styles/colors';
 
 export default function AlumnosEgresadosPage() {
@@ -57,7 +58,7 @@ export default function AlumnosEgresadosPage() {
               <TestimoniosPage />
             </Tab.Pane>
             <Tab.Pane eventKey="Expociencia">
-              <div/>
+              <Expociencia/>
             </Tab.Pane>
             <Tab.Pane eventKey="GEM">
               <GruposEstPage />
