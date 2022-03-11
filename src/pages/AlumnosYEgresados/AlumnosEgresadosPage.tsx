@@ -32,11 +32,6 @@ export default function AlumnosEgresadosPage() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Egresados y Titulados">
-              Egresados y Titulados
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
             <Nav.Link eventKey="Testimonios">Testimonios</Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -44,6 +39,11 @@ export default function AlumnosEgresadosPage() {
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="GEM">GEM</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Egresados y Titulados">
+              Egresados
+            </Nav.Link>
           </Nav.Item>
         </Nav>
         <div className="pt-3 pb-3 pl-0 pr-0">
