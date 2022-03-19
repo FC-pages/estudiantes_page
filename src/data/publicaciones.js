@@ -100,6 +100,7 @@ exports.EDySD_publicaciones = [
     volume: "1 ed. Lima, Perú: SMP.",
     issue: "Notas para el Coloquio XX",
     pag: "Perú 2002",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub01SD.png",
   },
   {
     titulo: "Curso Básico de Teoría de la Medida",
@@ -109,6 +110,7 @@ exports.EDySD_publicaciones = [
     issue: "Lima, Perú: IMCA. Notas para EMALCA Perú",
     pag: "",
     anio: 2008,
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub02SD.png",
   },
   {
     titulo: "Expansivity in 2-metric spaces",
@@ -117,6 +119,7 @@ exports.EDySD_publicaciones = [
     volume: "57(3)",
     issue: "",
     pag: "377–401.",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub03SD.png",
   },
 
   {
@@ -129,6 +132,7 @@ exports.EDySD_publicaciones = [
     abstract: "",
     src: "https://doi.org/10.1016/j.topol.2020.107359",
     imagen: "",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub04SD.png",
   },
   {
     titulo: "Homoclinic orbits and entropy for three-dimensional flows.",
@@ -139,6 +143,7 @@ exports.EDySD_publicaciones = [
     abstract: "",
     src: "https://doi.org/10.1007/s10884-017-9579-1",
     imagen: "",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub05SD.png",
   },
   {
     titulo: " Sectional-hyperbolic systems.",
@@ -149,6 +154,7 @@ exports.EDySD_publicaciones = [
     abstract: "",
     src: "https://doi.org/10.1017/S0143385707000995",
     imagen: "",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub06SD.png",
   },
   {
     titulo: "Generalized Archimedean spaces and expansivity.",
@@ -159,6 +165,7 @@ exports.EDySD_publicaciones = [
     abstract: "",
     src: "https://doi.org/10.1016/j.topol.2021.107831",
     imagen: "",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub07SD.png",
   },
   {
     titulo: "Stochastic stability for contracting Lorenz maps and flows.",
@@ -169,6 +176,7 @@ exports.EDySD_publicaciones = [
     abstract: "",
     src: "https://doi.org/10.1007/s002200000220",
     imagen: "",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub08SD.png",
   },
   {
     titulo: "Topological stability in set-valued dynamics.",
@@ -179,6 +187,7 @@ exports.EDySD_publicaciones = [
     abstract: "",
     src: "https://doi.org/10.3934/dcdsb.2017115",
     imagen: "",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub09SD.png",
   },
   {
     titulo: "Sinai-Ruelle-Bowen measures for contracting Lorenz maps and flows",
@@ -189,6 +198,7 @@ exports.EDySD_publicaciones = [
     abstract: "",
     src: "https://doi.org/10.1016/S0294-1449(00)00111-6",
     imagen: "",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub10SD.png",
   },
   {
     titulo: "The Rovella attractor is a homoclinic class.",
@@ -199,6 +209,7 @@ exports.EDySD_publicaciones = [
     abstract: "",
     src: "https://doi.org/10.1007/s00574-006-0005-2",
     imagen: "",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub11SD.png",
   }
 
 ]
