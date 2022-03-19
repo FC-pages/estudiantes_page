@@ -153,7 +153,7 @@ exports.EDySD_publicaciones = [
     volume: "28(5)",
     pag: "1587–1597.",
     src: "https://doi.org/10.1017/S0143385707000995",
-    imagen: "./LineasInvestigacion/images/Ed-SD/pub06SD.png",
+    imagen: "./LineasInvestigacion/images/Ed-SD/pub06SD.jpg",
   },
   {
     titulo: "Generalized Archimedean spaces and expansivity.",
