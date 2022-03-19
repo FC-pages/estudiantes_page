@@ -131,7 +131,6 @@ exports.EDySD_publicaciones = [
     pag: "107359.",
     abstract: "",
     src: "https://doi.org/10.1016/j.topol.2020.107359",
-    imagen: "",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub04SD.png",
   },
   {
@@ -142,7 +141,6 @@ exports.EDySD_publicaciones = [
     pag: "799–805",
     abstract: "",
     src: "https://doi.org/10.1007/s10884-017-9579-1",
-    imagen: "",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub05SD.png",
   },
   {
@@ -153,7 +151,6 @@ exports.EDySD_publicaciones = [
     pag: "1587–1597.",
     abstract: "",
     src: "https://doi.org/10.1017/S0143385707000995",
-    imagen: "",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub06SD.png",
   },
   {
@@ -164,7 +161,6 @@ exports.EDySD_publicaciones = [
     pag: "Id/No 107831.",
     abstract: "",
     src: "https://doi.org/10.1016/j.topol.2021.107831",
-    imagen: "",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub07SD.png",
   },
   {
@@ -175,7 +171,6 @@ exports.EDySD_publicaciones = [
     pag: "277–296.",
     abstract: "",
     src: "https://doi.org/10.1007/s002200000220",
-    imagen: "",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub08SD.png",
   },
   {
@@ -186,7 +181,6 @@ exports.EDySD_publicaciones = [
     pag: "1965–1975.",
     abstract: "",
     src: "https://doi.org/10.3934/dcdsb.2017115",
-    imagen: "",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub09SD.png",
   },
   {
@@ -197,7 +191,6 @@ exports.EDySD_publicaciones = [
     pag: "247–276",
     abstract: "",
     src: "https://doi.org/10.1016/S0294-1449(00)00111-6",
-    imagen: "",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub10SD.png",
   },
   {
@@ -208,7 +201,6 @@ exports.EDySD_publicaciones = [
     pag: " 89–101.",
     abstract: "",
     src: "https://doi.org/10.1007/s00574-006-0005-2",
-    imagen: "",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub11SD.png",
   }
 
