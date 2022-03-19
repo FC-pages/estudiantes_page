@@ -96,6 +96,7 @@ exports.EDySD_publicaciones = [
     titulo: "Teoría de la Medida en R.",
     autores: "Metzger, R. J. (2002, 7)",
     revista: "",
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur, turpis et euismod congue, leo sem maximus felis, non porttitor augue est eget justo. Suspendisse ac nulla sed eros sodales ullamcorper eu et ante. Fusce sagittis, justo scelerisque auctor dapibus, dolor augue consequat ex, non tincidunt leo lorem eu tortor. Aenean nunc leo, pharetra vel massa a, vehicula ullamcorper lorem. Vestibulum vitae nibh porttitor, faucibus ex sit amet, fermentum mi. In laoreet mauris at nisl placerat, quis sodales felis venenatis. Integer et pellentesque urna. Nullam ac quam tristique, varius felis et, molestie felis.",
     volume: "1 ed. Lima, Perú: SMP.",
     issue: "Notas para el Coloquio XX",
     pag: "Perú 2002",
