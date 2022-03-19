@@ -21,7 +21,7 @@ function Perfil() {
           múltiples campos de aplicación, siempre ligada a la frontera del
           conocimiento.{' '}
         </p>
-        <img alt="" id="img-vidrio" src={matematicoVidrio} width={600}></img>
+        <img className="effect" alt="" id="img-vidrio" src={matematicoVidrio} width={600}></img>
         <p className = "s-parrafo">
           {' '}
           Es ampliamente conocido que la Matemática cumple un rol trascendental
@@ -43,7 +43,7 @@ function Perfil() {
           reconocimiento de patrones, aprendizaje automático y en modelamiento
           de procesos, especialmente en lo que concierne a incertidumbre.{' '}
         </p>
-        <img alt="" id="img-optimizacion" src={optimizacion} width={300}></img>
+        <img className="effect" alt="" id="img-optimizacion" src={optimizacion} width={300}></img>
         {/*<img alt="" id="img-salud" src={salud} width={400}></img>-->*/}
         <p>
           {' '}
@@ -64,7 +64,7 @@ function Perfil() {
           preguntas de la ciencia y la técnica, y es, en muchos casos, la
           herramienta básica en la búsqueda de su solución{' '}
         </p>
-        <img alt="" id="img-profesores" src={profesores} width={600}></img>
+        {/* <img className="effect" alt="" id="img-profesores" src={profesores} width={600}></img> */}
         {/* <b className="anios">1960</b> */}
       </article>
     </S.ContainerPerfil>

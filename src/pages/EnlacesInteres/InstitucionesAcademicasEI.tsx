@@ -206,6 +206,77 @@ function Instituciones_Academicas() {
           src="./enlaces/logo-ictp.png"
         />
       </a>
+      
+      <br />
+
+      <p className="mt-3 fs-4 fw-bold">
+        10.{' '}
+        <a className="a-link-title" href="https://www.ci2ma.udec.cl/">
+          Centro de Investigación en Ingeniería Matemática
+        </a>
+      </p>
+      <p className="ms-3">
+      CI²MA reune a los investigadores más activos del Departamento de Ingeniería 
+      Matemática, junto a investigadores-colaboradores de otros departamentos y
+      facultades de la Universidad de Concepción y de 
+      algunas universidades locales. Su propósito principal es constituir 
+      un ambiente de excelencia en investigación que sea percibido por la comunidad 
+      científica y por los sectores productivos y de servicios como una instancia 
+      sólida de consulta y colaboración mucho más visible y cercana que una unidad 
+      académica típica. 
+      </p>
+      <a className="ms-3" href="https://www.ci2ma.udec.cl/">
+        <img
+          style={{ height: '120px' }}
+          alt="IMPA - Instituto de Matemática Pura e Aplicada"
+          src="./enlaces/logo_ci2ma.jpg"
+        />
+      </a>
+
+      <br />
+
+      <p className="mt-3 fs-4 fw-bold">
+        11.{' '}
+        <a className="a-link-title" href="https://cermics-lab.enpc.fr/">
+        Centre d’Enseignement et de Recherche en MathématIques et Calcul Scientifique (CERMICS)
+        </a>
+      </p>
+      <p className="ms-3">
+        CERMICS es un centro de investigacion en Matematica Aplicada de 
+        Ecole des Ponts ParisTech. Los investigadores trabajan en tres principales areas: 
+        Probabilidad Aplicada; Modelamiento, Análisis y Simulación; Optimización.
+      </p>
+      <a className="ms-3" href="https://cermics-lab.enpc.fr/">
+        <img
+          style={{ height: '120px' }}
+          alt="IMPA - Instituto de Matemática Pura e Aplicada"
+          src="./enlaces/logo-cermics.PNG"
+        />
+      </a>
+      
+      <br />
+
+      <p className="mt-3 fs-4 fw-bold">
+        12.{' '}
+        <a className="a-link-title" href="https://www.inria.fr/en">
+          INRIA
+        </a>
+      </p>
+      <p className="ms-3">
+        Inria es el instituto nacional francés de investigación en ciencia y 
+        tecnología digital. La investigación de clase mundial, la innovación 
+        tecnológica y el riesgo empresarial son su ADN.
+        Como instituto tecnológico, Inria apoya la diversidad de vías de innovación: 
+        desde la publicación de software libre hasta la creación de startups tecnológicas (Deeptech).
+      </p>
+      <a className="ms-3" href="https://www.inria.fr/en">
+        <img
+          style={{ height: '110px' }}
+          alt="IMPA - Instituto de Matemática Pura e Aplicada"
+          src="./enlaces/logo-inria.PNG"
+        />
+      </a>
+
     </div>
   );
 }

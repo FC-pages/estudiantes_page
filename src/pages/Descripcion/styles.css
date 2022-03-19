@@ -249,7 +249,13 @@
   border: solid 1px #1d3557;
 } */
 .creditos td:last-child {
-  text-align: left;
+  /* text-align: left; */
+}
+.creditos td:first-child{
+  max-width: 15em;
+}
+.creditos td:nth-child(2){
+  max-width: 24em;
 }
 .creditos tr:nth-child(odd){
   background-color: rgb(211, 211, 211);
@@ -709,4 +715,9 @@
 .t-stroke-shadow-h5 {
   color: #042354;
   text-shadow: -0.7px 0.7px #ffffff,-0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 2px 2px #bbbbbb;
+}
+
+.effect {
+  opacity: 1; 
+  transform: translateY(0px);
 }
