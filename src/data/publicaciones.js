@@ -98,8 +98,8 @@ exports.EDySD_publicaciones = [
     revista: "",
     abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur, turpis et euismod congue, leo sem maximus felis, non porttitor augue est eget justo. Suspendisse ac nulla sed eros sodales ullamcorper eu et ante. Fusce sagittis, justo scelerisque auctor dapibus, dolor augue consequat ex, non tincidunt leo lorem eu tortor. Aenean nunc leo, pharetra vel massa a, vehicula ullamcorper lorem.",
     volume: "1 ed. Lima, Perú: SMP.",
-    issue: "Notas para el Coloquio XX",
-    pag: "Perú 2002",
+    issue: "Notas para el Coloquio XX. Perú",
+    anio: 2002
     imagen: "./LineasInvestigacion/images/Ed-SD/pub01SD.png",
   },
   {
@@ -120,7 +120,7 @@ exports.EDySD_publicaciones = [
     abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur, turpis et euismod congue, leo sem maximus felis, non porttitor augue est eget justo. Suspendisse ac nulla sed eros sodales ullamcorper eu et ante. Fusce sagittis, justo scelerisque auctor dapibus, dolor augue consequat ex, non tincidunt leo lorem eu tortor. Aenean nunc leo, pharetra vel massa a, vehicula ullamcorper lorem.",
     volume: "57(3)",
     issue: "",
-    pag: "377–401.",
+    anio: "377–401",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub03SD.png",
   },
 
