@@ -90,6 +90,119 @@ exports.analisisNumerico_publicaciones = [
   }
 ]
 
+
+exports.EDySD_publicaciones = [
+  {
+    titulo: "Teoría de la Medida en R.",
+    autores: "Metzger, R. J. (2002, 7)",
+    revista: "",
+    volume: "1 ed. Lima, Perú: SMP.",
+    issue: "Notas para el Coloquio XX",
+    pag: "Perú 2002",
+  },
+  {
+    titulo: "Curso Básico de Teoría de la Medida",
+    autores: "Metzger, R. J. (2008, 2)",
+    revista: "",
+    volume: "1 ed. ",
+    issue: "Lima, Perú: IMCA. Notas para EMALCA Perú",
+    pag: "",
+    anio: 2008,
+  },
+  {
+    titulo: "Expansivity in 2-metric spaces",
+    autores: "Carrasco-Olivera, D., Metzger, R., & Morales, C. A. (2015)",
+    revista: "Indian J. Math., ",
+    volume: "57(3)",
+    issue: "",
+    pag: "377–401.",
+  },
+
+  {
+    titulo: "A distance between bounded linear operators.",
+    autores: "Jung, W., Metzger, R., Morales, C. A., & Villavicencio, H. (2020).",
+    revista: "Topology Appl., ",
+    volume: "284, 9",
+    issue: "Id/No 107359",
+    pag: "107359.",
+    abstract: "",
+    src: "https://doi.org/10.1016/j.topol.2020.107359",
+    imagen: "",
+  },
+  {
+    titulo: "Homoclinic orbits and entropy for three-dimensional flows.",
+    autores: "Lopez, A. M., Metzger, R. J., & Morales, C. A. (2018).",
+    revista: "J. Dyn. Differ. Equations,  ",
+    volume: "30(2)",
+    pag: "799–805",
+    abstract: "",
+    src: "https://doi.org/10.1007/s10884-017-9579-1",
+    imagen: "",
+  },
+  {
+    titulo: " Sectional-hyperbolic systems.",
+    autores: "Metzger, R., & Morales, C. (2008).",
+    revista: "Ergodic Theory Dyn. Syst.,",
+    volume: "28(5)",
+    pag: "1587–1597.",
+    abstract: "",
+    src: "https://doi.org/10.1017/S0143385707000995",
+    imagen: "",
+  },
+  {
+    titulo: "Generalized Archimedean spaces and expansivity.",
+    autores: "Metzger, R., Morales, C. A., & Villavicencio, H. (2021).",
+    revista: "Topology Appl.,",
+    volume: "302,8",
+    pag: "Id/No 107831.",
+    abstract: "",
+    src: "https://doi.org/10.1016/j.topol.2021.107831",
+    imagen: "",
+  },
+  {
+    titulo: "Stochastic stability for contracting Lorenz maps and flows.",
+    autores: "Metzger, R. J. (2000).",
+    revista: "Commun. Math. Phys.,",
+    volume: "212(2)",
+    pag: "277–296.",
+    abstract: "",
+    src: "https://doi.org/10.1007/s002200000220",
+    imagen: "",
+  },
+  {
+    titulo: "Topological stability in set-valued dynamics.",
+    autores: "Metzger, R., Morales Rojas, C. A., & Thieullen, P. (2017).",
+    revista: "Discrete Contin. Dyn. Syst., Ser. B,",
+    volume: "22(5), ",
+    pag: "1965–1975.",
+    abstract: "",
+    src: "https://doi.org/10.3934/dcdsb.2017115",
+    imagen: "",
+  },
+  {
+    titulo: "Sinai-Ruelle-Bowen measures for contracting Lorenz maps and flows",
+    autores: "Metzger, R. J. (2000).",
+    revista: " Ann. Inst. Henri Poincaré, Anal. Non Linéaire,",
+    volume: "17(2), ",
+    pag: "247–276",
+    abstract: "",
+    src: "https://doi.org/10.1016/S0294-1449(00)00111-6",
+    imagen: "",
+  },
+  {
+    titulo: "The Rovella attractor is a homoclinic class.",
+    autores: "Metzger, R. J., & Morales, C. A. (2006).",
+    revista: " Bull. Braz. Math. Soc. (N.S.),",
+    volume: "37(1), ",
+    pag: " 89–101.",
+    abstract: "",
+    src: "https://doi.org/10.1007/s00574-006-0005-2",
+    imagen: "",
+  }
+
+]
+
+
 {/*
 import journal_of_convex_analysis from '../pages/LineasInvestigacion/images/Optimizacion/journal_of_convex_analysis.jpeg';
 import optimization from '../pages/LineasInvestigacion/images/Optimizacion/optimization.jpeg';
