@@ -99,7 +99,7 @@ exports.EDySD_publicaciones = [
     abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur, turpis et euismod congue, leo sem maximus felis, non porttitor augue est eget justo. Suspendisse ac nulla sed eros sodales ullamcorper eu et ante. Fusce sagittis, justo scelerisque auctor dapibus, dolor augue consequat ex, non tincidunt leo lorem eu tortor. Aenean nunc leo, pharetra vel massa a, vehicula ullamcorper lorem.",
     volume: "1 ed. Lima, Perú: SMP.",
     issue: "Notas para el Coloquio XX. Perú",
-    anio: 2002
+    anio: 2002,
     imagen: "./LineasInvestigacion/images/Ed-SD/pub01SD.png",
   },
   {
@@ -155,7 +155,7 @@ exports.EDySD_publicaciones = [
     abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur, turpis et euismod congue, leo sem maximus felis, non porttitor augue est eget justo. Suspendisse ac nulla sed eros sodales ullamcorper eu et ante. Fusce sagittis, justo scelerisque auctor dapibus, dolor augue consequat ex, non tincidunt leo lorem eu tortor. Aenean nunc leo, pharetra vel massa a, vehicula ullamcorper lorem.",
     volume: "28(5)",
     pag: "1587–1597",
-    anio: 2008
+    anio: 2008,
     src: "https://doi.org/10.1017/S0143385707000995",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub06SD.jpg",
   },
@@ -165,6 +165,7 @@ exports.EDySD_publicaciones = [
     revista: "Topology Appl.,",
     volume: "302,8",
     pag: "Id/No 107831.",
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur, turpis et euismod congue, leo sem maximus felis, non porttitor augue est eget justo. Suspendisse ac nulla sed eros sodales ullamcorper eu et ante. Fusce sagittis, justo scelerisque auctor dapibus, dolor augue consequat ex, non tincidunt leo lorem eu tortor. Aenean nunc leo, pharetra vel massa a, vehicula ullamcorper lorem.",
     anio: 2021,
     src: "https://doi.org/10.1016/j.topol.2021.107831",
     imagen: "./LineasInvestigacion/images/Ed-SD/pub07SD.png",
