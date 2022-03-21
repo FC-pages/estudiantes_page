@@ -1,21 +1,27 @@
 import React from 'react';
 import '../../Descripcion/styles.css';
-import { FcDocument } from "react-icons/fc"
+import { FcDocument } from "react-icons/fc";
 import { FaAngleRight} from 'react-icons/fa';
+import integrantes1 from '../integrantes1.jpeg';
+import { Col, Row } from "react-bootstrap";
+import integrantes2 from '../integrantes2.jpeg';
+import banner from '../banner.jpeg';
 
 function Laboratorio() {
   return (
+  <>
+  <Row>
+  <Col xs = "1" sm = "4"/>
+  <Col xs = "12" sm = "4">
+    <img src={banner} style = {{"margin": "15px auto 0px auto"}}/>
+  </Col>
+  <Col xs = "1" sm = "4"/>
+
+  </Row>
       <article id="tab1">
         {/* <img src={fotomunguia} />
                         <img src="./fotomunguia.jpeg" /> */}
-        <h5 className="t-stroke-shadow-h5">Lineas de Investigación</h5>
-        <div className="vineta">
-          <ul>
-            <li><FaAngleRight size={17}/> Ecuaciones Diferenciales Parciales y la Dinámica de fluidos </li>
-            <li><FaAngleRight size={17}/> Simulación numérica de la combustión</li>
-            <li><FaAngleRight size={17}/> Métodos híbridos de alto orden (HHO) para ecuaciones diferenciales parciales</li>
-          </ul>
-        </div>
+
         <h5 className="t-stroke-shadow-h5">Antecedentes</h5>
         <p>El Laboratorio ha venido desarrollando actividades desde el año 2002, entre estas 
 actividades, se encuentran proyectos de investigación conducentes a Tesis de Grado y 
@@ -47,6 +53,16 @@ investigación </p>
 como la conformación de grupos internacionales en Cada una de las líneas de investigación 
 que se ofrecen en LABOSIN, con la finalidad de Obtener resultados óptimos desarrollados y 
 de impacto UNI.PE</p>
+      <h5 className="t-stroke-shadow-h5">Lineas de Investigación</h5>
+        <div className="vineta">
+          <ul>
+            <li><FaAngleRight size={17}/> Ecuaciones Diferenciales Parciales y la Dinámica de fluidos </li>
+            <li><FaAngleRight size={17}/> Simulación numérica de la combustión</li>
+            <li><FaAngleRight size={17}/> Métodos híbridos de alto orden (HHO) para ecuaciones diferenciales parciales</li>
+          </ul>
+        </div>
+
+
         <h5 className="t-stroke-shadow-h5">Relación actual de los grupos de investigación y sus proyectos en ejecución </h5>
         <table className="creditos" cellPadding={5}>
           <tr>
@@ -118,19 +134,19 @@ inscrito su tesis. </p>
         <table className="creditos" cellPadding={6}>
           <tr>
             <td>Coordinador de grupos</td>
-            <td>Codigo UNI</td>
+            {/*<td>Codigo UNI</td>*/}
           </tr>
           <tr>
             <td> <strong>Grupo 1</strong> <br></br>Irla Doraliza Mantilla Núñez </td>
-            <td> 19858509I </td>
+            {/*<td> 19858509I </td>*/}
           </tr>
           <tr>
             <td> <strong>Grupo 2</strong> <br></br>Ángel Ramírez Gutiérrez  </td>
-            <td> 20108663E</td>
+            {/*<td> 20108663E</td>*/}
           </tr>
           <tr>
             <td> <strong>Grupo 3</strong> <br></br> Jonathan Munguía La Cotera </td>
-            <td> 20120485J</td>
+            {/*<td> 20120485J</td>*/}
           </tr>
         </table>
 
@@ -141,6 +157,16 @@ inscrito su tesis. </p>
           </ul>
         </div>
       </article>
+
+  <Row>
+    <Col xs = "12" sm = "6">
+  <img src={integrantes1}/>
+    </Col>
+    <Col xs = "12" sm = "6">
+  <img src={integrantes2}/>
+    </Col>
+  </Row>
+      </>
   );
 }
 
