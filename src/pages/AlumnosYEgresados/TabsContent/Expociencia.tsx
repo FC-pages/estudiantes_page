@@ -18,8 +18,15 @@ const Expociencia: FC<{}> = () => {
         <li>Optimización.</li>
         <li>Análisis Numérico.</li>
       </ol>
-      <p>Desde el año 2019 se viene presentando los trabajos de manera virtual y actualmente la oficina de acreditación ABET está encargada de la organización de dicho evento. </p>
-      <p>Enlace de la pagina de Feria de proyectos de FC:</p>
+      <p>Desde el año 2019 se ha dejado de realizar este evento debido a la pandemia COVID-19.</p>
+      <h3>Feria de proyectos</h3>
+      <p>Desde el 2019 se viene realizando una Feria de proyectos de manera virtual, organizada por la oficina de acreditación ABET. Estos proyectos abordan problemas teóricos, aplicados y multidisciplinarios, cuentan con tres niveles: </p>
+      <ul>
+        <li>N1: Estudiantes del 1er, 2do, 3er y 4to ciclo.</li>
+        <li>N2: Estudiantes del 5to, 6to, 7mo y 8vo ciclo.</li>
+        <li>N3: Estudiantes del 9no y 10mo ciclo.</li>
+      </ul>
+      <p>Enlace de la página de Feria de proyectos de FC:</p>
       
     </div>
     </Row>

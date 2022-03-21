@@ -53,7 +53,7 @@ Si bien el país experimenta una creciente demanda de este tipo de estudios, exi
       </p>
       <ul className="justify">
         <li>Dr. Rommel Bustinza</li>
-        <li>Dr. Matteo Ciccutin</li>
+        <li>Dr. Matteo Cicuttin</li>
         <li>Dr. Grigori Chapiro</li>
         <li>Dr. Santiago de Vicente</li>
         <li>Dr. Bernardo Cockburn</li>

@@ -35,7 +35,7 @@ export default function AlumnosEgresadosPage() {
             <Nav.Link eventKey="Testimonios">Testimonios</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Expociencia">Expociencia</Nav.Link>
+            <Nav.Link eventKey="Divulgaciones">Divulgaciones</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="GEM">GEM</Nav.Link>
@@ -57,7 +57,7 @@ export default function AlumnosEgresadosPage() {
             <Tab.Pane eventKey="Testimonios">
               <TestimoniosPage />
             </Tab.Pane>
-            <Tab.Pane eventKey="Expociencia">
+            <Tab.Pane eventKey="Divulgaciones">
               <Expociencia/>
             </Tab.Pane>
             <Tab.Pane eventKey="GEM">
