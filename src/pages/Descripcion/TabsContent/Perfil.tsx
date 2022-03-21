@@ -3,6 +3,7 @@ import matematicoVidrio from '../../../images/matematico_vidrio.jpg';
 import optimizacion from '../../../images/optimizacion.jpg';
 import salud from '../../../images/matematica_salud.jpeg';
 import profesores from '../../../images/profesores.jpeg';
+import mate from '../mate.webp';
 import * as S from '../styles/styles';
 
 function Perfil() {
@@ -43,7 +44,7 @@ function Perfil() {
           reconocimiento de patrones, aprendizaje automático y en modelamiento
           de procesos, especialmente en lo que concierne a incertidumbre.{' '}
         </p>
-        <img className="effect" alt="" id="img-optimizacion" src={optimizacion} width={300}></img>
+        <img className="effect" alt="" id="img-optimizacion" src={mate} width={300}></img>
         {/*<img alt="" id="img-salud" src={salud} width={400}></img>-->*/}
         <p>
           {' '}
