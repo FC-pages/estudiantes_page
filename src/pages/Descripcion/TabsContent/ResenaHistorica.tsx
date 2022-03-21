@@ -185,9 +185,6 @@ function ResenaHistorica() {
                                         video.Description
                                         }
                                   </Card.Text>
-
-
-
                                 </Card.Body>
                               </Card>
                             );

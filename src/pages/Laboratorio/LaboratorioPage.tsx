@@ -1,8 +1,8 @@
 import React from 'react';
 import { Tab, Container, Nav } from 'react-bootstrap';
-import '../Descripcion/styles.css';
+// import '../Descripcion/styles';
 import Labo from './TabsContent/Labo';
-
+// import "./styles.css"
 import { colors } from '../../styles/colors';
 
 export default function Laboratorio() {

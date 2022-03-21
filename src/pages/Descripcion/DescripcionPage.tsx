@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tab, Container, Nav } from 'react-bootstrap';
-import './styles.css';
+// import './styles.css';
 import Perfil from './TabsContent/Perfil';
 import ResenaHistorica from './TabsContent/ResenaHistorica';
 import PlanesYMallas from './TabsContent/PanesYMallas';

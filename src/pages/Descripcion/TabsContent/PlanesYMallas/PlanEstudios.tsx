@@ -39,39 +39,39 @@ function PlanEstudios() {
         <tr>
           <td> Item </td>
           <td>Créditos</td>
-          <td>Especificación</td>
+          <td className='text-left'>Especificación</td>
         </tr>
         <tr>
           <td>01</td>
           <td> 192</td>
-          <td> Créditos de cursos obligatorios</td>
+          <td className='text-left'> Créditos de cursos obligatorios</td>
         </tr>
         <tr>
           <td> 02</td>
           <td> 14</td>
-          <td> Total de créditos de cursos electivos o complementarios</td>
+          <td className='text-left'> Total de créditos de cursos electivos o complementarios</td>
         </tr>
         <tr>
           <td>03</td>
           <td>1</td>
-          <td>Créditos por actividades extracurriculares (BAE01)</td>
+          <td className='text-left'>Créditos por actividades extracurriculares (BAE01)</td>
         </tr>
         <tr>
           <td>04</td>
           <td>2</td>
-          <td>Créditos por prácticas pre-profesionales </td>
+          <td className='text-left'>Créditos por prácticas pre-profesionales </td>
         </tr>
         <tr>
           <td>05</td>
           <td>1</td>
-          <td>Ayudantia Académica o de Investigación</td>
+          <td className='text-left'>Ayudantia Académica o de Investigación</td>
         </tr>
         <tr>
           <td>
             <b>Total</b>
           </td>
           <td>210</td>
-          <td>TOTAL PARA EGRESAR RESPECTO AL PLAN 2018</td>
+          <td className='text-left'>TOTAL PARA EGRESAR RESPECTO AL PLAN 2018</td>
         </tr>
       </table>
       <p></p>

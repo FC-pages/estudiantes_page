@@ -1,17 +1,19 @@
 import React from 'react';
 import '../../Descripcion/styles.css';
+import { FcDocument } from "react-icons/fc"
+import { FaAngleRight} from 'react-icons/fa';
 
 function Laboratorio() {
   return (
       <article id="tab1">
         {/* <img src={fotomunguia} />
                         <img src="./fotomunguia.jpeg" /> */}
-        <h5 className="t-stroke-shadow-h5">Lineas de Investigacion</h5>
+        <h5 className="t-stroke-shadow-h5">Lineas de Investigación</h5>
         <div className="vineta">
           <ul>
-            <li> Ecuaciones Diferenciales Parciales y la Dinámica de fluidos </li>
-            <li> Simulación numérica de la combustión</li>
-            <li> Métodos híbridos de alto orden (HHO) para ecuaciones diferenciales parciales</li>
+            <li><FaAngleRight size={17}/> Ecuaciones Diferenciales Parciales y la Dinámica de fluidos </li>
+            <li><FaAngleRight size={17}/> Simulación numérica de la combustión</li>
+            <li><FaAngleRight size={17}/> Métodos híbridos de alto orden (HHO) para ecuaciones diferenciales parciales</li>
           </ul>
         </div>
         <h5 className="t-stroke-shadow-h5">Antecedentes</h5>
@@ -76,7 +78,7 @@ de impacto UNI.PE</p>
             <td> NINGUNO </td>
           </tr>
         </table>
-        <h5 className="t-stroke-shadow-h5"> Relacion de tesistas </h5>
+        <h5 className="t-stroke-shadow-h5"> Relación de tesistas </h5>
         <p> Relación de estudiantes de pregrado y/o posgrado que pertenecen al grupo de investigación que hayan 
 inscrito su tesis. </p>
         <table className="creditos" cellPadding={6}>
@@ -112,7 +114,7 @@ inscrito su tesis. </p>
             <td>Física <br></br>Médica </td>
           </tr>
         </table>
-        <h5 className="t-stroke-shadow-h5"> Relacion de docentes investigadores (Registro obligatorio en el dina) </h5>
+        <h5 className="t-stroke-shadow-h5"> Relación de docentes investigadores (Registro obligatorio en el dina) </h5>
         <table className="creditos" cellPadding={6}>
           <tr>
             <td>Coordinador de grupos</td>
@@ -133,6 +135,11 @@ inscrito su tesis. </p>
         </table>
 
         <h5 className="t-stroke-shadow-h5"> Documentos </h5>
+        <div className="vineta">
+          <ul>
+            <li><FaAngleRight size={18}/> Resolución Decanal: <a href='./RD 022-2022v Creación del Laboratorio de Simulación e Investigación Numérica (LABOSIN).pdf'> <FcDocument size={18}/> </a></li>
+          </ul>
+        </div>
       </article>
   );
 }

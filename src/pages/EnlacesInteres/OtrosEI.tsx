@@ -124,9 +124,9 @@ function Otros() {
         </a>
       </p>
       <p className="ms-3">
-      SPMAC was founded with the central objective of gathering all those people 
-      in the various areas concerned with the use of Maths and Computing in our 
-      technology related to these issues.
+      SPMAC se fundó con el objetivo central de reunir a todas aquellas personas 
+      de las diversas áreas relacionadas con el uso de las Matemáticas y la Computación 
+      en nuestra tecnología relacionada con estos temas.
       </p>
       <a className="ms-3" href="https://m.facebook.com/SPMACPERU">
         <img
