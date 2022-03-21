@@ -159,12 +159,14 @@ inscrito su tesis. </p>
       </article>
 
   <Row>
-    <Col xs = "12" sm = "6">
-  <img src={integrantes1}/>
+    <Col xs = {0} sm = {2}/>
+    <Col xs = {12} sm = {4}>
+      <img src={integrantes1} style = {{maxWidth: "100%"}}/>
     </Col>
-    <Col xs = "12" sm = "6">
-  <img src={integrantes2}/>
+    <Col xs = {12} sm = {4}>
+      <img src={integrantes2} style = {{maxWidth: "100%"}}/>
     </Col>
+    <Col xs = {0} sm = {2}/>
   </Row>
       </>
   );
