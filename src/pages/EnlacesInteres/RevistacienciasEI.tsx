@@ -138,6 +138,9 @@ function RevistaCiencias() {
       </p>
       <p className="ms-3">
       </p>
+      <p className="ms-3">
+        Es una página dedicada a las distintas ciencias y sus noticias. Un repaso a la actualidad en el campo de la ciencia.
+      </p>
       <a className="ms-3" href="https://www.conicyt.cl/becasconicyt/">
         <img
           style={{ height: '90px' }}
@@ -145,6 +148,7 @@ function RevistaCiencias() {
           src="./enlaces/abc_ciencia.png"
         />
       </a>
+
 
 
     </div>
