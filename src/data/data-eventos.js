@@ -24,10 +24,9 @@ exports.eventos = [
     "future" : true
   },
   {
-    "hrefLink": "./congreso.pdf",
+    "hrefLink": "https://sites.google.com/uni.edu.pe/cimmuni-2022/inicio",
     "fechaEvento": "18 de ABRIL del 2022",
     "descripcion": "III Congreso Internacional Multidisciplinario de Matemática",
     "future" : true
   },
-
-  ]
+    ]
