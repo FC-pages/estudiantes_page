@@ -277,6 +277,26 @@ function Instituciones_Academicas() {
         />
       </a>
 
+      <br />
+      <p className="mt-3 fs-4 fw-bold">
+        13.{' '}
+        <a className="a-link-title" href="https://www.claymath.org/">
+          CLAYMATH
+        </a>
+      </p>
+      <p className="ms-3">
+        El Clay Mathematics Institute es una Fundación Operativa Privada exenta de impuestos dedicada a incrementar y difundir el conocimiento matemático. Apoya el trabajo de investigadores líderes en varias etapas de sus carreras y organiza conferencias, talleres y escuelas de verano. Los avances contemporáneos son reconocidos por su premio anual de investigación. 
+      </p>
+      <a className="ms-3" href="https://www.claymath.org/">
+        <img
+          style={{ height: '110px' }}
+          alt="IMPA - Instituto de Matemática Pura e Aplicada"
+          src="./enlaces/claymath.png"
+        />
+      </a>
+
+
+
     </div>
   );
 }
