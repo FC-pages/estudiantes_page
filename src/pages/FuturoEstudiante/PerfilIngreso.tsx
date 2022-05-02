@@ -18,6 +18,12 @@ let videos = [
     Description:
       "Estudiantes peruanos entre los mejores en Olimpiada Mundial de Matemática y los mejores de América Latina.",
   },
+  {
+    name: "Terence Tao enseña pensamiento matemático",
+    href: "https://www.youtube.com/watch?v=axzFfSvQdYQ",
+    Description:
+      "Terence Tao, becario de MacArthur y ganador de la medalla Fields, estudiaba matemáticas de nivel universitario a los 9 años. Ahora, el 'Mozart de las matemáticas' está analizando su enfoque para la resolución de problemas cotidianos.",
+  },
 ];
 
 const TabOne: FC<{}> = () => {
