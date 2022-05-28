@@ -1,1 +1,2 @@
-declare module "simple-react-google-maps";
+declare module 'simple-react-google-maps';
+declare module 'axios';

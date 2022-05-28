@@ -1,0 +1,8 @@
+.a-link {
+  text-decoration: none;
+  color: #4c4a48;
+}
+
+.a-link :hover {
+  color: #61dafb;
+}

@@ -3,7 +3,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 90%;
+  max-width: 75%;
+}
+.foto-analisis-numerico {
+  width: 60%;
 }
 .foto-profesor {
   display: block;
@@ -11,8 +14,9 @@
   float: right;
   /*max-width: 95%;
   min-width: 150px;*/
-  height: 150px;
-  width: 120px;
+  height: 154px;/*150px*/
+  width: 120px;/*120p*/
+  object-fit: cover;
   /*background-size: 100px 120px;*/
   /*padding-left: 35px;*/
 }
@@ -21,20 +25,31 @@
   margin-left: auto;
   margin-right: auto;
   float: right;
-  width: 58%;
+  height: 154px;/*150px*/
+  width: 120px;/*120p*/
+  object-fit: cover;
   /*padding-left: 35px;*/
 }
 .foto-publicaciones {
   display: block;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-right: auto;
   /* float: right; */
+  height: 160px;
 }
+.foto-eventos {
+  display: block;
+  /*margin-left: 10px;*/
+  margin-right: auto;
+  width: 400px;
+   /*float: right; */
+}
+
 .itemLeft {
   /*width: 12vw;*/
   width: 20%;
-  padding: 10px;
-  padding-left: 5px;
+  padding: 5px;
+  padding-left: 0px;
   margin-top: 10px;
   margin-bottom: 20px;
   /*background-color: green;*/
@@ -51,7 +66,7 @@
   /*background-color: purple;*/
   flex: 390px;
   /*border: solid;*/
-  padding-left: 20px;
+  padding-left: 35px;
   padding-right: 0px;
   /*border-color: black;*/
 }
@@ -61,8 +76,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 85%;
-  margin-left: 14%;
+  width: 90%; /*85%*/
+  /*margin-left: 14%;*/
+
   
 }
 .itemRight {
@@ -78,12 +94,22 @@
   /*border: 2px solid rgba(111,41,97,.5);*/
   display: inline-block;
   vertical-align: middle;
+  /*min-width: 9em;*/
+  /*float: none;*/
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .tit {
   color: #007a91;
   font-weight: bold;
   font-size: 16px;
+  width: 56%;
+}
+.tit a {
+  text-decoration: none;
+  color: #007a91;
 }
 .justify {
   text-align: justify;
@@ -114,6 +140,70 @@
   font-style: italic;
   font-weight: bold;
 }
+
+
+.itemLeft3 {
+  /*width: 38vw;*/
+  flex: 420px;
+ 
+  /*background-color: green;*/
+  /*background-color: rgba(111,41,97,.3);*/
+  /*border: 2px solid rgba(111,41,97,.5);*/
+  vertical-align: middle;
+  text-align: justify;
+  text-justify: inter-word;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*width: 70%;*/
+ /* width: 85%; /*85%*/
+  /*margin-left: 14%;*/
+
+}
+
+
+.eventoss {
+  flex: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-right: 3vw;*/
+  /*width: 10vw;*/
+  /*background-color: purple;*/
+  /*background-color: rgba(111,41,97,.3);*/
+  /*border: 2px solid rgba(111,41,97,.5);*/
+  /*display: inline-block;*/
+  vertical-align: top;
+  color: #00427a;
+  /*width: 50px;*/
+  /*height: 50px;*/
+  width: 25%; /*85%*/
+  margin-left: 2%;
+}
+
+
+
+.eventoss img {
+  cursor: zoom-in;
+}
+
+
+.modal-image .modal-dialog {
+  max-width: 800px;
+}
+.modal-image img {
+  width: 100%;
+}
+.grid {
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%; /*85%*/
+  /*margin-left: 14%;*/
+
+  
+}
+
+
 .itemLeft2 {
   width: 38vw;
   padding: 3px;
@@ -152,6 +242,21 @@
   .column {
     width: 100%;
   }
+  .tit {
+    width:100%;
+  }
+  .itemLeft2 {
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 760px) {
+  .foto-grupo {
+    max-width: 100%;
+  }
+  .foto-analisis-numerico {
+    width: 90%;
+  }
 }
 
 .icons2 {
@@ -160,10 +265,31 @@
 }
 
 .t-stroke-shadow {
-  /* text-align: left; */
-      color: #1d3557;
+
       /* text-shadow: -0.7px 0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 1.75px 1.75px #f3f3f2, 3.5px 3.5px #bbbbbb;
        */
-      text-shadow: -0.7px 0.7px #ffffff,-0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 2.5px 2.5px #bbbbbb;
-  }
+  text-shadow: -0.7px 0.7px #ffffff,-0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, -0.7px -0.7px #ffffff, 2.5px 2.5px #bbbbbb;
+}
   
+.boxVisitar {
+  background-color: #AE263A;
+  color: white;
+  padding: 14px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  margin-left: 35%;
+  width: 25%;
+ 
+  padding: 10px;
+}
+
+.miembros {
+  align-items: center;
+  align-content: center;
+  /*background-color: pink;*/
+  text-align: center;
+  margin: auto;
+}
+

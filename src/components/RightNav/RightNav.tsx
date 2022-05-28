@@ -1,20 +1,21 @@
 import * as S from "./styles";
 
 import Home from "../../pages/Home/Home";
-import Descripcion from "../../pages/Descripcion/Descripcion";
-import FuturoEstudiante from "../../pages/FuturoEstudiante/FuturoEstudiante";
-import AlumnosEgresadosPage from "../../pages/estudiantes/AlumnosEgresadosPage";
+import Descripcion from "../../pages/Descripcion/DescripcionPage";
+import FuturoEstudiante from "../../pages/FuturoEstudiante/FuturoEstudiantePage";
+import AlumnosEgresadosPage from "../../pages/AlumnosYEgresados/AlumnosEgresadosPage";
 import EnlacesInteresPage from "../../pages/EnlacesInteres/EnlacesInteresPage";
-import Egresados from "../../pages/Egresados";
-import DocentesTabs from "../../pages/Docentes/DocentesTabs";
-//import GruposInvestigacion from "../../pages/GruposInvestigacion/GrupoOptimizacion";
+import DocentesTabs from "../../pages/Docentes/DocentesPage";
+import Laboratorio from "../../pages/Laboratorio/LaboratorioPage";
+//import GruposInvestigacion from "../../pages/LineasInvestigacion/GrupoOptimizacion";
 import routes from "../../helpers/routes";
-import Optimizacion from "../../pages/GruposInvestigacion/Optimizacion/Optimizacion";
-import ANumerico from "../../pages/GruposInvestigacion/AnalisisNumerico/AnalisisNumerico";
-import GruposInvestigacion from '../../pages/GruposInvestigacion/GruposInvestigacion';
+import Optimizacion from "../../pages/LineasInvestigacion/Optimizacion/Optimizacion";
+import ANumerico from "../../pages/LineasInvestigacion/AnalisisNumerico/AnalisisNumerico";
+import GruposInvestigacion from '../../pages/LineasInvestigacion/GruposInvestigacion';
 
 import {
   BrowserRouter as Router,
+  MemoryRouter,
   Routes,
   Route,
   NavLink,
@@ -44,91 +45,39 @@ type Props = {
   home: boolean;
 };
 
-function RightNav(props: Props) {
+function RightNav(props: any) {
   return (
-    <Router>
+    <MemoryRouter>
       <S.Ul open={props.open} home={props.home}>
         <S.LogoUl
           src="./logo-UNI-footer.png"
           alt={"Universidad Nacional de Ingeniería"}
         />
-        <NavLink to={routes.home}>
+        <NavLink to={routes.home} onClick={() => props.setOpen(!props.open)}>
           <li>Inicio</li>{" "}
         </NavLink>
-        <NavLink to={routes.descripcion}>
+        <NavLink to={routes.descripcion} onClick={() => props.setOpen(!props.open)}>
           <li>Descripción</li>{" "}
         </NavLink>
-        <NavLink to={routes.futuroEstudiante}>
+        <NavLink to={routes.futuroEstudiante} onClick={() => props.setOpen(!props.open)}>
           <li>Futuro Estudiante</li>{" "}
         </NavLink>
-        <NavLink to={routes.docentes}>
+        <NavLink to={routes.docentes} onClick={() => props.setOpen(!props.open)}>
           <li>Docentes</li>{" "}
         </NavLink>
-        <NavLink to={routes.estudiantes_egresados}>
+        <NavLink to={routes.estudiantes_egresados} onClick={() => props.setOpen(!props.open)}>
           <li>Alumnos y egresados</li>{" "}
         </NavLink>
-        <NavLink to="/GruposInvestigacion">
+        <NavLink to="/GruposInvestigacion" onClick={() => props.setOpen(!props.open)}>
               <li>Líneas de investigación</li>{" "}
-            </NavLink>
-
-  {/*
-        <S.DropdownMenu>
-          <li>Grupos de Investigación</li>
-          <div id="dropdown-menu">
-            <NavLink to="/linea_inv1">
-              <li>Análisis y Teoría de Números</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv2">
-              <li>Optimización</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv3">
-              <li>Álgebra, Geometría y Topología</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv4">
-              <li>Probabilidad y Procesos Estocásticos</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv5">
-              <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>{" "}
-            </NavLink>
-            <NavLink to="/linea_inv6">
-              <li>Análisis Numérico</li>{" "}
-            </NavLink>
-                      </div>
-        </S.DropdownMenu>
-        */}
-        {/*
-        <Dropdown className="menu-desp">
-          <Dropdown.Toggle variant="danger" id="dropdown-basic">
-            Grupos de investigación
-          </Dropdown.Toggle>
-
-          <Dropdown.Menu>
-            <NavLink className="dropdown-item" to="/linea_inv1">
-              <li>Linea de Análisis y Teoría de Números</li>{" "}
-            </NavLink>
-            <NavLink className="dropdown-item" to="/linea_inv2">
-              <li>Línea de Optimización</li>{" "}
-            </NavLink>
-            <NavLink className="dropdown-item" to="/linea_inv3">
-              <li>Línea de Álgebra, Geometría y Topología</li>{" "}
-            </NavLink>
-            <NavLink className="dropdown-item" to="/linea_inv4">
-              <li>Línea de Probabilidad y Procesos Estocásticos</li>{" "}
-            </NavLink>
-            <NavLink className="dropdown-item" to="/linea_inv5">
-              <li>Línea de Ecuaciones Diferenciales y Sistemas Dinámicos</li>{" "}
-            </NavLink>
-            <NavLink className="dropdown-item" to="/linea_inv6">
-              <li>Línea de Análisis Numérico</li>{" "}
-            </NavLink>
-          </Dropdown.Menu>
-        </Dropdown>
-        */}
-
-        <NavLink to={routes.enlacesInteres}>
+        </NavLink>
+        <NavLink to={routes.laboratorio} onClick={() => props.setOpen(!props.open)}>
+          <li>Laboratorio</li>{" "}
+        </NavLink>
+        <NavLink to={routes.enlacesInteres} onClick={() => props.setOpen(!props.open)}>
           <li>Enlaces de interes</li>{" "}
         </NavLink>
-        <NavLink to={routes.contacto}>
+        <NavLink to={routes.contacto} onClick={() => props.setOpen(!props.open)}>
           <li>Contacto</li>{" "}
         </NavLink>
       </S.Ul>
@@ -142,7 +91,6 @@ function RightNav(props: Props) {
         <Route path={routes.enlacesInteres} element={<EnlacesInteresPage />} />
         <Route path={routes.descripcion} element={<Descripcion />} />
         <Route path={routes.futuroEstudiante} element={<FuturoEstudiante />} />
-        <Route path={routes.egresados} element={<Egresados />} />
         <Route
           path={routes.grupos_investigacion}
           element={<GruposInvestigacion />}
@@ -155,9 +103,10 @@ function RightNav(props: Props) {
         <Route path="/linea_inv5" element={<LineaInv5 />} />
         <Route path="/linea_inv6" element={<LineaInv6 />} />
         <Route path="/GruposInvestigacion" element={< GruposInvestigacion/>} />
+        <Route path={routes.laboratorio} element={<Laboratorio />} />
         <Route path={routes.contacto} element={<ContactoPage />} />
       </Routes>
-    </Router>
+    </MemoryRouter>
   );
 }
 

@@ -49,10 +49,40 @@ function Instituciones_Academicas() {
         />
       </a>
 
-      <br />
+    <br />
 
       <p className="mt-3 fs-4 fw-bold">
         3.{' '}
+        <a className="a-link-title" href="https://www.ci2ma.udec.cl/">
+          Centro de Investigación en Ingeniería Matemática
+        </a>
+      </p>
+      <p className="ms-3">
+      CI²MA reune a los investigadores más activos del Departamento de Ingeniería 
+      Matemática, junto a investigadores-colaboradores de otros departamentos y
+      facultades de la Universidad de Concepción y de 
+      algunas universidades locales. Su propósito principal es constituir 
+      un ambiente de excelencia en investigación que sea percibido por la comunidad 
+      científica y por los sectores productivos y de servicios como una instancia 
+      sólida de consulta y colaboración mucho más visible y cercana que una unidad 
+      académica típica. 
+      </p>
+      <a className="ms-3" href="https://www.ci2ma.udec.cl/">
+        <img
+          style={{ height: '120px' }}
+          alt="IMPA - Instituto de Matemática Pura e Aplicada"
+          src="./enlaces/logo_ci2ma.jpg"
+        />
+      </a>
+
+
+
+
+
+      <br />
+
+      <p className="mt-3 fs-4 fw-bold">
+        4.{' '}
         <a className="a-link-title" href="https://www.ens.psl.eu/en">
           École normale supérieure - PSL
         </a>
@@ -76,7 +106,7 @@ function Instituciones_Academicas() {
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        4.{' '}
+        5.{' '}
         <a className="a-link-title" href="http://www.ens-lyon.fr/en/">
           École normale supérieure de Lyon
         </a>
@@ -100,7 +130,7 @@ function Instituciones_Academicas() {
       <br />
 
       <p className="mt-3 fs-4 fw-bold">
-        5.{' '}
+        6.{' '}
         <a className="a-link-title" href="https://www.polytechnique.edu/en">
           École Polytechnique
         </a>
@@ -121,7 +151,7 @@ function Instituciones_Academicas() {
 
       <br />
       <p className="mt-3 fs-4 fw-bold">
-        6.{' '}
+        7.{' '}
         <a className="a-link-title" href="https://math.berkeley.edu/">
           Berkeley Math
         </a>
@@ -143,7 +173,7 @@ function Instituciones_Academicas() {
       </a>
       <br />
       <p className="mt-3 fs-4 fw-bold">
-        7.{' '}
+        8.{' '}
         <a className="a-link-title" href="https://www.cnrs.fr/en">
           Centre National de la Recherche Scientifique
         </a>
@@ -164,7 +194,7 @@ function Instituciones_Academicas() {
       </a>
       <br />
       <p className="mt-3 fs-4 fw-bold">
-        8.{' '}
+        9.{' '}
         <a className="a-link-title" href="https://www.mathunion.org/">
           International Mathematical Union (IMU)
         </a>
@@ -185,7 +215,7 @@ function Instituciones_Academicas() {
       </a>
       <br />
       <p className="mt-3 fs-4 fw-bold">
-        9.{' '}
+        10.{' '}
         <a
           className="a-link-title"
           href="https://www.ictp.it/research/math.aspx"
@@ -206,6 +236,90 @@ function Instituciones_Academicas() {
           src="./enlaces/logo-ictp.png"
         />
       </a>
+      
+        <br />
+
+      <p className="mt-3 fs-4 fw-bold">
+        11.{' '}
+        <a className="a-link-title" href="https://cermics-lab.enpc.fr/">
+        Centre d’Enseignement et de Recherche en MathématIques et Calcul Scientifique (CERMICS)
+        </a>
+      </p>
+      <p className="ms-3">
+        CERMICS es un centro de investigacion en Matematica Aplicada de 
+        Ecole des Ponts ParisTech. Los investigadores trabajan en tres principales areas: 
+        Probabilidad Aplicada; Modelamiento, Análisis y Simulación; Optimización.
+      </p>
+      <a className="ms-3" href="https://cermics-lab.enpc.fr/">
+        <img
+          style={{ height: '120px' }}
+          alt="IMPA - Instituto de Matemática Pura e Aplicada"
+          src="./enlaces/logo-cermics.PNG"
+        />
+      </a>
+      
+      <br />
+
+      <p className="mt-3 fs-4 fw-bold">
+        12.{' '}
+        <a className="a-link-title" href="https://www.inria.fr/en">
+          INRIA
+        </a>
+      </p>
+      <p className="ms-3">
+        Inria es el instituto nacional francés de investigación en ciencia y 
+        tecnología digital. La investigación de clase mundial, la innovación 
+        tecnológica y el riesgo empresarial son su ADN.
+        Como instituto tecnológico, Inria apoya la diversidad de vías de innovación: 
+        desde la publicación de software libre hasta la creación de startups tecnológicas (Deeptech).
+      </p>
+      <a className="ms-3" href="https://www.inria.fr/en">
+        <img
+          style={{ height: '110px' }}
+          alt="IMPA - Instituto de Matemática Pura e Aplicada"
+          src="./enlaces/logo-inria.PNG"
+        />
+      </a>
+
+      <br />
+      <p className="mt-3 fs-4 fw-bold">
+        13.{' '}
+        <a className="a-link-title" href="https://www.claymath.org/">
+          CLAYMATH
+        </a>
+      </p>
+      <p className="ms-3">
+        El Clay Mathematics Institute es una Fundación Operativa Privada exenta de impuestos dedicada a incrementar y difundir el conocimiento matemático. Apoya el trabajo de investigadores líderes en varias etapas de sus carreras y organiza conferencias, talleres y escuelas de verano. Los avances contemporáneos son reconocidos por su premio anual de investigación. 
+      </p>
+      <a className="ms-3" href="https://www.claymath.org/">
+        <img
+          style={{ height: '110px' }}
+          alt="IMPA - Instituto de Matemática Pura e Aplicada"
+          src="./enlaces/claymath.png"
+        />
+      </a>
+      <br />
+      <p className="mt-3 fs-4 fw-bold">
+        13.{' '}
+        <a className="a-link-title" href="https://vinculate.concytec.gob.pe/">
+          Plataforma vinculate
+        </a>
+      </p>
+      <p className="ms-3">
+        Plataforma de herramientas para la transferencia tecnológica y
+        la vinculación entre la investigación y la industria.
+      </p>
+      <a className="ms-3" href="https://vinculate.concytec.gob.pe/">
+        <img
+          style={{ height: '110px' }}
+          alt="vinculate concytec"
+          src="./enlaces/vinculate.png"
+        />
+      </a>
+
+
+
+
     </div>
   );
 }

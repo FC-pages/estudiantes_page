@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import imagenmate from '../images/imagenmate.png';
+import imgmate from '../images/matematica2.jpg';
+import bg from '../images/bg.jpg';
 import { colors } from './colors';
 
 
@@ -14,7 +16,7 @@ export const StyledBurger = styled.div<INav>`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 45px;
+  top: 25px;
   right: 20px;
   z-index: 20;
   display: none;
@@ -58,6 +60,8 @@ export const ContainerCarousel = styled.div`
   }
   img {
     height: 390px;
+    float: left;
+    object-fit: cover;
   }
 `;
 export const Header = styled.header`
@@ -67,12 +71,19 @@ export const Header = styled.header`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-      background-image: url('${imagenmate}');
+      //background-image: url('${imagenmate}');
+      background-image: url('${imgmate}');
+      //background-image: url('${bg}');
       background-size:cover; /* auto, cover, contained, 200px 200px*/;
   font-size: calc(10px + 2vmin);
   color: ${colors.main};
   max-height: 200x;   
   max-height: 200px;   
+
+  @media (max-width: 480px) {
+      background-image: url('${imagenmate}');
+
+  }
   img {
     height: 150px;
     padding: 0px 15px;
@@ -110,7 +121,7 @@ export const Header = styled.header`
       justify-content: space-between;
 
       h1 {
-        margin: 30px 0px 5px 0px;
+        margin: 20px 0px 5px 0px;
       }
       h4 {
         margin: 0px 0px;
@@ -164,14 +175,17 @@ export const Header = styled.header`
          }
 
   .main{
+    margin-top: 50px;
     justify-content: space-around;
   }
 `
 
 
 export const Seccion = styled.section`
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 25%);
   height 390px;
   .eventos-seccion {
+      
       background: #C4C4C4;
       min-height:  360px;
       max-height:  360px;
@@ -187,40 +201,33 @@ export const Seccion = styled.section`
       .evento{
         display: flex;
         margin: 10px 5px;
-        min-height: 90px;
+        min-height: 80px;
       }
       
       .fecha-evento {
         font-size: 0.87em;
-        background: #1d3557;
+        background: ${colors.main};
         color: white;
         font-weight: 500;
         padding: 10px 20px;
         display: flex;
         align-items: center;
-        width: 34%;
+        max-width: 100px;
       }
-      .fecha-evento-pasado {
-        background: #ba373c;
-        color: white;
-        font-weight: bold;
-        padding: 10px 20px;
-        display: flex;
-        align-items: center;
-        width: 34%;
-      }
+      
       .descripcion {
         font-size: 0.97em;
         display: flex;
         align-items: center;
-        margin: 0px 5px;
-        width: 70%;
+        text-align: left;
+        margin: 0px 10px;
         justify-content: center;
         a {
+          color: ${colors.main};
           text-decoration: none;
-          color: #142C68;
           :hover {
-            color: #0DADEA;
+            color: #0DADEA;//${colors.azulTurquesa};
+
           }
         }
       }
@@ -230,7 +237,8 @@ export const Seccion = styled.section`
       }
   }
       .footer-eventos {
-        background: #1d3557;
+        padding-top: 2px;
+        background: ${colors.main};
         color: white;
         height: 30px;
         :hover {
@@ -273,6 +281,8 @@ export const ContainerVideos  = styled.div`
     width: 100%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
     >div {
       width: 45%;
      margin: 50px 10px;

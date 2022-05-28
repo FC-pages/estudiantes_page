@@ -1,6 +1,6 @@
 import { Tab, Container, Nav } from 'react-bootstrap';
 import React from 'react';
-import '../../pages/FuturoEstudiante/styles/tabs.css';
+//import '../../pages/FuturoEstudiante/styles/tabs.css';
 
 import Competiciones from './CompeticionesEI';
 import RevistaCiencias from './RevistacienciasEI';
@@ -8,6 +8,8 @@ import Otros from './OtrosEI';
 import InstAcademicas from './InstitucionesAcademicasEI';
 import Cursosonline from './CursosOnlineEI';
 import SeminariosOnline from './SeminariosOnlineEI';
+
+import { colors } from '../../styles/colors';
 
 export default function EnlacesInteresPage() {
   return (
@@ -17,12 +19,13 @@ export default function EnlacesInteresPage() {
         borderColor: '#1D3557',
         paddingLeft: '0',
         paddingRight: '0',
+        backgroundColor: 'white',
       }}
       className="text-start mt-5"
     >
       <Tab.Container defaultActiveKey="RevistaCiencias">
         <Nav
-          style={{ backgroundColor: '#1D3557' }}
+          style={{ backgroundColor: colors.main }}
           className="justify-content-center pt-1 fs-6 style-with-otros"
         >
           <Nav.Item>

@@ -20,14 +20,13 @@ exports.eventos = [
   {
     "hrefLink": "http://www.admision.uni.edu.pe/",
     "fechaEvento": "01 de MARZO del 2022",
-    "descripcion": "Examen de admisión UNI",
+    "descripcion": "Exámen de admisión UNI",
     "future" : true
   },
   {
-    "hrefLink": "./congreso.pdf",
+    "hrefLink": "https://sites.google.com/uni.edu.pe/cimmuni-2022/inicio",
     "fechaEvento": "18 de ABRIL del 2022",
     "descripcion": "III Congreso Internacional Multidisciplinario de Matemática",
     "future" : true
   },
-
-  ]
+    ]
