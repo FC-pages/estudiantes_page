@@ -168,12 +168,9 @@
   border-right: 5px solid rgb(7, 19, 50, 0.3);
   text-align: right;
 }
-<<<<<<< HEAD
-=======
 .resena tr td {
   width: 50%;
 }
->>>>>>> 77f008d1b0865877f8a87c9f07385621211f1037
 
 .resena-borde{
   margin: 0px -10px;
@@ -195,13 +192,7 @@
   margin-top: 10px
 }
 .anios {
-<<<<<<< HEAD
-  font-size: 50px;
-  /* background-size: 0px 50px; */
-  /* padding: 10px 0px; */
-=======
   font-size: 45px;
->>>>>>> 77f008d1b0865877f8a87c9f07385621211f1037
   margin: 0px 10px;
   margin-right: 10px;
   color: rgb(255, 255, 255);
@@ -270,14 +261,6 @@
   background-color: #042354;
   color: white;
 }
-<<<<<<< HEAD
-.App-creditos tr:nth-child(odd) {
-  background-color: rgba(226, 226, 226, 0.959);
-  /* background-color: #1d3557; */
-}
-=======
->>>>>>> 77f008d1b0865877f8a87c9f07385621211f1037
-
 .App-archivo {
   /* list-style-type: circle ; */
   /* list-style-image: url(vineta.png); */

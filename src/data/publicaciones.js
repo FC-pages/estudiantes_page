@@ -229,6 +229,34 @@ exports.EDySD_publicaciones = [
 ]
 
 
+exports.probabilidadyPEpublicaciones = [
+  {
+    titulo: "Second order cubic corrections of large deviations for perturbed random walks." ,
+    autores: "G. Oviedo, G. Panizo and A. F. Ramírez.",
+    revista: "Electronic Journal of Probability",
+    volume: "27",
+    issue: "3",
+    pag: "1-45",
+    anio: 2022,
+    abstract: "We prove that the Beta random walk has second order cubic fluctuations from the large deviation principle of the GUE Tracy-Widom type for arbitrary values of the parameters of the Beta distribution, removing previous restrictions on their values. Furthermore, we prove that the GUE Tracy-Widom fluctuations still hold in the intermediate disorder regime. We also show that any random walk in space-time random environment that matches certain moments with the Beta random walk also has GUE Tracy-Widom fluctuations in the intermediate disorder regime. As a corollary we show the emergence of GUE Tracy-Widom fluctuations from the large deviation principle for trajectories ending at boundary points for random walks in space (time-independent) i.i.d. Dirichlet random environment in dimension d=2 for a class of asymptotic behavior of the parameters.",
+    src: "https://doi.org/10.1214/22-EJP786",
+    imagen: "https://projecteuclid.org/images/journals/cover_ejp.jpg",
+  },
+  {
+    titulo: "The relationship between two representations of linear subspaces.",
+    autores: "D. Camarena, G. Panizo and A. F. Ramírez.",
+    revista: "An Overview of the Balanced Excited Random Walk. In and Out of Equilibrium",
+    volume: "",
+    issue: "11",
+    pag: "2421-2430",
+    anio: 2020,
+    abstract: "The balanced excited random walk, introduced by Benjamini, Kozma and Schapira in 2011, is defined as a discrete time stochastic process in Z^d, depending on two integer parameters 1 ≤ d 1, d 2 ≤ d, which whenever it is at a site x∈Z^d at time n, it jumps to x ± e i with uniform probability, where e 1, …, e d are the canonical vectors, for 1 ≤ i ≤ d 1, if the site x was visited for the first time at time n, while it jumps to x ± e i with uniform probability, for 1 + d − d 2 ≤ i ≤ d, if the site x was already visited before time n. Here we give an overview of this model when d 1 + d 2 = d and introduce and study the cases when d 1 + d 2 > d. In particular, we prove that for all the cases d ≥ 5 and most cases d = 4, the balanced excited random walk is transient.",
+    src: "https://link.springer.com/book/10.1007/978-3-030-60754-8?noAccess=true",
+    imagen: "./LineasInvestigacion/images/Optimizacion/optimization.jpeg",
+  }]
+
+
+
 {/*
 import journal_of_convex_analysis from '../pages/LineasInvestigacion/images/Optimizacion/journal_of_convex_analysis.jpeg';
 import optimization from '../pages/LineasInvestigacion/images/Optimizacion/optimization.jpeg';

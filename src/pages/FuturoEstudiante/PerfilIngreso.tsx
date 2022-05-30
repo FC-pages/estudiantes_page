@@ -6,12 +6,13 @@ import * as S from "../../styles/styles";
 import "./styles/festudiantes.css";
 
 let videos = [
+  /*
   {
     name: "Importancia de estudiar Matemática",
     href: "https://www.youtube.com/watch?v=Cwq4dRBWcr8&t=185s",
     Description:
       "Las matemáticas tienen un triple propósito. Debe proporcionar un instrumento para el estudio de la naturaleza. Pero esto no es todo: tiene un propósito filosófico y, me atrevo a decir, estético.",
-  },
+  },*/
   {
     name: "Perú entre los mejores países en olimpiada de Matemática",
     href: "https://www.youtube.com/watch?v=JE0IM-FgU_0",

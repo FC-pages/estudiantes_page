@@ -39,39 +39,7 @@ function Docente(props: any) {
   let titulos = ['Maestro', 'Maestra', 'Magíster', 'Doctor', 'Doctora', 'Ingeniero', 'Ingeniera']
   return (
     <div className="App-profes">
-<<<<<<< HEAD
-      <a className="borde">
-        <table cellPadding={7}>
-          <tr>
-            <td colSpan={2}>{props.nombre} </td>
-          </tr>
-          {/* <tr>
-            <td className="App-profes-nom" colSpan={2}>
-              {" "}
-              {props.nombre}
-              {" "}
-            </td>
-          </tr> */}
-          <tr>
-            <td>
-              <img alt="" src={props.foto} />{" "}
-            </td>
-            <td className="App-profes-td">
-              <ul>
-                <li className = "notnoselect"
-                >E-mail: <span className = "correo-oculto">{reverse(props.email)}</span></li>
-                <li>
-                  Grado académico: {props.gradoAc}{" "}
-                </li>
-                <li>Línea de interés: {props.areasDeInteres}</li>
-                <li>C.V:&nbsp;&nbsp;&nbsp;   
-                  <a href={props.dina}>
-                    <FontAwesomeIcon className="icons2" icon={faFileAlt} />
-                  </a>{" "}
-                </li>
-                <li className = "resenia" onClick={handleShow} >
-                  Reseña
-=======
+
       <span className="borde">
         <table cellPadding={6}>
           <tbody>
@@ -128,6 +96,8 @@ function Docente(props: any) {
                   )}
                   <li className="resenia" onClick={handleShow}>
                     Reseña
+           
+
                   </li>
                 </ul>
               </td>
@@ -135,14 +105,8 @@ function Docente(props: any) {
           </tbody>
         </table>
       </span>
->>>>>>> 77f008d1b0865877f8a87c9f07385621211f1037
 
-                </li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-        </a>
+
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>{props.nombre}</Modal.Title>
