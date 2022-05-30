@@ -1,11 +1,20 @@
 import React, { FC, Fragment } from "react";
 import Accordion from "../../components/Accordion";
 import "./styles/festudiantes.css";
+import routes from "../../helpers/routes";
 
 import ReactPlayer from "react-player";
 
 import { Row, Card } from "react-bootstrap";
 import * as S from "../../styles/styles";
+
+import {
+  BrowserRouter as Router,
+  MemoryRouter,
+  Routes,
+  Route,
+  NavLink,
+} from "react-router-dom";
 
 let videos = [
   {
@@ -351,12 +360,25 @@ const TabThree: FC<{}> = () => {
         {/*<Accordion items={accordionItems} />*/}
 
         <ol>
-          <a href = "#"><li>Análisis y Teoría de Números</li></a>
-          <a href = "#"><li>Optimización</li></a>
-          <a href = "#"><li>Álgebra, Geometría y Topología</li></a>
-          <a href = "#"><li>Probabilidad y Procesos Estocásticos</li></a>
-          <a href = "#"><li>Ecuaciones Diferenciales y Sistemas Dinámicos</li></a>
-          <a href = "#"><li>Análisis Numérico</li></a>
+
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Análisis y Teoría de Números</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Optimización</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Álgebra, Geometría y Topología</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Probabilidad y Procesos Estocásticos</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Análisis Numérico</li>
+        </NavLink>
         </ol>
       </div>
       <br/>

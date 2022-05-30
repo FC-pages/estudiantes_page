@@ -7,16 +7,16 @@ import * as S from "../../styles/styles";
 
 let videos = [
   {
-    name: "Investigación - Matemática",
-    href: "https://www.youtube.com/watch?v=V6OzvIKVCv8",
+    name: "El tipo que te convencerá de que las matemáticas son la profesión del futuro",
+    href: "https://www.youtube.com/watch?v=NILudp6hti8",
     Description:
-      "Doctorado en Ciencias con mención en Matemáticas del profesor Luis Flores Luyo",
+      "",
   },
   {
-    name: "Industria - Testimonio",
-    href: "https://www.youtube.com/watch?v=yDyMSliKsxI",
+    name: "Terence Tao Teaches Mathematical Thinking",
+    href: "https://www.youtube.com/watch?v=axzFfSvQdYQ",
     Description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sint illum iusto nostrum ",
+      "",
   },
 ];
 
@@ -33,6 +33,26 @@ const TabTwo: FC<{}> = () => {
       <p>
         Así mismo, el egresado de la carrera de Matemática se encuentra plenamente preparado para continuar estudios de postgrado en Matemática con miras a desarrollar investigación científica de primer nivel en matemática o en otras ciencias afines. 
       </p>
+
+      <Row xs={1} md={1} className="g-4">
+        <S.ContainerVideos>
+          <div className="video">
+            {videos.map((video: any) => {
+              return (
+                <Card bg="dark" text="white">
+                  <ReactPlayer controls width="100%" url={video.href} />
+                  <Card.Body>
+                    <Card.Title>{video.name}</Card.Title>
+                    <Card.Text>{video.Description}</Card.Text>
+                  </Card.Body>
+                </Card>
+              );
+            })}
+          </div>
+        </S.ContainerVideos>
+      </Row>
+
+
     </div>
   );
 };

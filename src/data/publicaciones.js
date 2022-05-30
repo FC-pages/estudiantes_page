@@ -243,16 +243,16 @@ exports.probabilidadyPEpublicaciones = [
     imagen: "https://projecteuclid.org/images/journals/cover_ejp.jpg",
   },
   {
-    titulo: "The relationship between two representations of linear subspaces.",
+    titulo: "An Overview of the Balanced Excited Random Walk. In and Out of Equilibrium.",
     autores: "D. Camarena, G. Panizo and A. F. Ramírez.",
-    revista: "An Overview of the Balanced Excited Random Walk. In and Out of Equilibrium",
-    volume: "",
-    issue: "11",
-    pag: "2421-2430",
-    anio: 2020,
+    revista: "Maria Eulália Vares et al., Eds.: Celebrating Vladas Sidoravicius. Birkhäuser",
+    volume: "3",
+    issue: "",
+    pag: "207-2017",
+    anio: 2021,
     abstract: "The balanced excited random walk, introduced by Benjamini, Kozma and Schapira in 2011, is defined as a discrete time stochastic process in Z^d, depending on two integer parameters 1 ≤ d 1, d 2 ≤ d, which whenever it is at a site x∈Z^d at time n, it jumps to x ± e i with uniform probability, where e 1, …, e d are the canonical vectors, for 1 ≤ i ≤ d 1, if the site x was visited for the first time at time n, while it jumps to x ± e i with uniform probability, for 1 + d − d 2 ≤ i ≤ d, if the site x was already visited before time n. Here we give an overview of this model when d 1 + d 2 = d and introduce and study the cases when d 1 + d 2 > d. In particular, we prove that for all the cases d ≥ 5 and most cases d = 4, the balanced excited random walk is transient.",
-    src: "https://link.springer.com/book/10.1007/978-3-030-60754-8?noAccess=true",
-    imagen: "./LineasInvestigacion/images/Optimizacion/optimization.jpeg",
+    src: "https://media.springernature.com/w92/springer-static/cover/book/978-3-030-60754-8.jpg",
+    imagen: "https://media.springernature.com/w92/springer-static/cover/book/978-3-030-60754-8.jpg",
   }]
 
 

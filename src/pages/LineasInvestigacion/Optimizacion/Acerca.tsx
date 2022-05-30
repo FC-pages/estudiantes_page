@@ -10,18 +10,7 @@ const Acerca: FC<{}> = () => {
         <h3 className="t-stroke-shadow">Línea de Optimización</h3>
       </div>
       <hr></hr>
-      <div className="quote">
-        <cite>
-          “Nada en el mundo ocurre sin optimización, y no hay duda de que todos
-          los aspectos del mundo que tienen una base racional pueden explicarse
-          mediante métodos de optimización ».
-        </cite>
-      </div>
-      <div>
-        <figcaption className="quote">
-          &mdash;<cite>Leonhard Euler (1744)</cite>{' '}
-        </figcaption>
-      </div>
+     
       <br />
 
       <img alt="" src={miembros_optimizacion} className="foto-grupo" />
