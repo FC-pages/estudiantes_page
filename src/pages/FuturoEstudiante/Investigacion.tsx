@@ -53,12 +53,6 @@ let videos = [
     Description:
       "",
   },
-  {
-    name: "Simulación Numérica y Computacional con el MEF - Josep M. Carbonell",
-    href: "https://youtu.be/4i4FVWZqPIE",
-    Description:
-      "",
-  },
 ];
 
 const accordionItems = [

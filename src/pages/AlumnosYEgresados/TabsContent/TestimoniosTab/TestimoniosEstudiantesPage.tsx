@@ -23,26 +23,6 @@ export default function TestimoniosEstudiantesPage() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={12} lg={6}>
-          <Card style={{ width: "100%" }}>
-            <ReactPlayer
-              controls
-              width="100%"
-              url="https://www.youtube.com/watch?v=yDyMSliKsxI"
-            />
-            <Card.Body>
-              <Card.Title>Nombre Estudiante 2</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-                dd/mm/aaaa
-              </Card.Subtitle>
-              <Card.Text>
-                Descripción del estudiante Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Perferendis sint illum iusto
-                nostrum cumque qui voluptas
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
       </Row>
     </Container>
   );
