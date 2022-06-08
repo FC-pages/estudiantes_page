@@ -257,6 +257,71 @@ exports.probabilidadyPEpublicaciones = [
 
 
 
+exports.alg_geome_topologia = [
+  {
+    titulo: "Twisted tensor products of K3 with K3. Communications in Algebra." ,
+    autores: "J. Arce, J. A. Guccione, J. J. Guccione and C. Valqui.",
+    revista: "Communications in Algebra",
+    volume: "49",
+    issue: "8",
+    pag: "3614-3634",
+    anio: 2021,
+    abstract: "We describe all the twisted tensor products of K3 with K3, where K is an arbitrary field.",
+    src: "https://doi.org/10.1080/00927872.2021.1901911",
+    imagen: "https://www.tandfonline.com/action/showCoverImage?doi=10.1080/lagb20.v049.i08"
+  },
+  {
+    titulo: "Invariants of Stable Maps from the 3-Sphere to the Euclidean 3-Space.",
+    autores: "N.B. Huamaní, C. Mendes de Jesus and J. Palacios.",
+    revista: "Bulletin of the Brazilian Mathematical Society",
+    volume: "50",
+    issue: "4",
+    pag: "913–932",
+    anio: 2019,
+    abstract: "In the present work, we study the decompositions of codimension-one transitions that alter the singular set the of stable maps from S3 to R3, the topological behaviour of the singular set and the singularities in the branch set that involves cuspidal curves and swallowtails that alter the singular set. We also analyse the effects of these decompositions on the global invariants with prescribed branch sets.",
+    src: "https://doi.org/10.1007/s00574-019-00133-4",
+    imagen: "https://ekhukhro.files.wordpress.com/2021/02/bbms.jpg",
+  },
+  {
+    titulo: "Twisted Tensor Products of Kn with Km.",
+    autores: "J. Arce, J. A. Guccione, J. J. Guccione and C. Valqui.",
+    revista: "Algebras and Representation Theory",
+    volume: "22",
+    issue: "6",
+    pag: "1599–1651",
+    anio: 2019,
+    abstract: "We find three families of twisting maps of Km with Kn, where K is a field, and we make a detailed study of its properties. One of them is related to truncated quiver algebras, the second one consists of deformations of the first and the third one requires m=n and yields algebras isomorphic to Mn(K).",
+    src: "https://doi.org/10.1007/s10468-018-9833-1",
+    imagen: "https://media.springernature.com/w92/springer-static/cover/journal/10468.jpg"
+  },
+  {
+    titulo: "Extensiones no ramificadas y ligeramente ramificadas.",
+    autores: "R. J. Mas Huamán.",
+    revista: "REVCIUNI",
+    volume: "22",
+    issue: "1",
+    pag: "1-2",
+    anio: 2019,
+    abstract: "",
+    src: "https://latindex.org/latindex/ficha/12996",
+    imagen: "https://latindex.org/lat/portadas/fotRev/13519.jpg"
+  },
+
+  {
+    titulo: "Geometrical symmetric powers in the motivic homotopy category.",
+    autores: "J. Palacios.",
+    revista: "Journal of Pure and Applied Algebra",
+    volume: "223",
+    issue: "12",
+    pag: "5396-5408",
+    anio: 2019,
+    abstract: "Symmetric powers of quasi-projective schemes can be extended via Kan extensions to geometrical symmetric powers of motivic spaces. In this work, we study geometrical symmetric powers and compare them with various symmetric powers in the unstable and stable A1-homotopy category of schemes over a field.",
+    src: "https://doi.org/10.1016/j.jpaa.2019.04.004",
+    imagen: "https://ars.els-cdn.com/content/image/X00224049.jpg"
+  }
+]
+
+
 {/*
 import journal_of_convex_analysis from '../pages/LineasInvestigacion/images/Optimizacion/journal_of_convex_analysis.jpeg';
 import optimization from '../pages/LineasInvestigacion/images/Optimizacion/optimization.jpeg';
