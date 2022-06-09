@@ -96,13 +96,6 @@ export default function ContactoPage() {
             <Marker position={center} />
           </GoogleMap>
         )}
-        {/* <GoogleMaps
-          apiKey={API_KEY}
-          style={{ height: '500px', width: '100%' }}
-          zoom={19}
-          center={{ lat: -12.017411204346917, lng: -77.05072943150438 }}
-          markers={{ lat: -12.017411204346917, lng: -77.05072943150438 }}
-        /> */}
       </Row>
       <Row className="mt-5">
         <Col>
