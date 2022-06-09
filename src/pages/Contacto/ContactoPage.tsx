@@ -1,16 +1,21 @@
-import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import GoogleMaps from 'simple-react-google-maps';
-import { FaYoutube, FaFacebookSquare, FaMapMarkerAlt } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
-import { BsTelephoneFill } from 'react-icons/bs';
-import './styles.css';
+import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api'
+import { FaYoutube, FaFacebookSquare, FaMapMarkerAlt } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
+import { BsTelephoneFill } from 'react-icons/bs'
+import './styles.css'
 
 export default function ContactoPage() {
   const reverse = (s: any) => {
-    return s.split('').reverse().join('');
-  };
-  const API_KEY = process.env.REACT_APP_GMAPS_API_KEY;
+    return s.split('').reverse().join('')
+  }
+  const API_KEY = process.env.REACT_APP_GMAPS_API_KEY as string
+  const { isLoaded } = useJsApiLoader({
+    googleMapsApiKey: API_KEY
+  })
+  const center = { lat: -12.017411204346917, lng: -77.05072943150438 }
+
   return (
     <Container className="text-start pt-5">
       <Row className="mt-5">
@@ -19,7 +24,8 @@ export default function ContactoPage() {
             Área de Estadística y Registros Académicos
           </p>
           <p>
-            <span className="fw-bold">Jefe: </span> Dr. Helmuth Villavicencio Fernandez
+            <span className="fw-bold">Jefe: </span> Dr. Helmuth Villavicencio
+            Fernandez
           </p>
           <p className="fw-bold">Secretarias:</p>
           <p>
@@ -32,7 +38,7 @@ export default function ContactoPage() {
           </p>
           <p>
             <span className="fw-bold">E-mail: </span>{' '}
-            <span className = "correo-oculto">
+            <span className="correo-oculto">
               {reverse('es t a d i s t i c a _ f c @ u n i . e d u.pe').replace(
                 /\s+/g,
                 ''
@@ -62,7 +68,7 @@ export default function ContactoPage() {
           </p>
           <p>
             <span className="fw-bold">E-mail: </span>{' '}
-            <span className = "correo-oculto">
+            <span className="correo-oculto">
               {reverse('e s c u e l a s _ f c @ u n i . e d u .p e').replace(
                 /\s+/g,
                 ''
@@ -75,13 +81,28 @@ export default function ContactoPage() {
         </Col>
       </Row>
       <Row className="mt-5">
-        <GoogleMaps
+        {isLoaded && (
+          <GoogleMap
+            center={center}
+            zoom={19}
+            mapContainerStyle={{ width: '100%', height: '500px' }}
+            options={{
+              zoomControl: false,
+              streetViewControl: false,
+              mapTypeControl: false,
+              fullscreenControl: false
+            }}
+          >
+            <Marker position={center} />
+          </GoogleMap>
+        )}
+        {/* <GoogleMaps
           apiKey={API_KEY}
           style={{ height: '500px', width: '100%' }}
           zoom={19}
           center={{ lat: -12.017411204346917, lng: -77.05072943150438 }}
           markers={{ lat: -12.017411204346917, lng: -77.05072943150438 }}
-        />
+        /> */}
       </Row>
       <Row className="mt-5">
         <Col>
@@ -96,7 +117,7 @@ export default function ContactoPage() {
           <p>
             <MdEmail size={25} title="email" />{' '}
             <a className="a-link" href="mailto:fc@fcuni.edu.pe">
-              <span className = "correo-oculto">
+              <span className="correo-oculto">
                 {reverse('f c @ u n i . e d u . p e').replace(/\s+/g, '')}
               </span>
             </a>
@@ -125,5 +146,5 @@ export default function ContactoPage() {
         </Col>
       </Row>
     </Container>
-  );
+  )
 }
