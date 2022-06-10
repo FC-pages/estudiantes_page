@@ -17,4 +17,10 @@ exports.eventos = [
     "descripcion": "Examen de Admisión UNI",
     "future" : true
   },
+ {
+    "hrefLink": "https://sites.google.com/uni.edu.pe/feria-de-ciencias/",
+    "fechaEvento": "Del 22 al 26 de AGOSTO del 2022",
+    "descripcion": "Feria de proyectos ABET",
+    "future" : true
+  },
     ]

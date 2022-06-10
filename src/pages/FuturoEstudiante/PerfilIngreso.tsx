@@ -27,7 +27,7 @@ let videos = [
   },
 
   {
-    name: "Terence Tao enseña pensamiento matemático",
+    name: "¿QUE SE ESTUDIA EN LA CARRERA DE MATEMÁTICAS? ¡Todo lo que necesitas saber!",
     href: "https://youtu.be/TSn3RRXSqTg",
     Description:
       "A lo mejor estás planteándote estudiar matemáticas o a lo mejor simplemente tienes curiosidad por saber en qué consiste la carrera, y claro, no te vas a hacer toda la carrera solo para ver qué se estudia ahí. Además, no en todos los sitios se estudia lo mismo. Una cosa que puedes hacer es mirar los programas de matemáticas de varias universidades y comparar un poco. Pero bueno, yo lo he hecho por ti, y además estudié la carrera entera, hice un doctorado y doy clases en la carrera de matemáticas. Así que, si quieres saber qué se estudia en la carrera de matemáticas, no te pierdas este vídeo.",
