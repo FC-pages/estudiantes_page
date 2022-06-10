@@ -302,7 +302,7 @@ exports.alg_geome_topologia = [
     issue: "1",
     pag: "1-2",
     anio: 2019,
-    abstract: "",
+    abstract: "In this article we classify the algebraic extensions of a Henselian field, that is to say given a base field K that is henselian with respect to a non-archimedean valuation v, each algebraic extension L/K can be classified from its ramification index (e) and its degree of residual classes (f).To show the behavior of each classified algebraic extension, we present some examples of algebraic extensions of the base field Qp, which allow to analyze the algebraic behavior of each of them.",
     src: "https://latindex.org/latindex/ficha/12996",
     imagen: "https://latindex.org/lat/portadas/fotRev/13519.jpg"
   },
