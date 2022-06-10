@@ -3,7 +3,7 @@ import React, { FC, Fragment } from "react";
 // import "../../../styles/gInvestigacion.css";
 
 // import profesor1 from "../../images/profesor1.jpg"; 
-import { optimization_publicaciones, analisisNumerico_publicaciones,EDySD_publicaciones } from '../../../data/publicaciones.js';
+import { optimization_publicaciones, analisisNumerico_publicaciones,EDySD_publicaciones, alg_geome_topologia, probabilidadyPEpublicaciones } from '../../../data/publicaciones.js';
 const Publicacion = (props: any) => {
 
   return (
@@ -16,7 +16,7 @@ const Publicacion = (props: any) => {
 }
 
 const Articulo: FC<{}> = () => {
-  let publicaciones = optimization_publicaciones.concat(analisisNumerico_publicaciones, EDySD_publicaciones);
+  let publicaciones = optimization_publicaciones.concat(analisisNumerico_publicaciones, EDySD_publicaciones, alg_geome_topologia, probabilidadyPEpublicaciones);
     publicaciones.sort(function (a: any, b: any) {
                 let valueA = a.anio;
                 let valueB = b.anio;
