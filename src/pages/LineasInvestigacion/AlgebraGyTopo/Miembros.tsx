@@ -88,7 +88,7 @@ const TabTwo: FC<{}> = () => {
     <Fragment>
       <div>
         <h3 className="t-stroke-shadow">
-          Línea de Álgebra Geometría y Topología
+          Línea de Álgebra, Geometría y Topología
         </h3>
       </div>
       <hr></hr>

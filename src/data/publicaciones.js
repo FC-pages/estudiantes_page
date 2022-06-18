@@ -229,6 +229,99 @@ exports.EDySD_publicaciones = [
 ]
 
 
+exports.probabilidadyPEpublicaciones = [
+  {
+    titulo: "Second order cubic corrections of large deviations for perturbed random walks." ,
+    autores: "G. Oviedo, G. Panizo and A. F. Ramírez.",
+    revista: "Electronic Journal of Probability",
+    volume: "27",
+    issue: "3",
+    pag: "1-45",
+    anio: 2022,
+    abstract: "We prove that the Beta random walk has second order cubic fluctuations from the large deviation principle of the GUE Tracy-Widom type for arbitrary values of the parameters of the Beta distribution, removing previous restrictions on their values. Furthermore, we prove that the GUE Tracy-Widom fluctuations still hold in the intermediate disorder regime. We also show that any random walk in space-time random environment that matches certain moments with the Beta random walk also has GUE Tracy-Widom fluctuations in the intermediate disorder regime. As a corollary we show the emergence of GUE Tracy-Widom fluctuations from the large deviation principle for trajectories ending at boundary points for random walks in space (time-independent) i.i.d. Dirichlet random environment in dimension d=2 for a class of asymptotic behavior of the parameters.",
+    src: "https://doi.org/10.1214/22-EJP786",
+    imagen: "https://projecteuclid.org/images/journals/cover_ejp.jpg",
+  },
+  {
+    titulo: "An Overview of the Balanced Excited Random Walk. In and Out of Equilibrium.",
+    autores: "D. Camarena, G. Panizo and A. F. Ramírez.",
+    revista: "Maria Eulália Vares et al., Eds.: Celebrating Vladas Sidoravicius. Birkhäuser",
+    volume: "3",
+    issue: "",
+    pag: "207-2017",
+    anio: 2021,
+    abstract: "The balanced excited random walk, introduced by Benjamini, Kozma and Schapira in 2011, is defined as a discrete time stochastic process in Z^d, depending on two integer parameters 1 ≤ d 1, d 2 ≤ d, which whenever it is at a site x∈Z^d at time n, it jumps to x ± e i with uniform probability, where e 1, …, e d are the canonical vectors, for 1 ≤ i ≤ d 1, if the site x was visited for the first time at time n, while it jumps to x ± e i with uniform probability, for 1 + d − d 2 ≤ i ≤ d, if the site x was already visited before time n. Here we give an overview of this model when d 1 + d 2 = d and introduce and study the cases when d 1 + d 2 > d. In particular, we prove that for all the cases d ≥ 5 and most cases d = 4, the balanced excited random walk is transient.",
+    src: "https://media.springernature.com/w92/springer-static/cover/book/978-3-030-60754-8.jpg",
+    imagen: "https://media.springernature.com/w92/springer-static/cover/book/978-3-030-60754-8.jpg",
+  }]
+
+
+
+exports.alg_geome_topologia = [
+  {
+    titulo: "Twisted tensor products of K3 with K3. Communications in Algebra." ,
+    autores: "J. Arce, J. A. Guccione, J. J. Guccione and C. Valqui.",
+    revista: "Communications in Algebra",
+    volume: "49",
+    issue: "8",
+    pag: "3614-3634",
+    anio: 2021,
+    abstract: "We describe all the twisted tensor products of K3 with K3, where K is an arbitrary field.",
+    src: "https://doi.org/10.1080/00927872.2021.1901911",
+    imagen: "https://www.tandfonline.com/action/showCoverImage?doi=10.1080/lagb20.v049.i08"
+  },
+  {
+    titulo: "Invariants of Stable Maps from the 3-Sphere to the Euclidean 3-Space.",
+    autores: "N.B. Huamaní, C. Mendes de Jesus and J. Palacios.",
+    revista: "Bulletin of the Brazilian Mathematical Society",
+    volume: "50",
+    issue: "4",
+    pag: "913–932",
+    anio: 2019,
+    abstract: "In the present work, we study the decompositions of codimension-one transitions that alter the singular set the of stable maps from S3 to R3, the topological behaviour of the singular set and the singularities in the branch set that involves cuspidal curves and swallowtails that alter the singular set. We also analyse the effects of these decompositions on the global invariants with prescribed branch sets.",
+    src: "https://doi.org/10.1007/s00574-019-00133-4",
+    imagen: "https://ekhukhro.files.wordpress.com/2021/02/bbms.jpg",
+  },
+  {
+    titulo: "Twisted Tensor Products of Kn with Km.",
+    autores: "J. Arce, J. A. Guccione, J. J. Guccione and C. Valqui.",
+    revista: "Algebras and Representation Theory",
+    volume: "22",
+    issue: "6",
+    pag: "1599–1651",
+    anio: 2019,
+    abstract: "We find three families of twisting maps of Km with Kn, where K is a field, and we make a detailed study of its properties. One of them is related to truncated quiver algebras, the second one consists of deformations of the first and the third one requires m=n and yields algebras isomorphic to Mn(K).",
+    src: "https://doi.org/10.1007/s10468-018-9833-1",
+    imagen: "https://media.springernature.com/w92/springer-static/cover/journal/10468.jpg"
+  },
+  {
+    titulo: "Extensiones no ramificadas y ligeramente ramificadas.",
+    autores: "R. J. Mas Huamán.",
+    revista: "REVCIUNI",
+    volume: "22",
+    issue: "1",
+    pag: "1-2",
+    anio: 2019,
+    abstract: "In this article we classify the algebraic extensions of a Henselian field, that is to say given a base field K that is henselian with respect to a non-archimedean valuation v, each algebraic extension L/K can be classified from its ramification index (e) and its degree of residual classes (f).To show the behavior of each classified algebraic extension, we present some examples of algebraic extensions of the base field Qp, which allow to analyze the algebraic behavior of each of them.",
+    src: "https://latindex.org/latindex/ficha/12996",
+    imagen: "https://latindex.org/lat/portadas/fotRev/13519.jpg"
+  },
+
+  {
+    titulo: "Geometrical symmetric powers in the motivic homotopy category.",
+    autores: "J. Palacios.",
+    revista: "Journal of Pure and Applied Algebra",
+    volume: "223",
+    issue: "12",
+    pag: "5396-5408",
+    anio: 2019,
+    abstract: "Symmetric powers of quasi-projective schemes can be extended via Kan extensions to geometrical symmetric powers of motivic spaces. In this work, we study geometrical symmetric powers and compare them with various symmetric powers in the unstable and stable A1-homotopy category of schemes over a field.",
+    src: "https://doi.org/10.1016/j.jpaa.2019.04.004",
+    imagen: "https://ars.els-cdn.com/content/image/X00224049.jpg"
+  }
+]
+
+
 {/*
 import journal_of_convex_analysis from '../pages/LineasInvestigacion/images/Optimizacion/journal_of_convex_analysis.jpeg';
 import optimization from '../pages/LineasInvestigacion/images/Optimizacion/optimization.jpeg';

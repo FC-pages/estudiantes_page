@@ -39,6 +39,7 @@ function Docente(props: any) {
   let titulos = ['Maestro', 'Maestra', 'Magíster', 'Doctor', 'Doctora', 'Ingeniero', 'Ingeniera']
   return (
     <div className="App-profes">
+
       <span className="borde">
         <table cellPadding={6}>
           <tbody>
@@ -95,6 +96,8 @@ function Docente(props: any) {
                   )}
                   <li className="resenia" onClick={handleShow}>
                     Reseña
+           
+
                   </li>
                 </ul>
               </td>
@@ -102,6 +105,7 @@ function Docente(props: any) {
           </tbody>
         </table>
       </span>
+
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

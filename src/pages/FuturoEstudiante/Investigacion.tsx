@@ -1,22 +1,55 @@
 import React, { FC, Fragment } from "react";
 import Accordion from "../../components/Accordion";
 import "./styles/festudiantes.css";
+import routes from "../../helpers/routes";
 
 import ReactPlayer from "react-player";
 
 import { Row, Card } from "react-bootstrap";
 import * as S from "../../styles/styles";
 
+import {
+  BrowserRouter as Router,
+  MemoryRouter,
+  Routes,
+  Route,
+  NavLink,
+} from "react-router-dom";
+
 let videos = [
   {
-    name: "Los mayores avances de 2020 en matemáticas y ciencias de la computación",
-    href: "https://www.youtube.com/watch?v=HL7DEkXV_60",
+    name: "Pero... ¿Qué se investiga en matemáticas? ¿No se sabe ya todo?",
+    href: "https://youtu.be/AHST5m31L3o",
     Description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "",
   },
   {
-    name: "El IMCA: una isla de eficiencia en el Perú para la investigación matemática",
-    href: "https://www.youtube.com/watch?v=joeD2sdpHa8",
+    name: "¿Existe Algo No Aleatorio?",
+    href: "https://youtu.be/FtEe0IlK6Hc",
+    Description:
+      "",
+  },
+  {
+    name: "¡Que viva el caos! | El sistema caótico más famoso",
+    href: "https://youtu.be/dw8dty0-g1k",
+    Description:
+      "",
+  },
+  {
+    name: "¿CUÁNTOS AGUJEROS TIENE UN PANTALÓN? La topología, ¡¡te da la respuesta definitiva!!",
+    href: "https://www.youtube.com/watch?v=bGhrBHSVvig",
+    Description:
+      "",
+  },
+  {
+    name: "¿Por qué son NECESARIOS los NÚMEROS COMPLEJOS?",
+    href: "https://youtu.be/nSqM-gf2qiw",
+    Description:
+      "",
+  },
+  {
+    name: "Introduction to Optimization: What Is Optimization?",
+    href: "https://youtu.be/Q2dewZweAtU",
     Description:
       "",
   },
@@ -338,25 +371,17 @@ const accordionItems = [
 const TabThree: FC<{}> = () => {
   return (
     <div className = "cont-tab">
-      <p>En todos los campos laborales en los que se desempeña un matemático, la 
-        investigación científica es de suma importancia por que es la base para el 
-        desarrollo de la sociedad.
+      <p>
+        En todos los campos laborales en los que se desempeña un matemático, la investigación científica es de suma importancia por que es la base para el desarrollo de la sociedad.
       </p>
       <p>
-        La matemática está en constante desarrollo, cada vez nuevas herramientas 
-        son creadas y éstas permiten ayudar el desarrollo de otras ciencias y la 
-        industria.
+        La matemática está en constante desarrollo, cada vez nuevas herramientas son creadas y éstas permiten ayudar el desarrollo de otras ciencias y la industria.
       </p>
       <p>
-        La Escuela de Matemática cuenta con 06 líneas de investigación, cada una 
-        dirigida por un coordinador especialista:
-        {/* La Escuela de Matemática de la facultad de Ciencias esta activa en
-        investigación tanto teórica como aplicada. Gran parte de la
-        investigación se lleva a cabo en el instituto de Matemáticas y ciencias
-        afines (IMCA) el cual reúne a investigadores de las siguientes lineas de
-        investigación:*/}
+        La Escuela de Matemática cuenta con 06 líneas de investigación, cada una dirigida por un coordinador especialista:
       </p>
-      
+       
+      {/*
       <p></p>
       {/* <ol>
         <li></li>
@@ -368,30 +393,42 @@ const TabThree: FC<{}> = () => {
       </ol>
        */}
       <div className="container">
-        <Accordion items={accordionItems} />
+        {/*<Accordion items={accordionItems} />*/}
+
+        <ol>
+
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Análisis y Teoría de Números</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Optimización</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Álgebra, Geometría y Topología</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Probabilidad y Procesos Estocásticos</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Análisis Numérico</li>
+        </NavLink>
+        </ol>
       </div>
       <br/>
+
       <p>
-        Además de los profesores, todos los alumnos de la Escuela de 
-        Matemática forman parte de estas líneas de investigación, 
-        donde podrán desarrollar sus trabajos de investigación, entre 
-        ellos, su tesis.
+        Además de los profesores, todos los alumnos de la Escuela de Matemática forman parte de estas líneas de investigación, donde podrán desarrollar sus trabajos de investigación, entre ellos, su tesis.
       </p>
       <p>
-        Entre las actividades que los alumnos de la Escuela de Matemática 
-        realizan durante su formación, están las estadías de investigación, 
-        ya sea en el sector productivo (para aquellos interesados de las 
-        aplicaciones) o en otras instituciones académicas de prestigio que 
-        colaboran con la Escuela de Matemática.
+        Entre las actividades que los alumnos de la Escuela de Matemática realizan durante su formación, están las estadías de investigación, ya sea en el sector productivo (para aquellos interesados de las aplicaciones) o en otras instituciones académicas de prestigio que colaboran con la Escuela de Matemática.
       </p>
       <p>
-        La Escuela de Matemática mantiene estrecha colaboración (a través 
-        de proyectos de investigación, co-asesorías de tesis, intercambios, 
-        entre otras) con diversas instituciones de prestigio mundial de los 
-        siguientes países : Chile, Brasil, EEUU, España, Francia, Italia, 
-        Austria, Noruega, Reino Unido, Suiza, entre otros.
+        La Escuela de Matemática mantiene estrecha colaboración (a través de proyectos de investigación, co-asesorías de tesis, intercambios, entre otras) con diversas instituciones de prestigio mundial de los siguientes países : Chile, Brasil, EEUU, España, Francia, Italia, Austria, Noruega, Reino Unido, Suiza, entre otros.
       </p>
-      {/* <p>A continuación se comparte algunos videos adicionales acerca de la Investigación en Matemáticas.</p> */}
+
       <Row xs={1} md={1} className="g-4">
         <S.ContainerVideos>
           <div className="video">

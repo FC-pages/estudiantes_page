@@ -14,6 +14,7 @@ function ResenaHistorica() {
   ];
   return (
       
+
           <div className="App-cuerpo">
               <table className="resena" cellSpacing={0} cellPadding={5}>
                 <tr>
