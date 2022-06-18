@@ -248,9 +248,9 @@
 /* .creditos td {
   border: solid 1px #1d3557;
 } */
-.creditos td:last-child {
-  /* text-align: left; */
-}
+/* .creditos td:last-child {
+  text-align: left; 
+}*/
 .creditos td:first-child{
   max-width: 15em;
 }

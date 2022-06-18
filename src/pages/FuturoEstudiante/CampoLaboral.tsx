@@ -18,23 +18,48 @@ let videos = [
     Description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sint illum iusto nostrum ",
   },
+  {
+    name: "Las Matemáticas son la profesión del futuro",
+    href: "https://www.youtube.com/watch?v=NILudp6hti8",
+    Description:
+      "El matemático francés Cédric Villani, ganador de una medalla Fields en el 2010, nos explica la importancia de las matematicas para el futuro",
+  },
+  {
+    name: "Terence Tao Teaches Mathematical Thinking",
+    href: "https://www.youtube.com/watch?v=axzFfSvQdYQ",
+    Description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sint illum iusto nostrum ",
+  },
 ];
 
 const TabTwo: FC<{}> = () => {
   return (
     <div className = "cont-tab">
       <p>
-        El egresado de Matemática puede trabajar en industrias mineras,
-        metalúrgicas, pesqueras, entre otras, diseñando nuevos procesos o
-        mejorando los existentes. También puede desempeñarse en empresas de
-        servicios u organismos públicos, analizando grandes cantidades de datos;
-        además en el área de finanzas, estimando los costos de los seguros o
-        valorizando inversiones de riesgo.
+      Del lado aplicado, la matemática cumple un rol trascendental en 
+      sectores clave de nuestra sociedad, como son energía, salud, 
+      financiero, medio ambiente, tecnología, entre otros. 
       </p>
       <p>
-        Muchos de nuestros egresados realizan maestrías y doctorados en
-        universidades peruanas y del mundo. Desempeñandose en la docencia y
-        realizando investigación científica.
+        La actividad laboral de un egresado de la Escuela de Matemática 
+        en estos campos demanda la interacción con profesionales de diversas 
+        especialidades que se desenvuelven en estos ámbitos, por lo que sus 
+        oportunidades de crecimiento y desarrollo profesional suelen ser 
+        bastante amplias.
+      </p>
+      <p>
+        Es cada vez mayor el número de egresados de la especialidad de Matemática 
+        que cubren una demanda laboral en los sectores financiero (bancos, 
+        administradoras de fondos, entre otros); empresas de desarrollo de software; 
+        empresas o consultoras para trabajo con big-data, gestión de riesgos, 
+        aprendizaje automático y modelamiento de procesos, especialmente en lo que 
+        concierne a incertidumbre.
+      </p>
+      <p>
+        Así mismo, el egresado de la carrera de Matemática se encuentra plenamente 
+        preparado para continuar estudios de postgrado en Matemática con miras a 
+        desarrollar investigación científica de primer nivel en matemática o en 
+        otras ciencias afines. 
       </p>
       <p>
         A continuación se detallan los divesos campos que puede seguir un

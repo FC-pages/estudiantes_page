@@ -9,7 +9,7 @@ function Testimonios() {
   return (
     <div>
       <S.TabContent>
-        <S.TestimoniosTab>
+        <S.ElectivosTab>
           {testimonios.map((t: any) => {
             return (
               <TestimonyCard
@@ -20,7 +20,7 @@ function Testimonios() {
               />
             );
           })}
-        </S.TestimoniosTab>
+        </S.ElectivosTab>
       </S.TabContent>
 
     </div>

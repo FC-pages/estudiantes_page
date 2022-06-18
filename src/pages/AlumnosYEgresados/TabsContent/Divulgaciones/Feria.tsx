@@ -7,7 +7,7 @@ export default function Feria() {
   return (
     <Container>
         <Row>
-          <h3>Feria de proyectos</h3>
+          <h4 className="t-stroke-shadow-h5">Feria de proyectos</h4>
           <p>Desde el 2019 se viene realizando una Feria de proyectos de manera virtual, organizada por la oficina de acreditación ABET. Estos proyectos abordan problemas teóricos, aplicados y multidisciplinarios, cuentan con tres niveles: </p>
           <ul>
             <li>N1: Estudiantes del 1er, 2do, 3er y 4to ciclo.</li>

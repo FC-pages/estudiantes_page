@@ -14,12 +14,17 @@ export const EgresadosPage = styled.div`
 `
 
 export const TabContent = styled.div`
-  margin: 50px 0px;
+  margin: 40px 0px;
   `
 export const TestimoniosTab = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+`
+
+export const ElectivosTab = styled.div`
+  display: flex;
+  flex-wrap: wrap;
 `
 
 export const TCard = styled.div`
@@ -108,7 +113,51 @@ export const TCard2 = styled.div`
     color: black;
   }
 `
-
+export const TCard3 = styled.div`
+  .card {
+    border-radius:5px;
+    border: 0;
+    max-width: 35rem;
+    padding: 0 5px
+  }
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card-testimony-header {
+    display: flex;
+    align-items: center;
+  }
+  .card-testimony {
+    border-radius: 5px;
+    // border: 1px solid #eaeaea;
+    box-shadow: 2px 1px 6px 2px rgb(0 0 0 / 25%);
+    // box-shadow: 2px 0px 0px 2px rgb(0 0 0 / 25%);
+    padding: 0.75rem 1rem;
+  }
+  .in-article-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+  .card-title {
+    color: black;
+  }
+  .card-text {
+    color: black;
+  }
+  p {
+    font-size: 16px;
+  }
+  .ver-mas{
+    color: white;
+    background-color: #042354;
+    padding: 12px 15px
+    cursor: pointer;
+    text-decoration:none;
+  }
+`
 export const BlockQuote = styled.div`
 
 .navbar-nav {

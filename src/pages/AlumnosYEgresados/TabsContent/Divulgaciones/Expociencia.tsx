@@ -6,7 +6,7 @@ export default function Expociencia() {
     <Container>
         <Row>
           <div className = "cont-tab">
-            <h3>Expociencia</h3>
+            <h4 className="t-stroke-shadow-h5">Expociencia</h4>
             <p>Es una feria de proyectos de la Facultad de Ciencias, donde la escuela de matemática participa presentando trabajos aplicados en los rubros de las 6 líneas de investigación:</p>
             <ol>
               <li>Análisis y Teoría de Números.</li>

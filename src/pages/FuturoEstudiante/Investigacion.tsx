@@ -20,6 +20,48 @@ let videos = [
     Description:
       "",
   },
+  {
+    name: "La investigación en matemática",
+    href: "https://youtu.be/AHST5m31L3o",
+    Description:
+      "",
+  },
+  {
+    name: "¿Existe-algo-no-aleatorio?",
+    href: "https://youtu.be/FtEe0IlK6Hc",
+    Description:
+      "",
+  },
+  {
+    name: "Sistema dinámico caótico",
+    href: "https://youtu.be/dw8dty0-g1k",
+    Description:
+      "",
+  },
+  {
+    name: "Topología - número de agujeros",
+    href: "https://www.youtube.com/watch?v=bGhrBHSVvig",
+    Description:
+      "",
+  },
+  {
+    name: "¿Por qué son necesarios los Números Complejos?",
+    href: "https://youtu.be/nSqM-gf2qiw",
+    Description:
+      "",
+  },
+  {
+    name: "Introducción a la optimización",
+    href: "https://youtu.be/Q2dewZweAtU",
+    Description:
+      "",
+  },
+  {
+    name: "Simulación Numérica y Computacional con el Método de los Elementos Finitos (MEF) - Josep M. Carbonell",
+    href: "https://youtu.be/4i4FVWZqPIE",
+    Description:
+      "",
+  },
 ];
 
 const accordionItems = [
@@ -296,19 +338,27 @@ const accordionItems = [
 const TabThree: FC<{}> = () => {
   return (
     <div className = "cont-tab">
-      <p>En todos los campos laborales en los que se desempeña un matemático es de suma importancia la investigación a todo nivel por que es la base para el desarrollo de nuestro país.</p>
-      <p>La matemática está en constante desarrollo, cada vez nuevas herramientas son creadas y éstas permiten ayudar apoyar el desarrollo de otras ciencias y la industria.
-       <br /> <br />
-        Las líneas de investigación que se desarrolla en la Escuela de matemática son:
+      <p>En todos los campos laborales en los que se desempeña un matemático, la 
+        investigación científica es de suma importancia por que es la base para el 
+        desarrollo de la sociedad.
+      </p>
+      <p>
+        La matemática está en constante desarrollo, cada vez nuevas herramientas 
+        son creadas y éstas permiten ayudar el desarrollo de otras ciencias y la 
+        industria.
+      </p>
+      <p>
+        La Escuela de Matemática cuenta con 06 líneas de investigación, cada una 
+        dirigida por un coordinador especialista:
         {/* La Escuela de Matemática de la facultad de Ciencias esta activa en
         investigación tanto teórica como aplicada. Gran parte de la
         investigación se lleva a cabo en el instituto de Matemáticas y ciencias
         afines (IMCA) el cual reúne a investigadores de las siguientes lineas de
         investigación:*/}
       </p>
-      {/*
+      
       <p></p>
-      <ol>
+      {/* <ol>
         <li></li>
         <li></li>
         <li>Álgebra, Geometría y Topología</li>
@@ -321,7 +371,27 @@ const TabThree: FC<{}> = () => {
         <Accordion items={accordionItems} />
       </div>
       <br/>
-      <p>A continuación se comparte algunos videos adicionales acerca de la Investigación en Matemáticas.</p>
+      <p>
+        Además de los profesores, todos los alumnos de la Escuela de 
+        Matemática forman parte de estas líneas de investigación, 
+        donde podrán desarrollar sus trabajos de investigación, entre 
+        ellos, su tesis.
+      </p>
+      <p>
+        Entre las actividades que los alumnos de la Escuela de Matemática 
+        realizan durante su formación, están las estadías de investigación, 
+        ya sea en el sector productivo (para aquellos interesados de las 
+        aplicaciones) o en otras instituciones académicas de prestigio que 
+        colaboran con la Escuela de Matemática.
+      </p>
+      <p>
+        La Escuela de Matemática mantiene estrecha colaboración (a través 
+        de proyectos de investigación, co-asesorías de tesis, intercambios, 
+        entre otras) con diversas instituciones de prestigio mundial de los 
+        siguientes países : Chile, Brasil, EEUU, España, Francia, Italia, 
+        Austria, Noruega, Reino Unido, Suiza, entre otros.
+      </p>
+      {/* <p>A continuación se comparte algunos videos adicionales acerca de la Investigación en Matemáticas.</p> */}
       <Row xs={1} md={1} className="g-4">
         <S.ContainerVideos>
           <div className="video">

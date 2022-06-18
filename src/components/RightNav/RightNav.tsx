@@ -6,7 +6,7 @@ import FuturoEstudiante from "../../pages/FuturoEstudiante/FuturoEstudiantePage"
 import AlumnosEgresadosPage from "../../pages/AlumnosYEgresados/AlumnosEgresadosPage";
 import EnlacesInteresPage from "../../pages/EnlacesInteres/EnlacesInteresPage";
 import DocentesTabs from "../../pages/Docentes/DocentesPage";
-import Laboratorio from "../../pages/Laboratorio/LaboratorioPage";
+import AsesoriaPage from "../../pages/Asesoria/AsesoriaPage";
 //import GruposInvestigacion from "../../pages/LineasInvestigacion/GrupoOptimizacion";
 import routes from "../../helpers/routes";
 import Optimizacion from "../../pages/LineasInvestigacion/Optimizacion/Optimizacion";
@@ -71,8 +71,8 @@ function RightNav(props: any) {
         <NavLink to="/GruposInvestigacion" onClick={() => props.setOpen(!props.open)}>
               <li>Líneas de investigación</li>{" "}
         </NavLink>
-        <NavLink to={routes.laboratorio} onClick={() => props.setOpen(!props.open)}>
-          <li>Laboratorio</li>{" "}
+        <NavLink to={routes.asesoria} onClick={() => props.setOpen(!props.open)}>
+          <li>Asesoría</li>{" "}
         </NavLink>
         <NavLink to={routes.enlacesInteres} onClick={() => props.setOpen(!props.open)}>
           <li>Enlaces de interes</li>{" "}
@@ -103,7 +103,7 @@ function RightNav(props: any) {
         <Route path="/linea_inv5" element={<LineaInv5 />} />
         <Route path="/linea_inv6" element={<LineaInv6 />} />
         <Route path="/GruposInvestigacion" element={< GruposInvestigacion/>} />
-        <Route path={routes.laboratorio} element={<Laboratorio />} />
+        <Route path={routes.asesoria} element={<AsesoriaPage />} />
         <Route path={routes.contacto} element={<ContactoPage />} />
       </Routes>
     </MemoryRouter>

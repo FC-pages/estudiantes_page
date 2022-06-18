@@ -9,7 +9,7 @@ const routes = {
   contacto: "/Contacto",
   enlacesInteres: "/Enlaces_de_interes",
   gruposInvestigacion: "/Grupos_investigacion",
-  laboratorio: "/Laboratorio"
+  asesoria: "/Asesoria"
 };
 
 export default routes;

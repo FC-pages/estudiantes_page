@@ -30,7 +30,7 @@ export default function GruposEstPage() {
           </Nav.Item>
         </Nav>
         <div className="text-start">
-          <Tab.Content>
+          <Tab.Content className='p-4  fs-8'>
             <Tab.Pane eventKey="Acerca de">
               <Row>
                 <Col>
@@ -90,7 +90,7 @@ export default function GruposEstPage() {
               </Row>
             </Tab.Pane>
             <Tab.Pane eventKey="Miembros">
-              <p className="fs-4 fw-bold">Junta Directiva</p>
+              <h4 className="t-stroke-shadow-h5">Junta Directiva</h4>
               <div className="App-center">
                 {juntaDirectiva
                   .sort(function (a: any, b: any) {
@@ -125,7 +125,7 @@ export default function GruposEstPage() {
                   })}
               </div>
 
-              <p className="fs-4 fw-bold pt-3">Miembros</p>
+              <h4 className="t-stroke-shadow-h5">Miembros</h4>
               <div className="App-center">
                 {miembros
                   .sort(function (a: any, b: any) {
@@ -158,9 +158,7 @@ export default function GruposEstPage() {
               </div>
             </Tab.Pane>
             <Tab.Pane eventKey="Actividades">
-              <p className="fs-4 fw-bold">
-                Seminarios de Divulgación Matemática
-              </p>
+              <h4 className="t-stroke-shadow-h5">Seminarios de Divulgación Matemática</h4>
               <Row>
                 <Col md={6}>
                   <img
@@ -213,9 +211,7 @@ export default function GruposEstPage() {
                   />
                 </Col>
               </Row>
-              <p className="fs-4 fw-bold pt-3">
-                Primera Jornada Universitaria de Matemáticas
-              </p>
+              <h4 className="t-stroke-shadow-h5">Primera Jornada Universitaria de Matemáticas</h4>
               <Row>
                 <Col md={6}>
                   <img
@@ -242,7 +238,7 @@ export default function GruposEstPage() {
                   />
                 </Col>
               </Row>
-              <p className="fs-4 fw-bold pt-3">Talleres</p>
+              <h4 className="t-stroke-shadow-h5">Talleres</h4>
               <Row>
                 <Col md={6}>
                   <img
