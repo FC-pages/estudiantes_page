@@ -14,7 +14,7 @@ export const EgresadosPage = styled.div`
 `
 
 export const TabContent = styled.div`
-  margin: 40px 0px;
+  margin: 25px 0px;
   `
 export const TestimoniosTab = styled.div`
   display: flex;

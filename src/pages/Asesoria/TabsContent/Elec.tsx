@@ -1,8 +1,8 @@
-import { BsAlignCenter } from "react-icons/bs";
 import '../../Descripcion/styles.css';
 import * as S from "../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
 import ElectCards from "./Cards/ElectCards";
 let { electivos } = require("../../../data/data-electivos.js");
+// let electivos = JSON.parse(readFileSync(electivos))
 
 function Electiv() {
   return (
@@ -15,6 +15,7 @@ function Electiv() {
                 curso={t.curso}
                 profesor={t.profesor}
                 sumilla={t.sumilla}
+                multiline={t.multiline}
               />
             );
           })}

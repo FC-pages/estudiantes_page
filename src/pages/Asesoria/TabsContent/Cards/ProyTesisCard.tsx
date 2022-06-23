@@ -25,11 +25,12 @@ function ProyTesisCard({ linvestigacion, tema, profesor, sumilla, fecha, infoext
   } else {
     displayedText = sumilla;
   };
-//   if (infoextra.length !==0) {
-//     displayedextra = infoextra;
-//   } else {
-//     displayedextra = "No hay informacion extra";
-//   }
+  
+  if (infoextra.length !==0) {
+    displayedextra = infoextra;
+  } else {
+    displayedextra = "No hay informacion extra";
+  }
 
   return (
     <S.TCard3>
@@ -58,7 +59,7 @@ function ProyTesisCard({ linvestigacion, tema, profesor, sumilla, fecha, infoext
           </Modal.Header>
           <Modal.Body>
             {sumilla}
-            <p>Informacion Extra: {infoextra}</p>
+            <p>Informacion Extra: {displayedextra}</p>
             <p>Fecha de public. : {fecha}</p>
           </Modal.Body>
           <Modal.Footer>

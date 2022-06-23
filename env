@@ -1,6 +1,4 @@
-PORT=5000
-MONGO_URI=mongodb+srv://admin:pSBdB8zeHdZzSzAK@cluster0.e0rpo.mongodb.net/MatematicaDB?retryWrites=true&w=majority
-ALGORITHM=aes-256-cbc
-INIT_VECTOR=364d865ab4e5983dd28b30db294fba4e
-SECURITY_KEY=5616ca8dd462f684bb5fcd1b1a27054ec49e2eb95d8964c62ba9c46bc6e22986
-JWT_SECRET=koCyAjAOv1N#R$2NB0IB
+REACT_APP_GMAPS_API_KEY=AIzaSyAl604-0W-alm6jtAPd9Bh0LR1PPZKhmDg
+REACT_APP_API_URL=https://matematica-server.up.railway.app/
+REACT_APP_USERNAME=user
+REACT_APP_PASSWORD=#KsGCoclO9#^X3*X8t^&

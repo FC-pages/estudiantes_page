@@ -6,20 +6,25 @@ type CardProps = {
   curso: string;
   profesor: string;
   sumilla: string;
+  multiline: string;
 };
 
-function ElectivosCard({ curso, profesor, sumilla}: CardProps) {
+function ElectivosCard({ curso, profesor, sumilla, multiline}: CardProps) {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   let displayedText = "";
   let numCharacter = 210;
+  let lista = ""
 
   if (sumilla.length > numCharacter) {
     displayedText = sumilla.substring(0, numCharacter) + "...";
   } else {
     displayedText = sumilla;
+  }
+  for ( var i=0; i < multiline.length; i++){
+    lista= lista + multiline[i] + "\n ";
   }
 
   return (
@@ -47,6 +52,7 @@ function ElectivosCard({ curso, profesor, sumilla}: CardProps) {
           </Modal.Header>
           <Modal.Body>
             {sumilla}
+            <p>{lista}</p>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
