@@ -22,28 +22,15 @@ export default function AlumnosEgresadosPage() {
       }}
       className="mt-5"
     >
-      <Tab.Container defaultActiveKey="Analisis">
+      <Tab.Container defaultActiveKey="Optimizacion">
         <Nav
           // variant="tabs"
           style={{ backgroundColor: colors.main }}
           className="justify-content-center pt-1 fs-6 style-gr-i"
         >
-          <Nav.Item >
-            <Nav.Link eventKey="Analisis">
-              Análisis y Teoría de Números
-            </Nav.Link>
-          </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="Optimizacion">
               Optimización
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="Algebra">Álgebra, Geometría y Topología</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="Probabilidad">
-              Probabilidad y Procesos Estocásticos
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -52,8 +39,21 @@ export default function AlumnosEgresadosPage() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
+            <Nav.Link eventKey="Algebra">Álgebra, Geometría y Topología</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
             <Nav.Link eventKey="Numerico">
               Análisis Numérico
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Probabilidad">
+              Probabilidad y Procesos Estocásticos
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item >
+            <Nav.Link eventKey="Analisis">
+              Análisis y Teoría de Números
             </Nav.Link>
           </Nav.Item>
         </Nav>

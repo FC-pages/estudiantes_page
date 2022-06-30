@@ -6,6 +6,8 @@ import ResenaHistorica from './TabsContent/ResenaHistorica';
 import PlanesYMallas from './TabsContent/PanesYMallas';
 import Autoridades from './TabsContent/Autoridades';
 import Biblioteca from './TabsContent/Biblioteca';
+import Electiv from '../Asesoria/TabsContent/Elec';
+import Electiv2 from '../Asesoria/TabsContent/PTesis';
 
 import { colors } from '../../styles/colors';
 
@@ -39,6 +41,16 @@ export default function Descripcion() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
+            <Nav.Link eventKey="Cursos electivos">
+              Cursos electivos
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Proyectos de Tesis">
+              Proyectos de Tesis
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
             <Nav.Link eventKey="Biblioteca">Biblioteca</Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -55,6 +67,12 @@ export default function Descripcion() {
             </Tab.Pane>
             <Tab.Pane eventKey="Planes y Mallas de estudio">
               <PlanesYMallas />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Cursos electivos">
+              <Electiv />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Proyectos de Tesis">
+              <Electiv2 />
             </Tab.Pane>
             <Tab.Pane eventKey="Biblioteca">
               <Biblioteca />

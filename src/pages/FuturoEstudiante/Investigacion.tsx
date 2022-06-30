@@ -89,12 +89,6 @@ let videos = [
     Description:
       "",
   },
-  {
-    name: "Simulación Numérica y Computacional con el Método de los Elementos Finitos (MEF) - Josep M. Carbonell",
-    href: "https://youtu.be/4i4FVWZqPIE",
-    Description:
-      "",
-  },
 ];
 
 const accordionItems = [
@@ -398,22 +392,22 @@ const TabThree: FC<{}> = () => {
         <ol>
 
         <NavLink to={routes.gruposInvestigacion} >
-          <li>Análisis y Teoría de Números</li>
-        </NavLink>
-        <NavLink to={routes.gruposInvestigacion} >
           <li>Optimización</li>
-        </NavLink>
-        <NavLink to={routes.gruposInvestigacion} >
-          <li>Álgebra, Geometría y Topología</li>
-        </NavLink>
-        <NavLink to={routes.gruposInvestigacion} >
-          <li>Probabilidad y Procesos Estocásticos</li>
         </NavLink>
         <NavLink to={routes.gruposInvestigacion} >
           <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>
         </NavLink>
         <NavLink to={routes.gruposInvestigacion} >
+          <li>Álgebra, Geometría y Topología</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
           <li>Análisis Numérico</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Probabilidad y Procesos Estocásticos</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Análisis y Teoría de Números</li>
         </NavLink>
         </ol>
       </div>
