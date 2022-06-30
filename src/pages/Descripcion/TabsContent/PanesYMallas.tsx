@@ -88,14 +88,16 @@ function PlanEstudios() {
           <li>
             <FaAngleRight size={17}/>
             Malla curricular y cursos electivos.{' '} 
-            <a className="a-link" href="mallacurricular.pdf"/>
+            <a className="a-link" href="mallacurricular.pdf">
             <FaPaperclip size={20} />
+            </a>
           </li>
           <li>
             <FaAngleRight size={17}/>
             Malla comparativo de los cursos.{' '} 
-            <a className="a-link" href="https://drive.google.com/file/d/1kWswWX8qCLayr70cKB9v4Skwg07ZT67b/view?usp=sharing"/>
+            <a className="a-link" href="https://drive.google.com/file/d/1kWswWX8qCLayr70cKB9v4Skwg07ZT67b/view?usp=sharing">
             <FaPaperclip size={20} />
+            </a>
           </li>
           <li>
             <FaAngleRight size={17}/>Tabla de convalidaciones.{' '}
@@ -149,7 +151,7 @@ function PlanEstudios() {
         </ul>
       </div>
       */}
-
+      {/*
       <Row xs={1} md={1} className="g-4">
         <S.ContainerVideos className="containerTabOne">
           <div className="video">
@@ -172,6 +174,7 @@ function PlanEstudios() {
           </div>
         </S.ContainerVideos>
       </Row>
+      */}
     </div>
   );
 }

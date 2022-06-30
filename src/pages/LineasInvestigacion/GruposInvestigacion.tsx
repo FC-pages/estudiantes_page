@@ -7,6 +7,7 @@ import AnalisisyTeoNumerosMain from './AnalisisyTeoriadeNumeros/AnalisisyTeoNume
 import ProbabilidadMain from './ProbabilidadyPE/ProbayPEMain';
 import AlgebraGyTopoMain from './AlgebraGyTopo/AlgebraGyTopoMain';
 import EDySDMain from './EDySD/EDySDmain'
+import Laboratorio from '../Asesoria/TabsContent/Labo';
 
 import { colors } from '../../styles/colors';
 
@@ -56,6 +57,11 @@ export default function AlumnosEgresadosPage() {
               Análisis y Teoría de Números
             </Nav.Link>
           </Nav.Item>
+          <Nav.Item >
+            <Nav.Link eventKey="Laboratorio">
+              Laboratorio
+            </Nav.Link>
+          </Nav.Item>
         </Nav>
         <div className="pt-3 pb-3"
           style={{
@@ -80,6 +86,9 @@ export default function AlumnosEgresadosPage() {
             </Tab.Pane>
             <Tab.Pane eventKey="Numerico">
               <AnalisisNumericoMain/>
+            </Tab.Pane>
+            <Tab.Pane eventKey="Laboratorio">
+              <Laboratorio/>
             </Tab.Pane>
           </Tab.Content>
         </div>
