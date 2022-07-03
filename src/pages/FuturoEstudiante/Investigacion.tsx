@@ -42,12 +42,6 @@ let videos = [
       "",
   },
   {
-    name: "¿Por qué son NECESARIOS los NÚMEROS COMPLEJOS?",
-    href: "https://youtu.be/nSqM-gf2qiw",
-    Description:
-      "",
-  },
-  {
     name: "Introduction to Optimization: What Is Optimization?",
     href: "https://youtu.be/Q2dewZweAtU",
     Description:
@@ -56,12 +50,6 @@ let videos = [
   {
     name: "La investigación en matemática",
     href: "https://youtu.be/AHST5m31L3o",
-    Description:
-      "",
-  },
-  {
-    name: "¿Existe-algo-no-aleatorio?",
-    href: "https://youtu.be/FtEe0IlK6Hc",
     Description:
       "",
   },
