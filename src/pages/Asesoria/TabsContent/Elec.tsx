@@ -7,6 +7,7 @@ let { electivos } = require("../../../data/data-electivos.js");
 function Electiv() {
   return (
     <div>
+    {/*
       <S.TabContent>
         <S.TestimoniosTab >    
           {electivos.map((t: any) => {
@@ -21,7 +22,7 @@ function Electiv() {
           })}
         </S.TestimoniosTab>
       </S.TabContent>
-      
+      */}
     </div>
   );
 }

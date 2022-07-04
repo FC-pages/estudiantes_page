@@ -42,30 +42,6 @@ let videos = [
       "",
   },
   {
-    name: "Introduction to Optimization: What Is Optimization?",
-    href: "https://youtu.be/Q2dewZweAtU",
-    Description:
-      "",
-  },
-  {
-    name: "La investigación en matemática",
-    href: "https://youtu.be/AHST5m31L3o",
-    Description:
-      "",
-  },
-  {
-    name: "Sistema dinámico caótico",
-    href: "https://youtu.be/dw8dty0-g1k",
-    Description:
-      "",
-  },
-  {
-    name: "Topología - número de agujeros",
-    href: "https://www.youtube.com/watch?v=bGhrBHSVvig",
-    Description:
-      "",
-  },
-  {
     name: "¿Por qué son necesarios los Números Complejos?",
     href: "https://youtu.be/nSqM-gf2qiw",
     Description:

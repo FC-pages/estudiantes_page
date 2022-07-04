@@ -18,12 +18,13 @@ let videos = [
     Description:
       "",
   },
+  /*
   {
     name: "Las Matemáticas son la profesión del futuro",
     href: "https://www.youtube.com/watch?v=NILudp6hti8",
     Description:
       "El matemático francés Cédric Villani, ganador de una medalla Fields en el 2010, nos explica la importancia de las matematicas para el futuro",
-  }
+  }*/
   ];
 
 const TabTwo: FC<{}> = () => {

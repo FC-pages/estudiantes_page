@@ -10,6 +10,7 @@ let proytesis3 = proytesis.filter( (p:any) => p.num === '3')
 function Electiv() {
   return (
     <>
+    {/*
       <h5 className='t-stroke-shadow-h5'> Proyecto de Tesis 1</h5>
       <div>
         <S.TabContent>
@@ -73,6 +74,7 @@ function Electiv() {
           </S.TestimoniosTab>
         </S.TabContent>
       </div>
+      */}
     </>
   );
 }
