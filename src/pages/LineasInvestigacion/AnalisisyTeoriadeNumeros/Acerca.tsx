@@ -1,5 +1,6 @@
 import React, { FC, Fragment } from "react";
 import "../../../styles/gInvestigacion.css";
+import miembros_optimizacion from "../images/Optimizacion/foto_miembros2.png";
 
 const Acerca: FC<{}> = () => {
   return (
