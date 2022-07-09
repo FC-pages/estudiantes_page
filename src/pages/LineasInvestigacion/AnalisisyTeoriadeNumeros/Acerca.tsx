@@ -1,14 +1,22 @@
 import React, { FC, Fragment } from "react";
 import "../../../styles/gInvestigacion.css";
+import miembros_optimizacion from "../images/Optimizacion/foto_miembros2.png";
 
 const Acerca: FC<{}> = () => {
   return (
-    <Fragment>
+    <>
       <div>
         <h3 className="t-stroke-shadow">Línea de Análisis y Teoría de Números</h3>
       </div>
       <hr></hr>
-    </Fragment>
+
+      <br />
+
+      <img alt="" src={miembros_optimizacion} className="foto-grupo" />
+
+      <br />      
+      
+    </>
   );
 };
 export default Acerca;
