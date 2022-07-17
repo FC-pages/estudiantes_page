@@ -605,6 +605,7 @@
     font-size: 12px;
   }
 }
+
 .Biblioteca a:-webkit-any-link {
     color: black;
     cursor: pointer;
@@ -615,12 +616,14 @@
   padding: 4px;
   text-align: left;
 }
+
 .vineta ul li {
   content: "";
   margin-left: 2px;
   text-indent: -4px;
   font-size: 15px;
 }
+
 .vineta a:-webkit-any-link {
   cursor: pointer;
   color: #2666CF;

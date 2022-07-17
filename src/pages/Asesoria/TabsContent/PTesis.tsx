@@ -1,6 +1,7 @@
 import '../../Descripcion/styles.css';
 import * as S from "../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
 import PTesisCard from "./Cards/ProyTesisCard";
+import { Container } from 'react-bootstrap';
 let { proytesis } = require("../../../data/data-proytesis.js");
 // let { proytesis1 } = proytesis.find((p: any)=> p.num === "1")
 let proytesis1 = proytesis.filter( (p:any) => p.num === '1')
@@ -32,7 +33,7 @@ function Electiv() {
         </S.TabContent>
       </div>
       <h5 className='t-stroke-shadow-h5'> Proyecto de Tesis 2</h5>
-      <div>
+      <Container>
         <S.TabContent>
           <S.TestimoniosTab >    
             {proytesis2.map((t: any) => {
@@ -45,13 +46,12 @@ function Electiv() {
                   sumilla={t.sumilla}
                   fecha = {t.fecha}
                   infoextra = {t.infoextra}
-                  // multiline = {t.multiline}
                 />
               );
             })}
           </S.TestimoniosTab>
         </S.TabContent>
-      </div>
+      </Container>
       <h5 className='t-stroke-shadow-h5'> Proyecto de Tesis 3</h5>
       <div>
         <S.TabContent>

@@ -29,18 +29,18 @@ let videos = [
     Description:
       "",
   },
-  {
-    name: "¡Que viva el caos! | El sistema caótico más famoso",
-    href: "https://youtu.be/dw8dty0-g1k",
-    Description:
-      "",
-  },
-  {
-    name: "¿CUÁNTOS AGUJEROS TIENE UN PANTALÓN? La topología, ¡¡te da la respuesta definitiva!!",
-    href: "https://www.youtube.com/watch?v=bGhrBHSVvig",
-    Description:
-      "",
-  },
+  // {
+  //   name: "¡Que viva el caos! | El sistema caótico más famoso",
+  //   href: "https://youtu.be/dw8dty0-g1k",
+  //   Description:
+  //     "",
+  // },
+  // {
+  //   name: "¿CUÁNTOS AGUJEROS TIENE UN PANTALÓN? La topología, ¡¡te da la respuesta definitiva!!",
+  //   href: "https://www.youtube.com/watch?v=bGhrBHSVvig",
+  //   Description:
+  //     "",
+  // },
   {
     name: "¿Por qué son NECESARIOS los NÚMEROS COMPLEJOS?",
     href: "https://youtu.be/nSqM-gf2qiw",
@@ -60,12 +60,6 @@ let videos = [
       "",
   },
   {
-    name: "¿Existe-algo-no-aleatorio?",
-    href: "https://youtu.be/FtEe0IlK6Hc",
-    Description:
-      "",
-  },
-  {
     name: "Sistema dinámico caótico",
     href: "https://youtu.be/dw8dty0-g1k",
     Description:
@@ -74,18 +68,6 @@ let videos = [
   {
     name: "Topología - número de agujeros",
     href: "https://www.youtube.com/watch?v=bGhrBHSVvig",
-    Description:
-      "",
-  },
-  {
-    name: "¿Por qué son necesarios los Números Complejos?",
-    href: "https://youtu.be/nSqM-gf2qiw",
-    Description:
-      "",
-  },
-  {
-    name: "Introducción a la optimización",
-    href: "https://youtu.be/Q2dewZweAtU",
     Description:
       "",
   },
