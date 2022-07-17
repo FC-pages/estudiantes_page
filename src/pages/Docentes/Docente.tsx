@@ -55,7 +55,7 @@ function Docente(props: any) {
               {/* <td className="App-profes-imagesm"></td>  */}
               <td>
                 <div className="cont-img">
-                  <img alt="" src={props.foto ? process.env.REACT_APP_API_URL + "images/" + getNameImage( props.datos.nombres ) : perfilImage} />{' '}
+                  <img alt="" src={process.env.REACT_APP_API_URL + "images/" + getNameImage( props.datos.nombres )} />{' '}
                 </div>
               </td>
               <td className="App-profes-td">

@@ -42,38 +42,14 @@ let videos = [
   //     "",
   // },
   {
-    name: "¿Por qué son NECESARIOS los NÚMEROS COMPLEJOS?",
+    name: "¿Por qué son necesarios los Números Complejos?",
     href: "https://youtu.be/nSqM-gf2qiw",
     Description:
       "",
   },
   {
-    name: "Introduction to Optimization: What Is Optimization?",
+    name: "Introducción a la optimización",
     href: "https://youtu.be/Q2dewZweAtU",
-    Description:
-      "",
-  },
-  {
-    name: "La investigación en matemática",
-    href: "https://youtu.be/AHST5m31L3o",
-    Description:
-      "",
-  },
-  {
-    name: "Sistema dinámico caótico",
-    href: "https://youtu.be/dw8dty0-g1k",
-    Description:
-      "",
-  },
-  {
-    name: "Topología - número de agujeros",
-    href: "https://www.youtube.com/watch?v=bGhrBHSVvig",
-    Description:
-      "",
-  },
-  {
-    name: "Simulación Numérica y Computacional con el Método de los Elementos Finitos (MEF) - Josep M. Carbonell",
-    href: "https://youtu.be/4i4FVWZqPIE",
     Description:
       "",
   },
@@ -380,22 +356,22 @@ const TabThree: FC<{}> = () => {
         <ol>
 
         <NavLink to={routes.gruposInvestigacion} >
-          <li>Análisis y Teoría de Números</li>
-        </NavLink>
-        <NavLink to={routes.gruposInvestigacion} >
           <li>Optimización</li>
-        </NavLink>
-        <NavLink to={routes.gruposInvestigacion} >
-          <li>Álgebra, Geometría y Topología</li>
-        </NavLink>
-        <NavLink to={routes.gruposInvestigacion} >
-          <li>Probabilidad y Procesos Estocásticos</li>
         </NavLink>
         <NavLink to={routes.gruposInvestigacion} >
           <li>Ecuaciones Diferenciales y Sistemas Dinámicos</li>
         </NavLink>
         <NavLink to={routes.gruposInvestigacion} >
+          <li>Álgebra, Geometría y Topología</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
           <li>Análisis Numérico</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Probabilidad y Procesos Estocásticos</li>
+        </NavLink>
+        <NavLink to={routes.gruposInvestigacion} >
+          <li>Análisis y Teoría de Números</li>
         </NavLink>
         </ol>
       </div>
