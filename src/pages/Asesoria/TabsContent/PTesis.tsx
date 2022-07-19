@@ -24,7 +24,7 @@ let jsonResponse =
 
 function Electiv() {
   //let anios = [{anio: '2019', data:''} ,{anio: '2020', data:''},{anio: '2021',data: ''} ,{anio: '2022', data: ''}, {anio: '2023', data: ''}]
-  let anios = [{anio: '2022', data: ''},]
+  let anios = [{anio: 'Ciclo académico 2022-2', data: ''},]
   anios.map((anio:any) => {
     anio.data = jsonResponse.data.filter((p) => {
       return p.marca.split('-')[0] == anio.anio
