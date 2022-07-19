@@ -15,7 +15,8 @@ const Acerca: FC<{}> = () => {
       <img alt="" src={miembros_optimizacion} className="foto-grupo" />
 
       <br />      
-      
+      <p className="justify"></p>
+      En la línea de Análisis y Teoría de Números de la Facultad de Ciencias estudiamos problemas ligados al análisis de funciones reales y complejas de una y varias variables,
     </>
   );
 };
