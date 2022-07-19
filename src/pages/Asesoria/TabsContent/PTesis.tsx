@@ -45,7 +45,7 @@ function Electiv() {
               <ul style={{listStyleType: 'none'}}>
                 {p.data.map((t:any, i: any) => {
                   return(
-                    <li>{i+1}) {t.tema}, {t.nombres_docente}, {t.apellidos_docente}, <a target = '_blank' href = {t.descripcion}>Temas de proyectos</a>, <a>Pre-inscripción</a>, <a>Lista de inscritos</a>.</li>
+                    <li>{i+1}) {t.nombres_docente}, {t.apellidos_docente}, <a target = '_blank' href = {t.descripcion}>Temas propuestos</a>, <a>Pre-inscripción</a>, <a>Lista de inscritos</a>.</li>
                   )
 
                 })}
