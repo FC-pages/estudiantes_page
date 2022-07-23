@@ -74,7 +74,7 @@ export const TCard2 = styled.div`
   .card {
     border-radius:8px;
     border: 0;
-    max-width: 30rem;
+    width: 32rem;
   }
   .header {
     margin: 0px 0px 10px 0px;
@@ -90,10 +90,11 @@ export const TCard2 = styled.div`
     }
   }
   .card-testimony {
-    border-radius: 8px;
+    border-radius: 5px;
     // border: 1px solid #eaeaea;
-    box-shadow: 0 0.5rem 1.25rem rgb(0 0 0 / 20%);
-    padding: 0.75rem 1.25rem;
+    box-shadow: 2px 1px 6px 2px rgb(0 0 0 / 25%);
+    // box-shadow: 2px 0px 0px 2px rgb(0 0 0 / 25%);
+    padding: 0.75rem 1rem;
   }
   .in-article-cards {
     display: grid;
@@ -110,14 +111,19 @@ export const TCard2 = styled.div`
     font-size: 16px;
   }
   .ver-mas{
-    color: black;
+    color: white;
+    background-color: #042354;
+    padding: 12px 15px
+    cursor: pointer;
+    text-decoration:none;
   }
 `
 export const TCard3 = styled.div`
   .card {
     border-radius:5px;
     border: 0;
-    max-width: 35rem;
+    // width: 100%
+    width: 25rem;
     padding: 0 5px
   }
   .header {

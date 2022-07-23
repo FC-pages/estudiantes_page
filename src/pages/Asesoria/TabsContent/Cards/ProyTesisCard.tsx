@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Modal, Button, Card } from "react-bootstrap";
 import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
+import { FaPaperclip } from 'react-icons/fa';
 
 /*Profesor
   Temas
@@ -10,57 +11,59 @@ import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/s
 */
 
 type CardProps = {
-  linvestigacion: string;
+  marca: string;
   tema: string;
-  profesor: string;
-  sumilla: string;
-  infoextra: string;
-  fecha: string;
+  correo: string;
+  apellidos_docente:string;
+  nombres_docente:string;
+  descripcion: string;
 };
 
-function ProyTesisCard({ linvestigacion, tema, profesor, sumilla, fecha, infoextra}: CardProps) {
+function ProyTesisCard(p:any) {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  let displayedText = "";
-  let displayedextra = "";
-  let numCharacter = 210;
+  // let displayedText = "";
+  // let displayedextra = "";
+  // let numCharacter = 210;
+  let fecha = p.marca.slice(0,10);
 
-  if (sumilla.length > numCharacter) {
-    displayedText = sumilla.substring(0, numCharacter) + "...";
-  } else {
-    displayedText = sumilla;
-  };
+  // if (sumilla.length > numCharacter) {
+  //   displayedText = sumilla.substring(0, numCharacter) + "...";
+  // } else {
+  //   displayedText = sumilla;
+  // };
   
-  if (infoextra.length !==0) {
-    displayedextra = infoextra;
-  } else {
-    displayedextra = "No hay informacion extra";
-  }
+  // if (infoextra.length !==0) {
+  //   displayedextra = infoextra;
+  // } else {
+  //   displayedextra = "No hay informacion extra";
+  // }
 
   return (
-    <S.TCard3>
+    <S.TCard2>
       <Card >
         <Card.Body className="card-testimony">
           <div className="card-testimony-header">
-            <Card.Title className="card-title">{tema} - {linvestigacion}</Card.Title>
+            <Card.Title className="card-title">{p.nombres_docente} {p.apellidos_docente}</Card.Title>
           </div>
           <Card.Text className="card-text">
-          Profesor: {profesor}
-          <hr></hr>
-          {displayedText}
-          <p>Fecha de public. : {fecha}</p>
+          Tema: {p.tema}<br></br>
+          E-mail: {p.email}<br></br>
+          Silabo: <a target= "_blank" href={p.descripcion}><FaPaperclip size={20}  /></a><br></br>
+          Fecha de apertura : {p.fecha}<br></br>
+          Fecha de cierre: {p.fecha}
           </Card.Text>
-            <Card.Link className=" btn btn-sm ver-mas" onClick={handleShow} href="#">
+            {/* <Card.Link className=" btn btn-sm ver-mas" onClick={handleShow} href="#">
                 Leer más
-            </Card.Link>
+            </Card.Link> */}
             <Card.Link className=" btn btn-sm ver-mas" href="#">
               Pre-inscripción
             </Card.Link>
         </Card.Body>
 
-        <Modal show={show} onHide={handleClose}>
+        {/* <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>{tema}</Modal.Title>
           </Modal.Header>
@@ -77,9 +80,9 @@ function ProyTesisCard({ linvestigacion, tema, profesor, sumilla, fecha, infoext
               Pre-inscripción
             </Button>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
       </Card>
-    </S.TCard3>
+    </S.TCard2>
   );
 }
 

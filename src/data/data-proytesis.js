@@ -1,38 +1,10 @@
 exports.proytesis = [
     {
-        "num":"1",
-        "linvestigacion": "Álgebra",
-        "profesor": "Jonathan Munguia  ",
-        "tema": "Tema 1 Proyecto de tesis 1",
-        "sumilla": "Algun resumen del tema",
-        "infoextra": "Aqui va informacion extra",
-        "fecha": "12/05/22"
-    },
-    {
-        "num":"2",
-        "linvestigacion": "Geometria",
-        "profesor": "Jonathan Munguia  ",
-        "tema": "Tema 1 Proyecto de Tesis 2",
-        "sumilla": "Algun resumen del tema",
-        "infoextra": "",
-        "fecha": "10/05/22"
-    },
-    {
-        "num":"3",
-        "linvestigacion": "Análisis Numérico",
-        "profesor": "Jonathan Munguia  ",
-        "tema": "Tema 1 Proyecto de Tesis 3",
-        "sumilla": "Algun resumen del tema",
-        "infoextra": "Aqui va informacion extra",
-        "fecha": "29/04/22"
-    },
-    {
-        "num":"1",
-        "linvestigacion": "Álgebra",
-        "profesor": "Jonathan Munguia  ",
-        "tema": "Tema 1 Proyecto de tesis 1",
-        "sumilla": "Algun resumen del tema",
-        "infoextra": "Aqui va informacion extra",
-        "fecha": "12/05/22"
-    },
+      marca: "2022-07-09T00:09:48.234Z",
+      correo: "jmunguial@uni.edu.pe",
+      apellidos_docente: "Munguia La Cotera",
+      tema: "Aplicación de los métodos Híbridos de alto (HHO) orden en 1D",
+      nombres_docente: "Jonathan Alfredo",
+      descripcion: "https://drive.google.com/open?id=1smp5Nt5snN6xCMQimebCy3Z4dJeumaIK"
+    }
 ]
