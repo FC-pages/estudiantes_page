@@ -23,6 +23,8 @@ function Electiv() {
                 codigo_curso = {t.codigo_curso}
                 prerrequisitos = {t.prerrequisitos}
                 silabo = {t.silabo}
+                preinscripcion = {t.preinscripcion}
+                inscritos = {t.inscritos}
               />
             );
           })}

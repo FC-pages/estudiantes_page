@@ -2,6 +2,13 @@ import { useState } from "react";
 import { Modal, Button, Card } from "react-bootstrap";
 import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
 
+/*Profesor
+  Temas
+  email
+  fecha apertura
+  fecha cierre
+*/
+
 type CardProps = {
   linvestigacion: string;
   tema: string;
