@@ -71,6 +71,7 @@ function PTesis() {
                   apellidos_docente = {t.apellidos_docente}
                   nombres_docente = {t.nombres_docente}
                   descripcion = {t.descripcion}
+                  preinscripcion = {t.preinscripcion}
                   // multiline = {t.multiline}
                 />
               );

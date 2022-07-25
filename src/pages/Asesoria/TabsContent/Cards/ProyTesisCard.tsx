@@ -9,6 +9,8 @@ import { FaPaperclip } from 'react-icons/fa';
   fecha apertura
   fecha cierre
 */
+let fecha_apertura = '25-07-2022'
+let fecha_cierre = '25-08-2022'
 
 type CardProps = {
   marca: string;
@@ -17,6 +19,7 @@ type CardProps = {
   apellidos_docente:string;
   nombres_docente:string;
   descripcion: string;
+  preinscripcion: string;
 };
 
 function ProyTesisCard(p:any) {
@@ -49,16 +52,15 @@ function ProyTesisCard(p:any) {
             <Card.Title className="card-title">{p.nombres_docente} {p.apellidos_docente}</Card.Title>
           </div>
           <Card.Text className="card-text">
-          Tema: {p.tema}<br></br>
-          E-mail: {p.email}<br></br>
-          Silabo: <a target= "_blank" href={p.descripcion}><FaPaperclip size={20}  /></a><br></br>
-          Fecha de apertura : {p.fecha}<br></br>
-          Fecha de cierre: {p.fecha}
+          Tema: <a target= "_blank" href={p.descripcion}><FaPaperclip size={20}  /></a><br></br>
+          E-mail: {p.correo}<br></br>
+          Fecha de apertura : {fecha_apertura}<br></br>
+          Fecha de cierre: {fecha_cierre}
           </Card.Text>
-            {/* <Card.Link className=" btn btn-sm ver-mas" onClick={handleShow} href="#">
-                Leer más
-            </Card.Link> */}
-            <Card.Link className=" btn btn-sm ver-mas" href="#">
+            <Card.Link className=" btn btn-sm ver-mas" onClick={handleShow} href="#">
+                Inscritos
+            </Card.Link>
+            <Card.Link target="_blank" href = {p.preinscripcion} className=" btn btn-sm ver-mas">
               Pre-inscripción
             </Card.Link>
         </Card.Body>
