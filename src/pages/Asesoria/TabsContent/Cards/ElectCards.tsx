@@ -19,6 +19,7 @@ type CardProps = {
 
 function ElectivosCard(e:any) {
    const [show, setShow] = useState(false);
+   console.log(e)
    const handleClose = () => setShow(false);
    const handleShow = () => setShow(true);
 

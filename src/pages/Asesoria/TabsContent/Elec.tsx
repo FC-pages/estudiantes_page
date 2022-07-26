@@ -21,7 +21,7 @@ function Electiv() {
                 nombres = {t.nombres}
                 curso = {t.curso}
                 codigo_curso = {t.codigo_curso}
-                prerrequisitos = {t.prerrequisitos}
+                prerrequisitos = {t.prerequisitos}
                 silabo = {t.silabo}
                 preinscripcion = {t.preinscripcion}
                 inscritos = {t.inscritos}
