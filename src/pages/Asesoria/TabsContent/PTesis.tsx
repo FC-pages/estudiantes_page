@@ -72,6 +72,7 @@ function PTesis() {
                   nombres_docente = {t.nombres_docente}
                   descripcion = {t.descripcion}
                   preinscripcion = {t.preinscripcion}
+                  inscritos = {t.inscritos}
                   // multiline = {t.multiline}
                 />
               );

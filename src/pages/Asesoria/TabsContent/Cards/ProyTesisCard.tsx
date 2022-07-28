@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Modal, Button, Card } from "react-bootstrap";
 import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
+import { Table } from 'react-bootstrap';
 import { FaPaperclip } from 'react-icons/fa';
 
 /*Profesor
@@ -65,24 +66,40 @@ function ProyTesisCard(p:any) {
             </Card.Link>
         </Card.Body>
 
-        {/* <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>{tema}</Modal.Title>
+        <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+            <Modal.Title>Inscritos</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            {sumilla}
-            <p>Informacion Extra: {displayedextra}</p>
-            <p>Fecha de public. : {fecha}</p>
+          <Table striped bordered hover>
+            <thead>
+            <tr>
+              <th>Código</th>
+              <th>Nombres</th>
+            </tr>
+            </thead>
+            <tbody>
+            {p.inscritos.map((e:any) => {
+              return (
+              <tr>
+                <td>
+                  {e.codigo}
+                </td>
+                <td>
+                  {e.nombres}, {e.apellidos}
+                </td>
+              </tr>
+              )
+            })}
+            </tbody>
+            </Table>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
-            <Button variant="secondary" onClick={handleClose}>
-              Pre-inscripción
+              Cerrar
             </Button>
           </Modal.Footer>
-        </Modal> */}
+        </Modal> 
       </Card>
     </S.TCard2>
   );
