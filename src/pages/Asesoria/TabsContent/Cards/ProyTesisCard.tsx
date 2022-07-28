@@ -57,12 +57,12 @@ function ProyTesisCard(p:any) {
           E-mail: {p.correo}<br></br>
           Fecha de apertura : {fecha_apertura}<br></br>
           Fecha de cierre: {fecha_cierre}
-          </Card.Text>
-            <Card.Link className=" btn btn-sm ver-mas" onClick={handleShow} href="#">
-                Inscritos
-            </Card.Link>
+          </Card.Text>            
             <Card.Link target="_blank" href = {p.preinscripcion} className=" btn btn-sm ver-mas">
-              Pre-inscripción
+                Preinscripción
+            </Card.Link>
+            <Card.Link className=" btn btn-sm ver-mas" onClick={handleShow} href="#">
+                Lista de inscritos
             </Card.Link>
         </Card.Body>
 

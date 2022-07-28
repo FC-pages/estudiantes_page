@@ -86,38 +86,7 @@ silabo: "https://drive.google.com/file/d/1YngpJrZFZiYsxQdHNtAWWlEOOBmc_hJE/view?
 preinscripcion: "https://forms.gle/dZiNXBiaeodSoNTb8",
 inscritos:
   [
-  {
-  marca: "2022-07-22T20:26:26.247Z",
-  correo: "jrodasch@uni.pe",
-  apellidos: "Jorge",
-  nombres: "Rodas",
-  codigo: "19994046G",
-  alumno_terminal: "Sí"
-  },
-  {
-  marca: "2022-07-22T20:50:21.361Z",
-  correo: "jbardalesr@uni.pe",
-  apellidos: "Jordi Joel",
-  nombres: "Bardales Rojas",
-  codigo: "20171590A",
-  alumno_terminal: "Sí"
-  },
-  {
-  marca: "2022-07-22T21:01:21.331Z",
-  correo: "renee.lopez.p@uni.pe",
-  apellidos: "Renee Jair",
-  nombres: "Lopez Punin",
-  codigo: "20160255A",
-  alumno_terminal: "No"
-  },
-  {
-  marca: "2022-07-23T04:31:57.885Z",
-  correo: "cfelixr@uni.pe",
-  apellidos: "Carlos Gabriel",
-  nombres: "Felix Romo",
-  codigo: "20121212C",
-  alumno_terminal: "Sí"
-  }
+    {"marca":"2022-07-22T20:26:26.247Z","correo":"jrodasch@uni.pe","nombres":"Jorge","apellidos":"Rodas","codigo":"19994046G","cumple_prerequisitos":"Sí"},{"marca":"2022-07-22T20:50:21.361Z","correo":"jbardalesr@uni.pe","nombres":"Jordi Joel","apellidos":"Bardales Rojas","codigo":"20171590A","cumple_prerequisitos":"Sí"},{"marca":"2022-07-22T21:01:21.331Z","correo":"renee.lopez.p@uni.pe","nombres":"Renee Jair","apellidos":"Lopez Punin","codigo":"20160255A","cumple_prerequisitos":"No"},{"marca":"2022-07-23T04:31:57.885Z","correo":"cfelixr@uni.pe","nombres":"Carlos Gabriel","apellidos":"Felix Romo","codigo":"20121212C","cumple_prerequisitos":"Sí"}
   ]
 },
 {
@@ -142,9 +111,35 @@ codigo_curso: "CM017",
 prerequisitos: "CM4H1",
 silabo: "https://drive.google.com/file/d/1KznmHtXFIbf1yaBAlIZWOtXuybt0FqmH/view?usp=sharing",
 preinscripcion: "https://forms.gle/YwwpzfFf8PZ8iXtb6",
-  inscritos:[]
+inscritos:
+  [
+    {"marca":"2022-07-26T03:45:31.666Z","correo":"jbardalesr@uni.pe","nombres":"Jordi Joel","apellidos":"Bardales Rojas","codigo":"20171590A","cumple_prerequisitos":"Sí","aluno_terminal":"Sí"},{"marca":"2022-07-26T14:46:50.892Z","correo":"aldo.barrientos.f@uni.pe","nombres":"Aldo Raúl","apellidos":"Barrientos Farfán","codigo":"20120409 H","cumple_prerequisitos":"Sí","aluno_terminal":"Sí"}
+  ]
 },
-
+{
+  marca: "2022-07-23T06:48:19.467Z",
+  correo: "jpalaciosb@uni.edu.pe",
+  apellidos: "Palacios Baldeon",
+  nombres: "Joe Albino",
+  curso: "Geometría Proyectiva",
+  codigo_curso: "CM0C5",
+  prerequisitos: "CM3I2",
+  silabo: "https://drive.google.com/file/d/12sindAEfVqi-00CuLoC14XqZYXGD0vN5/view?usp=sharing",
+  preinscripcion: "https://forms.gle/BA6wqLWSQNs79BXy8",
+  inscritos: []
+},
+{
+  marca: "2022-07-25T14:53:33.282Z",
+  correo: "rperezc@uni.edu.pe",
+  apellidos: "Pérez Cupe",
+  nombres: "Rósulo",
+  curso: "Estructura de Datos",
+  codigo_curso: "CM094",
+  prerequisitos: "CM2F1",
+  silabo: "https://drive.google.com/file/d/1EEJ_BLk0B9X6ZIgL3VUXW5SHzVMKLqzO/view?usp=sharing",
+  preinscripcion: "https://forms.gle/qsjsKWxmRJJzQ1gcA",
+  inscritos: []
+},
 ]
 
 
