@@ -32,16 +32,7 @@ prerequisitos: "CM4C1",
 silabo: "https://drive.google.com/file/d/1t-XkHKI863hXPJOk9XgjEbEI1-jZA5DI/view?usp=sharing",
 preinscripcion: "https://forms.gle/Ps96HgBYwSC1Ngn97",
 inscritos :
-[
-  {
-    marca: "2022-07-22T03:42:19.649Z",
-    correo: "cfelixr@uni.pe",
-    apellidos: "Carlos",
-    nombres: "Felix Romo",
-    codigo: "20121212C",
-    cumple_prerequisitos: "No",
-    alumno_terminal: "Sí"
-  },
+[  
   {
     marca: "2022-07-22T20:26:11.303Z",
     correo: "jrodasch@uni.pe",
@@ -59,6 +50,15 @@ inscritos :
     codigo: "20160255A",
     cumple_prerequisitos: "Sí",
     alumno_terminal: "No"
+  },
+  {
+    marca: "2022-07-23T12:30:07.810Z",
+    correo: "junior.micha.v@uni.pe",
+    apellidos: "Junior",
+    nombres: "Micha Velasque",
+    codigo: "20162171J",
+    cumple_prerequisitos: "Sí",
+    alumno_terminal: "Sí"
   }
 ]
 },

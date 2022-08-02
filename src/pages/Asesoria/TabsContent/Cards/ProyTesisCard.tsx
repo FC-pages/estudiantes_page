@@ -53,7 +53,7 @@ function ProyTesisCard(p:any) {
             <Card.Title className="card-title">{p.nombres_docente} {p.apellidos_docente}</Card.Title>
           </div>
           <Card.Text className="card-text">
-          Tema: <a target= "_blank" href={p.descripcion}><FaPaperclip size={20}  /></a><br></br>
+          Temas: <a target= "_blank" href={p.descripcion}><FaPaperclip size={20}  /></a><br></br>
           E-mail: {p.correo}<br></br>
           Fecha de apertura : {fecha_apertura}<br></br>
           Fecha de cierre: {fecha_cierre}
