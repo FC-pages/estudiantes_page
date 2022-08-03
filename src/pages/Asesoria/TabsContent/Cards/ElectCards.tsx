@@ -82,7 +82,7 @@ function ElectivosCard(e:any) {
                   {e.codigo}
                 </td>
                 <td>
-                  {e.nombres}, {e.apellidos}
+                  {e.nombres} {e.apellidos}
                 </td>
               </tr>
               )

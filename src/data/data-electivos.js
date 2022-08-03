@@ -36,8 +36,8 @@ inscritos :
   {
     marca: "2022-07-22T20:26:11.303Z",
     correo: "jrodasch@uni.pe",
-    apellidos: "Jorge",
-    nombres: "Rodas",
+    nombres: "Jorge",
+    apellidos: "Rodas",
     codigo: "19994046G",
     cumple_prerequisitos: "Sí",
     alumno_terminal: "Sí"
@@ -45,8 +45,8 @@ inscritos :
   {
     marca: "2022-07-22T21:01:49.328Z",
     correo: "renee.lopez.p@uni.pe",
-    apellidos: "Renee Jair",
-    nombres: "Lopez Punin",
+    nombres: "Renee Jair",
+    apellidos: "Lopez Punin",
     codigo: "20160255A",
     cumple_prerequisitos: "Sí",
     alumno_terminal: "No"
@@ -54,8 +54,8 @@ inscritos :
   {
     marca: "2022-07-23T12:30:07.810Z",
     correo: "junior.micha.v@uni.pe",
-    apellidos: "Junior",
-    nombres: "Micha Velasque",
+    nombres: "Junior",
+    apellidos: "Micha Velasque",
     codigo: "20162171J",
     cumple_prerequisitos: "Sí",
     alumno_terminal: "Sí"
@@ -113,7 +113,7 @@ silabo: "https://drive.google.com/file/d/1KznmHtXFIbf1yaBAlIZWOtXuybt0FqmH/view?
 preinscripcion: "https://forms.gle/YwwpzfFf8PZ8iXtb6",
 inscritos:
   [
-    {"marca":"2022-07-26T03:45:31.666Z","correo":"jbardalesr@uni.pe","nombres":"Jordi Joel","apellidos":"Bardales Rojas","codigo":"20171590A","cumple_prerequisitos":"Sí","aluno_terminal":"Sí"},{"marca":"2022-07-26T14:46:50.892Z","correo":"aldo.barrientos.f@uni.pe","nombres":"Aldo Raúl","apellidos":"Barrientos Farfán","codigo":"20120409 H","cumple_prerequisitos":"Sí","aluno_terminal":"Sí"}
+    {"marca":"2022-07-26T03:45:31.666Z","correo":"jbardalesr@uni.pe","nombres":"Jordi Joel","apellidos":"Bardales Rojas","codigo":"20171590A","cumple_prerequisitos":"Sí","alumno_terminal":"Sí"},{"marca":"2022-07-26T14:46:50.892Z","correo":"aldo.barrientos.f@uni.pe","nombres":"Aldo Raúl","apellidos":"Barrientos Farfán","codigo":"20120409 H","cumple_prerequisitos":"Sí","alumno_terminal":"Sí"},{"marca":"2022-07-27T01:06:06.541Z","correo":"ibollschweilerv@uni.pe","nombres":"Ian Nicolás ","apellidos":"Bollschweiler Vargas","codigo":"20170511K","cumple_prerequisitos":"Sí","alumno_terminal":"No"},{"marca":"2022-07-30T00:42:26.006Z","correo":"jrodasch@uni.pe","nombres":"Jorge","apellidos":"Rodas","codigo":"19994046G","cumple_prerequisitos":"Sí","alumno_terminal":"Sí"}
   ]
 },
 {
@@ -138,7 +138,10 @@ inscritos:
   prerequisitos: "CM2F1",
   silabo: "https://drive.google.com/file/d/1EEJ_BLk0B9X6ZIgL3VUXW5SHzVMKLqzO/view?usp=sharing",
   preinscripcion: "https://forms.gle/qsjsKWxmRJJzQ1gcA",
-  inscritos: []
+  inscritos: 
+  [
+    {"marca":"2022-08-02T05:55:42.754Z","correo":"jrodasch@uni.pe","nombres":"Jorge","apellidos":"Rodas","codigo":"19994046G","cumple_prerequisitos":"Sí","alumno_terminal":"Sí"}
+  ]
 },
 ]
 
