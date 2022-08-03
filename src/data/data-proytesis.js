@@ -109,10 +109,19 @@ inscritos: []
 {
 marca: "2022-07-23T03:10:39.680Z",
 correo: "eore@uni.edu.pe",
-apellidos_docente: "Oré Albornoz ",
+apellidos_docente: "Oré Albornoz",
 nombres_docente: "Ernesto",
 descripcion: "https://drive.google.com/file/d/1h4dHlpjSF4hJriHNZZL4QTbd81Yo_6YU/view?usp=sharing",
 preinscripcion: "https://forms.gle/sbs26DbmQfSpJJr7A",
+inscritos: []
+},
+{
+marca: "2022-08-03T19:51:39.320Z",
+correo: "eocana@uni.edu.pe",
+apellidos_docente: "Ocaña Anaya",
+nombres_docente: "Eladio",
+descripcion: "https://drive.google.com/file/d/1dkJGuTK9-l6bXYZQjKlzsFCMxgteTdz8/view?usp=sharing",
+preinscripcion: "https://forms.gle/mdf1H8jnJm4HfbmXA",
 inscritos: []
 }
 ]
