@@ -39,7 +39,7 @@ correo: "renee.lopez.p@uni.pe",
 nombres: "Renne Jair",
 apellidos: "Lopez Punin",
 codigo: "20160255A",
-num_proy: "Proyecto de Tesis 1"
+num_proy: "Proyecto de Tesis 2"
 }
 ]
 },
@@ -88,7 +88,7 @@ descripcion: "https://drive.google.com/file/d/1EoiQuoVyyH9lR-_rW5CTxXB4FsA5fauJ/
 preinscripcion: "https://forms.gle/NLbKNiZBzZuQnBgb7",
 inscritos: 
   [
-    {"marca":"2022-08-09T17:40:44.534Z","correo":"aldo.barrientos.f@uni.pe","nombres":"Aldo Raúl","apellidos":"Barrientos Farfán","codigo":"20120409H","proyecto":"Proyecto de Tesis 3"}
+    {"marca":"2022-08-09T17:40:44.534Z","correo":"aldo.barrientos.f@uni.pe","nombres":"Aldo Raúl","apellidos":"Barrientos Farfán","codigo":"20120409H","num_proy":"Proyecto de Tesis 3"}
   ]
 },
 {

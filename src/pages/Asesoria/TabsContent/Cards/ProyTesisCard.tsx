@@ -76,6 +76,7 @@ function ProyTesisCard(p:any) {
             <tr>
               <th>Código</th>
               <th>Nombres</th>
+              <th>N° de proyecto</th>
             </tr>
             </thead>
             <tbody>
@@ -87,6 +88,9 @@ function ProyTesisCard(p:any) {
                 </td>
                 <td>
                   {e.nombres} {e.apellidos}
+                </td>
+                <td>
+                  {e.num_proy}
                 </td>
               </tr>
               )
