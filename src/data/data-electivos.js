@@ -32,16 +32,7 @@ prerequisitos: "CM4C1",
 silabo: "https://drive.google.com/file/d/1t-XkHKI863hXPJOk9XgjEbEI1-jZA5DI/view?usp=sharing",
 preinscripcion: "https://forms.gle/Ps96HgBYwSC1Ngn97",
 inscritos :
-[  
-  {
-    marca: "2022-07-22T20:26:11.303Z",
-    correo: "jrodasch@uni.pe",
-    nombres: "Jorge",
-    apellidos: "Rodas",
-    codigo: "19994046G",
-    cumple_prerequisitos: "Sí",
-    alumno_terminal: "Sí"
-  },
+[    
   {
     marca: "2022-07-22T21:01:49.328Z",
     correo: "renee.lopez.p@uni.pe",
@@ -155,7 +146,7 @@ inscritos:
   preinscripcion: "https://forms.gle/qsjsKWxmRJJzQ1gcA",
   inscritos: 
   [
-    {"marca":"2022-08-02T05:55:42.754Z","correo":"jrodasch@uni.pe","nombres":"Jorge","apellidos":"Rodas","codigo":"19994046G","cumple_prerequisitos":"Sí","alumno_terminal":"Sí"},{"marca":"2022-08-09T17:39:48.801Z","correo":"daguilarp@uni.pe","nombres":"Dan O'neill Arie","apellidos":"Aguilar Palomino","codigo":"20180453C","cumple_prerequisitos":"Sí","alumno_terminal":"Sí"},{"marca":"2022-08-09T17:48:15.433Z","correo":"avasquezg@uni.pe","nombres":"Alejandro","apellidos":"Vasquez Gavancho","codigo":"20180611H","cumple_prerequisitos":"Sí","alumno_terminal":"No"}
+    {"marca":"2022-08-09T17:39:48.801Z","correo":"daguilarp@uni.pe","nombres":"Dan O'neill Arie","apellidos":"Aguilar Palomino","codigo":"20180453C","cumple_prerequisitos":"Sí","alumno_terminal":"Sí"},{"marca":"2022-08-09T17:48:15.433Z","correo":"avasquezg@uni.pe","nombres":"Alejandro","apellidos":"Vasquez Gavancho","codigo":"20180611H","cumple_prerequisitos":"Sí","alumno_terminal":"No"}
   ]
 },
 ]
