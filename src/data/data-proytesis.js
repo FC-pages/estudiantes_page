@@ -86,7 +86,10 @@ apellidos_docente: "Ugarte Chamorro",
 nombres_docente: "Jose Luis",
 descripcion: "https://drive.google.com/file/d/1EoiQuoVyyH9lR-_rW5CTxXB4FsA5fauJ/view?usp=sharing",
 preinscripcion: "https://forms.gle/NLbKNiZBzZuQnBgb7",
-inscritos: []
+inscritos: 
+  [
+    {"marca":"2022-08-09T17:40:44.534Z","correo":"aldo.barrientos.f@uni.pe","nombres":"Aldo Raúl","apellidos":"Barrientos Farfán","codigo":"20120409H","proyecto":"Proyecto de Tesis 3"}
+  ]
 },
 {
 marca: "2022-07-22T17:51:18.957Z",
