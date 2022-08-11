@@ -126,5 +126,14 @@ nombres_docente: "Eladio",
 descripcion: "https://drive.google.com/file/d/1dkJGuTK9-l6bXYZQjKlzsFCMxgteTdz8/view?usp=sharing",
 preinscripcion: "https://forms.gle/mdf1H8jnJm4HfbmXA",
 inscritos: []
-}
+},
+{
+  marca: "2022-08-10T00:53:04.308Z",
+  correo: "rperezc@uni.edu.pe",
+  apellidos_docente: "Pérez Cupe",
+  nombres_docente: "Rósulo",
+  descripcion: "https://drive.google.com/file/d/1SFBylBwRGBWGEyLfPZcEy7B-oDYMoRk2/view?usp=sharing",
+  preinscripcion: "https://forms.gle/3Y3XHyndDHsQN74RA",
+  inscritos: []
+  }
 ]
