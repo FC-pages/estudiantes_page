@@ -30,6 +30,7 @@ function Electiv() {
           })}
         </S.TestimoniosTab>
       </S.TabContent>
+            <a target = "_blank" href = "https://forms.gle/Aqj9Rpq9tSfDDS117" type="button" className="btn btn-warning btn-lg cancelar-insc">Cancelar inscripción</a>
       </Container>
     </div>
   );

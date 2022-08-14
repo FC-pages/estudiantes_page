@@ -64,6 +64,9 @@ function ProyTesisCard(p:any) {
             <Card.Link className=" btn btn-sm ver-mas" onClick={handleShow} href="#">
                 Lista de inscritos
             </Card.Link>
+            <Card.Link target="_blank" className=" btn btn-sm ver-mas" href="https://forms.gle/zQqDB1ZECn8uJe6V7">
+               Cancelar inscripción 
+            </Card.Link>
         </Card.Body>
 
         <Modal show={show} onHide={handleClose}>

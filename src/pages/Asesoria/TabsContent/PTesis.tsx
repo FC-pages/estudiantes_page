@@ -80,6 +80,8 @@ function PTesis() {
 
           </S.TestimoniosTab>
         </S.TabContent>
+
+            <a target = "_blank" href = "https://forms.gle/zQqDB1ZECn8uJe6V7" type="button" className="btn btn-warning btn-lg cancelar-insc">Cancelar inscripción</a>
         </Container>
       </div>
     </>
