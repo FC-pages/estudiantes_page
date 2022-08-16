@@ -62,16 +62,16 @@ function ProyTesisCard(p:any) {
                 Preinscripción
             </Card.Link>
             <Card.Link className=" btn btn-sm ver-mas" onClick={handleShow} href="#">
-                Lista de inscritos
+                Lista de pre-inscritos
             </Card.Link>
-            <Card.Link target="_blank" className=" btn btn-sm ver-mas" href="https://forms.gle/zQqDB1ZECn8uJe6V7">
-               Cancelar inscripción 
-            </Card.Link>
+            {/*<Card.Link target="_blank" className=" btn btn-sm ver-mas" href="https://forms.gle/zQqDB1ZECn8uJe6V7">
+               Cancelar jojopre-inscripción 
+  </Card.Link>*/}
         </Card.Body>
 
         <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-            <Modal.Title>Inscritos</Modal.Title>
+            <Modal.Title>Pre-inscritos</Modal.Title>
           </Modal.Header>
           <Modal.Body>
           <Table striped bordered hover>

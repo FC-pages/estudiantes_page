@@ -58,13 +58,13 @@ function ElectivosCard(e:any) {
                 Preinscripción
             </Card.Link>
             <Card.Link className=" btn btn-sm ver-mas" onClick={handleShow} href="#">
-                Lista de inscritos
+                Lista de pre-inscritos
             </Card.Link>
         </Card.Body>
 
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Inscritos</Modal.Title>
+            <Modal.Title>Pre-inscritos</Modal.Title>
           </Modal.Header>
           <Modal.Body>
           <Table striped bordered hover>
