@@ -59,7 +59,10 @@ apellidos_docente: "Mantilla Nuñez",
 nombres_docente: "Irla Doraliza",
 descripcion: "https://drive.google.com/file/d/1yWKxIKPEuESEyF6zY9q3r-odi4UYMGZP/view?usp=sharing",
 preinscripcion: "https://forms.gle/cpMWVGhHrXHn3aYw7",
-inscritos: []
+inscritos: 
+[
+  {"marca":"2022-08-13T03:28:47.694Z","correo":"nrojasm@uni.pe","nombres":"NICOLAS GUILLERMO","apellidos":"ROJAS MINAYA","codigo":"20170616G","num_proy":"Proyecto de Tesis 1"}
+]
 },
 {
 marca: "2022-07-21T20:30:22.837Z",
@@ -134,7 +137,10 @@ inscritos: []
   nombres_docente: "Rósulo",
   descripcion: "https://drive.google.com/file/d/1SFBylBwRGBWGEyLfPZcEy7B-oDYMoRk2/view?usp=sharing",
   preinscripcion: "https://forms.gle/3Y3XHyndDHsQN74RA",
-  inscritos: []
+  inscritos: 
+  [
+    {"marca":"2022-08-16T19:59:15.116Z","nombres":"PABLO EDWARD","apellidos":"MARRUFO MESIA","codigo":"20152239K","num_proy":"Proyecto de Tesis 1"}
+  ]
 },
 {
   marca: "2022-08-16T16:18:02.550Z",
@@ -143,7 +149,7 @@ inscritos: []
   nombres_docente: "Benito Leonardo",
   descripcion: "https://drive.google.com/file/d/1jFTmDR2QDq8yl3tgNmQXaZU2MBbuIV3V/view?usp=sharing",
   preinscripcion: "https://forms.gle/vTYLgmVkXYSTBpFSA",
-  inscritos: []
+  inscritos: []  
 },
 {
   marca: "2022-08-18T04:32:22.033Z",
