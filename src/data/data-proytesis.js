@@ -135,5 +135,23 @@ inscritos: []
   descripcion: "https://drive.google.com/file/d/1SFBylBwRGBWGEyLfPZcEy7B-oDYMoRk2/view?usp=sharing",
   preinscripcion: "https://forms.gle/3Y3XHyndDHsQN74RA",
   inscritos: []
+},
+{
+  marca: "2022-08-16T16:18:02.550Z",
+  correo: "bostosc@uni.edu.pe",
+  apellidos_docente: "Ostos Cordero",
+  nombres_docente: "Benito Leonardo",
+  descripcion: "https://drive.google.com/file/d/1jFTmDR2QDq8yl3tgNmQXaZU2MBbuIV3V/view?usp=sharing",
+  preinscripcion: "https://forms.gle/vTYLgmVkXYSTBpFSA",
+  inscritos: []
+},
+{
+  marca: "2022-08-18T04:32:22.033Z",
+  correo: "lrocag@uni.edu.pe",
+  apellidos_docente: "Roca Galindo",
+  nombres_docente: "Luis Rodolfo",
+  descripcion: "https://drive.google.com/file/d/1ZIBBoAmCouoaaRCkwL4a7q8s-xBCGNth/view?usp=sharing",
+  preinscripcion: "https://forms.gle/UV8kSEB5MmoPVdwX8",
+  inscritos: []
   }
 ]

@@ -149,6 +149,19 @@ inscritos:
     {"marca":"2022-08-09T17:39:48.801Z","correo":"daguilarp@uni.pe","nombres":"Dan O'neill Arie","apellidos":"Aguilar Palomino","codigo":"20180453C","cumple_prerequisitos":"Sí","alumno_terminal":"Sí"},{"marca":"2022-08-09T17:48:15.433Z","correo":"avasquezg@uni.pe","nombres":"Alejandro","apellidos":"Vasquez Gavancho","codigo":"20180611H","cumple_prerequisitos":"Sí","alumno_terminal":"No"}
   ]
 },
+{
+  marca: "2022-08-16T16:08:17.424Z",
+  correo: "dabantos@uni.edu.pe",
+  apellidos: "Abanto Silva",
+  nombres: "Dimas Percy",
+  curso: "Geometría diferencial",
+  codigo_curso: "CM008",
+  prerequisitos: "CM3I2",
+  silabo: "https://drive.google.com/file/d/1rlzDX53WUMBtNePiKSu0JXuP0CtYiNIB/view?usp=sharing",
+  preinscripcion: "https://forms.gle/xCycFX2qzYvZSoSFA",
+  inscritos: 
+  []
+},
 ]
 
 
