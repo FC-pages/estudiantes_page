@@ -80,7 +80,10 @@ apellidos_docente: "Guimaray Huerta",
 nombres_docente: "Héctor Carlos",
 descripcion: "https://drive.google.com/file/d/1yGsn2mQrr11Jv9o3rit3RzIq4jH6Wjnx/view?usp=sharing",
 preinscripcion: "https://forms.gle/So5HtcpZ9P7nfW8u6",
-inscritos: []
+inscritos: 
+[
+  {"marca":"2022-08-21T04:55:55.919Z","correo":"jsahuat@uni.pe","nombres":"Jaafar Farut","apellidos":"Sahua Torres","codigo":"20161395A","num_proy":"Proyecto de Tesis 1"}
+]
 },
 {
 marca: "2022-07-22T01:10:22.024Z",
@@ -91,7 +94,7 @@ descripcion: "https://drive.google.com/file/d/1EoiQuoVyyH9lR-_rW5CTxXB4FsA5fauJ/
 preinscripcion: "https://forms.gle/NLbKNiZBzZuQnBgb7",
 inscritos: 
   [
-    {"marca":"2022-08-09T17:40:44.534Z","correo":"aldo.barrientos.f@uni.pe","nombres":"Aldo Raúl","apellidos":"Barrientos Farfán","codigo":"20120409H","num_proy":"Proyecto de Tesis 3"}
+    {"marca":"2022-08-09T17:40:44.534Z","correo":"aldo.barrientos.f@uni.pe","nombres":"Aldo Raúl","apellidos":"Barrientos Farfán","codigo":"20120409H","num_proy":"Proyecto de Tesis 3"},{"marca":"2022-08-19T17:56:05.808Z","correo":"alfredo.flores.h@uni.pe","nombres":"Alfredo Gonzalo","apellidos":"Flores Hernandez","codigo":"20101327J","num_proy":"Proyecto de Tesis 1"}
   ]
 },
 {
@@ -127,7 +130,7 @@ correo: "eocana@uni.edu.pe",
 apellidos_docente: "Ocaña Anaya",
 nombres_docente: "Eladio",
 descripcion: "https://drive.google.com/file/d/1dkJGuTK9-l6bXYZQjKlzsFCMxgteTdz8/view?usp=sharing",
-preinscripcion: "https://forms.gle/mdf1H8jnJm4HfbmXA",
+preinscripcion: "https://forms.gle/TyGSYb8W65z4PXLG7",
 inscritos: []
 },
 {
@@ -136,7 +139,7 @@ inscritos: []
   apellidos_docente: "Pérez Cupe",
   nombres_docente: "Rósulo",
   descripcion: "https://drive.google.com/file/d/1SFBylBwRGBWGEyLfPZcEy7B-oDYMoRk2/view?usp=sharing",
-  preinscripcion: "https://forms.gle/3Y3XHyndDHsQN74RA",
+  preinscripcion: "https://forms.gle/B7qCXJNe6pGezKGg6",
   inscritos: 
   [
     {"marca":"2022-08-16T19:59:15.116Z","nombres":"PABLO EDWARD","apellidos":"MARRUFO MESIA","codigo":"20152239K","num_proy":"Proyecto de Tesis 1"}
@@ -148,7 +151,7 @@ inscritos: []
   apellidos_docente: "Ostos Cordero",
   nombres_docente: "Benito Leonardo",
   descripcion: "https://drive.google.com/file/d/1jFTmDR2QDq8yl3tgNmQXaZU2MBbuIV3V/view?usp=sharing",
-  preinscripcion: "https://forms.gle/vTYLgmVkXYSTBpFSA",
+  preinscripcion: "https://forms.gle/ZrdWR2im2Pqte3no7",
   inscritos: []  
 },
 {
@@ -157,7 +160,16 @@ inscritos: []
   apellidos_docente: "Roca Galindo",
   nombres_docente: "Luis Rodolfo",
   descripcion: "https://drive.google.com/file/d/1ZIBBoAmCouoaaRCkwL4a7q8s-xBCGNth/view?usp=sharing",
-  preinscripcion: "https://forms.gle/UV8kSEB5MmoPVdwX8",
+  preinscripcion: "https://forms.gle/hZEirkRrqJh988GL8",
+  inscritos: []
+},
+{
+  marca: "2022-08-21T17:08:09.737Z",
+  correo: "jesus.cernades.g@uni.edu.pe",
+  apellidos_docente: "Cernades Gómez",
+  nombres_docente: "Jesús",
+  descripcion: "https://drive.google.com/file/d/1r65lal8diAmBOfY9tJRSypY1Beyc6E3u/view?usp=sharing",
+  preinscripcion: "https://forms.gle/hh4vs4mc8rSXaFZYA",
   inscritos: []
   }
 ]
