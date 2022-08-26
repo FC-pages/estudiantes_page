@@ -11,7 +11,7 @@ import Electiv2 from '../Asesoria/TabsContent/PTesis';
 
 import { colors } from '../../styles/colors';
 
-export default function Descripcion() {
+export default function CursosProyectos() {
   return (
     <Container
       style={{
@@ -23,19 +23,12 @@ export default function Descripcion() {
       }}
       className="mt-5"
     >
-      <Tab.Container defaultActiveKey="Perfil">
+      <Tab.Container defaultActiveKey="Planes y Mallas de estudio">
         <Nav
           // variant="tabs"
           style={{ backgroundColor: colors.main }} //#1D3557
           className="justify-content-center pt-1 fs-6"
         >
-          <Nav.Item>
-            <Nav.Link eventKey="Perfil">Perfil</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="Resenia">Reseña histórica</Nav.Link>
-          </Nav.Item>
-          {/*
           <Nav.Item>
             <Nav.Link eventKey="Planes y Mallas de estudio">
               Planes y Mallas de estudio
@@ -50,23 +43,10 @@ export default function Descripcion() {
             <Nav.Link eventKey="Proyectos de Tesis">
               Proyectos de Tesis
             </Nav.Link>
-          </Nav.Item>*/}
-          <Nav.Item>
-            <Nav.Link eventKey="Biblioteca">Biblioteca</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="Autoridades">Autoridades</Nav.Link>
           </Nav.Item>
         </Nav>
         <Container className="p-3">
           <Tab.Content>
-            <Tab.Pane eventKey="Perfil">
-              <Perfil />
-            </Tab.Pane>
-            <Tab.Pane eventKey="Resenia">
-              <ResenaHistorica />
-            </Tab.Pane>
-            {/*
             <Tab.Pane eventKey="Planes y Mallas de estudio">
               <PlanesYMallas />
             </Tab.Pane>
@@ -75,12 +55,6 @@ export default function Descripcion() {
             </Tab.Pane>
             <Tab.Pane eventKey="Proyectos de Tesis">
               <Electiv2 />
-            </Tab.Pane>*/}
-            <Tab.Pane eventKey="Biblioteca">
-              <Biblioteca />
-            </Tab.Pane>
-            <Tab.Pane eventKey="Autoridades">
-              <Autoridades />
             </Tab.Pane>
           </Tab.Content>
         </Container>

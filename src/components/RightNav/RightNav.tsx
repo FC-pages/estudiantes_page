@@ -2,6 +2,7 @@ import * as S from "./styles";
 
 import Home from "../../pages/Home/Home";
 import Descripcion from "../../pages/Descripcion/DescripcionPage";
+import CursosProyectos from "../../pages/CursosYProyectos/CursosProyectos";
 import FuturoEstudiante from "../../pages/FuturoEstudiante/FuturoEstudiantePage";
 import AlumnosEgresadosPage from "../../pages/AlumnosYEgresados/AlumnosEgresadosPage";
 import EnlacesInteresPage from "../../pages/EnlacesInteres/EnlacesInteresPage";
@@ -12,6 +13,7 @@ import routes from "../../helpers/routes";
 import Optimizacion from "../../pages/LineasInvestigacion/Optimizacion/Optimizacion";
 import ANumerico from "../../pages/LineasInvestigacion/AnalisisNumerico/AnalisisNumerico";
 import GruposInvestigacion from '../../pages/LineasInvestigacion/GruposInvestigacion';
+import { Col, Container, Row } from 'react-bootstrap'
 
 import {
   BrowserRouter as Router,
@@ -62,6 +64,9 @@ function RightNav(props: any) {
         <NavLink to={routes.futuroEstudiante} onClick={() => props.setOpen(!props.open)}>
           <li>Futuro Estudiante</li>{" "}
         </NavLink>
+        <NavLink to={routes.cursos_electivos} onClick={() => props.setOpen(!props.open)}>
+          <li>Cursos y Proyectos</li>{" "}
+        </NavLink>
         <NavLink to={routes.docentes} onClick={() => props.setOpen(!props.open)}>
           <li>Docentes</li>{" "}
         </NavLink>
@@ -91,6 +96,7 @@ function RightNav(props: any) {
         <Route path={routes.enlacesInteres} element={<EnlacesInteresPage />} />
         <Route path={routes.descripcion} element={<Descripcion />} />
         <Route path={routes.futuroEstudiante} element={<FuturoEstudiante />} />
+        <Route path={routes.cursos_electivos} element={<CursosProyectos />} />
         <Route
           path={routes.grupos_investigacion}
           element={<GruposInvestigacion />}
@@ -102,7 +108,6 @@ function RightNav(props: any) {
         <Route path="/linea_inv4" element={<LineaInv4 />} />
         <Route path="/linea_inv5" element={<LineaInv5 />} />
         <Route path="/linea_inv6" element={<LineaInv6 />} />
-        <Route path="/GruposInvestigacion" element={< GruposInvestigacion/>} />
         {/* <Route path={routes.asesoria} element={<AsesoriaPage />} /> */}
         <Route path={routes.contacto} element={<ContactoPage />} />
       </Routes>

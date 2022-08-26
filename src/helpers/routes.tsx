@@ -2,6 +2,7 @@ const routes = {
   estudiantes_egresados: "/Estudiantes_y_egresados",
   descripcion: "/Descripcion",
   futuroEstudiante: "/Futuro_estudiante",
+  cursos_electivos: "/cursos_electivos",
   docentes: "/docentes",
   grupos_investigacion: "/grupos_investigacion",
   egresados: "/Egresados",
