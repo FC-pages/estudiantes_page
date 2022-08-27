@@ -50,7 +50,10 @@ apellidos_docente: "Mas Huamán",
 nombres_docente: "Ronald Jesús",
 descripcion: "https://drive.google.com/file/d/1YFWyLlfYcT9ho0G8yxsYNg1LhzlLJpV-/view?usp=sharing",
 preinscripcion: "https://forms.gle/eyy2Szv1J7fo21LZ6",
-inscritos: []
+inscritos: 
+[
+  {"marca":"2022-08-24T20:37:50.774Z","correo":"gborjasb@uni.pe","nombres":"Gerald Marcelo Fernando","apellidos":"Borjas Bernaola","codigo":"20180298H","num_proy":"Proyecto de Tesis 3"}
+]
 },
 {
 marca: "2022-07-20T03:52:27.083Z",
@@ -61,7 +64,7 @@ descripcion: "https://drive.google.com/file/d/1yWKxIKPEuESEyF6zY9q3r-odi4UYMGZP/
 preinscripcion: "https://forms.gle/cpMWVGhHrXHn3aYw7",
 inscritos: 
 [
-  {"marca":"2022-08-13T03:28:47.694Z","correo":"nrojasm@uni.pe","nombres":"NICOLAS GUILLERMO","apellidos":"ROJAS MINAYA","codigo":"20170616G","num_proy":"Proyecto de Tesis 1"}
+  {"marca":"2022-08-13T03:28:47.694Z","correo":"nrojasm@uni.pe","nombres":"NICOLAS GUILLERMO","apellidos":"ROJAS MINAYA","codigo":"20170616G","num_proy":"Proyecto de Tesis 1"},{"marca":"2022-08-24T21:31:05.536Z","correo":"bryan.quispe.h@uni.pe","nombres":"Bryan Miguel ","apellidos":"Quispe Huamani","codigo":"20161287d","num_proy":"Proyecto de Tesis 1"}
 ]
 },
 {
@@ -142,7 +145,7 @@ inscritos: []
   preinscripcion: "https://forms.gle/B7qCXJNe6pGezKGg6",
   inscritos: 
   [
-    {"marca":"2022-08-16T19:59:15.116Z","nombres":"PABLO EDWARD","apellidos":"MARRUFO MESIA","codigo":"20152239K","num_proy":"Proyecto de Tesis 1"}
+    {"marca":"2022-08-16T19:59:15.116Z","correo":"","nombres":"PABLO EDWARD","apellidos":"MARRUFO MESIA","codigo":"20152239K","num_proy":"Proyecto de Tesis 1"},{"marca":"2022-08-25T15:19:23.510Z","correo":"daguilarp@uni.pe","nombres":"Dan O'neill Arie","apellidos":"Aguilar Palomino","codigo":"20180453C","num_proy":"Proyecto de Tesis 1"}
   ]
 },
 {
@@ -151,8 +154,11 @@ inscritos: []
   apellidos_docente: "Ostos Cordero",
   nombres_docente: "Benito Leonardo",
   descripcion: "https://drive.google.com/file/d/1jFTmDR2QDq8yl3tgNmQXaZU2MBbuIV3V/view?usp=sharing",
-  preinscripcion: "https://forms.gle/ZrdWR2im2Pqte3no7",
-  inscritos: []  
+  preinscripcion: "https://forms.gle/2mwpWL3cPfg8abVt6",
+  inscritos: 
+  [
+    {"marca":"2022-08-26T03:31:39.600Z","correo":"rccohuanquia@uni.pe","nombres":"Renzo","apellidos":"Ccohuanqui Antaquispe ","codigo":"20170505K","num_proy":"Proyecto de Tesis 1"}
+  ]  
 },
 {
   marca: "2022-08-18T04:32:22.033Z",
@@ -171,5 +177,14 @@ inscritos: []
   descripcion: "https://drive.google.com/file/d/1r65lal8diAmBOfY9tJRSypY1Beyc6E3u/view?usp=sharing",
   preinscripcion: "https://forms.gle/hh4vs4mc8rSXaFZYA",
   inscritos: []
-  }
+},
+{
+  marca: "2022-08-24T23:43:54.259Z",
+  correo: "sescalanted@uni.edu.pe",
+  apellidos_docente: "Escalante del Águila",
+  nombres_docente: "Félix",
+  descripcion: "https://drive.google.com/file/d/13EUcoX2XeqIO6Nh3ssKwe8RdPvv-ipkN/view?usp=sharing",
+  preinscripcion: "https://forms.gle/moXbbTrXuNYXMAQJ8",
+  inscritos: []
+},
 ]
