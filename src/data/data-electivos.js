@@ -154,6 +154,21 @@ inscritos:
 },
 {
   marca: "2022-08-16T16:08:17.424Z",
+  correo: "felix@imca.edu.pe,sescalanted@uni.edu.pe",
+  apellidos: "Escalante del Águila",
+  nombres: "Félix",
+  curso: "Geometría diferencial",
+  codigo_curso: "CM008",
+  prerequisitos: "CM3I2",
+  silabo: "https://drive.google.com/file/d/13EUcoX2XeqIO6Nh3ssKwe8RdPvv-ipkN/view?usp=sharing",
+  preinscripcion: "https://forms.gle/xCycFX2qzYvZSoSFA",
+  inscritos: 
+  [
+    {"marca":"2022-08-19T17:28:18.444Z","correo":"jhonatan.ancco.c@uni.pe ","nombres":"Jhonatan Daniel","apellidos":"Ancco Cerda","codigo":"20190381E","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-23T03:51:42.302Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Si","alumno_terminal":"Sí"},{"marca":"2022-08-23T23:47:55.337Z","correo":"sergio.gastulo.c@uni.pe","nombres":"Sergio Gustavo","apellidos":"GASTULO CESPEDES","codigo":"20194128B","cumple_prerequisitos":"Si","alumno_terminal":"No"}
+  ]
+},
+/*{
+  marca: "2022-08-16T16:08:17.424Z",
   correo: "dabantos@uni.edu.pe",
   apellidos: "Abanto Silva",
   nombres: "Dimas Percy",
@@ -166,7 +181,7 @@ inscritos:
   [
     {"marca":"2022-08-19T17:28:18.444Z","correo":"jhonatan.ancco.c@uni.pe ","nombres":"Jhonatan Daniel","apellidos":"Ancco Cerda","codigo":"20190381E","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-23T03:51:42.302Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Si","alumno_terminal":"Sí"},{"marca":"2022-08-23T23:47:55.337Z","correo":"sergio.gastulo.c@uni.pe","nombres":"Sergio Gustavo","apellidos":"GASTULO CESPEDES","codigo":"20194128B","cumple_prerequisitos":"Si","alumno_terminal":"No"}
   ]
-},
+},*/
 {
   marca: "2022-08-31T01:01:40.751Z",
   correo: "lfloresl@uni.edu.pe",
@@ -181,7 +196,7 @@ inscritos:
   [
   ]
 },
-{
+/*{
   marca: "2022-08-24T23:43:54.000Z",
   correo: "sescalanted@uni.edu.pe",
   apellidos: "Escalante del Águila",
@@ -194,7 +209,7 @@ inscritos:
   inscritos: 
   [
   ]
-  },
+  },*/
 ]
 
 
