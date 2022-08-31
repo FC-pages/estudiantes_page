@@ -167,6 +167,34 @@ inscritos:
     {"marca":"2022-08-19T17:28:18.444Z","correo":"jhonatan.ancco.c@uni.pe ","nombres":"Jhonatan Daniel","apellidos":"Ancco Cerda","codigo":"20190381E","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-23T03:51:42.302Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Si","alumno_terminal":"Sí"},{"marca":"2022-08-23T23:47:55.337Z","correo":"sergio.gastulo.c@uni.pe","nombres":"Sergio Gustavo","apellidos":"GASTULO CESPEDES","codigo":"20194128B","cumple_prerequisitos":"Si","alumno_terminal":"No"}
   ]
 },
+{
+  marca: "2022-08-31T01:01:40.751Z",
+  correo: "lfloresl@uni.edu.pe",
+  apellidos: "Flores Luyo",
+  nombres: "Luis Ernesto",
+  curso: "Optimización",
+  codigo_curso: "CM052",
+  prerequisitos: "CM4E2",
+  silabo: "https://drive.google.com/file/d/1sj1BY83bc4v1lh5RIOSHc75ci1Refl5-/view?usp=sharing",
+  preinscripcion: "https://forms.gle/53CCdo5shp2eNE5E8",
+  inscritos: 
+  [
+  ]
+},
+{
+  marca: "2022-08-24T23:43:54.000Z",
+  correo: "sescalanted@uni.edu.pe",
+  apellidos: "Escalante del Águila",
+  nombres: "Félix",
+  curso: "Tópicos de la Investigación III",
+  codigo_curso: "CM074",
+  prerequisitos: "Ninguno",
+  silabo: "https://drive.google.com/file/d/13EUcoX2XeqIO6Nh3ssKwe8RdPvv-ipkN/view?usp=sharing",
+  preinscripcion: "https://forms.gle/M3oYyNNDDfDteyBm7",
+  inscritos: 
+  [
+  ]
+  },
 ]
 
 

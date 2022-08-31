@@ -178,13 +178,31 @@ inscritos: []
   preinscripcion: "https://forms.gle/hh4vs4mc8rSXaFZYA",
   inscritos: []
 },
-{
+/*{
   marca: "2022-08-24T23:43:54.259Z",
   correo: "sescalanted@uni.edu.pe",
   apellidos_docente: "Escalante del Águila",
   nombres_docente: "Félix",
   descripcion: "https://drive.google.com/file/d/13EUcoX2XeqIO6Nh3ssKwe8RdPvv-ipkN/view?usp=sharing",
   preinscripcion: "https://forms.gle/moXbbTrXuNYXMAQJ8",
+  inscritos: []
+},*/
+{
+  marca: "2022-08-31T15:33:31.737Z",
+  correo: "gpanizog@uni.edu.pe",
+  apellidos_docente: "Panizo García",
+  nombres_docente: "Gonzalo",
+  descripcion: "https://drive.google.com/file/d/1TGf4VmvL3ljInh8oxNRjsmOhC_wBgcqy/view?usp=sharing",
+  preinscripcion: "https://forms.gle/VH33GdMXR5sJ9t628",
+  inscritos: []
+},
+{
+  marca: "2022-08-31T16:59:12.105Z",
+  correo: "fnavarro@uni.edu.pe",
+  apellidos_docente: "Navarro rojas",
+  nombres_docente: "Frank",
+  descripcion: "https://drive.google.com/file/d/10hf9wZetqcCIBiH4K8W2KY4MLs2QsKZQ/view?usp=sharing",
+  preinscripcion: "https://forms.gle/5nCEb9mjpstvw7wf8",
   inscritos: []
 },
 ]
