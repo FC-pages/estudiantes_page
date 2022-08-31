@@ -154,7 +154,7 @@ inscritos:
 },
 {
   marca: "2022-08-16T16:08:17.424Z",
-  correo: "felix@imca.edu.pe,sescalanted@uni.edu.pe",
+  correo: "felix@imca.edu.pe",
   apellidos: "Escalante del Águila",
   nombres: "Félix",
   curso: "Geometría diferencial",

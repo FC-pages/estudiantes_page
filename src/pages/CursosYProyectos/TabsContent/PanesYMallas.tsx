@@ -80,37 +80,37 @@ function PlanEstudios() {
         <ul>
           <li>
             <FaAngleRight size={17}/>Plan de estudios 2018.{' '}
-            <a className="a-link" href="plancompleto.pdf">
+            <a className="a-link" href="https://drive.google.com/file/d/1r0_Tn370ih28mp8I_G5o051GyJjtWEe-/view?usp=sharing">
               
               <FaPaperclip size={20} />
             </a>
           </li>
-          <li>
+          {/*<li>
             <FaAngleRight size={17}/>
             Malla curricular y cursos electivos.{' '} 
             <a className="a-link" href="mallacurricular.pdf">
             <FaPaperclip size={20} />
             </a>
-          </li>
-          <li>
+            </li>*/}
+          {/*<li>
             <FaAngleRight size={17}/>
             Malla comparativo de los cursos.{' '} 
             <a className="a-link" href="https://drive.google.com/file/d/1kWswWX8qCLayr70cKB9v4Skwg07ZT67b/view?usp=sharing">
             <FaPaperclip size={20} />
             </a>
-          </li>
-          <li>
+            </li>*/}
+          {/*<li>
             <FaAngleRight size={17}/>Tabla de convalidaciones.{' '}
             <a className="a-link" href="https://drive.google.com/file/d/19DAXyDGx6Lt03Uu3VVM_Inw74gzTjyjR/view?usp=sharing">
               <FaPaperclip size={20} />
             </a>
-          </li>
-          <li>
+            </li>*/}
+          {/*<li>
             <FaAngleRight size={17}/>Silabos de los cursos.{' '}
             <a className="a-link" href="https://drive.google.com/file/d/11pFPQ3-AbK6SkjP-1Tj4kiATeaxfV_82/view?usp=sharing">
               <FaPaperclip size={20} />
             </a>
-          </li>
+            </li>*/}
           
         </ul>
       </div>

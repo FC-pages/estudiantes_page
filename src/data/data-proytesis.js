@@ -183,7 +183,7 @@ inscritos: []
 },
 {
   marca: "2022-08-24T23:43:54.259Z",
-  correo: "felix@imca.edu.pe,sescalanted@uni.edu.pe",
+  correo: "felix@imca.edu.pe",
   apellidos_docente: "Escalante del Águila",
   nombres_docente: "Félix",
   descripcion: "https://drive.google.com/file/d/13EUcoX2XeqIO6Nh3ssKwe8RdPvv-ipkN/view?usp=sharing",

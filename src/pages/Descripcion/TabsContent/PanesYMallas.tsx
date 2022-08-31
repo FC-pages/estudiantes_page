@@ -110,7 +110,7 @@ function PlanEstudios() {
             <a className="a-link" href="https://drive.google.com/file/d/11pFPQ3-AbK6SkjP-1Tj4kiATeaxfV_82/view?usp=sharing">
               <FaPaperclip size={20} />
             </a>
-          </li>
+            </li>
           
         </ul>
       </div>
