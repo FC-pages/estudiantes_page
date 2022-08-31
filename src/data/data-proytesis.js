@@ -64,13 +64,13 @@ descripcion: "https://drive.google.com/file/d/1yWKxIKPEuESEyF6zY9q3r-odi4UYMGZP/
 preinscripcion: "https://forms.gle/cpMWVGhHrXHn3aYw7",
 inscritos: 
 [
-  {"marca":"2022-08-13T03:28:47.694Z","correo":"nrojasm@uni.pe","nombres":"NICOLAS GUILLERMO","apellidos":"ROJAS MINAYA","codigo":"20170616G","num_proy":"Proyecto de Tesis 1"},{"marca":"2022-08-24T21:31:05.536Z","correo":"bryan.quispe.h@uni.pe","nombres":"Bryan Miguel ","apellidos":"Quispe Huamani","codigo":"20161287d","num_proy":"Proyecto de Tesis 1"}
+  {"marca":"2022-08-13T03:28:47.694Z","correo":"nrojasm@uni.pe","nombres":"NICOLAS GUILLERMO","apellidos":"ROJAS MINAYA","codigo":"20170616G","num_proy":"Proyecto de Tesis 1"},{"marca":"2022-08-24T21:31:05.536Z","correo":"bryan.quispe.h@uni.pe","nombres":"Bryan Miguel ","apellidos":"Quispe Huamani","codigo":"20161287d","num_proy":"Proyecto de Tesis 1"},{"marca":"2022-08-27T17:56:57.712Z","correo":"frank.junco.p@uni.pe","nombres":"Frank Yonifer","apellidos":"Junco Palomino","codigo":"20141224G","num_proy":"Proyecto de Tesis 1"},{"marca":"2022-08-31T16:57:38.376Z","correo":"jreymundop@uni.pe","nombres":"Juan Pablo","apellidos":"REYMUNDO PARIONA","codigo":"20171584A","num_proy":"Proyecto de Tesis 2"},{"marca":"2022-08-31T17:28:39.502Z","correo":"mihael.arce.b@uni.pe","nombres":"Mihael","apellidos":"Arce Baldo","codigo":"20142737H","num_proy":"Proyecto de Tesis 2"}
 ]
 },
 {
 marca: "2022-07-21T20:30:22.837Z",
 correo: "fnavarro@uni.edu.pe",
-apellidos_docente: "Navarro rojas",
+apellidos_docente: "Navarro Rojas",
 nombres_docente: "Frank",
 descripcion: "https://drive.google.com/file/d/10hf9wZetqcCIBiH4K8W2KY4MLs2QsKZQ/view?usp=sharing",
 preinscripcion: "https://forms.gle/6YNxYe37DJWzLHjL6",
@@ -107,7 +107,10 @@ apellidos_docente: "Palacios Baldeon",
 nombres_docente: "Joe Albino",
 descripcion: "https://drive.google.com/file/d/1cUvS6Rb0jaYVGk4YlkXK-ua3zeXN_kRV/view?usp=sharing",
 preinscripcion: "https://forms.gle/Ldrqq8eF2daBgKAcA",
-inscritos: []
+inscritos: 
+[
+  {"marca":"2022-08-30T20:58:53.097Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","num_proy":"Proyecto de Tesis 1"}
+]
 },
 {
 marca: "2022-07-23T01:58:09.306Z",
@@ -196,7 +199,7 @@ inscritos: []
   preinscripcion: "https://forms.gle/VH33GdMXR5sJ9t628",
   inscritos: []
 },
-{
+/*{
   marca: "2022-08-31T16:59:12.105Z",
   correo: "fnavarro@uni.edu.pe",
   apellidos_docente: "Navarro rojas",
@@ -204,5 +207,5 @@ inscritos: []
   descripcion: "https://drive.google.com/file/d/10hf9wZetqcCIBiH4K8W2KY4MLs2QsKZQ/view?usp=sharing",
   preinscripcion: "https://forms.gle/5nCEb9mjpstvw7wf8",
   inscritos: []
-},
+},*/
 ]
