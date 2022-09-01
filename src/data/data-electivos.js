@@ -163,7 +163,7 @@ inscritos:
   preinscripcion: "https://forms.gle/xCycFX2qzYvZSoSFA",
   inscritos: 
   [
-    {"marca":"2022-08-19T17:28:18.444Z","correo":"jhonatan.ancco.c@uni.pe ","nombres":"Jhonatan Daniel","apellidos":"Ancco Cerda","codigo":"20190381E","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-23T03:51:42.302Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Si","alumno_terminal":"Sí"},{"marca":"2022-08-23T23:47:55.337Z","correo":"sergio.gastulo.c@uni.pe","nombres":"Sergio Gustavo","apellidos":"GASTULO CESPEDES","codigo":"20194128B","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-31T23:04:46.033Z","correo":"ecapcham@uni.pe","nombres":"EDÉN ANGEL ","apellidos":"CAPCHA MOLINA","codigo":"20175525J","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-31T23:54:05.819Z","correo":"italo.herrera.m@uni.pe","nombres":"ITALO","apellidos":"HERRERA MOYA","codigo":"20190406H ","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-09-01T02:09:37.702Z","correo":"ricardo.carrasco.p@uni.pe","nombres":"Ricardo Manlio","apellidos":"Carrasco Patiño","codigo":"20172255A","cumple_prerequisitos":"Si","alumno_terminal":"No"}
+    {"marca":"2022-08-19T17:28:18.444Z","correo":"jhonatan.ancco.c@uni.pe ","nombres":"Jhonatan Daniel","apellidos":"Ancco Cerda","codigo":"20190381E","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-23T03:51:42.302Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Si","alumno_terminal":"Sí"},{"marca":"2022-08-23T23:47:55.337Z","correo":"sergio.gastulo.c@uni.pe","nombres":"Sergio Gustavo","apellidos":"GASTULO CESPEDES","codigo":"20194128B","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-31T23:04:46.033Z","correo":"ecapcham@uni.pe","nombres":"EDÉN ANGEL ","apellidos":"CAPCHA MOLINA","codigo":"20175525J","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-31T23:54:05.819Z","correo":"italo.herrera.m@uni.pe","nombres":"ITALO","apellidos":"HERRERA MOYA","codigo":"20190406H ","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-09-01T02:09:37.702Z","correo":"ricardo.carrasco.p@uni.pe","nombres":"Ricardo Manlio","apellidos":"Carrasco Patiño","codigo":"20172255A","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-09-01T13:05:44.690Z","correo":"adan.salvador.l@uni.pe","nombres":"Adan Edhilson","apellidos":"Salvador Lirion","codigo":"20204083F","cumple_prerequisitos":"Si","alumno_terminal":"No"}
   ]
 },
 /*{
@@ -193,6 +193,7 @@ inscritos:
   preinscripcion: "https://forms.gle/53CCdo5shp2eNE5E8",
   inscritos: 
   [
+    {"marca":"2022-08-09T15:53:34.086Z","correo":"adan.salvador.l@uni.pe","nombres":"Adan Edhilson","apellidos":"Salvador Lirion","codigo":"20204083F","cumple_prerequisitos":"Sí","alumno_terminal":"No"},{"marca":"2022-08-23T03:55:09.074Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Sí","alumno_terminal":"Sí"}
   ]
 },
 /*{
