@@ -7,7 +7,10 @@ apellidos_docente: "Echegaray Castillo",
 nombres_docente: "William Carlos",
 descripcion: "https://drive.google.com/file/d/1V6byAU6Ysq1R8CXfZHKgqbsdKynkLM9O/view?usp=sharing",
 preinscripcion: "https://forms.gle/doZZFHMh2LprAt3b6",
-inscritos: []
+inscritos: 
+[
+  {"marca":"2022-08-31T18:39:30.450Z","correo":"pmazizol@uni.pe","nombres":"Paul","apellidos":"Mazizo Lopez","codigo":"19992147K","num_proy":"Proyecto de Tesis 2, Proyecto de Tesis 3"},{"marca":"2022-08-31T18:54:25.577Z","correo":"ecardenasa@uni.pe","nombres":"ERNESTO CAYO ","apellidos":"CÁRDENAS ACEVEDO","codigo":"20140396I","num_proy":"Proyecto de Tesis 3"},{"marca":"2022-08-31T23:11:24.916Z","correo":"datuspariac@uni.pe","nombres":"Diego Alejandro","apellidos":"Atusparia Cierto","codigo":"20140394F","num_proy":"Proyecto de Tesis 3"}
+]
 },
 {
 marca: "2022-07-19T01:47:14.703Z",
@@ -188,7 +191,10 @@ inscritos: []
   nombres_docente: "Félix",
   descripcion: "https://drive.google.com/file/d/13EUcoX2XeqIO6Nh3ssKwe8RdPvv-ipkN/view?usp=sharing",
   preinscripcion: "https://forms.gle/moXbbTrXuNYXMAQJ8",
-  inscritos: []
+  inscritos: 
+  [
+    {"marca":"2022-08-31T20:35:29.278Z","correo":"jhonatan.ancco.c@uni.pe","nombres":"Jhonatan Daniel","apellidos":"Ancco Cerda","codigo":"20190381E","num_proy":"Proyecto de Tesis 1"}
+  ]
 },
 {
   marca: "2022-08-31T15:33:31.737Z",
@@ -197,7 +203,10 @@ inscritos: []
   nombres_docente: "Gonzalo",
   descripcion: "https://drive.google.com/file/d/1TGf4VmvL3ljInh8oxNRjsmOhC_wBgcqy/view?usp=sharing",
   preinscripcion: "https://forms.gle/VH33GdMXR5sJ9t628",
-  inscritos: []
+  inscritos: 
+  [
+    {"marca":"2022-08-31T23:34:12.844Z","correo":"renzo.castaneda.f@uni.pe","nombres":"Renzo Andre","apellidos":"Castañeda Fonseca","codigo":"20192257J","num_proy":"Proyecto de Tesis 1"}
+  ]
 },
 /*{
   marca: "2022-08-31T16:59:12.105Z",

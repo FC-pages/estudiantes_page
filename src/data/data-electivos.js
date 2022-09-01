@@ -74,7 +74,7 @@ silabo: "https://drive.google.com/file/d/1Pb6bfNqCDjpg5GWyzgBcUUzP0sEt2VR_/view?
 preinscripcion: "https://forms.gle/FwbVgg3ponVEoUXW7",
 inscritos: 
   [
-    {"marca":"2022-08-09T15:52:38.886Z","correo":"adan.salvador.l@uni.pe","nombres":"Adan Edhilson","apellidos":"Salvador Lirion","codigo":"20204083F","cumple_prerequisitos":"No"},{"marca":"2022-08-19T23:34:46.176Z","correo":"ahuamanii@uni.pe","nombres":"ALEX RAUL ","apellidos":"HUAMANI INGA","codigo":"20121383B","cumple_prerequisitos":"No"},{"marca":"2022-08-19T23:39:44.878Z","correo":"sergio.huanca.f@uni.pe","nombres":"Sergio Diego","apellidos":"Huanca Figueroa","codigo":"20202172A","cumple_prerequisitos":"No"},{"marca":"2022-08-20T02:19:26.060Z","correo":"allyson.chuyes.f@uni.pe","nombres":"Allyson Malena","apellidos":"Chuyes Farías","codigo":"20200302E","cumple_prerequisitos":"No"},{"marca":"2022-08-23T03:57:22.875Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Sí"}
+    {"marca":"2022-08-09T15:52:38.886Z","correo":"adan.salvador.l@uni.pe","nombres":"Adan Edhilson","apellidos":"Salvador Lirion","codigo":"20204083F","cumple_prerequisitos":"No"},{"marca":"2022-08-19T23:34:46.176Z","correo":"ahuamanii@uni.pe","nombres":"ALEX RAUL ","apellidos":"HUAMANI INGA","codigo":"20121383B","cumple_prerequisitos":"No"},{"marca":"2022-08-19T23:39:44.878Z","correo":"sergio.huanca.f@uni.pe","nombres":"Sergio Diego","apellidos":"Huanca Figueroa","codigo":"20202172A","cumple_prerequisitos":"No"},{"marca":"2022-08-20T02:19:26.060Z","correo":"allyson.chuyes.f@uni.pe","nombres":"Allyson Malena","apellidos":"Chuyes Farías","codigo":"20200302E","cumple_prerequisitos":"No"},{"marca":"2022-08-23T03:57:22.875Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Sí"},{"marca":"2022-08-31T22:44:35.904Z","correo":"frank.junco.p@uni.pe","nombres":"Frank Yonifer","apellidos":"Junco Palomino","codigo":"20141224G","cumple_prerequisitos":"No"}
   ]
 },
 {
@@ -89,7 +89,7 @@ silabo: "https://drive.google.com/file/d/1YngpJrZFZiYsxQdHNtAWWlEOOBmc_hJE/view?
 preinscripcion: "https://forms.gle/dZiNXBiaeodSoNTb8",
 inscritos:
   [
-    {"marca":"2022-07-22T20:26:26.247Z","correo":"jrodasch@uni.pe","nombres":"Jorge","apellidos":"Rodas","codigo":"19994046G","cumple_prerequisitos":"Sí"},{"marca":"2022-07-22T20:50:21.361Z","correo":"jbardalesr@uni.pe","nombres":"Jordi Joel","apellidos":"Bardales Rojas","codigo":"20171590A","cumple_prerequisitos":"Sí"},{"marca":"2022-07-22T21:01:21.331Z","correo":"renee.lopez.p@uni.pe","nombres":"Renee Jair","apellidos":"Lopez Punin","codigo":"20160255A","cumple_prerequisitos":"No"},{"marca":"2022-07-23T04:31:57.885Z","correo":"cfelixr@uni.pe","nombres":"Carlos Gabriel","apellidos":"Felix Romo","codigo":"20121212C","cumple_prerequisitos":"Sí"},{"marca":"2022-08-09T14:59:01.079Z","correo":"ecapcham@uni.pe","nombres":"Edén Angel","apellidos":"Capcha Molina","codigo":"20175525J","cumple_prerequisitos":"Sí"},{"marca":"2022-08-23T23:07:19.515Z","correo":"kcardenasf@uni.pe","nombres":"Kennedy Ronald ","apellidos":"cárdenas fuentes rivera","codigo":"20172180A","cumple_prerequisitos":"No"}
+    {"marca":"2022-07-22T20:26:26.247Z","correo":"jrodasch@uni.pe","nombres":"Jorge","apellidos":"Rodas","codigo":"19994046G","alumno_terminal":"Sí"},{"marca":"2022-07-22T20:50:21.361Z","correo":"jbardalesr@uni.pe","nombres":"Jordi Joel","apellidos":"Bardales Rojas","codigo":"20171590A","alumno_terminal":"Sí"},{"marca":"2022-07-22T21:01:21.331Z","correo":"renee.lopez.p@uni.pe","nombres":"Renee Jair","apellidos":"Lopez Punin","codigo":"20160255A","alumno_terminal":"No"},{"marca":"2022-07-23T04:31:57.885Z","correo":"cfelixr@uni.pe","nombres":"Carlos Gabriel","apellidos":"Felix Romo","codigo":"20121212C","alumno_terminal":"Sí"},{"marca":"2022-08-09T14:59:01.079Z","correo":"ecapcham@uni.pe","nombres":"Edén Angel","apellidos":"Capcha Molina","codigo":"20175525J","alumno_terminal":"Sí"},{"marca":"2022-08-23T23:07:19.515Z","correo":"kcardenasf@uni.pe","nombres":"Kennedy Ronald ","apellidos":"cárdenas fuentes rivera","codigo":"20172180A","alumno_terminal":"No"},{"marca":"2022-08-31T23:04:07.292Z","correo":"frank.junco.p@uni.pe","nombres":"Frank Yonifer","apellidos":"Junco Palomino","codigo":"20141224G","alumno_terminal":"No"},{"marca":"2022-09-01T00:08:12.967Z","correo":"italo.herrera.m@uni.pe","nombres":"ITALO ","apellidos":"HERRERA MOYA","codigo":"20190406H ","alumno_terminal":"No"}
   ]
 },
 {
@@ -104,7 +104,6 @@ silabo: "https://drive.google.com/file/d/1q4dsMYGvogNKcdb_XLuudWl14voHcFjC/view?
 preinscripcion: "https://forms.gle/Zxnn8qbHuBzRYdEdA",
 inscritos: 
 [
-  {"marca":"2022-08-23T23:24:22.085Z","correo":"ecapcham@uni.pe","nombres":"EDEN ANGEL","apellidos":"CAPCHA MOLINA","codigo":"20175525J","cumple_prerequisitos":"Sí","alumno_terminal":"No"}
 ]
 },
 {
@@ -164,7 +163,7 @@ inscritos:
   preinscripcion: "https://forms.gle/xCycFX2qzYvZSoSFA",
   inscritos: 
   [
-    {"marca":"2022-08-19T17:28:18.444Z","correo":"jhonatan.ancco.c@uni.pe ","nombres":"Jhonatan Daniel","apellidos":"Ancco Cerda","codigo":"20190381E","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-23T03:51:42.302Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Si","alumno_terminal":"Sí"},{"marca":"2022-08-23T23:47:55.337Z","correo":"sergio.gastulo.c@uni.pe","nombres":"Sergio Gustavo","apellidos":"GASTULO CESPEDES","codigo":"20194128B","cumple_prerequisitos":"Si","alumno_terminal":"No"}
+    {"marca":"2022-08-19T17:28:18.444Z","correo":"jhonatan.ancco.c@uni.pe ","nombres":"Jhonatan Daniel","apellidos":"Ancco Cerda","codigo":"20190381E","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-23T03:51:42.302Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Si","alumno_terminal":"Sí"},{"marca":"2022-08-23T23:47:55.337Z","correo":"sergio.gastulo.c@uni.pe","nombres":"Sergio Gustavo","apellidos":"GASTULO CESPEDES","codigo":"20194128B","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-31T23:04:46.033Z","correo":"ecapcham@uni.pe","nombres":"EDÉN ANGEL ","apellidos":"CAPCHA MOLINA","codigo":"20175525J","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-08-31T23:54:05.819Z","correo":"italo.herrera.m@uni.pe","nombres":"ITALO","apellidos":"HERRERA MOYA","codigo":"20190406H ","cumple_prerequisitos":"Si","alumno_terminal":"No"},{"marca":"2022-09-01T02:09:37.702Z","correo":"ricardo.carrasco.p@uni.pe","nombres":"Ricardo Manlio","apellidos":"Carrasco Patiño","codigo":"20172255A","cumple_prerequisitos":"Si","alumno_terminal":"No"}
   ]
 },
 /*{
