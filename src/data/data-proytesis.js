@@ -208,13 +208,31 @@ inscritos: []
     {"marca":"2022-08-31T23:34:12.844Z","correo":"renzo.castaneda.f@uni.pe","nombres":"Renzo Andre","apellidos":"Castañeda Fonseca","codigo":"20192257J","num_proy":"Proyecto de Tesis 1"}
   ]
 },
-/*{
-  marca: "2022-08-31T16:59:12.105Z",
-  correo: "fnavarro@uni.edu.pe",
-  apellidos_docente: "Navarro rojas",
-  nombres_docente: "Frank",
-  descripcion: "https://drive.google.com/file/d/10hf9wZetqcCIBiH4K8W2KY4MLs2QsKZQ/view?usp=sharing",
-  preinscripcion: "https://forms.gle/5nCEb9mjpstvw7wf8",
+{
+  marca: "2022-09-01T14:53:46.464Z",
+  correo: "aramirezg@uni.edu.pe",
+  apellidos_docente: "Ramirez Gutierrez",
+  nombres_docente: "Angel Enrique",
+  descripcion: "https://drive.google.com/file/d/1rfL6mXdNmkNM7j9QmbA8K0YVjRzra9Wz/view?usp=sharing",
+  preinscripcion: "https://forms.gle/VQ3eCKMMy1btbgG4A",
   inscritos: []
-},*/
+},
+{
+  marca: "2022-09-01T15:15:10.203Z",
+  correo: "jarcef@uni.edu.pe",
+  apellidos_docente: "Arce Flores",
+  nombres_docente: "Jack",
+  descripcion: "https://drive.google.com/file/d/1pEMbjhnNi80rDmB9alHvOdDlSFfYrKH3/view?usp=sharing",
+  preinscripcion: "https://forms.gle/6TdxaXVB1gv8aHnB6",
+  inscritos: []
+},
+{
+  marca: "2022-09-01T16:58:59.803Z",
+  correo: "mtoribio@uni.edu.pe",
+  apellidos_docente: "Toribio Cangana",
+  nombres_docente: "Manuel Teodosio",
+  descripcion: "https://drive.google.com/file/d/1GP1WHooptacg4PGglnCniujRgjp-bJCD/view?usp=sharing",
+  preinscripcion: "https://forms.gle/giLch6sUky95dcZ58",
+  inscritos: []
+},
 ]
