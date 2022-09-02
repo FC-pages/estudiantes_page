@@ -71,7 +71,7 @@ curso: "Tópicos de la Investigación I",
 codigo_curso: "CM072",
 prerequisitos: "Ninguno",
 silabo: "https://drive.google.com/file/d/1Pb6bfNqCDjpg5GWyzgBcUUzP0sEt2VR_/view?usp=sharing",
-preinscripcion: "https://forms.gle/FwbVgg3ponVEoUXW7",
+preinscripcion: "", /*"https://forms.gle/FwbVgg3ponVEoUXW7",*/
 inscritos: 
   [
     {"marca":"2022-08-09T15:52:38.886Z","correo":"adan.salvador.l@uni.pe","nombres":"Adan Edhilson","apellidos":"Salvador Lirion","codigo":"20204083F","cumple_prerequisitos":"No"},{"marca":"2022-08-19T23:34:46.176Z","correo":"ahuamanii@uni.pe","nombres":"ALEX RAUL ","apellidos":"HUAMANI INGA","codigo":"20121383B","cumple_prerequisitos":"No"},{"marca":"2022-08-19T23:39:44.878Z","correo":"sergio.huanca.f@uni.pe","nombres":"Sergio Diego","apellidos":"Huanca Figueroa","codigo":"20202172A","cumple_prerequisitos":"No"},{"marca":"2022-08-20T02:19:26.060Z","correo":"allyson.chuyes.f@uni.pe","nombres":"Allyson Malena","apellidos":"Chuyes Farías","codigo":"20200302E","cumple_prerequisitos":"No"},{"marca":"2022-08-23T03:57:22.875Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Sí"},{"marca":"2022-08-31T22:44:35.904Z","correo":"frank.junco.p@uni.pe","nombres":"Frank Yonifer","apellidos":"Junco Palomino","codigo":"20141224G","cumple_prerequisitos":"No"}
