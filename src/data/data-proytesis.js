@@ -224,7 +224,10 @@ inscritos: []
   nombres_docente: "Jack",
   descripcion: "https://drive.google.com/file/d/1pEMbjhnNi80rDmB9alHvOdDlSFfYrKH3/view?usp=sharing",
   preinscripcion: "https://forms.gle/6TdxaXVB1gv8aHnB6",
-  inscritos: []
+  inscritos: 
+  [
+    {"marca":"2022-09-02T00:51:23.598Z","correo":"sergio.gastulo.c@uni.pe","nombres":"Sergio ","apellidos":"Gastulo Céspedes","codigo":"20194128B","num_proy":"Proyecto de Tesis 1"}
+  ]
 },
 {
   marca: "2022-09-01T16:58:59.803Z",
@@ -233,6 +236,9 @@ inscritos: []
   nombres_docente: "Manuel Teodosio",
   descripcion: "https://drive.google.com/file/d/1GP1WHooptacg4PGglnCniujRgjp-bJCD/view?usp=sharing",
   preinscripcion: "https://forms.gle/giLch6sUky95dcZ58",
-  inscritos: []
+  inscritos: 
+  [
+    {"marca":"2022-09-01T18:03:12.284Z","correo":"jventurae@uni.pe","nombres":"James Jeanpierre","apellidos":"Ventura Eugenio ","codigo":"20180467D","num_proy":"Proyecto de Tesis 2"}
+  ]
 },
 ]
