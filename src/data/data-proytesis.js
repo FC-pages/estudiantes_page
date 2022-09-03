@@ -215,7 +215,10 @@ inscritos: []
   nombres_docente: "Angel Enrique",
   descripcion: "https://drive.google.com/file/d/1rfL6mXdNmkNM7j9QmbA8K0YVjRzra9Wz/view?usp=sharing",
   preinscripcion: "https://forms.gle/VQ3eCKMMy1btbgG4A",
-  inscritos: []
+  inscritos: 
+  [
+    {"marca":"2022-09-02T15:17:01.853Z","correo":"oscar.arca.a@uni.pe","nombres":"Oscar Francisco","apellidos":"Arca Aguilar","codigo":"20184101D","num_proy":"Proyecto de Tesis 2"}
+  ]
 },
 {
   marca: "2022-09-01T15:15:10.203Z",
@@ -240,5 +243,15 @@ inscritos: []
   [
     {"marca":"2022-09-01T18:03:12.284Z","correo":"jventurae@uni.pe","nombres":"James Jeanpierre","apellidos":"Ventura Eugenio ","codigo":"20180467D","num_proy":"Proyecto de Tesis 2"}
   ]
+},
+{
+  marca: "2022-09-03T15:06:12.275Z",
+  correo: "hvillavicenciof@uni.edu.pe",
+  apellidos_docente: "Villavivencio Fernandez",
+  nombres_docente: "Helmuth",
+  descripcion: "https://drive.google.com/file/d/1oP1a6XVkdRQCOl7rTx-QWEH6QeMlkzHL/view?usp=sharing",
+  preinscripcion: "https://forms.gle/9LQ6aDN23bC6qQkn9",
+  inscritos: 
+  []
 },
 ]
