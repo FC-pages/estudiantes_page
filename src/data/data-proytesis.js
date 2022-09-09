@@ -254,7 +254,7 @@ inscritos: []
   preinscripcion: "https://forms.gle/9LQ6aDN23bC6qQkn9",
   inscritos: 
   [
-    {"marca":"2022-09-03T19:40:34.731Z","correo":"ricardo.carrasco.p@uni.pe","nombres":"Ricardo Manlio","apellidos":"Carrasco Patiño","codigo":"20172255A","num_proy":"Proyecto de Tesis 1"},{"marca":"2022-09-04T17:02:40.186Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel ","apellidos":"Carbajal Sullca ","codigo":"20180631I","num_proy":"Proyecto de Tesis 1"}
+    {"marca":"2022-09-03T19:40:34.731Z","correo":"ricardo.carrasco.p@uni.pe","nombres":"Ricardo Manlio","apellidos":"Carrasco Patiño","codigo":"20172255A","num_proy":"Proyecto de Tesis 1"},{"marca":"2022-09-04T17:02:40.186Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel ","apellidos":"Carbajal Sullca ","codigo":"20180631I","num_proy":"Proyecto de Tesis 1"},{"marca":"2022-09-05T18:31:27.615Z","correo":"mgeronimoa@uni.pe","nombres":"Mirian Andrea","apellidos":"Geronimo Aparicio","codigo":"20172192J","num_proy":"Proyecto de Tesis 3"},{"marca":"2022-09-06T02:32:40.422Z","correo":"crmundol@uni.pe","nombres":"Carlos Rafael","apellidos":"Mundo Levano","codigo":"20180262C","num_proy":"Proyecto de Tesis 2"},{"marca":"2022-09-06T19:40:58.120Z","correo":"dvalerioa@uni.pe","nombres":"Daiver Victor","apellidos":"Valerio Aquino ","codigo":"20170634E","num_proy":"Proyecto de Tesis 3"}
   ]
 },
 {
@@ -275,6 +275,8 @@ inscritos: []
   descripcion: "https://drive.google.com/file/d/1dH2OCoaHUNwPwY-hVv5XFFnuhDuWiVkz/view?usp=sharing",
   preinscripcion: "https://forms.gle/mskShqkDVqRFGpiRA",
   inscritos: 
-  []
+  [
+    {"marca":"2022-09-05T16:43:24.856Z","correo":"cesar.charalla.m@uni.pe","nombres":"CESAR ISAAC","apellidos":"CHARALLA MESAHUANCA","codigo":"20150370B","num_proy":"Proyecto de Tesis 2, Proyecto de Tesis 3"}
+  ]
 },
 ]

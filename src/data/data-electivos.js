@@ -193,7 +193,7 @@ inscritos:
   preinscripcion: "https://forms.gle/53CCdo5shp2eNE5E8",
   inscritos: 
   [
-    {"marca":"2022-08-09T15:53:34.086Z","correo":"adan.salvador.l@uni.pe","nombres":"Adan Edhilson","apellidos":"Salvador Lirion","codigo":"20204083F","cumple_prerequisitos":"Sí","alumno_terminal":"No"},{"marca":"2022-08-23T03:55:09.074Z","correo":"jjcarbajals@uni.pe","nombres":"Jhonatan Joel","apellidos":"Carbajal Sullca","codigo":"20180631I","cumple_prerequisitos":"Sí","alumno_terminal":"Sí"}
+    {"marca":"2022-09-05T01:22:03.715Z","correo":"jbardalesr@uni.pe","nombres":"Jordi Joel","apellidos":"Bardales Rojas","codigo":"20171590A","cumple_prerequisitos":"Si","alumno_terminal":"Si"}
   ]
 },
 /*{
