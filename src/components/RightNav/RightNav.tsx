@@ -68,7 +68,7 @@ function RightNav(props: any) {
           <li>Cursos y Proyectos</li>{" "}
         </NavLink>
         <NavLink to={routes.docentes} onClick={() => props.setOpen(!props.open)}>
-          <li>Docentes</li>{" "}
+          <li>Docentes y publicaciones</li>{" "}
         </NavLink>
         <NavLink to={routes.estudiantes_egresados} onClick={() => props.setOpen(!props.open)}>
           <li>Alumnos y Tesistas</li>{" "}

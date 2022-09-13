@@ -7,6 +7,8 @@ import PlanesYMallas from './TabsContent/PanesYMallas';
 import Autoridades from './TabsContent/Autoridades';
 import Biblioteca from './TabsContent/Biblioteca';
 import Electiv from '../Asesoria/TabsContent/Elec';
+import Ayudantias from '../Asesoria/TabsContent/Ayudantias';
+import Preprofesionales from '../Asesoria/TabsContent/Preprofesionales';
 import Electiv2 from '../Asesoria/TabsContent/PTesis';
 
 import { colors } from '../../styles/colors';
@@ -44,6 +46,16 @@ export default function CursosProyectos() {
               Proyectos de Tesis
             </Nav.Link>
           </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Ayudantias">
+              Ayudantías
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="Preprofesionales">
+              Prácticas pre-profesionales
+            </Nav.Link>
+          </Nav.Item>
         </Nav>
         <Container className="p-3">
           <Tab.Content>
@@ -55,6 +67,12 @@ export default function CursosProyectos() {
             </Tab.Pane>
             <Tab.Pane eventKey="Proyectos de Tesis">
               <Electiv2 />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Ayudantias">
+              <Ayudantias />
+            </Tab.Pane>
+            <Tab.Pane eventKey="Preprofesionales">
+              <Preprofesionales />
             </Tab.Pane>
           </Tab.Content>
         </Container>
