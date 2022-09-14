@@ -7,13 +7,15 @@ import { Table } from 'react-bootstrap';
 type CardProps = {
   marca: string;
   correo: string; 
-  apellidos:string;
   nombres: string;
+  apellidos:string;  
+  codigo_alumno: string;
+  celular: string;
   curso: string;
   codigo_curso: string;
-  prerrequisitos: string;
-  silabo: string;
-  preinscripcion: string;
+  seccion: string;
+  profesor_teoria: string;
+  profesor_practica: string;  
 };
 
 function AyudantiaCards(e:any) {
@@ -39,11 +41,12 @@ function AyudantiaCards(e:any) {
       <Card >
         <Card.Body className="card-testimony">
           <div className="card-testimony-header">
-            <Card.Title className="card-title">{e.curso} - {e.codigo_curso}</Card.Title>
+            <Card.Title className="card-title">{e.curso} - {e.codigo_curso} {e.seccion}</Card.Title>
           </div>
           <Card.Text className="card-text">
-          Docente: {e.docente}<br></br>
-          Alumno ayudante: {e.alumno}<br></br>
+          Docente: {e.profesor_teoria}<br></br>
+          Alumno ayudante: {e.nombres} {e.apellidos}<br></br>
+          Código alumno: {e.codigo_alumno}<br></br>
           </Card.Text>
         </Card.Body>
         

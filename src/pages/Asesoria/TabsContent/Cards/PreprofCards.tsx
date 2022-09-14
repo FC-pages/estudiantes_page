@@ -6,14 +6,14 @@ import { Table } from 'react-bootstrap';
 
 type CardProps = {
   marca: string;
-  correo: string; 
-  apellidos:string;
-  nombres: string;
-  curso: string;
-  codigo_curso: string;
-  prerrequisitos: string;
-  silabo: string;
-  preinscripcion: string;
+  correo: string;   
+  nombres: string; 
+  apellidos:string; 
+  codigo_alumno: string;
+  celular: string;
+  supervisor: string;
+  actividad: string;
+  institucion: string;
 };
 
 function PreprofCards(e:any) {
@@ -39,12 +39,12 @@ function PreprofCards(e:any) {
       <Card >
         <Card.Body className="card-testimony">
           <div className="card-testimony-header">
-            <Card.Title className="card-title">{e.alumno}</Card.Title>
+            <Card.Title className="card-title">{e.nombres} {e.apellidos}</Card.Title>
           </div>
           <Card.Text className="card-text">
           Supervisor: {e.supervisor}<br></br>
           Actividad: {e.actividad}<br></br>
-          institución o Lugar: {e.institucion}<br></br>
+          Institución: {e.institucion}<br></br>
           </Card.Text>
         </Card.Body>
 
