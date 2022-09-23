@@ -44,7 +44,7 @@ function AyudantiaCards(e:any) {
             <Card.Title className="card-title">{e.curso} - {e.codigo_curso} {e.seccion}</Card.Title>
           </div>
           <Card.Text className="card-text">
-          Docente: {e.profesor_teoria}<br></br>
+          Docente: {e.profesor_practica}<br></br>
           Alumno ayudante: {e.nombres} {e.apellidos}<br></br>
           Código alumno: {e.codigo_alumno}<br></br>
           </Card.Text>
