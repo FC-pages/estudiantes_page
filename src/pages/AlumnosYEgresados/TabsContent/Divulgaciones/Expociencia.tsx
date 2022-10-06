@@ -17,14 +17,21 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
               <ul>
                 <li>
                   <FaAngleRight size={17}/>
-                  Inscripción de Experimento.{' '}
+                  Inscripción de Experimento en Matemática.{' '}
                   <a className="a-link" href="https://forms.gle/fNH9f5pZTe2CECjt9">              
                     <FaPaperclip size={20} />
                   </a>
                 </li>
                 <li>
                   <FaAngleRight size={17}/>
-                  Inscripción en Sala Temática.{' '} 
+                  Inscripción de Experimento en Ciencias.{' '}
+                  <a className="a-link" href="https://forms.gle/UFnPv9HoeYKN2tEM8">              
+                    <FaPaperclip size={20} />
+                  </a>
+                </li>
+                <li>
+                  <FaAngleRight size={17}/>
+                  Inscripción en Sala Temática en Matemática.{' '} 
                   <a className="a-link" href="https://forms.gle/ATdMV8zVo4Yhwe7D8">
                     <FaPaperclip size={20} />
                   </a>
