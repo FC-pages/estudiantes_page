@@ -32,7 +32,7 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                 <li>
                   <FaAngleRight size={17}/>
                   Inscripción en Sala Temática en Matemática.{' '} 
-                  <a className="a-link" href="https://forms.gle/ATdMV8zVo4Yhwe7D8">
+                  <a className="a-link" href="https://forms.gle/gXR6zGg9DiEboGsC7">
                     <FaPaperclip size={20} />
                   </a>
                 </li>
