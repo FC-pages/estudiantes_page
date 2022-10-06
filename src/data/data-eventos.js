@@ -21,12 +21,18 @@ exports.eventos = [
     "hrefLink": "https://sites.google.com/uni.edu.pe/feria-de-ciencias/",
     "fechaEvento": "Del 22 al 26 de AGOSTO del 2022",
     "descripcion": "Feria de proyectos ABET",
-    "future" : true
+    "future" : false
   },
   {
     "hrefLink": "http://gcm13.imca.edu.pe/index.php",
     "fechaEvento": "Del 13 al 16 de SETIEMBRE del 2022",
     "descripcion": "Congreso GCM XIII",
+    "future" : false
+  },
+  {
+    "hrefLink": "https://forms.gle/fNH9f5pZTe2CECjt9",
+    "fechaEvento": "Del 22 al 25 de NOVIEMBRE del 2022",
+    "descripcion": "Expociencia 2022",
     "future" : true
   },
     ]
