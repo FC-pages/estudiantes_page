@@ -32,7 +32,7 @@ exports.eventos = [
   {
     "hrefLink": "https://forms.gle/fNH9f5pZTe2CECjt9",
     "fechaEvento": "Del 22 al 25 de NOVIEMBRE del 2022",
-    "descripcion": "Expociencia 2022",
+    "descripcion": "Expociencia 2040",
     "future" : true
   },
   {
