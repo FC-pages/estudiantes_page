@@ -35,4 +35,10 @@ exports.eventos = [
     "descripcion": "Expociencia 2022",
     "future" : true
   },
+  {
+    "hrefLink": "http://imca.edu.pe/en/post/event/seminario/seminario-de-probabilidad-fundamentos-de-reinforcement-learning",
+    "fechaEvento": "Viernes 21 de OCTUBRE del 2022",
+    "descripcion": "Seminario de Probabilidad Aplicada",
+    "future" : true
+  },
     ]
