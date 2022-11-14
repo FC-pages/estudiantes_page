@@ -4,7 +4,7 @@ import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 import { FaAngleRight, FaPaperclip } from 'react-icons/fa'
 import cron1 from './posters/cron1.jpeg'
 import cron2 from './posters/cron2.jpeg'
-import poster from './posters/Expo-matematica-Recuperado.png'
+import poster from './posters/Expo-matematica-2022.png'
 
 export default function Expociencia() {
   return (
@@ -75,21 +75,21 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                 <li>
                   Simulación de la propagación del cáncer usando "el juego de la
                   vida"{' '}
-                  <a
+                  {/*<a
                     className="a-link"
                     href="https://forms.gle/tSxQbJTJfnKH5Aqa9"
                   >
                     <FaPaperclip size={20} />
-                  </a>
+            </a>*/}
                 </li>
                 <li>
                   Técnica Bayesiana: clasificación de textos{' '}
-                  <a
+                  {/*<a
                     className="a-link"
                     href="https://forms.gle/tSxQbJTJfnKH5Aqa9"
                   >
                     <FaPaperclip size={20} />
-                  </a>
+          </a>*/}
                 </li>
                 <li>
                   Diferencias Finitas para un modelo de combustión in situ
