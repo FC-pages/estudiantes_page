@@ -1,14 +1,14 @@
-import React from 'react';
-import { Tab, Container, Nav } from 'react-bootstrap';
-import GruposEstPage from './TabsContent/GruposEstPage';
-import '../../components/estilosTab.css';
-import TestimoniosPage from './TabsContent/TestimoniosPage';
-import EgresadosTitulados from './TabsContent/EgresadosTitulados';
-import Alumnos from './TabsContent/AlumnosYTesistasTab/Alumnos';
-import Tesistas from './TabsContent/AlumnosYTesistasTab/Tesistas';
-import AlumnosYTesistas from './TabsContent/AlumnosYTesistas';
-import DivulgacionesMain from './TabsContent/DivulgacionesMain';
-import { colors } from '../../styles/colors';
+import React from 'react'
+import { Container, Nav, Tab } from 'react-bootstrap'
+import '../../components/estilosTab.css'
+import { colors } from '../../styles/colors'
+import AlumnosYTesistas from './TabsContent/AlumnosYTesistas'
+import Alumnos from './TabsContent/AlumnosYTesistasTab/Alumnos'
+import Tesistas from './TabsContent/AlumnosYTesistasTab/Tesistas'
+import DivulgacionesMain from './TabsContent/DivulgacionesMain'
+import EgresadosTitulados from './TabsContent/EgresadosTitulados'
+import GruposEstPage from './TabsContent/GruposEstPage'
+import TestimoniosPage from './TabsContent/TestimoniosPage'
 
 export default function AlumnosEgresadosPage() {
   return (
@@ -18,25 +18,21 @@ export default function AlumnosEgresadosPage() {
         borderColor: '#1D3557',
         paddingLeft: '0',
         paddingRight: '0',
-        backgroundColor: 'white',
+        backgroundColor: 'white'
       }}
       className="mt-5"
     >
-      <Tab.Container defaultActiveKey="Alumnos">
+      <Tab.Container defaultActiveKey="Divulgaciones">
         <Nav
           // variant="tabs"
           style={{ backgroundColor: colors.main }}
           className="justify-content-center pt-1 fs-6"
         >
           <Nav.Item>
-            <Nav.Link eventKey="Alumnos">
-              Alumnos
-            </Nav.Link>
+            <Nav.Link eventKey="Alumnos">Alumnos</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="Tesistas">
-              Tesistas
-            </Nav.Link>
+            <Nav.Link eventKey="Tesistas">Tesistas</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="Testimonios">Testimonios</Nav.Link>
@@ -66,7 +62,7 @@ export default function AlumnosEgresadosPage() {
               <TestimoniosPage />
             </Tab.Pane>
             <Tab.Pane eventKey="Divulgaciones">
-              <DivulgacionesMain/>
+              <DivulgacionesMain />
             </Tab.Pane>
             <Tab.Pane eventKey="GEM">
               <GruposEstPage />
@@ -75,5 +71,5 @@ export default function AlumnosEgresadosPage() {
         </div>
       </Tab.Container>
     </Container>
-  );
+  )
 }
