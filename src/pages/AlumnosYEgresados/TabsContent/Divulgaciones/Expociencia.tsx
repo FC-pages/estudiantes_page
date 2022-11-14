@@ -29,10 +29,10 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                 <ul>
                   <li>
                     <FaAngleRight size={17} />
-                    Inscripción al evento.{' '}
+                    Ficha de Inscripción{' '}
                     <a
                       className="a-link"
-                      href="https://forms.gle/tSxQbJTJfnKH5Aqa9"
+                      href="https://forms.gle/Pv23E5SVnYsdG9vM7"
                     >
                       <FaPaperclip size={20} />
                     </a>
@@ -58,7 +58,7 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                     <FaPaperclip size={20} />
                   </a>
               </li>*/}
-                  <li>
+                  {/*<li>
                     <FaAngleRight size={17} />
                     Inscripción de Guías.{' '}
                     <a
@@ -67,13 +67,16 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                     >
                       <FaPaperclip size={20} />
                     </a>
-                  </li>
+            </li>*/}
                 </ul>
               </div>
-              <h5 className="t-stroke-shadow-h5">Lista de Experimentos</h5>
+              <h5 className="t-stroke-shadow-h5">Trabajos de Experimentos</h5>
+              <p>
+                (Biblioteca de la Facultad de Ciencias)
+              </p>
               <ol>
                 <li>
-                  Simulación de la propagación del cáncer usando "el juego de la
+                  Simulación de la propagación del cáncer "el juego de la
                   vida"{' '}
                   {/*<a
                     className="a-link"
@@ -109,7 +112,7 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                 <li>Teoría de Grupos y el Cubo de Rubik 3x3x3</li>
                 <li>Optimizando el tendido eléctrico de un parque eólico</li>
                 <li>
-                  Teoría de grafos y medidas de tendencia central para "generar
+                  Grafos y medidas de tendencia central para "generar
                   mi agenda"
                 </li>
               </ol>
@@ -126,22 +129,30 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
           </Row>
 
           <h5 className="t-stroke-shadow-h5">Charlas divulgativas</h5>
+          <p>
+                (Auditorio de la Facultad de Ciencias)
+              </p>
           <ol>
             <li>
-              David Morante. Técnicas de descomposición aplicadas en el despacho
+              David Morante. Descomposición aplicada en el despacho
               de energía
+              {/*<a
+                    className="a-link"
+                    href="https://drive.google.com/open?id=1t8PjosOznlSEIf7kPHcrSh7nN5LcHnC5"
+                  >
+                    <FaPaperclip size={20} />
+        </a>*/}
             </li>
             <li>Daniel Gutierrez. Matemática para la Ciencia de Datos</li>
             <li>
               José Cerda. Una aplicación al estudio de la anemia en el Perú
             </li>
-            <li>John Cotrina. Juegos de Nash</li>
+            {/*<li>John Cotrina. Juegos de Nash</li>*/}
             <li>Ruben Lizarbe. Números primos y Criptografía RSA</li>
             <li>Miller Silva. The Kissing Number</li>
             <li>Diego Yupanqui. Formación de imágenes de F-dispersa</li>
             <li>
-              Angel Ramirez. Descomposición de valores singulares en comprensión
-              de imágenes
+              Angel Ramirez. Descomposición de valores singulares en imágenes
             </li>
           </ol>
 
@@ -158,6 +169,13 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
             </ol>
             <p>Desde el año 2019 se ha dejado de realizar este evento debido a la pandemia COVID-19.</p>*/}
         </div>
+        <h5 className="t-stroke-shadow-h5">Comité organizador</h5>
+        <li>Eladio Ocaña (Director de Escuela)</li>
+        <li>Rósulo Pérez (Director de Departamento)</li>
+        <li>Jonathan Munguia</li>
+            <li>Leopoldo Paredes</li>
+            <li>Richard Acuña</li>
+            <li>Jesús Cernades</li>
         <Col>
           {/* <img
             className="effect"
