@@ -3,7 +3,7 @@ import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 
 import { FaAngleRight, FaPaperclip } from 'react-icons/fa'
 import cron1 from './posters/cron1.jpeg'
-import cron2 from './posters/cron2.jpeg'
+import cron2 from './posters/schelud.png'
 import poster from './posters/Expo-matematica-2022.png'
 
 export default function Expociencia() {
@@ -127,7 +127,11 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
               ></img>
             </Col>
           </Row>
-
+          <Row>
+          <p></p>
+          </Row>
+          <Row>
+          <Col>
           <h5 className="t-stroke-shadow-h5">Charlas divulgativas</h5>
           <p>
                 (Auditorio de la Facultad de Ciencias)
@@ -147,13 +151,11 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
             <li>
               José Cerda. Una aplicación al estudio de la anemia en el Perú
             </li>
-            {/*<li>John Cotrina. Juegos de Nash</li>*/}
+            <li>Angel Ramirez. Descomposición de valores singulares en imágenes</li>
             <li>Ruben Lizarbe. Números primos y Criptografía RSA</li>
             <li>Miller Silva. The Kissing Number</li>
             <li>Diego Yupanqui. Formación de imágenes de F-dispersa</li>
-            <li>
-              Angel Ramirez. Descomposición de valores singulares en imágenes
-            </li>
+            
           </ol>
 
           {/*<h4 className="t-stroke-shadow-h5">Expociencia</h4>
@@ -167,16 +169,11 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
               <li>Optimización.</li>
               <li>Análisis Numérico.</li>
             </ol>
-            <p>Desde el año 2019 se ha dejado de realizar este evento debido a la pandemia COVID-19.</p>*/}
-        </div>
-        <h5 className="t-stroke-shadow-h5">Comité organizador</h5>
-        <li>Eladio Ocaña (Director de Escuela)</li>
-        <li>Rósulo Pérez (Director de Departamento)</li>
-        <li>Jonathan Munguia</li>
-            <li>Leopoldo Paredes</li>
-            <li>Richard Acuña</li>
-            <li>Jesús Cernades</li>
+            <p>Desde el año 2019 se ha dejado de realizar este evento debido a la pandemia COVID-19.</p>*/}      
+        </Col>
+        
         <Col>
+        <h5 className="t-stroke-shadow-h5">Programación</h5>
           {/* <img
             className="effect"
             alt=""
@@ -192,6 +189,16 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
             width={450}
           ></img>
         </Col>
+        </Row>
+
+        <h5 className="t-stroke-shadow-h5">Comité organizador</h5>
+        <li>Eladio Ocaña (Director de Escuela)</li>
+        <li>Rósulo Pérez (Director de Departamento)</li>
+        <li>Jonathan Munguia</li>
+            <li>Leopoldo Paredes</li>
+            <li>Richard Acuña</li>
+            <li>Jesús Cernades</li>
+        </div>
       </Row>
     </Container>
   )
