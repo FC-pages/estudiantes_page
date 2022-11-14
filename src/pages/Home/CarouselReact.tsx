@@ -11,7 +11,7 @@ let { eventos } = require('../../data/data-eventos.js')
 function Eventos() {
   const [toggleEvents, setTogleEvents] = useState(true)
 
-  const click = () => {
+  const clickt = () => {
     ;<Navigate to={routes.estudiantes_egresados} replace={true} />
   }
 
