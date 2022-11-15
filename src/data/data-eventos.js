@@ -30,7 +30,7 @@ exports.eventos = [
     "future" : false
   },
   {
-    "hrefLink": "https://drive.google.com/file/d/1ZpdbfoRgaiKs26enpxR6r3TYrXiR_FpZ/view?usp=share_link",
+    "hrefLink": "https://drive.google.com/file/d/1GxTt_jqyW4XujZIjMQwiaHtibRsjSkcS/view?usp=share_link",
     "fechaEvento": "Viernes 25 de NOVIEMBRE del 2022",
     "descripcion": "Expo-Matemática 2022",
     "future" : true

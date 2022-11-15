@@ -12,7 +12,7 @@ export default function Expociencia() {
       <Row>
         <div className="cont-tab">
           <Row>
-            <Col>
+            <Col xs lg="7">
               <h4 className="t-stroke-shadow-h5">Expo-Matemática 2022</h4>
               <p>
                 Esta actividad se llevará a cabo el viernes 25 de noviembre del
@@ -124,7 +124,7 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                 alt=""
                 id="img-vidrio"
                 src={poster}
-                width={450}
+                width={420}
               ></img>
             </Col>
           </Row>
@@ -132,14 +132,14 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
           <p></p>
           </Row>
           <Row>
-          <Col>
+          <Col xs lg="7">
           <h5 className="t-stroke-shadow-h5">Charlas divulgativas</h5>
           <p>
-                (Auditorio de la Facultad de Ciencias, 14 a 18:30 hrs.)
+                (Auditorio de la Facultad de Ciencias, 14 a 19 hrs.)
               </p>
           <ol>
             <li>
-              David Morante. Descomposición aplicada en el despacho
+              David Morante (UNI). Descomposición aplicada en el despacho
               de energía
               {/*<a
                     className="a-link"
@@ -148,16 +148,16 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                     <FaPaperclip size={20} />
         </a>*/}
             </li>
-            <li>Daniel Gutierrez. Matemática para la Ciencia de Datos</li>
+            <li>Daniel Gutierrez (UCSP). Matemática para la Ciencia de Datos</li>
             <li>
-              José Cerda. Una aplicación al estudio de la anemia en el Perú
+              José Cerda (UNI). Una aplicación al estudio de la anemia en el Perú
             </li>
-            <li>Angel Ramirez. Descomposición de valores singulares en imágenes</li>
-            <li>Miguel Cutipa. Resolución numérica del problema de corte</li>
-            <li>Miller Silva. The Kissing Number</li>
-            <li>Rafael Mundo. Detección de objetos usando redes neuronales</li> 
-            <li>Diego Yupanqui. Formación de imágenes de F-dispersa</li>
-            
+            <li>Angel Ramirez (UNI). Descomposición de valores singulares en imágenes</li>
+            <li>Miguel Cutipa (UNI). Resolución numérica del problema de corte</li>
+            <li>Miller Silva (UNI). The Kissing Number</li>
+            <li>Rafael Mundo (UNI). Detección de objetos usando redes neuronales</li> 
+            <li>Diego Yupanqui (UNI). Formación de imágenes de F-dispersa</li>
+            <li>Dante Baldeon (INEN). Estadística Matemática aplicada al Cáncer</li>
           </ol>
 
           {/*<h4 className="t-stroke-shadow-h5">Expociencia</h4>
@@ -176,6 +176,10 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
         
         <Col>
         <h5 className="t-stroke-shadow-h5">Programación</h5>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
           {/* <img
             className="effect"
             alt=""
@@ -188,7 +192,7 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
             alt=""
             id="img-vidrio"
             src={cron2}
-            width={450}
+            width={420}
           ></img>
         </Col>
         </Row>
