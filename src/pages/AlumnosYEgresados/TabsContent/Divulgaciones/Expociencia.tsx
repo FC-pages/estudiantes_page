@@ -72,7 +72,7 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
               </div>
               <h5 className="t-stroke-shadow-h5">Trabajos de Experimentos</h5>
               <p>
-                (Biblioteca de la Facultad de Ciencias)
+                (Biblioteca de la Facultad de Ciencias, 8 a 17 hrs.)
               </p>
               <ol>
                 <li>
@@ -115,6 +115,7 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                   Grafos y medidas de tendencia central para "generar
                   mi agenda"
                 </li>
+                <li>Ilusión de Sugihara</li>
               </ol>
             </Col>
             <Col>
@@ -134,7 +135,7 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
           <Col>
           <h5 className="t-stroke-shadow-h5">Charlas divulgativas</h5>
           <p>
-                (Auditorio de la Facultad de Ciencias)
+                (Auditorio de la Facultad de Ciencias, 14 a 18:30 hrs.)
               </p>
           <ol>
             <li>
