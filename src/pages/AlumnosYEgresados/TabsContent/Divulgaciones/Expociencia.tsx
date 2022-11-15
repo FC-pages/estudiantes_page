@@ -152,8 +152,9 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
               José Cerda. Una aplicación al estudio de la anemia en el Perú
             </li>
             <li>Angel Ramirez. Descomposición de valores singulares en imágenes</li>
-            <li>Ruben Lizarbe. Números primos y Criptografía RSA</li>
+            <li>Miguel Cutipa. Resolución numérica del problema de corte</li>
             <li>Miller Silva. The Kissing Number</li>
+            <li>Rafael Mundo. Detección de objetos usando redes neuronales</li> 
             <li>Diego Yupanqui. Formación de imágenes de F-dispersa</li>
             
           </ol>
