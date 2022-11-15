@@ -13,7 +13,7 @@ export default function Expociencia() {
         <div className="cont-tab">
           <Row>
             <Col>
-              <h4 className="t-stroke-shadow-h5">Expo-Matemática 2022-2</h4>
+              <h4 className="t-stroke-shadow-h5">Expo-Matemática 2022</h4>
               <p>
                 Esta actividad se llevará a cabo el viernes 25 de noviembre del
                 2022 organizada por la Escuela Profesional de Matemática,
