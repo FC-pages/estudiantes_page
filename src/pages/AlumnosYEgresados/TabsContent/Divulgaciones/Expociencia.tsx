@@ -186,7 +186,7 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
             <li>Rafael Mundo (UNI). Detección de objetos usando redes neuronales{' '}
                   <a
                     className="a-link"
-                    href=" "
+                    href="https://drive.google.com/file/d/1EvPHD5RT8gk8Fw5OT_8ijgFZSB3Z4AXb/view?usp=share_link"
                   >
                     <FaPaperclip size={20} />
             </a></li> 
