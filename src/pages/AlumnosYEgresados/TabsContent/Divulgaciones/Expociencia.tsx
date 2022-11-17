@@ -140,24 +140,70 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
           <ol>
             <li>
               David Morante (UNI). Descomposición aplicada en el despacho
-              de energía
-              {/*<a
+              de energía{' '}
+                  <a
                     className="a-link"
-                    href="https://drive.google.com/open?id=1t8PjosOznlSEIf7kPHcrSh7nN5LcHnC5"
+                    href="https://drive.google.com/file/d/1oBdqA6uDjrGIy8le6E9PpQXr-BR8YkGc/view?usp=share_link"
                   >
                     <FaPaperclip size={20} />
-        </a>*/}
-            </li>
-            <li>Daniel Gutierrez (UCSP). Matemática para la Ciencia de Datos</li>
+            </a></li>
+            <li>Daniel Gutierrez (UCSP). Matemática para la Ciencia de Datos{' '}
+                  <a
+                    className="a-link"
+                    href="https://drive.google.com/file/d/1Q0mGAMp6H7sMOmJ3glGY5FNPJtB5qib5/view?usp=share_link"
+                  >
+                    <FaPaperclip size={20} />
+            </a></li>
             <li>
-              José Cerda (UNI). Una aplicación al estudio de la anemia en el Perú
-            </li>
-            <li>Angel Ramirez (UNI). Descomposición de valores singulares en imágenes</li>
-            <li>Miguel Cutipa (UNI). Resolución numérica del problema de corte</li>
-            <li>Miller Silva (UNI). The Kissing Number</li>
-            <li>Rafael Mundo (UNI). Detección de objetos usando redes neuronales</li> 
-            <li>Diego Yupanqui (UNI). Formación de imágenes de F-dispersa</li>
-            <li>Dante Baldeon (INEN). Estadística Matemática aplicada al Cáncer</li>
+              José Cerda (UNI). Una aplicación al estudio de la anemia en el Perú{' '}
+                  <a
+                    className="a-link"
+                    href="https://drive.google.com/file/d/1bMJPAkFfAjSwPuWdu8i_bWyjbIBEcq9m/view?usp=share_link"
+                  >
+                    <FaPaperclip size={20} />
+            </a></li>
+            <li>Angel Ramirez (UNI). Descomposición de valores singulares en imágenes{' '}
+                  <a
+                    className="a-link"
+                    href="https://drive.google.com/file/d/1eKzIySQXcxFhGk1W5pNRluA0RBrAkg9w/view?usp=share_link"
+                  >
+                    <FaPaperclip size={20} />
+            </a></li>
+            <li>Miguel Cutipa (UNI). Resolución numérica del problema de corte{' '}
+                  <a
+                    className="a-link"
+                    href="https://drive.google.com/file/d/1CXyKIsMY2B2h0q3fV_mx-ohj6xPp32MO/view?usp=share_link"
+                  >
+                    <FaPaperclip size={20} />
+            </a></li>
+            <li>Miller Silva (UNI). The Kissing Number{' '}
+                  <a
+                    className="a-link"
+                    href="https://drive.google.com/file/d/1Y5XXOk8RJB2dYVcy7px6YU9rGBY5MgSn/view?usp=share_link"
+                  >
+                    <FaPaperclip size={20} />
+            </a></li>
+            <li>Rafael Mundo (UNI). Detección de objetos usando redes neuronales{' '}
+                  <a
+                    className="a-link"
+                    href=" "
+                  >
+                    <FaPaperclip size={20} />
+            </a></li> 
+            <li>Diego Yupanqui (UNI). Formación de imágenes de F-dispersa{' '}
+                  <a
+                    className="a-link"
+                    href="https://drive.google.com/file/d/1yzmq7p0Qg_8BpoZXrcXCX9VhCUjXVO-j/view?usp=share_link"
+                  >
+                    <FaPaperclip size={20} />
+            </a></li>
+            <li>Dante Baldeon (INEN). Estadística Matemática aplicada al Cáncer{' '}
+                  <a
+                    className="a-link"
+                    href=" "
+                  >
+                    <FaPaperclip size={20} />
+            </a></li>
           </ol>
 
           {/*<h4 className="t-stroke-shadow-h5">Expociencia</h4>
