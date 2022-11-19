@@ -112,10 +112,10 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                 <li>Teoría de Grupos y el Cubo de Rubik 3x3x3</li>
                 <li>Optimizando el tendido eléctrico de un parque eólico</li>
                 <li>
-                  Grafos y medidas de tendencia central para "generar
-                  mi agenda"
+                  Grafos y medidas de tendencia central para "generar mi agenda"
                 </li>
                 <li>Ilusión de Sugihara</li>
+                <li>Problema del Agente viajero</li>
               </ol>
             </Col>
             <Col>
