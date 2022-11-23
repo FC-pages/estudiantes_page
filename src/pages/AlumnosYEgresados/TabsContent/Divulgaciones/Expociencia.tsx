@@ -37,13 +37,13 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                       <FaPaperclip size={20} />
                     </a>
                   </li>
-                  {/*<li>
+                  <li>
                   <FaAngleRight size={17}/>
-                  Inscripción de Experimento.{' '}
-                  <a className="a-link" href="https://forms.gle/fNH9f5pZTe2CECjt9">              
+                  Inscripción de alumnos guías.{' '}
+                  <a className="a-link" href="https://forms.gle/Y1M929nmqG7W2Pvy8">              
                     <FaPaperclip size={20} />
                   </a>
-</li>*/}
+                  </li>
                   {/*<li>
                   <FaAngleRight size={17}/>
                   Inscripción de Experimento en Ciencias.{' '}
@@ -115,7 +115,7 @@ sus cinco escuelas y tiene como finalidad difundir a los alumnos, básicamente d
                   Grafos y medidas de tendencia central para "generar mi agenda"
                 </li>
                 <li>Ilusión de Sugihara</li>
-                <li>Problema del Agente viajero</li>
+                <li>Problema del Agente Viajero</li>
               </ol>
             </Col>
             <Col>
