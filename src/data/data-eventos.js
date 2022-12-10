@@ -34,12 +34,18 @@ exports.eventos = [
     //"hrefLink": "https://drive.google.com/file/d/1GrgnzXXpG0Q7B6u6-gte5iQc8wQhCXjH/view?usp=share_link",
     "fechaEvento": "Viernes 25 de NOVIEMBRE del 2022",
     "descripcion": "Expo-Matemática 2022",
-    "future" : true
+    "future" : false
+  },  
+  {
+    "hrefLink": "http://imca.edu.pe/en/post/event/conferencias/imca-25-anniversary-conferences",
+    "fechaEvento": "Viernes 21 de OCTUBRE del 2022",
+    "descripcion": "Seminario de Probabilidad Aplicada",
+    "future" : false
   },
   {
     "hrefLink": "http://imca.edu.pe/en/post/event/seminario/seminario-de-probabilidad-fundamentos-de-reinforcement-learning",
-    "fechaEvento": "Viernes 21 de OCTUBRE del 2022",
-    "descripcion": "Seminario de Probabilidad Aplicada",
+    "fechaEvento": "Del 14 al 16 de DICIEMBRE del 2022",
+    "descripcion": "25° Aniversario del IMCA",
     "future" : true
-  },
+  }
     ]
