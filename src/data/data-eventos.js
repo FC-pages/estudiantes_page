@@ -37,13 +37,13 @@ exports.eventos = [
     "future" : false
   },  
   {
-    "hrefLink": "http://imca.edu.pe/en/post/event/conferencias/imca-25-anniversary-conferences",
+    "hrefLink": "http://imca.edu.pe/en/post/event/seminario/seminario-de-probabilidad-fundamentos-de-reinforcement-learning",
     "fechaEvento": "Viernes 21 de OCTUBRE del 2022",
     "descripcion": "Seminario de Probabilidad Aplicada",
     "future" : false
   },
   {
-    "hrefLink": "http://imca.edu.pe/en/post/event/seminario/seminario-de-probabilidad-fundamentos-de-reinforcement-learning",
+    "hrefLink": "http://imca.edu.pe/en/post/event/conferencias/imca-25-anniversary-conferences",
     "fechaEvento": "Del 14 al 16 de DICIEMBRE del 2022",
     "descripcion": "25° Aniversario del IMCA",
     "future" : true
