@@ -2,13 +2,13 @@ import '../../Descripcion/styles.css';
 import * as S from "../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
 import ElectCards from "./Cards/ElectCards";
 import { Container } from 'react-bootstrap';
-let { data } = require("../../../data/data-electivos.js");
+let { data } = require("../../../data/data-electivos2.js");
 // let electivos = JSON.parse(readFileSync(electivos))
 
 function Electiv() {
   return (
     <div>
-      <h5 className='t-stroke-shadow-h5'> Ciclo académico 2022-2</h5>
+      <h5 className='t-stroke-shadow-h5'> Ciclo académico 2023-2</h5>
       <Container>
       <S.TabContent>
         <S.TestimoniosTab >    
