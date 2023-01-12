@@ -8,7 +8,7 @@ let { data } = require("../../../data/data-electivos2.js");
 function Electiv() {
   return (
     <div>
-      <h5 className='t-stroke-shadow-h5'> Ciclo académico 2023-2</h5>
+      <h5 className='t-stroke-shadow-h5'> Ciclo académico 2023-1</h5>
       <Container>
       <S.TabContent>
         <S.TestimoniosTab >    
