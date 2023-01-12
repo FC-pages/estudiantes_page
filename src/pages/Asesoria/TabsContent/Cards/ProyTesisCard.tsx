@@ -10,8 +10,8 @@ import { FaPaperclip } from 'react-icons/fa';
   fecha apertura
   fecha cierre
 */
-let fecha_apertura = '25-07-2022'
-let fecha_cierre = '25-08-2022'
+let fecha_apertura = '12-01-2023'
+let fecha_cierre = '27-01-2023'
 
 type CardProps = {
   marca: string;

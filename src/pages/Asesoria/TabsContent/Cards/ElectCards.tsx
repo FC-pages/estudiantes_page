@@ -5,6 +5,9 @@ import { FaPaperclip } from 'react-icons/fa';
 import { Table } from 'react-bootstrap';
 let { dataCM090 } = require("../../../../data/data-inscritos.js");
 
+let fecha_apertura = '12-01-2023'
+let fecha_cierre = '27-01-2023'
+
 type CardProps = {
   marca: string;
   correo: string; 
@@ -48,8 +51,8 @@ function ElectivosCard(e:any) {
           Prerequisito: {e.prerrequisitos}<br></br>
           Silabo: <a target= "_blank" href={e.silabo}><FaPaperclip size={20}  /></a><br></br>
           E-mail: {e.correo} <br></br>
-          Fecha de apertura de inscripción: {publicacion}<br></br>
-          Fecha de cierre de inscripción: {publicacion}
+          Fecha de apertura de inscripción: {fecha_apertura}<br></br>
+          Fecha de cierre de inscripción: {fecha_cierre}
           </Card.Text>
             {/*<Card.Link className=" btn btn-sm ver-mas" onClick={handleShow} href="#">
                 Leer más
