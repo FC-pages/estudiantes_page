@@ -11,6 +11,9 @@ import Ayudantias from '../Asesoria/TabsContent/Ayudantias';
 import Preprofesionales from '../Asesoria/TabsContent/Preprofesionales';
 import Electiv2 from '../Asesoria/TabsContent/PTesis';
 
+/* Tabs */
+import CursosElectivos from './TabsContent/CursosElectivos/CursosElectivos';
+
 import { colors } from '../../styles/colors';
 
 export default function CursosProyectos() {
@@ -63,7 +66,7 @@ export default function CursosProyectos() {
               <PlanesYMallas />
             </Tab.Pane>
             <Tab.Pane eventKey="Cursos electivos">
-              <Electiv />
+              <CursosElectivos />
             </Tab.Pane>
             <Tab.Pane eventKey="Proyectos de Tesis">
               <Electiv2 />
