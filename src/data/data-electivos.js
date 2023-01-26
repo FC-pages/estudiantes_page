@@ -19,7 +19,7 @@
     // }
 // ]
 
-exports.data= 
+exports.data2= 
 [
 /*{
 marca: "2022-07-09T17:29:10.462Z",

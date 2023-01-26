@@ -16,6 +16,7 @@ function CursosElectivos(){
     // Inicializacion de variables
     const [open, setOpen] = useState(false);
     const [divsVisibility, setDivsVisibility] = useState([true, false]);
+    const [dropdownName, setDropdownName] = useState("2023-1")
 
     // Click Listener para DropDown
     const handleItemClick = (event: React.MouseEvent<HTMLElement>, index: number) => {
@@ -23,10 +24,12 @@ function CursosElectivos(){
         if (index === 0) 
         {
           setDivsVisibility([true, false]);
+          setDropdownName("2023-1")
         } 
         else if (index === 1) 
         {
           setDivsVisibility([false, true]);
+          setDropdownName("2022-2")
         }
         setOpen(!open);
     }
@@ -35,9 +38,14 @@ function CursosElectivos(){
         <Container>
             <Row className="dropdown-container">
                 <Dropdown className="d-inline" show={open} onToggle={() => setOpen(!open)}>
+                    <div className="d-flex align-items-center">
                     <Dropdown.Toggle id="dropdown-autoclose-true">
-                        Selecciona el ciclo académico
+                        {dropdownName}
                     </Dropdown.Toggle>
+                    <Container>
+                        <a target = "_blank" href = "https://forms.gle/Aqj9Rpq9tSfDDS117" type="button" className="btn btn-danger btn-lg cancelar-insc">Cancelar pre-inscripción</a>
+                    </Container>
+                    </div>
                     <Dropdown.Menu>
                         <Dropdown.Item onClick={(e) => handleItemClick(e,0)} >2023-1</Dropdown.Item>
                         <Dropdown.Item onClick={(e) => handleItemClick(e,1)} >2022-2</Dropdown.Item>
@@ -46,7 +54,6 @@ function CursosElectivos(){
             </Row>
             <Row>
                 <Container className={`container-tab my-4 ${divsVisibility[0] ? '' : 'd-none'}`}>
-                    <h1 className="fs-2">Ciclo 2023-1</h1>
                     <Row xs={1} md={3} className="g-4">
                     {data2023_1.map((t: any) => {
                         return (
@@ -65,14 +72,10 @@ function CursosElectivos(){
                         );
                     })}
                     </Row>
-                    <Container>
-                        <a target = "_blank" href = "https://forms.gle/Aqj9Rpq9tSfDDS117" type="button" className="btn btn-danger btn-lg cancelar-insc">Cancelar pre-inscripción</a>
-                    </Container>
                 </Container>
             </Row>
             <Row>
                 <Container className={`container-tab my-4 ${divsVisibility[1] ? '' : 'd-none'}`}>
-                    <h1 className="fs-2">Ciclo 2022-2</h1>
                     <Row xs={1} md={3} className="g-4">
                     {data2022_2.map((t: any) => {
                         return (
