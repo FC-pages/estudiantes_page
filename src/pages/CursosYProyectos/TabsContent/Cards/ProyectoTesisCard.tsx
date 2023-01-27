@@ -7,16 +7,6 @@ import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/s
 let fecha_apertura = '12-01-2023'
 let fecha_cierre = '27-01-2023'
 
-type CardProps = {
-  marca: string;
-  tema: string;
-  correo: string;
-  apellidos_docente:string;
-  nombres_docente:string;
-  descripcion: string;
-  preinscripcion: string;
-};
-
 function ProyectoTesisCard(p:any) {
 
   const [show, setShow] = useState(false);
@@ -36,12 +26,12 @@ function ProyectoTesisCard(p:any) {
         <Card.Body className="card-testimony">
           <Card.Title className="card-title">{p.nombres_docente} {p.apellidos_docente}</Card.Title>
           <Card.Text className="card-text">
-            Temas: <a target= "_blank" href={p.descripcion}><FaPaperclip size={20}  /></a><br></br>
+            Temas: <a target= "_blank" rel="noreferrer" href={p.descripcion}><FaPaperclip size={20}  /></a><br></br>
             E-mail: {p.correo}<br></br>
             Fecha de apertura : {fecha_apertura}<br></br>
             Fecha de cierre: {fecha_cierre}
           </Card.Text>            
-          <Card.Link target="_blank" href = {p.preinscripcion} className=" btn btn-sm ver-mas">
+          <Card.Link target="_blank" rel="noreferrer" href = {p.preinscripcion} className=" btn btn-sm ver-mas">
             Preinscripción
           </Card.Link>
           <Card.Link className=" btn btn-sm ver-mas" onClick={handleClickLink} href="#">

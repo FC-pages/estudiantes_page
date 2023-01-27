@@ -3,7 +3,6 @@ import './styles.css';
 
 import Docente from './Docente';
 import { Container, Spinner } from 'react-bootstrap';
-let { docentes } = require('../../data/data-docentes.js');
 
 function Docentes() {
   let eliminarDiacriticos = (texto: any) => {

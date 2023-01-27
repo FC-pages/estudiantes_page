@@ -7,18 +7,6 @@ import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/s
 let fecha_apertura = '12-01-2023'
 let fecha_cierre = '27-01-2023'
 
-type CardProps = {
-    marca: string;
-    correo: string; 
-    apellidos:string;
-    nombres: string;
-    curso: string;
-    codigo_curso: string;
-    prerrequisitos: string;
-    silabo: string;
-    preinscripcion: string;
-};
-
 function CursosElectivosCard(e:any){
 
     // Inicializacion de variables
@@ -42,12 +30,12 @@ function CursosElectivosCard(e:any){
                     <Card.Text className="card-text">
                         Profesor: {e.nombres} {e.apellidos}<br></br>
                         Prerequisito: {e.prerrequisitos}<br></br>
-                        Silabo: <a target= "_blank" href={e.silabo}><FaPaperclip size={20}  /></a><br></br>
+                        Silabo: <a target= "_blank" rel="noreferrer" href={e.silabo}><FaPaperclip size={20}  /></a><br></br>
                         E-mail: {e.correo} <br></br>
                         Fecha de apertura de inscripción: {fecha_apertura}<br></br>
                         Fecha de cierre de inscripción: {fecha_cierre}
                     </Card.Text>
-                    <Card.Link target="_blank" className="btn btn-sm ver-mas" href={e.preinscripcion}>
+                    <Card.Link target="_blank" rel="noreferrer" className="btn btn-sm ver-mas" href={e.preinscripcion}>
                         Preinscripción
                     </Card.Link>
                     <Card.Link className="btn btn-sm ver-mas" onClick={handleClickLink} href="#">
