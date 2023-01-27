@@ -14,7 +14,7 @@ import { colors } from '../../styles/colors';
 
 export default function CursosProyectos() {
   return (
-    <Container className="container-tab mt-5" >
+    <Container className="container-tab-main mt-5" >
       <Tab.Container defaultActiveKey="Planes y Mallas de estudio">
         <Nav
           // variant="tabs"
