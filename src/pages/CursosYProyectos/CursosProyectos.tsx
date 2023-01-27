@@ -1,15 +1,8 @@
 import React from 'react';
 import { Tab, Container, Nav } from 'react-bootstrap';
 
-// import './styles.css';
-import Perfil from './TabsContent/Perfil';
-import ResenaHistorica from './TabsContent/ResenaHistorica';
-
-import Autoridades from './TabsContent/Autoridades';
-import Biblioteca from './TabsContent/Biblioteca';
-import Electiv from '../Asesoria/TabsContent/Elec';
+import './styles.css';
 import Preprofesionales from '../Asesoria/TabsContent/Preprofesionales';
-import Electiv2 from '../Asesoria/TabsContent/PTesis';
 
 /* Tabs */
 import CursosElectivos from './TabsContent/CursosElectivos/CursosElectivos';
@@ -21,16 +14,7 @@ import { colors } from '../../styles/colors';
 
 export default function CursosProyectos() {
   return (
-    <Container
-      style={{
-        borderStyle: "solid",
-        borderColor: "#1D3557",
-        paddingLeft: "0",
-        paddingRight: "0",
-        backgroundColor: "white",
-      }}
-      className="mt-5"
-    >
+    <Container className="container-tab mt-5" >
       <Tab.Container defaultActiveKey="Planes y Mallas de estudio">
         <Nav
           // variant="tabs"
