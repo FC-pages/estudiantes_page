@@ -4,7 +4,7 @@ import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 import { FaAngleRight, FaPaperclip } from 'react-icons/fa'
 import cron1 from './posters/cron1.jpeg'
 import cron2 from './posters/schelud.png'
-import poster from './posters/Expo-matematica-2022.png'
+import poster from './posters/Expo-matematica-ligero.jpg'
 
 export default function Expociencia() {
   return (

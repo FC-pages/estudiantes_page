@@ -28,14 +28,7 @@ exports.eventos = [
     "fechaEvento": "Del 13 al 16 de SETIEMBRE del 2022",
     "descripcion": "Congreso GCM XIII",
     "future" : false
-  },
-  {
-    "hrefLink": "https://drive.google.com/file/d/1GxTt_jqyW4XujZIjMQwiaHtibRsjSkcS/view?usp=share_link",
-    //"hrefLink": "https://drive.google.com/file/d/1GrgnzXXpG0Q7B6u6-gte5iQc8wQhCXjH/view?usp=share_link",
-    "fechaEvento": "Viernes 25 de NOVIEMBRE del 2022",
-    "descripcion": "Expo-Matemática 2022",
-    "future" : false
-  },  
+  },    
   {
     "hrefLink": "http://imca.edu.pe/en/post/event/seminario/seminario-de-probabilidad-fundamentos-de-reinforcement-learning",
     "fechaEvento": "Viernes 21 de OCTUBRE del 2022",
@@ -43,9 +36,22 @@ exports.eventos = [
     "future" : false
   },
   {
+    "hrefLink": "https://drive.google.com/file/d/1-yDNxQ7PI0HpOIpDjMuq-9NY48_C0cIo/view?usp=share_link",
+    //"hrefLink": "https://drive.google.com/file/d/1GrgnzXXpG0Q7B6u6-gte5iQc8wQhCXjH/view?usp=share_link",
+    "fechaEvento": "Viernes 25 de NOVIEMBRE del 2022",
+    "descripcion": "Expo-Matemática 2022",
+    "future" : false
+  },
+  {
     "hrefLink": "http://imca.edu.pe/en/post/event/conferencias/imca-25-anniversary-conferences",
     "fechaEvento": "Del 14 al 16 de DICIEMBRE del 2022",
     "descripcion": "25° Aniversario del IMCA",
+    "future" : false
+  },
+  {
+    "hrefLink": "",
+    "fechaEvento": "Del 9 al 12 de MAYO del 2023",
+    "descripcion": "IV Congreso Internacional Multidisciplinario de Matemática  \       /     CIMM-UNI-2023",
     "future" : true
   }
     ]
