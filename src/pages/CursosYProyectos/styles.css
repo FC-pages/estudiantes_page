@@ -1,7 +1,7 @@
 .container-tab-main{
   border-style: solid;
   border-color: #1D3557;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   background-color: white;
 }
