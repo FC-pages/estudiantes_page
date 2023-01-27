@@ -61,9 +61,9 @@ const TabThree: FC<{}> = () => {
       */}
       { proyectos.map((proyecto) => {
         return (
-          <Proyecto
-            proy = {proyecto}
-          />
+          <>
+          <Proyecto proy={proyecto}/>
+          </>
         )
       }) }
      

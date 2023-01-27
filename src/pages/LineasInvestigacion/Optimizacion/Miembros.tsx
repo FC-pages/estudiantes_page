@@ -56,7 +56,7 @@ const TabTwo: FC<{}> = () => {
         //y accedemos a su propiedad miembro que contiene los datos de cada docente
 
         const newdata = res.data.miembros.docentes.filter((docente: any) => {
-            if (docente.miembro.nombres == nom_coordinador) {
+            if (docente.miembro.nombres === nom_coordinador) {
               setCoord(docente);
               return false;
             }
@@ -71,7 +71,7 @@ const TabTwo: FC<{}> = () => {
       .finally(() => {
         setLoading(false);
       });
-  }, []);
+  }, []); //[[nom_coordinador, token]]
 
 
 

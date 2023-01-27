@@ -37,7 +37,7 @@ export default function AnalisisNumericoMain() {
               <Acerca/>
             </Tab.Pane>
             <Tab.Pane eventKey="Miembros">
-              <Miembros/> 
+              {/*<Miembros/> Error detectado*/} 
             </Tab.Pane>
             <Tab.Pane eventKey="Proyectos">
               <Proyectos/> 
