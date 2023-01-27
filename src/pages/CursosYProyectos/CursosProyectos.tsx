@@ -1,19 +1,21 @@
 import React from 'react';
 import { Tab, Container, Nav } from 'react-bootstrap';
+
 // import './styles.css';
 import Perfil from './TabsContent/Perfil';
 import ResenaHistorica from './TabsContent/ResenaHistorica';
-import PlanesYMallas from './TabsContent/PanesYMallas';
+
 import Autoridades from './TabsContent/Autoridades';
 import Biblioteca from './TabsContent/Biblioteca';
 import Electiv from '../Asesoria/TabsContent/Elec';
-import Ayudantias from '../Asesoria/TabsContent/Ayudantias';
 import Preprofesionales from '../Asesoria/TabsContent/Preprofesionales';
 import Electiv2 from '../Asesoria/TabsContent/PTesis';
 
 /* Tabs */
 import CursosElectivos from './TabsContent/CursosElectivos/CursosElectivos';
 import ProyectoTesis from './TabsContent/ProyectoTesis/ProyectoTesis'
+import Ayudantias from '../Asesoria/TabsContent/Ayudantias';
+import PlanesYMallas from './TabsContent/PlanesYMallas/PlanesYMallas';
 
 import { colors } from '../../styles/colors';
 

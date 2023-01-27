@@ -2,7 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 
 import { Row, Card } from 'react-bootstrap';
-import * as S from '../../../styles/styles';
+import * as S from '../../../../styles/styles';
 
 import { FaPaperclip } from 'react-icons/fa';
 import { FaAngleRight } from 'react-icons/fa';
