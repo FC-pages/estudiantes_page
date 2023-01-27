@@ -12,7 +12,7 @@ import Preprofesionales from '../Asesoria/TabsContent/Preprofesionales';
 import Electiv2 from '../Asesoria/TabsContent/PTesis';
 
 /* Tabs */
-import CursosElectivos from './TabsContent/CursosElectivos/CursosElectivos';
+import CursosElectivos from './TabsContent/cursoselectivos/CursosElectivos';
 
 import { colors } from '../../styles/colors';
 

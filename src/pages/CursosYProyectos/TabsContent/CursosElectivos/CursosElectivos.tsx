@@ -5,7 +5,7 @@ import { Container,Row } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 /* Importar template de tarjetas*/
-import CursosElectivosCards from '../Cards/CursosElectivosCards';
+import CursosElectivosCards from '../cards/CursosElectivosCards';
 
 /* Importar data temporal*/
 let { data2022_2 } = require('../../../../data/data-electivos-2022-2.js');
