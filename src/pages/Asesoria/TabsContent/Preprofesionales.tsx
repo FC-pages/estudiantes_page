@@ -41,7 +41,7 @@ function Preprofesionales() {
           <Dropdown className="d-inline">
               <div className="d-flex align-items-center">
               <Dropdown.Toggle id="dropdown-autoclose-true">
-                  2023-1
+                  {dropdownName}
               </Dropdown.Toggle>
               </div>
               <Dropdown.Menu>
