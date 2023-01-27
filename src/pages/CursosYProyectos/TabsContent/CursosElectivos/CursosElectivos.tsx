@@ -43,7 +43,7 @@ function CursosElectivos(){
                         {dropdownName}
                     </Dropdown.Toggle>
                     <Container>
-                        <a target = "_blank" href = "https://forms.gle/Aqj9Rpq9tSfDDS117" type="button" className={`btn btn-danger btn-lg cancelar-insc ${divsVisibility[0] ? '' : 'd-none'}`}>Cancelar pre-inscripción</a>
+                        <a target = "_blank" rel="noreferrer" href = "https://forms.gle/Aqj9Rpq9tSfDDS117" type="button" className={`btn btn-danger btn-lg cancelar-insc ${divsVisibility[0] ? '' : 'd-none'}`}>Cancelar pre-inscripción</a>
                     </Container>
                     </div>
                     <Dropdown.Menu>
