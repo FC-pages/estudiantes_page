@@ -32,9 +32,14 @@ function PTesis() {
     <Container>
       <Row className="dropdown-container">
                 <Dropdown className="d-inline" show={open} onToggle={() => setOpen(!open)}>
+                <div className="d-flex align-items-center">
                     <Dropdown.Toggle id="dropdown-autoclose-true">
                         {dropdownName}
                     </Dropdown.Toggle>
+                    <Container>
+                        <a target = "_blank" href = "https://forms.gle/Aqj9Rpq9tSfDDS117" type="button" className={`btn btn-danger btn-lg cancelar-insc ${divsVisibility[0] ? '' : 'd-none'}`}>Cancelar pre-inscripción</a>
+                    </Container>
+                    </div>
                     <Dropdown.Menu>
                         <Dropdown.Item onClick={(e) => handleItemClick(e,0)} >2023-1</Dropdown.Item>
                         <Dropdown.Item onClick={(e) => handleItemClick(e,1)} >2022-2</Dropdown.Item>
