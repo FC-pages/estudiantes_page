@@ -42,7 +42,7 @@ function ProyectoTesis() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    
+    let isMounted = true;
     fetch(link_proyecto_tesis).then((response) => {
       if (response.ok) 
       {
@@ -51,14 +51,23 @@ function ProyectoTesis() {
       throw response;
       })
       .then((data) => {
-        setData(data);
+        if (isMounted) {
+          setData(data);
+        }
       })
       .catch((error) => {
-        setError(error);
+        if (isMounted) {
+          setError(error);
+        }
       })
       .finally(() => {
-        setLoading(false);
+        if (isMounted) {
+          setLoading(false);
+        }
       });
+  return () => {
+    isMounted = false;
+  };
   },[link_proyecto_tesis]);
 
   let Loading = () => {
