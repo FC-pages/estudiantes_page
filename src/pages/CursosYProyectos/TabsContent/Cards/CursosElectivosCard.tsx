@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import { Modal, Col, Card, Table } from 'react-bootstrap';
+import { Modal, Button, Card, Table } from 'react-bootstrap';
 import { FaPaperclip } from 'react-icons/fa';
 
 import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
-
 
 let fecha_apertura = '12-01-2023'
 let fecha_cierre = '27-01-2023'
@@ -20,7 +19,7 @@ type CardProps = {
     preinscripcion: string;
 };
 
-function CursosElectivosCards(e:any){
+function CursosElectivosCard(e:any){
 
     // Inicializacion de variables
     const [show, setShow] = useState(false);
@@ -83,10 +82,15 @@ function CursosElectivosCards(e:any){
                             </tbody>
                         </Table>
                     </Modal.Body>
+                    <Modal.Footer>
+                        <Button variant="secondary" onClick={handleClickLink}>
+                            Cerrar
+                        </Button>
+                </Modal.Footer>
                 </Modal>
             </Card>
         </S.TCard3>
     );
 }
 
-export default CursosElectivosCards;
+export default CursosElectivosCard;
