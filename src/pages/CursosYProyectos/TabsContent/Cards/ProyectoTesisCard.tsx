@@ -62,9 +62,9 @@ function ProyectoTesisCard(p:any) {
             </tr>
             </thead>
             <tbody>
-            {p.inscritos.map((e:any) => {
+            {/*{p.inscritos.map((e:any, index:number) => {
               return (
-              <tr>
+              <tr key={index}>
                 <td>
                   {e.codigo}
                 </td>
@@ -76,7 +76,7 @@ function ProyectoTesisCard(p:any) {
                 </td>
               </tr>
               )
-            })}
+            })}*/}
             </tbody>
             </Table>
           </Modal.Body>

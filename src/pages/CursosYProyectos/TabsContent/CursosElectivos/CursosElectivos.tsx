@@ -55,9 +55,9 @@ function CursosElectivos(){
             <Row>
                 <Container className={`container-tab my-4 ${divsVisibility[0] ? '' : 'd-none'}`}>
                     <Row xs={1} md={3} className="g-4">
-                        {data2023_1.map((t: any) => {
+                        {data2023_1.map((t: any, index:number) => {
                             return (
-                            <CursosElectivosCards
+                            <CursosElectivosCards key={index}
                                 marca={t.marca}
                                 correo={t.correo}
                                 apellidos={t.apellidos}
@@ -77,9 +77,9 @@ function CursosElectivos(){
             <Row>
                 <Container className={`container-tab my-4 ${divsVisibility[1] ? '' : 'd-none'}`}>
                     <Row xs={1} md={3} className="g-4">
-                    {data2022_2.map((t: any) => {
+                    {data2022_2.map((t: any, index: number) => {
                         return (
-                        <CursosElectivosCards
+                        <CursosElectivosCards key={index}
                             marca={t.marca}
                             correo={t.correo}
                             apellidos={t.apellidos}

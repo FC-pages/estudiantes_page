@@ -67,9 +67,9 @@ function CursosElectivosCard(e:any){
                                 </tr>
                             </thead>
                             <tbody>
-                                {e.inscritos.map((e:any) => {
+                                {e.inscritos.map((e:any, index: number) => {
                                 return (
-                                <tr>
+                                <tr key = {index}>
                                 <td>
                                 {e.codigo}
                                 </td>

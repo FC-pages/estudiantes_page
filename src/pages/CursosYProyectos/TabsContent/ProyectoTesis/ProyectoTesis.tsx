@@ -1,9 +1,11 @@
 import React from 'react';
-import { useState } from 'react';
-import { Container,Row } from 'react-bootstrap';
+import { useState, useEffect } from 'react';
+import { Container,Row, Spinner } from 'react-bootstrap';
 
 import ProyectoTesisCard from "../Cards/ProyectoTesisCard";
 import Dropdown from 'react-bootstrap/Dropdown';
+
+import linksgs from '../../../../helpers/linksgs';
 
 import '../../../Descripcion/styles.css';
 
@@ -16,6 +18,8 @@ function ProyectoTesis() {
   const [open, setOpen] = useState(false);
   const [divsVisibility, setDivsVisibility] = useState([true, false]);
   const [dropdownName, setDropdownName] = useState("2023-1")
+
+  const link_proyecto_tesis = linksgs.proyecto_tesis;
 
   // Click Listener para DropDown
   const handleItemClick = (event: React.MouseEvent<HTMLElement>, index: number) => {
@@ -32,6 +36,43 @@ function ProyectoTesis() {
       }
       setOpen(!open);
   }
+
+  type dataType = Array<any>;
+  const [data, setData] = useState({} as dataType);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    
+    fetch(link_proyecto_tesis).then((response) => {
+      if (response.ok) 
+      {
+        return response.json();
+      }
+      throw response;
+      })
+      .then((data) => {
+        setData(data);
+        console.log(data)
+      })
+      .catch((error) => {
+        setError(error);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
+  },[link_proyecto_tesis]);
+
+  let Loading = () => {
+    return (
+      <Spinner className="mt-5 mb-5" animation="border" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </Spinner>
+    );
+  };
+  if (loading) return <Loading />;
+  if (error) return <>"Error!"</>;
+
   return (
     <Container>
       <Row className="dropdown-container">
@@ -53,31 +94,32 @@ function ProyectoTesis() {
       <Row>
       <Container className={`container-tab my-4 ${divsVisibility[0] ? '' : 'd-none'}`}>
         <Row xs={1} md={3} className="g-4">
-            {proytesis2.map((t: any) => {
+            { data === null ? (<></>) : (data.map((t: any, index: number) => {
               return (
-                <ProyectoTesisCard
+                <ProyectoTesisCard key={index}
                   // curso={t.curso}
                   marca = {t.marca}
-                  tema={t.tema}
+                  //tema={t.tema}
                   correo={t.correo}
                   apellidos_docente = {t.apellidos_docente}
                   nombres_docente = {t.nombres_docente}
                   descripcion = {t.descripcion}
-                  preinscripcion = {t.preinscripcion}
-                  inscritos = {t.inscritos}
+                  //preinscripcion = {t.preinscripcion}
+                  //inscritos = {t.inscritos}
                   // multiline = {t.multiline}
                 />
               );
-            })}
+            })
+          )}
         </Row>
       </Container>
       </Row>
       <Row>
       <Container className={`container-tab my-4 ${divsVisibility[1] ? '' : 'd-none'}`}>
         <Row xs={1} md={3} className="g-4">
-        {proytesis.map((t: any) => {
+        {proytesis.map((t: any, index: number) => {
               return (
-                <ProyectoTesisCard
+                <ProyectoTesisCard key={index}
                   // curso={t.curso}
                   marca = {t.marca}
                   tema={t.tema}

@@ -27,9 +27,9 @@ function Ayudantias() {
       <Row>
       <S.TabContent>
         <S.TestimoniosTab >    
-          {data.map((t: any) => {
+          {data.map((t: any, index: number) => {
             return (
-              <AyudantiasCard
+              <AyudantiasCard key={index}
                 marca={t.marca}
                 correo={t.correo}
                 nombres = {t.nombres}
