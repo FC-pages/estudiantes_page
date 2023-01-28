@@ -56,6 +56,21 @@ exports.data=
   "profesor_practica":"Jonatan Munguia"}
 ]
 
+exports.data2 = 
+[
+  {"marca":"2022-09-23T22:51:37.978Z",
+  "correo":"ibollschweilerv@uni.pe",
+  "nombres":"Ian Nicolas ",
+  "apellidos":"PRUEBA DATA AYUDANTIAS",
+  "codigo_alumno":"20170511K",
+  "celular":997347339,
+  "curso":"Análisis y Modelamiento Númerico 1",
+  "codigo_curso":"CM4F1",
+  "seccion":"B",
+  "profesor_teoria":"Ángel Ramírez ",
+  "profesor_practica":"Jonatan Munguia"}
+]
+
 
 
 
