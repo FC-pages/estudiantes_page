@@ -1,20 +1,16 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
-
-import { Row, Card } from 'react-bootstrap';
-import * as S from '../../../../styles/styles';
 
 import { FaPaperclip } from 'react-icons/fa';
 import { FaAngleRight } from 'react-icons/fa';
 function PlanEstudios() {
-  let videos = [
+  /*let videos = [
     {
       href: 'https://www.youtube.com/watch?v=dxVKquza40Y&t',
       name: 'Un análisis completo acerca del plan de estudios de la carrera de Matemática FC-UNI',
       Description:
         '',
     },
-  ];
+  ];*/
   return (
     <div className="App-cuerpo">
       <p></p>
@@ -31,11 +27,7 @@ function PlanEstudios() {
       </h6>
       <p></p>
       <table className="creditos" cellPadding={4}>
-        {/* <tr>
-                <th> Item </th>
-                <th>Créditos</th>
-                <th>Especificación</th>
-              </tr> */}
+        <tbody>
         <tr>
           <td> Item </td>
           <td>Créditos</td>
@@ -73,6 +65,7 @@ function PlanEstudios() {
           <td>210</td>
           <td className='text-left'>TOTAL PARA EGRESAR RESPECTO AL PLAN 2018</td>
         </tr>
+        </tbody>
       </table>
       <p></p>
       <h5 className="t-stroke-shadow-h5">Descargar:</h5>
@@ -181,38 +174,3 @@ function PlanEstudios() {
 export default PlanEstudios;
 
 
-{/*
-import React from "react";
-import { Container, Tab, Nav } from "react-bootstrap";
-import PlanEstudios from './PlanesYMallas/PlanEstudios';
-import MallasPage from './PlanesYMallas/MallasEstudio';
-
-export default function PlanesYMallas() {
-  return (
-    <Container>
-      <Tab.Container defaultActiveKey="Planes">
-        <Nav
-          style={{ textAlign:"left" }}
-          className="nav2"
-        >
-          <Nav.Item>
-            <Nav.Link eventKey="Planes">Planes</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="Mallas">Mallas</Nav.Link>
-          </Nav.Item>
-        </Nav>
-        <Container className="p-3">
-          <Tab.Content>
-            <Tab.Pane eventKey="Planes">
-              <PlanEstudios/>
-            </Tab.Pane>
-            <Tab.Pane eventKey="Mallas">
-              <MallasPage/>
-            </Tab.Pane>
-          </Tab.Content>
-        </Container>
-      </Tab.Container>
-    </Container>
-  );
-}*/}

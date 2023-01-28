@@ -31,11 +31,7 @@ function PlanEstudios() {
       </h6>
       <p></p>
       <table className="creditos" cellPadding={4}>
-        {/* <tr>
-                <th> Item </th>
-                <th>Créditos</th>
-                <th>Especificación</th>
-              </tr> */}
+        <tbody>
         <tr>
           <td> Item </td>
           <td>Créditos</td>
@@ -73,6 +69,7 @@ function PlanEstudios() {
           <td>210</td>
           <td className='text-left'>TOTAL PARA EGRESAR RESPECTO AL PLAN 2018</td>
         </tr>
+        </tbody>
       </table>
       <p></p>
       <h5 className="t-stroke-shadow-h5">Descargar:</h5>

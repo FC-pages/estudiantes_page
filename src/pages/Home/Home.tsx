@@ -6,6 +6,7 @@ import axios from 'axios';
 
 function Home() {
   const { login } = useAuth();
+  // Error en el servidor
   useEffect(() => {
     axios
       .post(process.env.REACT_APP_API_URL + 'api/v1/auth/login', {
@@ -16,7 +17,7 @@ function Home() {
         login(res.data);
       })
       .catch((err: any) => console.error(err));
-  }, []);
+  }, [login]);
 
   return <CarouselReact />;
 }

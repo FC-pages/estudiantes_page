@@ -65,9 +65,9 @@ function ProyectoTesis() {
           setLoading(false);
         }
       });
-  return () => {
-    isMounted = false;
-  };
+    return () => {
+      isMounted = false;
+    };
   },[link_proyecto_tesis]);
 
   let Loading = () => {
