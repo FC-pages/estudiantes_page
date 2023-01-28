@@ -2,13 +2,13 @@ import React from 'react';
 import { Tab, Container, Nav } from 'react-bootstrap';
 
 import './styles.css';
-import Preprofesionales from '../Asesoria/TabsContent/Preprofesionales';
 
 /* Tabs */
 import CursosElectivos from './TabsContent/CursosElectivos/CursosElectivos';
 import ProyectoTesis from './TabsContent/ProyectoTesis/ProyectoTesis'
 import Ayudantias from '../Asesoria/TabsContent/Ayudantias';
 import PlanesYMallas from './TabsContent/PlanesYMallas/PlanesYMallas';
+import PracticasPre from './TabsContent/PracticasPre/PracticasPre';
 
 import { colors } from '../../styles/colors';
 
@@ -62,7 +62,7 @@ export default function CursosProyectos() {
               <Ayudantias />
             </Tab.Pane>
             <Tab.Pane eventKey="Preprofesionales">
-              <Preprofesionales />
+              <PracticasPre />
             </Tab.Pane>
           </Tab.Content>
         </Container>
