@@ -1,11 +1,33 @@
-import '../../Descripcion/styles.css';
-import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
+import { useState } from 'react';
+import { Container, Row, Dropdown  } from 'react-bootstrap';
 import AyudantiasCard from "../Cards/AyudantiasCard";
-import { Container,Row } from 'react-bootstrap';
-import Dropdown from 'react-bootstrap/Dropdown';
-let { data } = require("../../../data/data-ayudantias.js");
+import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
+import '../../../Descripcion/styles.css';
+
+let { data } = require("../../../../data/data-ayudantias.js");
 
 function Ayudantias() {
+  // Inicializacion de variables
+  const [open, setOpen] = useState(false);
+  const [divsVisibility, setDivsVisibility] = useState([true, false]);
+  const [dropdownName, setDropdownName] = useState("2023-1")
+
+  // Click Listener para DropDown
+  const handleItemClick = (event: React.MouseEvent<HTMLElement>, index: number) => {
+      event.preventDefault();
+      if (index === 0) 
+      {
+        setDivsVisibility([true, false]);
+        setDropdownName("2023-1")
+      } 
+      else if (index === 1) 
+      {
+        setDivsVisibility([false, true]);
+        setDropdownName("2022-2")
+      }
+      setOpen(!open);
+  }
+
   return (
       <Container>
       <div className="mb-2">
@@ -16,16 +38,17 @@ function Ayudantias() {
       <Dropdown className="d-inline">
           <div className="d-flex align-items-center">
           <Dropdown.Toggle id="dropdown-autoclose-true">
-              2023-1
+              {dropdownName}
           </Dropdown.Toggle>
           </div>
           <Dropdown.Menu>
-              <Dropdown.Item>2023-1</Dropdown.Item>
+            <Dropdown.Item onClick={(e) => handleItemClick(e,0)} >2023-1</Dropdown.Item>
+            <Dropdown.Item onClick={(e) => handleItemClick(e,1)} >2022-2</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>
       </Row>
       <Row>
-      <S.TabContent>
+      <S.TabContent className={`container-tab my-4 ${divsVisibility[0] ? '' : 'd-none'}`}>
         <S.TestimoniosTab >    
           {data.map((t: any, index: number) => {
             return (

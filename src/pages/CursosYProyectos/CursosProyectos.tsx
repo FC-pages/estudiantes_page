@@ -6,7 +6,7 @@ import './styles.css';
 /* Tabs */
 import CursosElectivos from './TabsContent/CursosElectivos/CursosElectivos';
 import ProyectoTesis from './TabsContent/ProyectoTesis/ProyectoTesis'
-import Ayudantias from '../Asesoria/TabsContent/Ayudantias';
+import Ayudantias from './TabsContent/Ayudantias/Ayudantias';
 import PlanesYMallas from './TabsContent/PlanesYMallas/PlanesYMallas';
 import PracticasPre from './TabsContent/PracticasPre/PracticasPre';
 
