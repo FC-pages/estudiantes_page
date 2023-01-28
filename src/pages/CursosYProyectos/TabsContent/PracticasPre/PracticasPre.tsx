@@ -34,8 +34,8 @@ function PracticasPreprofesionales() {
       {/*<h5 className='t-stroke-shadow-h5'> Ciclo académico 2022-2</h5>*/}
       <Container>
             <div className="mb-2">
-            <a target = "_blank" href = "https://forms.gle/QKZKFp79m3ezkEsVA" type="button" className="btn btn-success btn-lg insc">Pre-inscripción</a>
-            <a target = "_blank" href = "https://forms.gle/J4szj1Cx3k46MZ5v5" type="button" className={`btn btn-danger btn-lg cancelar-insc ${divsVisibility[0] ? '' : 'd-none'}`}>Cancelar pre-inscripción</a>
+            <a target = "_blank" rel="noreferrer" href = "https://forms.gle/QKZKFp79m3ezkEsVA" type="button" className="btn btn-success btn-lg insc">Pre-inscripción</a>
+            <a target = "_blank" rel="noreferrer" href = "https://forms.gle/J4szj1Cx3k46MZ5v5" type="button" className={`btn btn-danger btn-lg cancelar-insc ${divsVisibility[0] ? '' : 'd-none'}`}>Cancelar pre-inscripción</a>
             </div>
         <Row>
           <Dropdown className="d-inline">

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Card } from "react-bootstrap";
 import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
 
