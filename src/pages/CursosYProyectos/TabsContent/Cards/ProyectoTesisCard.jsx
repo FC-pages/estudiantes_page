@@ -1,4 +1,5 @@
-import { useState } from "react";
+import React from 'react';
+import { useState, useEffect } from "react";
 import { Modal, Button, Card, Table } from "react-bootstrap";
 import { FaPaperclip } from 'react-icons/fa';
 
@@ -7,31 +8,39 @@ import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/s
 let fecha_apertura = '12-01-2023'
 let fecha_cierre = '27-01-2023'
 
-function ProyectoTesisCard(p:any) {
+function ProyectoTesisCard(props) {
 
   const [show, setShow] = useState(false);
-
+  const [data, setData] = useState(null);
+  
   const handleClickLink = () =>{
-    if(show){
-        setShow(false);
-    }
-    else{
-        setShow(true);
-    }
-}
+    if(show){ setShow(false); }
+    else{ setShow(true); }
+  }
 
+  useEffect(() => {
+    if (typeof props.inscritos === 'string') {
+      fetch(props.inscritos)
+        .then(res => res.json())
+        .then(json => setData(json))
+        .catch(error => console.error(error));
+    } else {
+      setData(props.inscritos);
+    }
+  }, []);
+  
   return (
     <S.TCard3>
       <Card >
         <Card.Body className="card-testimony">
-          <Card.Title className="card-title">{p.nombres_docente} {p.apellidos_docente}</Card.Title>
+          <Card.Title className="card-title">{props.nombres_docente} {props.apellidos_docente}</Card.Title>
           <Card.Text className="card-text">
-            Temas: <a target= "_blank" rel="noreferrer" href={p.descripcion}><FaPaperclip size={20}  /></a><br></br>
-            E-mail: {p.correo}<br></br>
+            Temas: <a target= "_blank" rel="noreferrer" href={props.descripcion}><FaPaperclip size={20}  /></a><br></br>
+            E-mail: {props.correo}<br></br>
             Fecha de apertura : {fecha_apertura}<br></br>
             Fecha de cierre: {fecha_cierre}
           </Card.Text>            
-          <Card.Link target="_blank" rel="noreferrer" href = {p.preinscripcion} className=" btn btn-sm ver-mas">
+          <Card.Link target="_blank" rel="noreferrer" href = {props.preinscripcion} className=" btn btn-sm ver-mas">
             Preinscripción
           </Card.Link>
           <Card.Link className=" btn btn-sm ver-mas" onClick={handleClickLink} href="#">
@@ -52,23 +61,18 @@ function ProyectoTesisCard(p:any) {
             </tr>
             </thead>
             <tbody>
-            {/*{p.inscritos.map((e:any, index:number) => {
+              {data === null ? (<></>) : (data.map((e, index ) => {
               return (
-              <tr key={index}>
-                <td>
-                  {e.codigo}
-                </td>
-                <td>
-                  {e.nombres} {e.apellidos}
-                </td>
-                <td>
-                  {e.num_proy}
-                </td>
-              </tr>
-              )
-            })}*/}
+                  <tr key={index}>
+                  <td>{e.codigo}</td>
+                  <td>{e.nombres} {e.apellidos}</td>
+                  <td>{e.num_proy}</td>
+                  </tr>
+                );})
+              )}
+              
             </tbody>
-            </Table>
+          </Table>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClickLink}>
