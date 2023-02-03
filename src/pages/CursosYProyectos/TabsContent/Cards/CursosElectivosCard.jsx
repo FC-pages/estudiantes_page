@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Modal, Button, Card, Table } from 'react-bootstrap';
 import { FaPaperclip } from 'react-icons/fa';
 
@@ -7,11 +7,11 @@ import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/s
 let fecha_apertura = '12-01-2023'
 let fecha_cierre = '27-01-2023'
 
-function CursosElectivosCard(e:any){
+function CursosElectivosCard(e){
 
     // Inicializacion de variables
     const [show, setShow] = useState(false);
-    
+    const [data, setData] = useState(null);
     // Click listener para LinkCard
     const handleClickLink = () =>{
         if(show){
@@ -21,7 +21,16 @@ function CursosElectivosCard(e:any){
             setShow(true);
         }
     }
-
+    useEffect(() => {
+        if (typeof e.inscritos === 'string') {
+          fetch(e.inscritos)
+            .then(res => res.json())
+            .then(json => setData(json))
+            .catch(error => console.error(error));
+        } else {
+          setData(e.inscritos);
+        }
+      }, []);
     return(
         <S.TCard3>
             <Card >
@@ -55,18 +64,14 @@ function CursosElectivosCard(e:any){
                                 </tr>
                             </thead>
                             <tbody>
-                                {e.inscritos.map((e:any, index: number) => {
-                                return (
-                                <tr key = {index}>
-                                <td>
-                                {e.codigo}
-                                </td>
-                                <td>
-                                {e.nombres} {e.apellidos}
-                                </td>
+                            {data === null ? (<></>) : (data.map((e, index ) => {
+                            return (
+                                <tr key={index}>
+                                <td>{e.codigo}</td>
+                                <td>{e.nombres} {e.apellidos}</td>
                                 </tr>
-                                )
-                                })}
+                                );})
+                            )}
                             </tbody>
                         </Table>
                     </Modal.Body>

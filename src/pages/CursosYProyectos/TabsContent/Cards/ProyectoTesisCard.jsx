@@ -70,7 +70,6 @@ function ProyectoTesisCard(props) {
                   </tr>
                 );})
               )}
-              
             </tbody>
           </Table>
           </Modal.Body>
