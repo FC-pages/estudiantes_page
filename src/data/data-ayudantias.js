@@ -1,4 +1,4 @@
-exports.data= 
+exports.data2= 
 [
   /*{
     marca: "2022-07-22T19:09:43.284Z",
@@ -56,7 +56,7 @@ exports.data=
   "profesor_practica":"Jonatan Munguia"}
 ]
 
-exports.data2 = 
+/*exports.data2 = 
 [
   {"marca":"2022-09-23T22:51:37.978Z",
   "correo":"ibollschweilerv@uni.pe",
@@ -69,7 +69,7 @@ exports.data2 =
   "seccion":"B",
   "profesor_teoria":"Ángel Ramírez ",
   "profesor_practica":"Jonatan Munguia"}
-]
+]*/
 
 
 

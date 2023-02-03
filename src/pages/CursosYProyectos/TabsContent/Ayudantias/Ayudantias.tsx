@@ -1,10 +1,13 @@
-import { useState } from 'react';
-import { Container, Row, Dropdown  } from 'react-bootstrap';
+import { useState, useEffect } from 'react';
+import { Container, Row, Dropdown, Spinner} from 'react-bootstrap';
 import AyudantiasCard from "../Cards/AyudantiasCard";
 import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
 import '../../../Descripcion/styles.css';
 
-let { data, data2 } = require("../../../../data/data-ayudantias.js");
+import linksgs from '../../../../helpers/linksgs';
+
+let { data2 } = require("../../../../data/data-ayudantias.js");
+
 
 function Ayudantias() {
   // Inicializacion de variables
@@ -28,6 +31,52 @@ function Ayudantias() {
       setOpen(!open);
   }
 
+  type dataType = Array<any>;
+  const [data, setData] = useState({} as dataType);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    let isMounted = true;
+    fetch(linksgs.ayudantias).then((response) => {
+      if (response.ok) 
+      {
+        return response.json();
+      }
+      throw response;
+      })
+      .then((data) => {
+        if (isMounted) {
+          setData(data);
+        }
+      })
+      .catch((error) => {
+        if (isMounted) {
+          setError(error);
+        }
+      })
+      .finally(() => {
+        if (isMounted) {
+          setLoading(false);
+        }
+      });
+    return () => {
+      isMounted = false;
+    };
+  },[]);
+
+  let Loading = () => {
+    return (
+      <div className='d-flex flex-row justify-content-center'>
+      <Spinner className="mt-5 mb-5" animation="border" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </Spinner>
+      </div>
+    );
+  };
+  if (loading) return <Loading />;
+  if (error) return <>"Error!"</>;
+
   return (
       <Container>
       <div className="mb-2">
@@ -50,30 +99,31 @@ function Ayudantias() {
       <Row>
         <S.TabContent className={`container-tab my-4 ${divsVisibility[0] ? '' : 'd-none'}`}>
           <S.TestimoniosTab >    
-            {data2.map((t: any, index: number) => {
+          { data === null ? (<></>) : (data.map((t: any, index: number) => {
               return (
                 <AyudantiasCard key={index}
                   marca={t.marca}
                   correo={t.correo}
-                  nombres = {t.nombres}
-                  apellidos = {t.apellidos}
+                  nombres = {t.nombres_alumno}
+                  apellidos = {t.apellidos_alumno}
                   codigo_alumno = {t.codigo_alumno}
-                  celular={t.celular}                
-                  curso={t.curso}
+                  celular={t.celular_alumno}                
+                  curso={t.nombre_curso}
                   codigo_curso={t.codigo_curso}
-                  seccion={t.seccion}
+                  seccion={t.seccion_curso}
                   profesor_teoria={t.profesor_teoria}
                   profesor_practica = {t.profesor_practica}
                 />
               );
-            })}
+            })
+          )}
           </S.TestimoniosTab>
         </S.TabContent>  
       </Row>
       <Row>
         <S.TabContent className={`container-tab my-4 ${divsVisibility[1] ? '' : 'd-none'}`}>
           <S.TestimoniosTab >    
-            {data.map((t: any, index: number) => {
+            {data2.map((t: any, index: number) => {
               return (
                 <AyudantiasCard key={index}
                   marca={t.marca}
