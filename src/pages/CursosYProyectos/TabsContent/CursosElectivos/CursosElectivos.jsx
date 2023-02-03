@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 /* Importaciones boostrap*/
-import { Container,Row } from 'react-bootstrap';
+import { Container,Row, Spinner } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
 import linksgs from '../../../../helpers/linksgs';
 
@@ -67,6 +67,17 @@ function CursosElectivos(){
       
     };
   },[]);
+  let Loading = () => {
+    return (
+      <div className='d-flex flex-row justify-content-center'>
+      <Spinner className="mt-5 mb-5" animation="border" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </Spinner>
+      </div>
+    );
+  };
+  if (loading) return <Loading />;
+  if (error) return <>"Error!"</>;
 
     return(
         <Container>

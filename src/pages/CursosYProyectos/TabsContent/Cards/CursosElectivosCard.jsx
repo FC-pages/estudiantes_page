@@ -64,11 +64,11 @@ function CursosElectivosCard(e){
                                 </tr>
                             </thead>
                             <tbody>
-                            {data === null ? (<></>) : (data.map((e, index ) => {
+                            {data === null ? (<></>) : (data.map((t, index ) => {
                             return (
                                 <tr key={index}>
-                                <td>{e.codigo}</td>
-                                <td>{e.nombres} {e.apellidos}</td>
+                                <td>{t.codigo_alumno}</td>
+                                <td>{t.nombres_alumno} {t.apellidos_alumno}</td>
                                 </tr>
                                 );})
                             )}
