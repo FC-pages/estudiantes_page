@@ -30,8 +30,8 @@ function Ayudantias() {
   return (
       <Container>
       <div className="mb-2">
-        <a target = "_blank" href = "https://docs.google.com/forms/d/e/1FAIpQLSeBaDLekiM5QYiDbvTZnn7bhPdAVwW4rcenFGfrTTugSMxvHQ/viewform" type="button" className={`btn btn-success btn-lg ${divsVisibility[0] ? '' : 'd-none'} insc`}>Pre-inscripción</a>
-        <a target = "_blank" href = "https://forms.gle/QqWY77726kZMkm91A" type="button" className="btn btn-warning btn-lg cancelar-insc">Cancelar ayudantía</a>
+        <a target = "_blank" href = "https://forms.gle/TbPsFKsWeSopzNQ99" type="button" className={`btn btn-success btn-lg ${divsVisibility[0] ? '' : 'd-none'} insc`}>Pre-inscripción</a>
+        <a target = "_blank" href = "https://forms.gle/QqWY77726kZMkm91A" type="button" className={`btn btn-warning btn-lg cancelar-insc ${divsVisibility[0] ? '' : 'd-none'}`}>Cancelar ayudantía</a>
       </div>
       <Row>
       <Dropdown className="d-inline">

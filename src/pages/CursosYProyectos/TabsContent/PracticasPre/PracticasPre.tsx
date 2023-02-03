@@ -1,12 +1,15 @@
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
+import linksgs from '../../../../helpers/linksgs';
+
 
 import '../../../Descripcion/styles.css';
 import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
 import PracticasPreCard from "../Cards/PracticasPreCard";
-import { Container,Row, Dropdown } from 'react-bootstrap';
+import { Container,Row, Dropdown, Spinner} from 'react-bootstrap';
 
-let { data } = require("../../../../data/data-practicas.js");
+// let { data } = require("../../../../data/data-practicas.js");
 let { data2 } = require("../../../../data/data-practicas.js");
 
 function PracticasPreprofesionales() {
@@ -28,6 +31,52 @@ function PracticasPreprofesionales() {
       }
       setOpen(!open);
   }
+
+  type dataType = Array<any>;
+  const [data, setData] = useState({} as dataType);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    let isMounted = true;
+    fetch(linksgs.practicas_preprofesionales).then((response) => {
+      if (response.ok) 
+      {
+        return response.json();
+      }
+      throw response;
+      })
+      .then((data) => {
+        if (isMounted) {
+          setData(data);
+        }
+      })
+      .catch((error) => {
+        if (isMounted) {
+          setError(error);
+        }
+      })
+      .finally(() => {
+        if (isMounted) {
+          setLoading(false);
+        }
+      });
+    return () => {
+      isMounted = false;
+    };
+  },[]);
+
+  let Loading = () => {
+    return (
+      <div className='d-flex flex-row justify-content-center'>
+      <Spinner className="mt-5 mb-5" animation="border" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </Spinner>
+      </div>
+    );
+  };
+  if (loading) return <Loading />;
+  if (error) return <>"Error!"</>;
 
   return (
     <div>
