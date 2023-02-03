@@ -30,7 +30,7 @@ curso: "Introducción a los Elementos Finitos",
 codigo_curso: "CM090",
 prerequisitos: "CM4C1",
 silabo: "https://drive.google.com/file/d/1k7D1sw9jCBqSG5rdiPEWvUwvGBIWTAam/view?usp=share_link",
-preinscripcion: "https://forms.gle/Ps96HgBYwSC1Ngn97",
+preinscripcion: "https://forms.gle/tWGt7c1oXtpx76ZU9",
 inscritos :
 [    
   {
