@@ -53,5 +53,11 @@ exports.eventos = [
     "fechaEvento": "Del 9 al 12 de MAYO del 2023",
     "descripcion": "IV Congreso Internacional Multidisciplinario de Matemática  \       /     CIMM-UNI-2023",
     "future" : true
+  },
+  {
+    "hrefLink": "http://isora2023.imca.edu.pe/index.php?fbclid=IwAR3XONHX5jmCG13FwMLLcMmwto2J9pOaTeZWBUAbepsEsLiTcaYlISIfUYU",
+    "fechaEvento": "Del 2 al 6 de OCTUBRE del 2023",
+    "descripcion": "XV Seminario Internacional sobre Optimización y Áreas relacionadas \       /     ISORA-2023",
+    "future" : true
   }
-    ]
+  ]
