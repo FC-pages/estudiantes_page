@@ -49,7 +49,7 @@ exports.eventos = [
     "future" : false
   },
   {
-    "hrefLink": "",
+    "hrefLink": "https://cimmuni2023.site/",
     "fechaEvento": "Del 9 al 12 de MAYO del 2023",
     "descripcion": "IV Congreso Internacional Multidisciplinario de Matemática  \       /     CIMM-UNI-2023",
     "future" : true
