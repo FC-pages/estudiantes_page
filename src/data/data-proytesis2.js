@@ -6,7 +6,7 @@ correo: "jmunguial@uni.edu.pe",
 apellidos_docente: "Munguia La Cotera",
 nombres_docente: "Jonathan Alfredo",
 descripcion: "https://drive.google.com/file/d/1B8d29nRvWdCyr06n2YgDi52TLN5gTfNy/view?usp=share_link",
-preinscripcion: "https://forms.gle/tsPCqAdWWiFeznm76",
+preinscripcion: "https://forms.gle/opMYr4EzxmabJquv5",
 inscritos:  [
 {
   marca: "2022-09-13T19:07:31.176Z",

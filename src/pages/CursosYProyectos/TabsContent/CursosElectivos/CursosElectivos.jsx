@@ -16,7 +16,7 @@ function CursosElectivos(){
     // Inicializacion de variables
     const [open, setOpen] = useState(false);
     const [divsVisibility, setDivsVisibility] = useState([true, false]);
-    const [dropdownName, setDropdownName] = useState("2023-1")
+    const [dropdownName, setDropdownName] = useState("2023-2")
 
     // Click Listener para DropDown
     const handleItemClick = (event, index) => {
@@ -24,7 +24,7 @@ function CursosElectivos(){
         if (index === 0) 
         {
           setDivsVisibility([true, false]);
-          setDropdownName("2023-1")
+          setDropdownName("2023-2")
         } 
         else if (index === 1) 
         {
@@ -92,7 +92,7 @@ function CursosElectivos(){
                     </Container>
                     </div>
                     <Dropdown.Menu>
-                        <Dropdown.Item onClick={(e) => handleItemClick(e,0)} >2023-1</Dropdown.Item>
+                        <Dropdown.Item onClick={(e) => handleItemClick(e,0)} >2023-2</Dropdown.Item>
                         <Dropdown.Item onClick={(e) => handleItemClick(e,1)} >2022-2</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
