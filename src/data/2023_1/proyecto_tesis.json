@@ -1,0 +1,146 @@
+[
+	{
+		"marca": "2023-01-28T19:24:51.251Z",
+		"correo": "jmunguial@uni.edu.pe",
+		"apellidos_docente": "Munguia La Cotera",
+		"nombres_docente": "Jonathan Alfredo",
+		"descripcion": "https://drive.google.com/open?id=1B8d29nRvWdCyr06n2YgDi52TLN5gTfNy",
+		"preinscripcion": "https://forms.gle/oL6BLyiWjJZrNYBA8",
+		"inscritos": "https://script.google.com/macros/s/AKfycbylw0hURDVlrqVtqXvoewqoSPbMSW9yQUtX9grtRcTCYPeRfWn9hXYSZCCiuFvERCto/exec"
+	},
+	{
+		"marca": "2023-01-29T03:28:08.544Z",
+		"correo": "jugartec@uni.edu.pe",
+		"apellidos_docente": "Ugarte Chamorro",
+		"nombres_docente": "Jose Luis",
+		"descripcion": "https://drive.google.com/open?id=1RgSaOBuECMIa3G8P8YAIBy667d0qCyGG",
+		"preinscripcion": "https://forms.gle/RkVrJCJQD2SnrguQ6",
+		"inscritos": "https://script.google.com/macros/s/AKfycbxnuKLtWUFskIsPrldj0TVuC3VaYxEdGKB46z-j5l9aCFCIPvhbylgGdKt-TxbQucOBOA/exec"
+	},
+	{
+		"marca": "2023-01-31T20:59:21.497Z",
+		"correo": "hcastillol@uni.edu.pe",
+		"apellidos_docente": "Castillo Lagos",
+		"nombres_docente": "Hugo Alonso",
+		"descripcion": "https://drive.google.com/open?id=1qrLj_paDLx1eav4hjxeMuT54CD4IZ7LK",
+		"preinscripcion": "https://forms.gle/bSejpSBxC4jLwwdW8",
+		"inscritos": "https://script.google.com/macros/s/AKfycbw15drz8SfBZmjDCVc1IWU3kICZQtUU70xB8QqJFB8B_4c_B7U8jcaTvCsse0fB7ty7/exec"
+	},
+	{
+		"marca": "2023-02-01T16:07:46.733Z",
+		"correo": "mtoribio@uni.edu.pe",
+		"apellidos_docente": "Toribio Cangana",
+		"nombres_docente": "Manuel Teodosio",
+		"descripcion": "https://drive.google.com/open?id=1l-YlxdQyudJnGgN1rlYrftD_2nXKz0dS",
+		"preinscripcion": "https://forms.gle/3guXoBihbuX2fY3b9",
+		"inscritos": "https://script.google.com/macros/s/AKfycbx_YAxMs75ag75jhVdu6qLnbBhwl4Xnq1JlXbSVm866oBETN_hgq62BAP9vZ8nEC3C-/exec"
+	},
+	{
+		"marca": "2023-02-01T16:19:51.932Z",
+		"correo": "sescalanted@uni.edu.pe",
+		"apellidos_docente": "Escalante del Águila",
+		"nombres_docente": "Segundo Félix",
+		"descripcion": "https://drive.google.com/open?id=1_odyRy1lZTkb1akyrZjOcJ3EBG6Flm0v",
+		"preinscripcion": "https://forms.gle/ywLj4SjqsAcgpeoDA",
+		"inscritos": "https://script.google.com/macros/s/AKfycbwrVLPxelczVqsPYyjwwpf6vRNRfE6lI_g9q29ptyyDfBKVmQNrQNR-5TOTIkKHM_mW_g/exec"
+	},
+	{
+		"marca": "2023-02-02T17:52:32.805Z",
+		"correo": "lparedess@uni.edu.pe",
+		"apellidos_docente": "Paredes Soria",
+		"nombres_docente": "Leopoldo",
+		"descripcion": "https://drive.google.com/open?id=1lkLlooEs0t6QStWf9k6BaooaQZ-CtKZw",
+		"preinscripcion": "https://forms.gle/31oQTznVEgYvD9D47",
+		"inscritos": "https://script.google.com/macros/s/AKfycbzkQ2eOisywasbCDTjJdsfbhIK8b4qfT5fIrARd5Ka79Tt_7Bd-RelMIxbi9x7br58xew/exec"
+	},
+	{
+		"marca": "2023-02-03T17:55:20.082Z",
+		"correo": "irlamn@uni.edu.pe",
+		"apellidos_docente": "Mantilla Nuñez",
+		"nombres_docente": "Irla Doraliza",
+		"descripcion": "https://drive.google.com/open?id=1zNlD4WcM0ZYeMYDwSr1RKaLFQDmTRxaK",
+		"preinscripcion": "https://forms.gle/Ep9TQ3kGws35dWMs7",
+		"inscritos": "https://script.google.com/macros/s/AKfycbwCwGVOfKxNugUEo5c5X25evWS0ObdTjdEwr2gIkoPTq39e900mz4jcYADA8pH_SEB5/exec"
+	},
+	{
+		"marca": "2023-02-03T23:02:24.083Z",
+		"correo": "jmaytag@uni.edu.pe",
+		"apellidos_docente": "Mayta Guillermo",
+		"nombres_docente": "Jorge Enrique",
+		"descripcion": "https://drive.google.com/open?id=1Gs5prvdKEsuqmDox9fkZ8pBTThjJ3BRc",
+		"preinscripcion": "https://forms.gle/wGv7xNVP8DexUnKV7",
+		"inscritos": "https://script.google.com/macros/s/AKfycbzUYRHHBUm6-dUy4JZnXUGJvdbDChFkg9qPWkgNc8QsUeaJfxZX80OAnzmIv7-SWcneIw/exec"
+	},
+	{
+		"marca": "2023-02-04T04:19:27.886Z",
+		"correo": "hguimaray@uni.edu.pe",
+		"apellidos_docente": "Guimaray Huerta",
+		"nombres_docente": "Héctor Carlos",
+		"descripcion": "https://drive.google.com/open?id=1n1cdBKDP-D6pIhtunlw9aH0IrGI0hVNx",
+		"preinscripcion": "https://forms.gle/7jQzyD5jbXZSRHr28",
+		"inscritos": "https://script.google.com/macros/s/AKfycbzFGHr10Oc6_SnjN0efoj1aJ-6wkzp7yr2apxRToYzDVfP0cczLyKFv7Zu-HtDt0Y4s/exec"
+	},
+	{
+		"marca": "2023-02-04T04:29:02.304Z",
+		"correo": "jarcef@uni.edu.pe",
+		"apellidos_docente": "Arce Flores",
+		"nombres_docente": "Jack",
+		"descripcion": "https://drive.google.com/open?id=1Cqz-gZHT-1276JcSYmP95l7ODnuoqP5F",
+		"preinscripcion": "https://forms.gle/Q8wnYFXX9F3ux4NF7",
+		"inscritos": "https://script.google.com/macros/s/AKfycby6wz8ik0gjPmgFibcPqa-WtQdocC2WSV8dggtbbeGVnsJsjyehquj8nKURrwFEMf18lg/exec"
+	},
+	{
+		"marca": "2023-02-05T14:38:40.934Z",
+		"correo": "aramirezg@uni.edu.pe",
+		"apellidos_docente": "Ramírez Gutiérrez",
+		"nombres_docente": "Angel Enrique",
+		"descripcion": "https://drive.google.com/open?id=195b_N0Orw2gKrAF4XpzAM7Vvr8E4ZWne",
+		"preinscripcion": "https://forms.gle/KEdYaxd1kdRJVEi18",
+		"inscritos": "https://script.google.com/macros/s/AKfycbwhKKJOS71TZ-hY-rDQLF_C1RsCcTNO6ymGz5AedDDwI809JVupx-V_bAWB1fZxpqs/exec"
+	},
+	{
+		"marca": "2023-02-05T21:37:31.532Z",
+		"correo": "achulluncuy@uni.edu.pe",
+		"apellidos_docente": "Chulluncuy Centeno",
+		"nombres_docente": "Andres Vicente",
+		"descripcion": "https://drive.google.com/open?id=1b9rhgoSusE-EfQKzK4R_w6YqVrSydwTB",
+		"preinscripcion": "https://forms.gle/XEYBQ4eva5Nr4FhS8",
+		"inscritos": "https://script.google.com/macros/s/AKfycbztGo538gP4FG5SlMS3sd26gwWnR-9f00TxL_II4vVbrNO_WP7QA3k6TO6UcprRoK8q0w/exec"
+	},
+	{
+		"marca": "2023-02-06T20:07:13.993Z",
+		"correo": "rperezc@uni.edu.pe",
+		"apellidos_docente": "Pérez Cupe",
+		"nombres_docente": "Rósulo Hilarión",
+		"descripcion": "https://drive.google.com/open?id=1meL3jrn7K6yLPi5FvJD-5RKdzmk1e7mE",
+		"preinscripcion": "https://forms.gle/TE8AxsWxNBqxUZBz7",
+		"inscritos": "https://script.google.com/macros/s/AKfycbwkJq5k2dAvk2l0OH_akJrZ0ihQG7we4zfK0VOLHIw3mvWUd4udDq4PjfquDPkXscY72A/exec"
+	},
+	{
+		"marca": "2023-02-16T12:18:46.306Z",
+		"correo": "jesus.cernades.g@uni.edu.pe",
+		"apellidos_docente": "Cernades Goméz ",
+		"nombres_docente": "Jesús",
+		"descripcion": "https://drive.google.com/open?id=1SDkaoBcGeLYAKWCFWaGUhrAY--hOqsol",
+		"preinscripcion": "https://forms.gle/Zu5zCVqsVbTieFMw9",
+		"inscritos": "https://script.google.com/macros/s/AKfycbxnxJDfKeC1Lk1IOSe3PU1_zAv1idHi5PQ3UerDT7Dmczlei7BlsBUb1p5k29-uISJ2Eg/exec"
+	},
+	{
+		"marca": "2023-02-27T15:03:44.736Z",
+		"correo": "bostosc@uni.edu.pe",
+		"apellidos_docente": "Ostos Cordero ",
+		"nombres_docente": "Benito Leonardo",
+		"descripcion": "https://drive.google.com/open?id=1IvIDCz96NYk1c0sfyVg1fZuOT7w6NDwA",
+		"preinscripcion": "https://forms.gle/HYgK5zUYgF19UwpG6",
+		"inscritos": "https://script.google.com/macros/s/AKfycbyj2uh2KRIt-jErYa4uhstq1-CaRoWTrbbbiS8IrM7-iVzqM7tO8qLY14hqLDNeewMA/exec"
+	},
+	{
+		"marca": "2023-03-10T15:49:17.687Z",
+		"correo": "wechegaray@uni.edu.pe",
+		"apellidos_docente": "Echegaray Castillo",
+		"nombres_docente": "William Carlos",
+		"descripcion": "https://drive.google.com/open?id=1ZCC9pGTOS4wMzM2eZC7pp11LuaPtj40W",
+		"preinscripcion": "https://forms.gle/f7324g3iN3mktFJF8",
+		"inscritos": "https://script.google.com/macros/s/AKfycbw1NvpfD05reoPrtedp6SkZKL1y6BIju81OyBluEvlX0cA4r25XWYy7CxhS0i2pPGIi/exec"
+	}
+]

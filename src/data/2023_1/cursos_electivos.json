@@ -1,0 +1,110 @@
+[
+	{
+		"marca": "2023-02-03T20:49:37.305Z",
+		"correo": "jmunguial@uni.edu.pe",
+		"apellidos_docente": "Munguia La Cotera",
+		"nombres_docente": "Jonathan Alfredo",
+		"curso": "Introducción a los Elementos Finitos",
+		"curso_codigo": "CM090",
+		"prerequisitos": "CM4C1",
+		"silabo": "https://drive.google.com/open?id=1k7D1sw9jCBqSG5rdiPEWvUwvGBIWTAam",
+		"preinscripcion": "https://forms.gle/cKAGRRytzPc496vq6",
+		"inscritos": "https://script.google.com/macros/s/AKfycbyQ11R9Y5bUItEzHv4cRTGRGo-46FseEGdPfFw6p7CtlTxYN-alyzlSxyPW7p4krVjxXQ/exec"
+	},
+	{
+		"marca": "2023-01-28T21:52:29.771Z",
+		"correo": "jugartec@uni.edu.pe",
+		"apellidos_docente": "UGARTE CHAMORRO",
+		"nombres_docente": "Jose Luis",
+		"curso": "Análisis de Datos",
+		"curso_codigo": "CM0D5",
+		"prerequisitos": "CM2H2, CM4F1",
+		"silabo": "https://drive.google.com/open?id=1uHnhnj4YpuvLvsrMWPbqJxTtHV_l6l_k",
+		"preinscripcion": "https://forms.gle/qJW2TCZU7kXDKgEu7",
+		"inscritos": "https://script.google.com/macros/s/AKfycbz8wM0j8GJph7Jk2IfrcEVqCDaCvY1H49AN9qmWnNIrvhyBmbBlDd0f2WwTk21DTB5Q/exec"
+	},
+	{
+		"marca": "2023-02-03T20:51:29.100Z",
+		"correo": "hcastillol@uni.edu.pe",
+		"apellidos_docente": "Castillo Lagos",
+		"nombres_docente": "Hugo Alonso",
+		"curso": "Tópicos de Investigación I",
+		"curso_codigo": "CM072",
+		"prerequisitos": "Ninguno",
+		"silabo": "https://drive.google.com/file/d/1DF-iLxnD6AMI-7Z-Xt4U9iDyVdshjyNM/view?usp=share_link",
+		"preinscripcion": "https://forms.gle/3uHJEJj9HWwnTyCw6",
+		"inscritos": "https://script.google.com/macros/s/AKfycbyroJUcX3RFpAiI2sHUIWasXFmozqYKp6xozaqSySlWlRjrlG_4wxhNxrOHUGAgmSeg7Q/exec"
+	},
+	{
+		"marca": "2023-02-02T01:57:07.883Z",
+		"correo": "rmash@uni.edu.pe",
+		"apellidos_docente": "Mas Huamán ",
+		"nombres_docente": "Ronald Jesús",
+		"curso": "Estructuras Algebraicas I",
+		"curso_codigo": "CM060",
+		"prerequisitos": "CM2I2",
+		"silabo": "https://drive.google.com/open?id=19ubwHwpH-A6sDggkXQaEy0siWx9J8r3b",
+		"preinscripcion": "https://forms.gle/3s63XrQeTsxeLJnm6",
+		"inscritos": "https://script.google.com/macros/s/AKfycbzcb89aDCUl2kgM-_AmMztPZqmAGVBGHOhhOkZgOLsFHRwPn7Wkl2iz0RicHIK6xuCFzw/exec"
+	},
+	{
+		"marca": "2023-02-03T22:31:00.613Z",
+		"correo": "jmaytag@uni.edu.pe",
+		"apellidos_docente": "Mayta Guillermo",
+		"nombres_docente": "Jorge Enrique",
+		"curso": "Tópicos de Investigación II",
+		"curso_codigo": "CM073",
+		"prerequisitos": "Ninguno",
+		"silabo": "https://drive.google.com/open?id=1m6wHI6-FVPFoyK_hRCIqIAkFKT2TVVov",
+		"preinscripcion": "https://forms.gle/siYs6EU5CwFtDPR56",
+		"inscritos": "https://script.google.com/macros/s/AKfycbz_vMpTz0ki5aqO6ocQ5j7RfdoynjXbzJQoc1CPVEDhK8oyitSOOTxw9ys4_l7sR0g/exec"
+	},
+	{
+		"marca": "2023-02-04T05:08:05.954Z",
+		"correo": "hguimaray@uni.edu.pe",
+		"apellidos_docente": "Guimaray Huerta",
+		"nombres_docente": "Héctor Carlos",
+		"curso": "Análisis Funcional III",
+		"curso_codigo": "CM050",
+		"prerequisitos": "CM3C2, CM4C2",
+		"silabo": "https://drive.google.com/open?id=1zLm5ki0f3UZ6y3jDkn4ItHUR3lOavyZp",
+		"preinscripcion": "https://forms.gle/AU1ZRc6p2Jw8P4qTA",
+		"inscritos": "https://script.google.com/macros/s/AKfycbyAGyX5uLzHRI_drbdl0daVVBZVXiMgo4JlumXxyB0r7MLsNuWEM_vj8k6xcy4IUnMz/exec"
+	},
+	{
+		"marca": "2023-02-05T14:41:34.499Z",
+		"correo": "aramirezg@uni.edu.pe",
+		"apellidos_docente": "Ramirez Gutiérrez",
+		"nombres_docente": "Ángel Enrique",
+		"curso": "Métodos Numéricos Para Ecuaciones Diferenciales Ordinarias",
+		"curso_codigo": "CM031",
+		"prerequisitos": "CM3G2, CM5F1",
+		"silabo": "https://drive.google.com/open?id=1Saxe7knzcBUIcwlJex57zkDjUz2IOYug",
+		"preinscripcion": "https://forms.gle/CSCz93Hy4JazQ2AM6",
+		"inscritos": "https://script.google.com/macros/s/AKfycbx2BlEzwtJP7i8FSzg8BllKEd0QFdlqtzbJ_Nn-Yrmp6-6ktyzQ84t6uPTRVo5q90frfA/exec"
+	},
+	{
+		"marca": "2023-02-06T20:41:45.473Z",
+		"correo": "rperezc@uni.edu.pe",
+		"apellidos_docente": "Pérez Cupe",
+		"nombres_docente": "Rósulo Hilarión",
+		"curso": "Análisis de Algoritmos",
+		"curso_codigo": "CM095",
+		"prerequisitos": "CM094",
+		"silabo": "https://drive.google.com/open?id=1SgB1ivp-LYTxwZmGuEwMX689huUaAmL5",
+		"preinscripcion": "https://forms.gle/UXppi5Es3abHkjbJ9",
+		"inscritos": "https://script.google.com/macros/s/AKfycbzqXAwutfUz48akvcQFPZIA4fOzugkU2MM-TlSXe-1c5xh_l4wIHHjlprlgbUrkU2EExQ/exec"
+	},
+	{
+		"marca": "2023-03-10T15:47:53.183Z",
+		"correo": "wechegaray@uni.edu.pe",
+		"apellidos_docente": "ECHEGARAY CASTILLO",
+		"nombres_docente": "WILLIAM CARLOS",
+		"curso": "MATEMÁTICA FINANCIERA",
+		"curso_codigo": "CM0C6",
+		"prerequisitos": "CM3C2",
+		"silabo": "https://drive.google.com/open?id=1Vui8dOhIQv-ZGHkq_zWAc5F-YnHZvf_A",
+		"preinscripcion": "https://forms.gle/u5BqkFRozcP8hVDCA",
+		"inscritos": "https://script.google.com/macros/s/AKfycbxXr99hrhKy8c5HR0Qd7nBhLwiE-f7s82eMek0XU8tlGk02FEyIe3r1Sl9zTUXviEReng/exec"
+	}
+]

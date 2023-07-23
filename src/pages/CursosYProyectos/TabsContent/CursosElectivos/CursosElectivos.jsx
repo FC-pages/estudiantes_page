@@ -8,24 +8,28 @@ import linksgf from "../../../../helpers/linkgf";
 /* Importar template de tarjetas*/
 import CursosElectivosCards from "../Cards/CursosElectivosCard";
 
+import data2023_1 from "../../../../data/2023_1/cursos_electivos.json";
+
 /* Importar data temporal*/
 let { data2022_2 } = require("../../../../data/data-electivos-2022-2.js");
-let { data2023_1 } = require("../../../../data/data-electivos-2023-1.js");
 
 function CursosElectivos() {
 	// Inicializacion de variables
 	const [open, setOpen] = useState(false);
-	const [divsVisibility, setDivsVisibility] = useState([true, false]);
+	const [divsVisibility, setDivsVisibility] = useState([true, false, false]);
 	const [dropdownName, setDropdownName] = useState("2023-2");
 
 	// Click Listener para DropDown
 	const handleItemClick = (event, index) => {
 		event.preventDefault();
 		if (index === 0) {
-			setDivsVisibility([true, false]);
+			setDivsVisibility([true, false, false]);
 			setDropdownName("2023-2");
 		} else if (index === 1) {
-			setDivsVisibility([false, true]);
+			setDivsVisibility([false, true, false]);
+			setDropdownName("2023-1");
+		} else if (index === 2) {
+			setDivsVisibility([false, false, true]);
 			setDropdownName("2022-2");
 		}
 		setOpen(!open);
@@ -106,6 +110,9 @@ function CursosElectivos() {
 							2023-2
 						</Dropdown.Item>
 						<Dropdown.Item onClick={(e) => handleItemClick(e, 1)}>
+							2023-1
+						</Dropdown.Item>
+						<Dropdown.Item onClick={(e) => handleItemClick(e, 2)}>
 							2022-2
 						</Dropdown.Item>
 					</Dropdown.Menu>
@@ -146,6 +153,33 @@ function CursosElectivos() {
 				<Container
 					className={`container-tab my-4 ${
 						divsVisibility[1] ? "" : "d-none"
+					}`}
+				>
+					<Row xs={1} md={3} className="g-4">
+						{data2023_1.map((t, index) => {
+							return (
+								<CursosElectivosCards
+									key={index}
+									marca={t.marca}
+									correo={t.correo}
+									apellidos={t.apellidos_docente}
+									nombres={t.nombres_docente}
+									curso={t.curso}
+									codigo_curso={t.curso_codigo}
+									prerrequisitos={t.prerequisitos}
+									silabo={t.silabo}
+									preinscripcion={t.preinscripcion}
+									inscritos={t.inscritos}
+								/>
+							);
+						})}
+					</Row>
+				</Container>
+			</Row>
+			<Row>
+				<Container
+					className={`container-tab my-4 ${
+						divsVisibility[2] ? "" : "d-none"
 					}`}
 				>
 					<Row xs={1} md={3} className="g-4">
