@@ -52,12 +52,18 @@ exports.eventos = [
     "hrefLink": "https://cimmuni2023.site/",
     "fechaEvento": "Del 9 al 12 de MAYO del 2023",
     "descripcion": "IV Congreso Internacional Multidisciplinario de Matemática  \       /     CIMM-UNI-2023",
-    "future" : true
+    "future" : false
   },
   {
     "hrefLink": "http://isora2023.imca.edu.pe/index.php?fbclid=IwAR3XONHX5jmCG13FwMLLcMmwto2J9pOaTeZWBUAbepsEsLiTcaYlISIfUYU",
     "fechaEvento": "Del 2 al 6 de OCTUBRE del 2023",
     "descripcion": "International Seminar on Optimization and Related Areas   |    XV ISORA-2023",
+    "future" : true
+  },
+  {
+    "hrefLink": "https://www.ci2ma.udec.cl/eprimavera2023/",
+    "fechaEvento": "Del 16 al 20 de OCTUBRE del 2023",
+    "descripcion": "Programa de Doctorado de Ciencias Aplicadas en Ing. Matemática | Escuela de Primavera 2023",
     "future" : true
   }
   ]

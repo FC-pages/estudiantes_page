@@ -18,11 +18,5 @@ exports.carousel = [
     "href": "http://www.admision.uni.edu.pe/",
     "alt": "Estudiantes llendo al exámen de admision",
     "Description": "Exámen de admision UNI"
-  },
-  {
-    "src": "./IngMatematica.png",
-    "href": "https://www.ci2ma.udec.cl/",
-    "alt": "Ingeniería Matemática",
-    "Description": "Ingeniería Matemática"
-  },
+  }
   ]
