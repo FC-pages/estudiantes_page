@@ -1,0 +1,46 @@
+[
+	{
+		"marca": "2023-02-04T23:00:40.345Z",
+		"correo": "ecapcham@uni.pe",
+		"nombres": "Edén Angel",
+		"apellidos": "Capcha Molina",
+		"codigo_alumno": "20175525J",
+		"celular": 943454183,
+		"supervisor": "JONATHAN ALFREDO MUNGUIA LA COTERA",
+		"actividad": "PRACTICAS PRE-PROFESIONALES",
+		"institucion": "CORDOVA INGENIEROS SAC"
+	},
+	{
+		"marca": "2023-02-06T17:17:53.803Z",
+		"correo": "tgarcias@uni.pe",
+		"nombres": "Tomás",
+		"apellidos": "García Sifuentes",
+		"codigo_alumno": "20031123A",
+		"celular": 936167284,
+		"supervisor": "Jorge Enrique Mayta Guillermo",
+		"actividad": "Docente",
+		"institucion": "Instituto de Ciencias y Humanidades "
+	},
+	{
+		"marca": "2023-03-02T18:29:17.167Z",
+		"correo": "gborjasb@uni.pe",
+		"nombres": "Gerald Marcelo Fernando",
+		"apellidos": "Borjas Bernaola",
+		"codigo_alumno": "20180298H",
+		"celular": 989797179,
+		"supervisor": "Ninguno",
+		"actividad": "Practicante de matemática",
+		"institucion": "Universidad Tecnológica del Perú"
+	},
+	{
+		"marca": "2023-03-07T17:20:56.903Z",
+		"correo": "nrojasm@uni.pe",
+		"nombres": "Nicolas Guillermo",
+		"apellidos": "Rojas Minaya",
+		"codigo_alumno": "20170616G",
+		"celular": 956000304,
+		"supervisor": "Ninguno",
+		"actividad": "Tutor practicante de Matemáticas en ciencias y humanidades",
+		"institucion": "Universidad Tecnológica del Perú"
+	}
+]
