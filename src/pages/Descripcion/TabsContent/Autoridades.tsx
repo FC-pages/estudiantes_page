@@ -98,13 +98,13 @@ function Autoridades() {
                   {/* <td className="App-profes-images"></td>  */}
                   <td className='img'>
                     {' '}
-                    <img alt="" width={100} src="./rosulo_perez_carnet.png" />
+                    <img alt="" width={100} src="./hector_guimaray_carnet.jpg" />
                   </td>
                   <td className="App-profes-td2">
-                    <b> Dr. Rosulo Perez Cupe</b>
+                    <b> Dr. Hector Guimaray Huerta</b>
                     <ul>
                       <li>
-                        <FaEnvelope size={17} /> {' '}E-mail: <span className = "correo-oculto">{reverse("rperezc@uni.edu.pe").replace(/\s+/g, '')}</span>{' '}
+                        <FaEnvelope size={17} /> {' '}E-mail: <span className = "correo-oculto">{reverse("hguimaray@uni.edu.pe").replace(/\s+/g, '')}</span>{' '}
                       </li>
                       <li>
                         {' '}
