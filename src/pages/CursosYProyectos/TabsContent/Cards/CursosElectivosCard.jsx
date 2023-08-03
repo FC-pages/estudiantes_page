@@ -4,8 +4,8 @@ import { FaPaperclip } from 'react-icons/fa';
 
 import * as S from "../../../AlumnosYEgresados/TabsContent/AlumnosYTesistasTab/styles/main";
 
-let fecha_apertura = '12-01-2023'
-let fecha_cierre = '27-01-2023'
+let fecha_apertura = '27-07-2023'
+let fecha_cierre = '09-08-2023'
 
 function CursosElectivosCard(e){
 
