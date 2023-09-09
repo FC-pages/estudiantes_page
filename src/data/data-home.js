@@ -8,6 +8,12 @@ exports.carousel = [
   },
   */
   {
+    "src": "./expo_modelado.png",
+    "href": "./expo_modelado.png",
+    "alt": "Universidad Nacional de Ingeniería",
+    "Description": "Modelado Matemático y computacional del flujo de espumas en medios porosos" 
+  },
+  {
     "src": "./congreso.png",
     "href": "./congreso.pdf",
     "alt": "Centro de Investigación de la Facultad de Ciencias",
@@ -18,5 +24,5 @@ exports.carousel = [
     "href": "http://www.admision.uni.edu.pe/",
     "alt": "Estudiantes llendo al exámen de admision",
     "Description": "Exámen de admision UNI"
-  }
+  },
   ]
