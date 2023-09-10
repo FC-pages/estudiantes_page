@@ -55,6 +55,12 @@ exports.eventos = [
     "future" : false
   },
   {
+    "hrefLink": "",
+    "fechaEvento": "13 de SETIEMBRE del 2023 10:00 AM",
+    "descripcion": "Modelado Matemático y computacional del flujo de espumas en medios porosos",
+    "future" : true
+  },
+  {
     "hrefLink": "http://isora2023.imca.edu.pe/index.php?fbclid=IwAR3XONHX5jmCG13FwMLLcMmwto2J9pOaTeZWBUAbepsEsLiTcaYlISIfUYU",
     "fechaEvento": "Del 2 al 6 de OCTUBRE del 2023",
     "descripcion": "International Seminar on Optimization and Related Areas   |    XV ISORA-2023",
@@ -65,5 +71,5 @@ exports.eventos = [
     "fechaEvento": "Del 16 al 20 de OCTUBRE del 2023",
     "descripcion": "Programa de Doctorado de Ciencias Aplicadas en Ing. Matemática | Escuela de Primavera 2023",
     "future" : true
-  }
+  },
   ]
